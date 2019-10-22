@@ -39,6 +39,7 @@ namespace SamplesApp
 		public App()
 		{
 			ConfigureFilters(LogExtensionPoint.AmbientLoggerFactory);
+			ConfigureFeatureFlags();
 
 			AssertIssue1790();
 
@@ -225,6 +226,13 @@ namespace SamplesApp
 
 #else
 				.AddConsole(LogLevel.Warning);
+#endif
+		}
+
+		static void ConfigureFeatureFlags()
+		{
+#if !NETFX_CORE
+			Uno.UI.FeatureConfiguration.Style.UseUWPDefaultStylesOverride[typeof(CommandBar)] = false;
 #endif
 		}
 
