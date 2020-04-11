@@ -84,7 +84,7 @@ namespace {0}
 				_androidViewSymbol = context.Compilation.GetTypeByMetadataName("Android.Views.View");
 				_intPtrSymbol = context.Compilation.GetTypeByMetadataName("System.IntPtr");
 				_jniHandleOwnershipSymbol = context.Compilation.GetTypeByMetadataName("Android.Runtime.JniHandleOwnership");
-				_panelSymbol = context.Compilation.GetTypeByMetadataName("Windows.UI.Xaml.Controls.Panel");
+				_panelSymbol = context.Compilation.GetTypeByMetadataName("Microsoft.UI.Xaml.Controls.Panel");
 				_javaCtorParams = new[] { _intPtrSymbol, _jniHandleOwnershipSymbol };
 			}
 

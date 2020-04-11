@@ -29,8 +29,8 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 
 		private static readonly IReadOnlyDictionary<string, string> ApplicationThemeSwitchCaseMapping = new Dictionary<string, string>
 		{
-			["Light"] = "case global::Windows.UI.Xaml.ApplicationTheme.Light",
-			["Dark"] = "case global::Windows.UI.Xaml.ApplicationTheme.Dark",
+			["Light"] = "case global::Microsoft.UI.Xaml.ApplicationTheme.Light",
+			["Dark"] = "case global::Microsoft.UI.Xaml.ApplicationTheme.Dark",
 			["Default"] = "default",
 		};
 
@@ -170,7 +170,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 			_iListSymbol = GetType("System.Collections.IList");
 			_iListOfTSymbol = GetType("System.Collections.Generic.IList`1");
 			_iDictionaryOfTKeySymbol = GetType("System.Collections.Generic.IDictionary`2");
-			_dataBindingSymbol = GetType("Windows.UI.Xaml.Data.Binding");
+			_dataBindingSymbol = GetType("Microsoft.UI.Xaml.Data.Binding");
 			_styleSymbol = GetType(XamlConstants.Types.Style);
 			_colorSymbol = GetType(XamlConstants.Types.Color);
 
@@ -263,9 +263,9 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 			writer.AppendLineInvariant("#elif __MACOS__");
 			writer.AppendLineInvariant("using _View = AppKit.NSView;");
 			writer.AppendLineInvariant("#elif __WASM__");
-			writer.AppendLineInvariant("using _View = Windows.UI.Xaml.UIElement;");
+			writer.AppendLineInvariant("using _View = Microsoft.UI.Xaml.UIElement;");
 			writer.AppendLineInvariant("#elif NET461");
-			writer.AppendLineInvariant("using _View = Windows.UI.Xaml.UIElement;");
+			writer.AppendLineInvariant("using _View = Microsoft.UI.Xaml.UIElement;");
 			writer.AppendLineInvariant("#endif");
 
 			writer.AppendLineInvariant("");
@@ -417,8 +417,8 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 			InitializeRemoteControlClient(writer);
 			GenerateApiExtensionRegistrations(writer);
 
-			writer.AppendLineInvariant($"global::Windows.UI.Xaml.GenericStyles.Initialize();");
-			writer.AppendLineInvariant($"global::Windows.UI.Xaml.ResourceDictionary.DefaultResolver = global::{_defaultNamespace}.GlobalStaticResources.FindResource;");
+			writer.AppendLineInvariant($"global::Microsoft.UI.Xaml.GenericStyles.Initialize();");
+			writer.AppendLineInvariant($"global::Microsoft.UI.Xaml.ResourceDictionary.DefaultResolver = global::{_defaultNamespace}.GlobalStaticResources.FindResource;");
 			GenerateResourceLoader(writer);
 			writer.AppendLineInvariant($"global::{_defaultNamespace}.GlobalStaticResources.Initialize();");
 			writer.AppendLineInvariant($"global::Uno.UI.DataBinding.BindableMetadata.Provider = new global::{_defaultNamespace}.BindableMetadataProvider();");
@@ -515,7 +515,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 		{
 			RegisterPartial("void OnInitializeCompleted()");
 
-			writer.AppendLineInvariant("var nameScope = new global::Windows.UI.Xaml.NameScope();");
+			writer.AppendLineInvariant("var nameScope = new global::Microsoft.UI.Xaml.NameScope();");
 			writer.AppendLineInvariant("NameScope.SetNameScope(this, nameScope);");
 
 			using (TrySetDefaultBindMode(topLevelControl))
@@ -570,7 +570,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 
 				CurrentScope.ReferencedElementNames.Remove(sanitizedFieldName);
 
-				writer.AppendLineInvariant($"private global::Windows.UI.Xaml.Data.ElementNameSubject _{sanitizedFieldName}Subject = new global::Windows.UI.Xaml.Data.ElementNameSubject();");
+				writer.AppendLineInvariant($"private global::Microsoft.UI.Xaml.Data.ElementNameSubject _{sanitizedFieldName}Subject = new global::Microsoft.UI.Xaml.Data.ElementNameSubject();");
 
 
 				using (writer.BlockInvariant($"{FormatAccessibility(backingFieldDefinition.Accessibility)} {GetGlobalizedTypeName(backingFieldDefinition.Type.ToString())} {sanitizedFieldName}"))
@@ -590,7 +590,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 			foreach (var remainingReference in CurrentScope.ReferencedElementNames)
 			{
 				// Create load-time subjects for ElementName references not in local scope
-				writer.AppendLineInvariant($"private global::Windows.UI.Xaml.Data.ElementNameSubject _{remainingReference}Subject = new global::Windows.UI.Xaml.Data.ElementNameSubject(isRuntimeBound: true, name: \"{remainingReference}\");");
+				writer.AppendLineInvariant($"private global::Microsoft.UI.Xaml.Data.ElementNameSubject _{remainingReference}Subject = new global::Microsoft.UI.Xaml.Data.ElementNameSubject(isRuntimeBound: true, name: \"{remainingReference}\");");
 			}
 		}
 
@@ -625,14 +625,14 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 						{
 							using (writer.BlockInvariant("public {0} Build()", kvp.Value.ReturnType))
 							{
-								writer.AppendLineInvariant("var nameScope = new global::Windows.UI.Xaml.NameScope();");
+								writer.AppendLineInvariant("var nameScope = new global::Microsoft.UI.Xaml.NameScope();");
 								writer.AppendLineInvariant("var child = ");
 
 								// Is never considered in Global Resources because class encapsulation
 								BuildChild(writer, contentOwner, contentOwner.Objects.First());
 
 								writer.AppendLineInvariant(";");
-								writer.AppendLineInvariant("if (child is DependencyObject d) Windows.UI.Xaml.NameScope.SetNameScope(d, nameScope);");
+								writer.AppendLineInvariant("if (child is DependencyObject d) Microsoft.UI.Xaml.NameScope.SetNameScope(d, nameScope);");
 
 								writer.AppendLineInvariant("return child;");
 							}
@@ -1118,7 +1118,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 					if (appThemes.Any())
 					{
 						writer.AppendLineInvariant("// Element's RequestedTheme not supported yet. Fallback on Application's RequestedTheme.");
-						writer.AppendLineInvariant("var currentTheme = global::Windows.UI.Xaml.Application.Current?.RequestedTheme;");
+						writer.AppendLineInvariant("var currentTheme = global::Microsoft.UI.Xaml.Application.Current?.RequestedTheme;");
 						using (writer.BlockInvariant($"switch(currentTheme)"))
 						{
 							foreach (var theme in appThemes)
@@ -1296,7 +1296,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 
 		private void BuildStyle(IIndentedStringBuilder writer, string resourceKey, XamlObjectDefinition resource)
 		{
-			BuildSingleTimeInitializer(writer, "global::Windows.UI.Xaml.Style", resourceKey, () =>
+			BuildSingleTimeInitializer(writer, "global::Microsoft.UI.Xaml.Style", resourceKey, () =>
 			{
 				BuildInlineStyle(writer, resource);
 
@@ -1320,13 +1320,13 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 			var targetType = targetTypeNode.Value.ToString();
 			var fullTargetType = FindType(targetType).SelectOrDefault(t => t.ToDisplayString(), targetType);
 
-			using (writer.BlockInvariant("new global::Windows.UI.Xaml.Style(typeof({0}))", GetGlobalizedTypeName(fullTargetType)))
+			using (writer.BlockInvariant("new global::Microsoft.UI.Xaml.Style(typeof({0}))", GetGlobalizedTypeName(fullTargetType)))
 			{
 				var basedOnNode = style.Members.FirstOrDefault(o => o.Member.Name == "BasedOn");
 
 				if (basedOnNode != null)
 				{
-					writer.AppendLineInvariant("BasedOn = (global::Windows.UI.Xaml.Style){0},", BuildBindingOption(basedOnNode, null, prependCastToType: false));
+					writer.AppendLineInvariant("BasedOn = (global::Microsoft.UI.Xaml.Style){0},", BuildBindingOption(basedOnNode, null, prependCastToType: false));
 				}
 
 				using (writer.BlockInvariant("Setters = ", fullTargetType))
@@ -1405,7 +1405,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 					if (isDependencyProperty)
 					{
 						writer.AppendLineInvariant(
-							"new global::Windows.UI.Xaml.Setter({0}.{1}Property, ({2}){3})" + lineEnding,
+							"new global::Microsoft.UI.Xaml.Setter({0}.{1}Property, ({2}){3})" + lineEnding,
 							GetGlobalizedTypeName(fullTargetType),
 							property,
 							propertyType,
@@ -1415,7 +1415,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 					else
 					{
 						writer.AppendLineInvariant(
-							"new global::Windows.UI.Xaml.Setter<{0}>(\"{1}\", o => {3}.{1} = {2})" + lineEnding,
+							"new global::Microsoft.UI.Xaml.Setter<{0}>(\"{1}\", o => {3}.{1} = {2})" + lineEnding,
 							GetGlobalizedTypeName(fullTargetType),
 							property,
 							BuildLiteralValue(valueNode, propertyType),
@@ -1428,7 +1428,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 					if (isDependencyProperty)
 					{
 						writer.AppendLineInvariant(
-							"new global::Windows.UI.Xaml.Setter({0}.{1}Property, () => ({2})",
+							"new global::Microsoft.UI.Xaml.Setter({0}.{1}Property, () => ({2})",
 							GetGlobalizedTypeName(fullTargetType),
 							property,
 							propertyType
@@ -1437,7 +1437,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 					else
 					{
 						writer.AppendLineInvariant(
-							"new global::Windows.UI.Xaml.Setter<{0}>(\"{1}\", o => {2}.{1} = ",
+							"new global::Microsoft.UI.Xaml.Setter<{0}>(\"{1}\", o => {2}.{1} = ",
 							GetGlobalizedTypeName(fullTargetType),
 							property,
 								targetInstance
@@ -3213,7 +3213,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 				var closure = $"c{_applyIndex++}";
 				if (useSafeCast)
 				{
-					return $"(global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof({type}), {value}) is {type} {closure} ? {closure} : default({type}))";
+					return $"(global::Microsoft.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof({type}), {value}) is {type} {closure} ? {closure} : default({type}))";
 				}
 				else
 				{
@@ -3358,7 +3358,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 				case "System.Drawing.Point":
 					return "new System.Drawing.Point(" + memberValue + ")";
 
-				case "Windows.UI.Xaml.Media.CacheMode":
+				case "Microsoft.UI.Xaml.Media.CacheMode":
 					return ParseCacheMode(memberValue);
 
 				case "System.Drawing.PointF":
@@ -3370,14 +3370,14 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 				case "Windows.Foundation.Size":
 					return "new Windows.Foundation.Size(" + memberValue + ")";
 
-				case "Windows.UI.Xaml.Media.Matrix":
-					return "new Windows.UI.Xaml.Media.Matrix(" + memberValue + ")";
+				case "Microsoft.UI.Xaml.Media.Matrix":
+					return "new Microsoft.UI.Xaml.Media.Matrix(" + memberValue + ")";
 
 				case "Windows.Foundation.Point":
 					return "new Windows.Foundation.Point(" + memberValue + ")";
 
-				case "Windows.UI.Xaml.Input.InputScope":
-					return "new global::Windows.UI.Xaml.Input.InputScope { Names = { new global::Windows.UI.Xaml.Input.InputScopeName { NameValue = global::Windows.UI.Xaml.Input.InputScopeNameValue." + memberValue + "} } }";
+				case "Microsoft.UI.Xaml.Input.InputScope":
+					return "new global::Microsoft.UI.Xaml.Input.InputScope { Names = { new global::Microsoft.UI.Xaml.Input.InputScopeName { NameValue = global::Microsoft.UI.Xaml.Input.InputScopeNameValue." + memberValue + "} } }";
 
 				case "UIKit.UIImage":
 					if (memberValue.StartsWith(XamlConstants.BundleResourcePrefix, StringComparison.InvariantCultureIgnoreCase))
@@ -3386,8 +3386,8 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 					}
 					return memberValue;
 
-				case "Windows.UI.Xaml.Controls.IconElement":
-					return "new Windows.UI.Xaml.Controls.SymbolIcon { Symbol = Windows.UI.Xaml.Controls.Symbol." + memberValue + "}";
+				case "Microsoft.UI.Xaml.Controls.IconElement":
+					return "new Microsoft.UI.Xaml.Controls.SymbolIcon { Symbol = Microsoft.UI.Xaml.Controls.Symbol." + memberValue + "}";
 
 				case "Windows.Media.Playback.IMediaPlaybackSource":
 					return "Windows.Media.Core.MediaSource.CreateFromUri(new Uri(\"" + memberValue + "\"))";
@@ -3491,7 +3491,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 		{
 			if (memberValue.Equals("BitmapCache", StringComparison.OrdinalIgnoreCase))
 			{
-				return "new global::Windows.UI.Xaml.Media.BitmapCache()";
+				return "new global::Microsoft.UI.Xaml.Media.BitmapCache()";
 			}
 
 			throw new Exception($"The [{memberValue}] cache mode is not supported");
@@ -3517,7 +3517,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 
 		private static string BuildGridLength(string memberValue)
 		{
-			var gridLength = Windows.UI.Xaml.GridLength.ParseGridLength(memberValue).FirstOrDefault();
+			var gridLength = Microsoft.UI.Xaml.GridLength.ParseGridLength(memberValue).FirstOrDefault();
 
 			return $"new {XamlConstants.Types.GridLength}({gridLength.Value.ToStringInvariant()}f, {XamlConstants.Types.GridUnitType}.{gridLength.GridUnitType})";
 		}
@@ -3610,7 +3610,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 				memberValue = AppendFloatSuffix(memberValue);
 			}
 
-			return "new global::Windows.UI.Xaml.Thickness(" + memberValue + ")";
+			return "new global::Microsoft.UI.Xaml.Thickness(" + memberValue + ")";
 		}
 
 		private static string AppendFloatSuffix(string memberValue)
@@ -3740,12 +3740,12 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 				return $"{GetCastString(targetType, _staticResources[resourceName])}StaticResources.{SanitizeResourceName(resourceName)}";
 			}
 
-			var valueString = $"(global::Windows.UI.Xaml.Application.Current.Resources[\"{resourceName}\"] ?? throw new InvalidOperationException(\"The resource {resourceName} cannot be found\"))";
+			var valueString = $"(global::Microsoft.UI.Xaml.Application.Current.Resources[\"{resourceName}\"] ?? throw new InvalidOperationException(\"The resource {resourceName} cannot be found\"))";
 
 			if (targetType != null)
 			{
 				// We do not know the type of the source, and it must be converted first
-				return $"global::Windows.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof{GetCastString(targetType, null)}, {valueString})";
+				return $"global::Microsoft.UI.Xaml.Markup.XamlBindingHelper.ConvertValue(typeof{GetCastString(targetType, null)}, {valueString})";
 			}
 			else
 			{
@@ -4157,7 +4157,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 						var value = BuildLiteralValue(valueNode);
 
 						// This builds property setters for the owner of the setter.
-						writer.AppendLineInvariant($"new Windows.UI.Xaml.Setter(new Windows.UI.Xaml.TargetPropertyPath(this, \"{property}\"), {value})");
+						writer.AppendLineInvariant($"new Microsoft.UI.Xaml.Setter(new Microsoft.UI.Xaml.TargetPropertyPath(this, \"{property}\"), {value})");
 					}
 					else if (target != null)
 					{
@@ -4180,7 +4180,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 
 							if (targetElement != null)
 							{
-								writer.AppendLineInvariant($"new global::Windows.UI.Xaml.Setter(new global::Windows.UI.Xaml.TargetPropertyPath(this._{elementName}Subject, \"{propertyName}\"), ");
+								writer.AppendLineInvariant($"new global::Microsoft.UI.Xaml.Setter(new global::Microsoft.UI.Xaml.TargetPropertyPath(this._{elementName}Subject, \"{propertyName}\"), ");
 
 								var targetElementType = GetType(targetElement.Type);
 								var propertyType = FindPropertyType(targetElementType.ToString(), propertyName);
@@ -4214,7 +4214,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 							else
 							{
 								writer.AppendLineInvariant($"/* target element not found {elementName} */");
-								writer.AppendLineInvariant($"new global::Windows.UI.Xaml.Setter()");
+								writer.AppendLineInvariant($"new global::Microsoft.UI.Xaml.Setter()");
 							}
 						}
 					}

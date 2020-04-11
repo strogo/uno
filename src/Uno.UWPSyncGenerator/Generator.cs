@@ -61,7 +61,7 @@ namespace Uno.UWPSyncGenerator
 			_macOSBaseSymbol = _macCompilation.GetTypeByMetadataName("AppKit.NSView");
 
 			_voidSymbol = _referenceCompilation.GetTypeByMetadataName("System.Void");
-			_dependencyPropertySymbol = _referenceCompilation.GetTypeByMetadataName("Windows.UI.Xaml.DependencyProperty");
+			_dependencyPropertySymbol = _referenceCompilation.GetTypeByMetadataName("Microsoft.UI.Xaml.DependencyProperty");
 			UIElementSymbol = _referenceCompilation.GetTypeByMetadataName("Microsoft.UI.Xaml.UIElement");
 			var a = _referenceCompilation.GetTypeByMetadataName("Microsoft.UI.ViewManagement.StatusBar");
 
@@ -340,7 +340,7 @@ namespace Uno.UWPSyncGenerator
 					return true;
 
 				case "Microsoft.ApplicationModel.Store.Preview.WebAuthenticationCoreManagerHelper":
-					// Skipped because a cross layer dependency to Windows.UI.Xaml
+					// Skipped because a cross layer dependency to Microsoft.UI.Xaml
 					return true;
 			}
 
@@ -1109,7 +1109,7 @@ namespace Uno.UWPSyncGenerator
 				case "System.Collections.Generic.KeyValuePair":
 					return "Windows.Foundation.Collections.IKeyValuePair";
 				case "System.Type":
-					return "Windows.UI.Xaml.Interop.TypeName";
+					return "Microsoft.UI.Xaml.Interop.TypeName";
 				case "System.Uri":
 					return "Windows.Foundation.Uri";
 				case "System.Windows.Input.ICommand":
@@ -1358,7 +1358,7 @@ namespace Uno.UWPSyncGenerator
 					return "System.TimeSpan";
 				case "Windows.Foundation.Collections.IKeyValuePair":
 					return "System.Collections.Generic.KeyValuePair";
-				case "Windows.UI.Xaml.Interop.TypeName":
+				case "Microsoft.UI.Xaml.Interop.TypeName":
 					return "System.Type";
 				case "Windows.Foundation.Uri":
 					return "System.Uri";

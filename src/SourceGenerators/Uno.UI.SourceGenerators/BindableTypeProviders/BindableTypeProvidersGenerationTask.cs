@@ -57,7 +57,7 @@ namespace Uno.UI.SourceGenerators.BindableTypeProviders
 						_javaObjectSymbol = context.Compilation.GetTypeByMetadataName("Java.Lang.Object");
 						_nsObjectSymbol = context.Compilation.GetTypeByMetadataName("Foundation.NSObject");
 						_stringSymbol = context.Compilation.GetTypeByMetadataName("System.String");
-						_nonBindableSymbol = context.Compilation.GetTypeByMetadataName("Windows.UI.Xaml.Data.NonBindableAttribute");
+						_nonBindableSymbol = context.Compilation.GetTypeByMetadataName("Microsoft.UI.Xaml.Data.NonBindableAttribute");
 
 						_currentModule = context.Compilation.SourceModule;
 
@@ -424,9 +424,9 @@ namespace Uno.UI.SourceGenerators.BindableTypeProviders
 							{
 								writer.AppendLineInvariant($@"bindableType.AddProperty(""{propertyName}"", typeof({propertyTypeName}), Get{propertyName}, Set{propertyName});");
 
-								postWriter.AppendLineInvariant($@"private static object Get{propertyName}(object instance, Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => (({ownerTypeName})instance).{propertyName};");
+								postWriter.AppendLineInvariant($@"private static object Get{propertyName}(object instance, Microsoft.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => (({ownerTypeName})instance).{propertyName};");
 
-								using (postWriter.BlockInvariant($@"private static void Set{propertyName}(object instance, object value, Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence)"))
+								using (postWriter.BlockInvariant($@"private static void Set{propertyName}(object instance, object value, Microsoft.UI.Xaml.DependencyPropertyValuePrecedences? precedence)"))
 								{
 									using (postWriter.BlockInvariant($"if(value != null)"))
 									{
@@ -438,15 +438,15 @@ namespace Uno.UI.SourceGenerators.BindableTypeProviders
 							{
 								writer.AppendLineInvariant($@"bindableType.AddProperty(""{propertyName}"", typeof({propertyTypeName}), Get{propertyName}, Set{propertyName});");
 
-								postWriter.AppendLineInvariant($@"private static object Get{propertyName}(object instance,  Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => (({ownerTypeName})instance).{propertyName};");
-								postWriter.AppendLineInvariant($@"private static void Set{propertyName}(object instance, object value, Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => (({ownerTypeName})instance).{propertyName} = ({propertyTypeName})value;");
+								postWriter.AppendLineInvariant($@"private static object Get{propertyName}(object instance,  Microsoft.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => (({ownerTypeName})instance).{propertyName};");
+								postWriter.AppendLineInvariant($@"private static void Set{propertyName}(object instance, object value, Microsoft.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => (({ownerTypeName})instance).{propertyName} = ({propertyTypeName})value;");
 							}
 						}
 						else if (HasPublicGetter(property))
 						{
 							writer.AppendLineInvariant($@"bindableType.AddProperty(""{propertyName}"", typeof({propertyTypeName}), Get{propertyName});");
 
-							postWriter.AppendLineInvariant($@"private static object Get{propertyName}(object instance, Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => (({ownerTypeName})instance).{propertyName};");
+							postWriter.AppendLineInvariant($@"private static object Get{propertyName}(object instance, Microsoft.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => (({ownerTypeName})instance).{propertyName};");
 						}
 					}
 
@@ -474,8 +474,8 @@ namespace Uno.UI.SourceGenerators.BindableTypeProviders
 
 							writer.AppendLineInvariant($@"bindableType.AddProperty(""{propertyName}"", typeof({propertyType}),  Get{propertyName}, Set{propertyName});");
 
-							postWriter.AppendLineInvariant($@"private static object Get{propertyName}(object instance,  Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => {getter};");
-							postWriter.AppendLineInvariant($@"private static void Set{propertyName}(object instance, object value, Windows.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => {setter};");
+							postWriter.AppendLineInvariant($@"private static object Get{propertyName}(object instance,  Microsoft.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => {getter};");
+							postWriter.AppendLineInvariant($@"private static void Set{propertyName}(object instance, object value, Microsoft.UI.Xaml.DependencyPropertyValuePrecedences? precedence) => {setter};");
 						}
 					}
 
