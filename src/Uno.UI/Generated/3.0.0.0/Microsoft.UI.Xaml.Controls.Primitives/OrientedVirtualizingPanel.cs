@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class OrientedVirtualizingPanel : global::Windows.UI.Xaml.Controls.VirtualizingPanel,global::Windows.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo,global::Windows.UI.Xaml.Controls.IInsertionPanel
+	public  partial class OrientedVirtualizingPanel : global::Microsoft.UI.Xaml.Controls.VirtualizingPanel,global::Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo,global::Microsoft.UI.Xaml.Controls.IInsertionPanel
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "object OrientedVirtualizingPanel.ScrollOwner");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "object OrientedVirtualizingPanel.ScrollOwner");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "bool OrientedVirtualizingPanel.CanVerticallyScroll");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "bool OrientedVirtualizingPanel.CanVerticallyScroll");
 			}
 		}
 		#endif
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "bool OrientedVirtualizingPanel.CanHorizontallyScroll");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "bool OrientedVirtualizingPanel.CanHorizontallyScroll");
 			}
 		}
 		#endif
@@ -129,139 +129,139 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanVerticallyScroll.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanVerticallyScroll.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanHorizontallyScroll.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanHorizontallyScroll.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ExtentWidth.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ExtentHeight.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ViewportWidth.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ViewportHeight.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.HorizontalOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.VerticalOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ScrollOwner.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ScrollOwner.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanVerticallyScroll.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanVerticallyScroll.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanHorizontallyScroll.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.CanHorizontallyScroll.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ExtentWidth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ExtentHeight.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ViewportWidth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ViewportHeight.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.HorizontalOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.VerticalOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ScrollOwner.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.ScrollOwner.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void LineUp()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.LineUp()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.LineUp()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void LineDown()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.LineDown()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.LineDown()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void LineLeft()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.LineLeft()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.LineLeft()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void LineRight()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.LineRight()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.LineRight()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void PageUp()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.PageUp()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.PageUp()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void PageDown()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.PageDown()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.PageDown()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void PageLeft()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.PageLeft()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.PageLeft()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void PageRight()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.PageRight()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.PageRight()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void MouseWheelUp()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.MouseWheelUp()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.MouseWheelUp()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void MouseWheelDown()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.MouseWheelDown()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.MouseWheelDown()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void MouseWheelLeft()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.MouseWheelLeft()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.MouseWheelLeft()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void MouseWheelRight()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.MouseWheelRight()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.MouseWheelRight()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void SetHorizontalOffset( double offset)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.SetHorizontalOffset(double offset)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.SetHorizontalOffset(double offset)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void SetVerticalOffset( double offset)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.SetVerticalOffset(double offset)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "void OrientedVirtualizingPanel.SetVerticalOffset(double offset)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.Foundation.Rect MakeVisible( global::Windows.UI.Xaml.UIElement visual,  global::Windows.Foundation.Rect rectangle)
+		public  global::Windows.Foundation.Rect MakeVisible( global::Microsoft.UI.Xaml.UIElement visual,  global::Windows.Foundation.Rect rectangle)
 		{
 			throw new global::System.NotImplementedException("The member Rect OrientedVirtualizingPanel.MakeVisible(UIElement visual, Rect rectangle) is not implemented in Uno.");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.AreHorizontalSnapPointsRegular.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.AreVerticalSnapPointsRegular.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.HorizontalSnapPointsChanged.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.HorizontalSnapPointsChanged.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.VerticalSnapPointsChanged.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.VerticalSnapPointsChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.AreHorizontalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.AreVerticalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.HorizontalSnapPointsChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.HorizontalSnapPointsChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.VerticalSnapPointsChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel.VerticalSnapPointsChanged.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::System.Collections.Generic.IReadOnlyList<float> GetIrregularSnapPoints( global::Windows.UI.Xaml.Controls.Orientation orientation,  global::Windows.UI.Xaml.Controls.Primitives.SnapPointsAlignment alignment)
+		public  global::System.Collections.Generic.IReadOnlyList<float> GetIrregularSnapPoints( global::Microsoft.UI.Xaml.Controls.Orientation orientation,  global::Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment alignment)
 		{
 			throw new global::System.NotImplementedException("The member IReadOnlyList<float> OrientedVirtualizingPanel.GetIrregularSnapPoints(Orientation orientation, SnapPointsAlignment alignment) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  float GetRegularSnapPoints( global::Windows.UI.Xaml.Controls.Orientation orientation,  global::Windows.UI.Xaml.Controls.Primitives.SnapPointsAlignment alignment, out float offset)
+		public  float GetRegularSnapPoints( global::Microsoft.UI.Xaml.Controls.Orientation orientation,  global::Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment alignment, out float offset)
 		{
 			throw new global::System.NotImplementedException("The member float OrientedVirtualizingPanel.GetRegularSnapPoints(Orientation orientation, SnapPointsAlignment alignment, out float offset) is not implemented in Uno.");
 		}
@@ -280,12 +280,12 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "event EventHandler<object> OrientedVirtualizingPanel.HorizontalSnapPointsChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "event EventHandler<object> OrientedVirtualizingPanel.HorizontalSnapPointsChanged");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "event EventHandler<object> OrientedVirtualizingPanel.HorizontalSnapPointsChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "event EventHandler<object> OrientedVirtualizingPanel.HorizontalSnapPointsChanged");
 			}
 		}
 		#endif
@@ -296,16 +296,16 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "event EventHandler<object> OrientedVirtualizingPanel.VerticalSnapPointsChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "event EventHandler<object> OrientedVirtualizingPanel.VerticalSnapPointsChanged");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "event EventHandler<object> OrientedVirtualizingPanel.VerticalSnapPointsChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.OrientedVirtualizingPanel", "event EventHandler<object> OrientedVirtualizingPanel.VerticalSnapPointsChanged");
 			}
 		}
 		#endif
-		// Processing: Windows.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo
-		// Processing: Windows.UI.Xaml.Controls.IInsertionPanel
+		// Processing: Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo
+		// Processing: Microsoft.UI.Xaml.Controls.IInsertionPanel
 	}
 }

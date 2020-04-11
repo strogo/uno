@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class CalendarViewTemplateSettings : global::Windows.UI.Xaml.DependencyObject
+	public  partial class CalendarViewTemplateSettings : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -157,20 +157,20 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.MinViewWidth.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HeaderText.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay1.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay2.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay3.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay4.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay5.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay6.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay7.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HasMoreContentAfter.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HasMoreContentBefore.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HasMoreViews.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.ClipRect.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.CenterX.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.CenterY.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.MinViewWidth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HeaderText.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay1.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay2.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay3.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay4.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay5.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay6.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.WeekDay7.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HasMoreContentAfter.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HasMoreContentBefore.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.HasMoreViews.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.ClipRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.CenterX.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CalendarViewTemplateSettings.CenterY.get
 	}
 }

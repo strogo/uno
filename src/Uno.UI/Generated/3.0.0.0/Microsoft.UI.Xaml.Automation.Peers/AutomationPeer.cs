@@ -1,15 +1,15 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Peers
+namespace Microsoft.UI.Xaml.Automation.Peers
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class AutomationPeer : global::Windows.UI.Xaml.DependencyObject
+	public  partial class AutomationPeer : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Automation.Peers.AutomationPeer EventsSource
+		public  global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer EventsSource
 		{
 			get
 			{
@@ -17,33 +17,33 @@ namespace Windows.UI.Xaml.Automation.Peers
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "AutomationPeer AutomationPeer.EventsSource");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "AutomationPeer AutomationPeer.EventsSource");
 			}
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.AutomationPeer()
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.AutomationPeer.AutomationPeer()
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.AutomationPeer.EventsSource.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.AutomationPeer.EventsSource.set
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.AutomationPeer()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.AutomationPeer()
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.EventsSource.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.EventsSource.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  object GetPattern( global::Windows.UI.Xaml.Automation.Peers.PatternInterface patternInterface)
+		public  object GetPattern( global::Microsoft.UI.Xaml.Automation.Peers.PatternInterface patternInterface)
 		{
 			throw new global::System.NotImplementedException("The member object AutomationPeer.GetPattern(PatternInterface patternInterface) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void RaiseAutomationEvent( global::Windows.UI.Xaml.Automation.Peers.AutomationEvents eventId)
+		public  void RaiseAutomationEvent( global::Microsoft.UI.Xaml.Automation.Peers.AutomationEvents eventId)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaiseAutomationEvent(AutomationEvents eventId)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaiseAutomationEvent(AutomationEvents eventId)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void RaisePropertyChangedEvent( global::Windows.UI.Xaml.Automation.AutomationProperty automationProperty,  object oldValue,  object newValue)
+		public  void RaisePropertyChangedEvent( global::Microsoft.UI.Xaml.Automation.AutomationProperty automationProperty,  object oldValue,  object newValue)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaisePropertyChangedEvent(AutomationProperty automationProperty, object oldValue, object newValue)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaisePropertyChangedEvent(AutomationProperty automationProperty, object oldValue, object newValue)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
@@ -60,7 +60,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member string AutomationPeer.GetAccessKey() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetAutomationControlType()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetAutomationControlType()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  string GetAutomationId()
@@ -77,12 +77,12 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Automation.Peers.AutomationPeer> GetChildren()
+		public  global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer> GetChildren()
 		{
 			throw new global::System.NotImplementedException("The member IList<AutomationPeer> AutomationPeer.GetChildren() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetClassName()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetClassName()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  global::Windows.Foundation.Point GetClickablePoint()
@@ -111,12 +111,12 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member string AutomationPeer.GetItemType() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetLabeledBy()
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetLocalizedControlType()
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetName()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLabeledBy()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLocalizedControlType()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetName()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Automation.Peers.AutomationOrientation GetOrientation()
+		public  global::Microsoft.UI.Xaml.Automation.Peers.AutomationOrientation GetOrientation()
 		{
 			throw new global::System.NotImplementedException("The member AutomationOrientation AutomationPeer.GetOrientation() is not implemented in Uno.");
 		}
@@ -128,9 +128,9 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member bool AutomationPeer.HasKeyboardFocus() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsContentElement()
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsControlElement()
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsEnabled()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsContentElement()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsControlElement()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsEnabled()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  bool IsKeyboardFocusable()
@@ -145,7 +145,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member bool AutomationPeer.IsOffscreen() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsPassword()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsPassword()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  bool IsRequiredForForm()
@@ -153,32 +153,32 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member bool AutomationPeer.IsRequiredForForm() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.SetFocus()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.SetFocus()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Automation.Peers.AutomationPeer GetParent()
+		public  global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer GetParent()
 		{
 			throw new global::System.NotImplementedException("The member AutomationPeer AutomationPeer.GetParent() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.InvalidatePeer()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.InvalidatePeer()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Automation.Peers.AutomationPeer GetPeerFromPoint( global::Windows.Foundation.Point point)
+		public  global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer GetPeerFromPoint( global::Windows.Foundation.Point point)
 		{
 			throw new global::System.NotImplementedException("The member AutomationPeer AutomationPeer.GetPeerFromPoint(Point point) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting GetLiveSetting()
+		public  global::Microsoft.UI.Xaml.Automation.Peers.AutomationLiveSetting GetLiveSetting()
 		{
 			throw new global::System.NotImplementedException("The member AutomationLiveSetting AutomationPeer.GetLiveSetting() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  object Navigate( global::Windows.UI.Xaml.Automation.Peers.AutomationNavigationDirection direction)
+		public  object Navigate( global::Microsoft.UI.Xaml.Automation.Peers.AutomationNavigationDirection direction)
 		{
 			throw new global::System.NotImplementedException("The member object AutomationPeer.Navigate(AutomationNavigationDirection direction) is not implemented in Uno.");
 		}
@@ -201,35 +201,35 @@ namespace Windows.UI.Xaml.Automation.Peers
 		[global::Uno.NotImplemented]
 		public  void ShowContextMenu()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.ShowContextMenu()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.ShowContextMenu()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::System.Collections.Generic.IReadOnlyList<global::Windows.UI.Xaml.Automation.Peers.AutomationPeer> GetControlledPeers()
+		public  global::System.Collections.Generic.IReadOnlyList<global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer> GetControlledPeers()
 		{
 			throw new global::System.NotImplementedException("The member IReadOnlyList<AutomationPeer> AutomationPeer.GetControlledPeers() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Automation.Peers.AutomationPeerAnnotation> GetAnnotations()
+		public  global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation> GetAnnotations()
 		{
 			throw new global::System.NotImplementedException("The member IList<AutomationPeerAnnotation> AutomationPeer.GetAnnotations() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void SetParent( global::Windows.UI.Xaml.Automation.Peers.AutomationPeer peer)
+		public  void SetParent( global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer peer)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.SetParent(AutomationPeer peer)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.SetParent(AutomationPeer peer)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void RaiseTextEditTextChangedEvent( global::Windows.UI.Xaml.Automation.AutomationTextEditChangeType automationTextEditChangeType,  global::System.Collections.Generic.IReadOnlyList<string> changedData)
+		public  void RaiseTextEditTextChangedEvent( global::Microsoft.UI.Xaml.Automation.AutomationTextEditChangeType automationTextEditChangeType,  global::System.Collections.Generic.IReadOnlyList<string> changedData)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaiseTextEditTextChangedEvent(AutomationTextEditChangeType automationTextEditChangeType, IReadOnlyList<string> changedData)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaiseTextEditTextChangedEvent(AutomationTextEditChangeType automationTextEditChangeType, IReadOnlyList<string> changedData)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
@@ -255,14 +255,14 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void RaiseStructureChangedEvent( global::Windows.UI.Xaml.Automation.Peers.AutomationStructureChangeType structureChangeType,  global::Windows.UI.Xaml.Automation.Peers.AutomationPeer child)
+		public  void RaiseStructureChangedEvent( global::Microsoft.UI.Xaml.Automation.Peers.AutomationStructureChangeType structureChangeType,  global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer child)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaiseStructureChangedEvent(AutomationStructureChangeType structureChangeType, AutomationPeer child)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaiseStructureChangedEvent(AutomationStructureChangeType structureChangeType, AutomationPeer child)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Automation.Peers.AutomationLandmarkType GetLandmarkType()
+		public  global::Microsoft.UI.Xaml.Automation.Peers.AutomationLandmarkType GetLandmarkType()
 		{
 			throw new global::System.NotImplementedException("The member AutomationLandmarkType AutomationPeer.GetLandmarkType() is not implemented in Uno.");
 		}
@@ -304,14 +304,14 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void RaiseNotificationEvent( global::Windows.UI.Xaml.Automation.Peers.AutomationNotificationKind notificationKind,  global::Windows.UI.Xaml.Automation.Peers.AutomationNotificationProcessing notificationProcessing,  string displayString,  string activityId)
+		public  void RaiseNotificationEvent( global::Microsoft.UI.Xaml.Automation.Peers.AutomationNotificationKind notificationKind,  global::Microsoft.UI.Xaml.Automation.Peers.AutomationNotificationProcessing notificationProcessing,  string displayString,  string activityId)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaiseNotificationEvent(AutomationNotificationKind notificationKind, AutomationNotificationProcessing notificationProcessing, string displayString, string activityId)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.RaiseNotificationEvent(AutomationNotificationKind notificationKind, AutomationNotificationProcessing notificationProcessing, string displayString, string activityId)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Automation.Peers.AutomationHeadingLevel GetHeadingLevel()
+		public  global::Microsoft.UI.Xaml.Automation.Peers.AutomationHeadingLevel GetHeadingLevel()
 		{
 			throw new global::System.NotImplementedException("The member AutomationHeadingLevel AutomationPeer.GetHeadingLevel() is not implemented in Uno.");
 		}
@@ -325,21 +325,21 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected  global::Windows.UI.Xaml.Automation.Peers.AutomationPeer PeerFromProvider( global::Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple provider)
+		protected  global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer PeerFromProvider( global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple provider)
 		{
 			throw new global::System.NotImplementedException("The member AutomationPeer AutomationPeer.PeerFromProvider(IRawElementProviderSimple provider) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected  global::Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple ProviderFromPeer( global::Windows.UI.Xaml.Automation.Peers.AutomationPeer peer)
+		protected  global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple ProviderFromPeer( global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer peer)
 		{
 			throw new global::System.NotImplementedException("The member IRawElementProviderSimple AutomationPeer.ProviderFromPeer(AutomationPeer peer) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual object GetPatternCore( global::Windows.UI.Xaml.Automation.Peers.PatternInterface patternInterface)
+		protected virtual object GetPatternCore( global::Microsoft.UI.Xaml.Automation.Peers.PatternInterface patternInterface)
 		{
 			throw new global::System.NotImplementedException("The member object AutomationPeer.GetPatternCore(PatternInterface patternInterface) is not implemented in Uno.");
 		}
@@ -358,7 +358,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member string AutomationPeer.GetAccessKeyCore() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetAutomationControlTypeCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetAutomationControlTypeCore()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual string GetAutomationIdCore()
@@ -375,12 +375,12 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Automation.Peers.AutomationPeer> GetChildrenCore()
+		protected virtual global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer> GetChildrenCore()
 		{
 			throw new global::System.NotImplementedException("The member IList<AutomationPeer> AutomationPeer.GetChildrenCore() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetClassNameCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetClassNameCore()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual global::Windows.Foundation.Point GetClickablePointCore()
@@ -409,12 +409,12 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member string AutomationPeer.GetItemTypeCore() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetLabeledByCore()
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetLocalizedControlTypeCore()
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetNameCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLabeledByCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetLocalizedControlTypeCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetNameCore()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::Windows.UI.Xaml.Automation.Peers.AutomationOrientation GetOrientationCore()
+		protected virtual global::Microsoft.UI.Xaml.Automation.Peers.AutomationOrientation GetOrientationCore()
 		{
 			throw new global::System.NotImplementedException("The member AutomationOrientation AutomationPeer.GetOrientationCore() is not implemented in Uno.");
 		}
@@ -426,9 +426,9 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member bool AutomationPeer.HasKeyboardFocusCore() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsContentElementCore()
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsControlElementCore()
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsEnabledCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsContentElementCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsControlElementCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsEnabledCore()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual bool IsKeyboardFocusableCore()
@@ -443,7 +443,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member bool AutomationPeer.IsOffscreenCore() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.IsPasswordCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.IsPasswordCore()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual bool IsRequiredForFormCore()
@@ -451,17 +451,17 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member bool AutomationPeer.IsRequiredForFormCore() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.SetFocusCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.SetFocusCore()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::Windows.UI.Xaml.Automation.Peers.AutomationPeer GetPeerFromPointCore( global::Windows.Foundation.Point point)
+		protected virtual global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer GetPeerFromPointCore( global::Windows.Foundation.Point point)
 		{
 			throw new global::System.NotImplementedException("The member AutomationPeer AutomationPeer.GetPeerFromPointCore(Point point) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::Windows.UI.Xaml.Automation.Peers.AutomationLiveSetting GetLiveSettingCore()
+		protected virtual global::Microsoft.UI.Xaml.Automation.Peers.AutomationLiveSetting GetLiveSettingCore()
 		{
 			throw new global::System.NotImplementedException("The member AutomationLiveSetting AutomationPeer.GetLiveSettingCore() is not implemented in Uno.");
 		}
@@ -470,19 +470,19 @@ namespace Windows.UI.Xaml.Automation.Peers
 		[global::Uno.NotImplemented]
 		protected virtual void ShowContextMenuCore()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.ShowContextMenuCore()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "void AutomationPeer.ShowContextMenuCore()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::System.Collections.Generic.IReadOnlyList<global::Windows.UI.Xaml.Automation.Peers.AutomationPeer> GetControlledPeersCore()
+		protected virtual global::System.Collections.Generic.IReadOnlyList<global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer> GetControlledPeersCore()
 		{
 			throw new global::System.NotImplementedException("The member IReadOnlyList<AutomationPeer> AutomationPeer.GetControlledPeersCore() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual object NavigateCore( global::Windows.UI.Xaml.Automation.Peers.AutomationNavigationDirection direction)
+		protected virtual object NavigateCore( global::Microsoft.UI.Xaml.Automation.Peers.AutomationNavigationDirection direction)
 		{
 			throw new global::System.NotImplementedException("The member object AutomationPeer.NavigateCore(AutomationNavigationDirection direction) is not implemented in Uno.");
 		}
@@ -503,7 +503,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Automation.Peers.AutomationPeerAnnotation> GetAnnotationsCore()
+		protected virtual global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeerAnnotation> GetAnnotationsCore()
 		{
 			throw new global::System.NotImplementedException("The member IList<AutomationPeerAnnotation> AutomationPeer.GetAnnotationsCore() is not implemented in Uno.");
 		}
@@ -531,7 +531,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::Windows.UI.Xaml.Automation.Peers.AutomationLandmarkType GetLandmarkTypeCore()
+		protected virtual global::Microsoft.UI.Xaml.Automation.Peers.AutomationLandmarkType GetLandmarkTypeCore()
 		{
 			throw new global::System.NotImplementedException("The member AutomationLandmarkType AutomationPeer.GetLandmarkTypeCore() is not implemented in Uno.");
 		}
@@ -564,17 +564,17 @@ namespace Windows.UI.Xaml.Automation.Peers
 			throw new global::System.NotImplementedException("The member string AutomationPeer.GetFullDescriptionCore() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.GetDescribedByCore()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.GetDescribedByCore()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Automation.Peers.AutomationPeer> GetFlowsToCore()
+		protected virtual global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer> GetFlowsToCore()
 		{
 			throw new global::System.NotImplementedException("The member IEnumerable<AutomationPeer> AutomationPeer.GetFlowsToCore() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Automation.Peers.AutomationPeer> GetFlowsFromCore()
+		protected virtual global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Automation.Peers.AutomationPeer> GetFlowsFromCore()
 		{
 			throw new global::System.NotImplementedException("The member IEnumerable<AutomationPeer> AutomationPeer.GetFlowsFromCore() is not implemented in Uno.");
 		}
@@ -588,7 +588,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual global::Windows.UI.Xaml.Automation.Peers.AutomationHeadingLevel GetHeadingLevelCore()
+		protected virtual global::Microsoft.UI.Xaml.Automation.Peers.AutomationHeadingLevel GetHeadingLevelCore()
 		{
 			throw new global::System.NotImplementedException("The member AutomationHeadingLevel AutomationPeer.GetHeadingLevelCore() is not implemented in Uno.");
 		}
@@ -602,11 +602,11 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.Peers.RawElementProviderRuntimeId GenerateRawElementProviderRuntimeId()
+		public static global::Microsoft.UI.Xaml.Automation.Peers.RawElementProviderRuntimeId GenerateRawElementProviderRuntimeId()
 		{
 			throw new global::System.NotImplementedException("The member RawElementProviderRuntimeId AutomationPeer.GenerateRawElementProviderRuntimeId() is not implemented in Uno.");
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.AutomationPeer.ListenerExists()
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.AutomationPeer.ListenerExists()
 	}
 }

@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class EllipseGeometry : global::Windows.UI.Xaml.Media.Geometry
+	public  partial class EllipseGeometry : global::Microsoft.UI.Xaml.Media.Geometry
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -51,44 +51,44 @@ namespace Windows.UI.Xaml.Media
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CenterProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty CenterProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Center", typeof(global::Windows.Foundation.Point), 
-			typeof(global::Windows.UI.Xaml.Media.EllipseGeometry), 
+			typeof(global::Microsoft.UI.Xaml.Media.EllipseGeometry), 
 			new FrameworkPropertyMetadata(default(global::Windows.Foundation.Point)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RadiusXProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty RadiusXProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"RadiusX", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Media.EllipseGeometry), 
+			typeof(global::Microsoft.UI.Xaml.Media.EllipseGeometry), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RadiusYProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty RadiusYProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"RadiusY", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Media.EllipseGeometry), 
+			typeof(global::Microsoft.UI.Xaml.Media.EllipseGeometry), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public EllipseGeometry() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.EllipseGeometry", "EllipseGeometry.EllipseGeometry()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.EllipseGeometry", "EllipseGeometry.EllipseGeometry()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.EllipseGeometry()
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.Center.get
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.Center.set
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.RadiusX.get
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.RadiusX.set
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.RadiusY.get
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.RadiusY.set
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.CenterProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.RadiusXProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.EllipseGeometry.RadiusYProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.EllipseGeometry()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.Center.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.Center.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusX.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusX.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusY.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusY.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.CenterProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusXProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.EllipseGeometry.RadiusYProperty.get
 	}
 }

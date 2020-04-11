@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Windows.UI.Core;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	/// <summary>
 	/// Handles completion of deferrals. The deferred action is completed when all deferral objects that were taken have called Complete().

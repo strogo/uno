@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -9,11 +9,11 @@ namespace Windows.UI.Xaml.Controls
 	{
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Stretch Stretch
+		public  global::Microsoft.UI.Xaml.Media.Stretch Stretch
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Stretch)this.GetValue(StretchProperty);
+				return (global::Microsoft.UI.Xaml.Media.Stretch)this.GetValue(StretchProperty);
 			}
 			set
 			{
@@ -51,38 +51,38 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsFullWindowProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsFullWindowProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsFullWindow", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerPresenter), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty MediaPlayerProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty MediaPlayerProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MediaPlayer", typeof(global::Windows.Media.Playback.MediaPlayer), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerPresenter), 
 			new FrameworkPropertyMetadata(default(global::Windows.Media.Playback.MediaPlayer)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty StretchProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"Stretch", typeof(global::Windows.UI.Xaml.Media.Stretch), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Stretch)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty StretchProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"Stretch", typeof(global::Microsoft.UI.Xaml.Media.Stretch), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Stretch)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayerPresenter()
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayerPresenter()
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayer.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayer.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.Stretch.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.Stretch.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.IsFullWindow.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.IsFullWindow.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayerProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.StretchProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerPresenter.IsFullWindowProperty.get
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayerPresenter()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayerPresenter()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayer.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.Stretch.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.Stretch.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.IsFullWindow.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.IsFullWindow.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.MediaPlayerProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.StretchProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerPresenter.IsFullWindowProperty.get
 	}
 }

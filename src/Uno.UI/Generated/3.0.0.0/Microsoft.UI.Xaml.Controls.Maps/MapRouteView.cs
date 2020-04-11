@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class MapRouteView : global::Windows.UI.Xaml.DependencyObject
+	public  partial class MapRouteView : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapRouteView", "Color MapRouteView.RouteColor");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapRouteView", "Color MapRouteView.RouteColor");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapRouteView", "Color MapRouteView.OutlineColor");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapRouteView", "Color MapRouteView.OutlineColor");
 			}
 		}
 		#endif
@@ -49,14 +49,14 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapRouteView( global::Windows.Services.Maps.MapRoute route) : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapRouteView", "MapRouteView.MapRouteView(MapRoute route)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapRouteView", "MapRouteView.MapRouteView(MapRoute route)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapRouteView.MapRouteView(Windows.Services.Maps.MapRoute)
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapRouteView.RouteColor.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapRouteView.RouteColor.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapRouteView.OutlineColor.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapRouteView.OutlineColor.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapRouteView.Route.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapRouteView.MapRouteView(Windows.Services.Maps.MapRoute)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapRouteView.RouteColor.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapRouteView.RouteColor.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapRouteView.OutlineColor.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapRouteView.OutlineColor.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapRouteView.Route.get
 	}
 }

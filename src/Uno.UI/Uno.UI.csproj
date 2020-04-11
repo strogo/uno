@@ -354,6 +354,11 @@
 	    <Generator>TextTemplatingFileGenerator</Generator>
 	    <LastGenOutput>VisualStatesMixins.g.cs</LastGenOutput>
 	  </None>
+	  <None Update="Mixins\macOS\FrameworkElementMixins.g.cs">
+	    <DesignTime>True</DesignTime>
+	    <AutoGen>True</AutoGen>
+	    <DependentUpon>FrameworkElementMixins.tt</DependentUpon>
+	  </None>
 	  <None Update="Mixins\macOS\FrameworkElementMixins.tt">
 	    <Generator>TextTemplatingFileGenerator</Generator>
 	    <LastGenOutput>FrameworkElementMixins.g.cs</LastGenOutput>

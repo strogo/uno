@@ -6,9 +6,9 @@ using Uno.UI.DataBinding;
 using Uno.Logging;
 using System.Linq;
 using Windows.UI.Core;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
 	public partial class Timeline : DependencyObject, ITimeline
 	{
@@ -248,49 +248,49 @@ namespace Windows.UI.Xaml.Media.Animation
 		void ITimeline.Begin()
 		{
 			// Timeline should not be used directly.  Please use derived class.
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Begin()");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Begin()");
 		}
 
 		void ITimeline.Stop()
 		{
 			// Timeline should not be used directly.  Please use derived class.
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Stop()");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Stop()");
 		}
 
 		void ITimeline.Resume()
 		{
 			// Timeline should not be used directly.  Please use derived class.
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Resume()");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Resume()");
 		}
 
 		void ITimeline.Pause()
 		{
 			// Timeline should not be used directly.  Please use derived class.
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Pause()");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Pause()");
 		}
 
 		void ITimeline.Seek(TimeSpan offset)
 		{
 			// Timeline should not be used directly.  Please use derived class.
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Seek(TimeSpan offset)");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Seek(TimeSpan offset)");
 		}
 
 		void ITimeline.SeekAlignedToLastTick(TimeSpan offset)
 		{
 			// Timeline should not be used directly.  Please use derived class.
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void SeekAlignedToLastTick(TimeSpan offset)");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void SeekAlignedToLastTick(TimeSpan offset)");
 		}
 
 		void ITimeline.SkipToFill()
 		{
 			// Timeline should not be used directly.  Please use derived class.
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void SkipToFill()");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void SkipToFill()");
 		}
 
 		void ITimeline.Deactivate()
 		{
 			// Timeline should not be used directly.  Please use derived class.
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Deactivate()");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented(GetType().FullName, "void Deactivate()");
 		}
 
 		private protected IValueAnimator InitializeAnimator() => throw new NotSupportedException(); // Should be implemented by classes which use AnimationImplementation

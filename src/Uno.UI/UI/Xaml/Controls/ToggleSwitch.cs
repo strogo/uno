@@ -4,17 +4,17 @@ using System.Linq;
 using System.Text;
 using Windows.UI.Input;
 using Uno.Disposables;
-using Windows.UI.Xaml.Automation.Peers;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using Uno.UI;
 
 #if __IOS__
 using UIKit;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class ToggleSwitch : Control, IFrameworkTemplatePoolAware
 	{
@@ -110,7 +110,7 @@ namespace Windows.UI.Xaml.Controls
 			Toggled?.Invoke(this, new RoutedEventArgs(this));
 		}
 
-		public global::Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings TemplateSettings { get; } = new ToggleSwitchTemplateSettings();
+		public global::Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings TemplateSettings { get; } = new ToggleSwitchTemplateSettings();
 
 		#region IsOn (DP)
 		public bool IsOn

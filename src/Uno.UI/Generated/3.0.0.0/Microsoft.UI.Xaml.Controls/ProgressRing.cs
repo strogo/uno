@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || NET461 || false || false
 	[global::Uno.NotImplemented]
@@ -23,7 +23,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || false || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.ProgressRingTemplateSettings TemplateSettings
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.ProgressRingTemplateSettings TemplateSettings
 		{
 			get
 			{
@@ -33,23 +33,23 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if false || false || NET461 || false || false
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsActiveProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsActiveProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsActive", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ProgressRing), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ProgressRing), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if false || false || NET461 || false || false
 		[global::Uno.NotImplemented]
 		public ProgressRing() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ProgressRing", "ProgressRing.ProgressRing()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ProgressRing", "ProgressRing.ProgressRing()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ProgressRing.ProgressRing()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ProgressRing.IsActive.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ProgressRing.IsActive.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ProgressRing.TemplateSettings.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ProgressRing.IsActiveProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ProgressRing.ProgressRing()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ProgressRing.IsActive.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ProgressRing.IsActive.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ProgressRing.TemplateSettings.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ProgressRing.IsActiveProperty.get
 	}
 }

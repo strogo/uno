@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Provider
+namespace Microsoft.UI.Xaml.Automation.Provider
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -25,11 +25,11 @@ namespace Windows.UI.Xaml.Automation.Provider
 			get;
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IDragProvider.IsGrabbed.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IDragProvider.DropEffect.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IDragProvider.DropEffects.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IDragProvider.IsGrabbed.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IDragProvider.DropEffect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IDragProvider.DropEffects.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		global::Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple[] GetGrabbedItems();
+		global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple[] GetGrabbedItems();
 		#endif
 	}
 }

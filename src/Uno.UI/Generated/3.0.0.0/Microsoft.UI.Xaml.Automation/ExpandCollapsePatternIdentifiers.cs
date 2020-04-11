@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if false || false || false || false || false
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ExpandCollapseStateProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ExpandCollapseStateProperty
 		{
 			get
 			{
@@ -17,6 +17,6 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.ExpandCollapsePatternIdentifiers.ExpandCollapseStateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.ExpandCollapsePatternIdentifiers.ExpandCollapseStateProperty.get
 	}
 }

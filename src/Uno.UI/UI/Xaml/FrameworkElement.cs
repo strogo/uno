@@ -1,5 +1,5 @@
 ﻿using Uno.Diagnostics.Eventing;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -8,11 +8,11 @@ using System.Linq;
 using Windows.Foundation;
 using Uno.UI.Controls;
 using System.Threading.Tasks;
-using Windows.UI.Xaml.Media.Animation;
+using Microsoft.UI.Xaml.Media.Animation;
 using Uno.Extensions;
 using Uno.Logging;
-using Windows.UI.Xaml.Automation.Peers;
-using Windows.UI.Xaml.Automation;
+using Microsoft.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Automation;
 #if XAMARIN_ANDROID
 using View = Android.Views.View;
 #elif XAMARIN_IOS_UNIFIED
@@ -24,10 +24,10 @@ using View = AppKit.NSView;
 using Color = Windows.UI.Color;
 #else
 using Color = System.Drawing.Color;
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class FrameworkElement : UIElement, IFrameworkElement, IFrameworkElementInternal, ILayoutConstraints
 	{
@@ -87,7 +87,7 @@ namespace Windows.UI.Xaml
 #if !__WASM__
 			_layouter = new FrameworkElementLayouter(this, MeasureOverride, ArrangeOverride);
 #endif
-			Resources = new Windows.UI.Xaml.ResourceDictionary();
+			Resources = new Microsoft.UI.Xaml.ResourceDictionary();
 
 			((IDependencyObjectStoreProvider)this).Store.RegisterSelfParentChangedCallback((i, k, e) =>
 			{
@@ -104,7 +104,7 @@ namespace Windows.UI.Xaml
 #if __ANDROID__
 		new
 #endif
-		Windows.UI.Xaml.ResourceDictionary Resources
+		Microsoft.UI.Xaml.ResourceDictionary Resources
 		{
 			get; set;
 		}

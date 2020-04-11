@@ -7,11 +7,11 @@ using Uno.UI;
 using Windows.Foundation;
 using Windows.System;
 using Windows.UI.Input;
-using Windows.UI.Xaml.Extensions;
+using Microsoft.UI.Xaml.Extensions;
 using Android.OS;
 using Uno.Extensions;
 
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	partial class PointerRoutedEventArgs
 	{

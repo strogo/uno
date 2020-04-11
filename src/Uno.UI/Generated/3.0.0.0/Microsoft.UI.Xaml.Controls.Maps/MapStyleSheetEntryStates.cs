@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -37,8 +37,8 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntryStates.Disabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntryStates.Hover.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntryStates.Selected.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntryStates.Disabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntryStates.Hover.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntryStates.Selected.get
 	}
 }

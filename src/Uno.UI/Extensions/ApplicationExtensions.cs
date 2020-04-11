@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 using Microsoft.Extensions.Logging;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 
 namespace Uno.Extensions
 {

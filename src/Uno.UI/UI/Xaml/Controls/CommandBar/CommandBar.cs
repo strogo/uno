@@ -5,8 +5,8 @@ using System.Text;
 using Uno.Extensions;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.UI.Xaml.Markup;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Uno.Logging;
 using Uno.UI.Controls;
 using Uno.Disposables;
@@ -16,7 +16,7 @@ using UIKit;
 using Uno.UI;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	[ContentProperty(Name = nameof(PrimaryCommands))]
 	[TemplatePart(Name = MoreButton, Type = typeof(Button))]

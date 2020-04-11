@@ -1,6 +1,6 @@
 using System.Windows.Input;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class ToggleMenuFlyoutItem : MenuFlyoutItem
 	{
@@ -17,10 +17,10 @@ namespace Windows.UI.Xaml.Controls
 			set { SetValue(IsCheckedProperty, value); }
 		}
 
-		public static global::Windows.UI.Xaml.DependencyProperty IsCheckedProperty { get; } =
-			Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsCheckedProperty { get; } =
+			Microsoft.UI.Xaml.DependencyProperty.Register(
 				"IsChecked", typeof(bool),
-				typeof(global::Windows.UI.Xaml.Controls.ToggleMenuFlyoutItem),
+				typeof(global::Microsoft.UI.Xaml.Controls.ToggleMenuFlyoutItem),
 				new FrameworkPropertyMetadata(default(bool)));
 
 		#endregion

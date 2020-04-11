@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	#if false || false || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ListViewItemPresenter : global::Windows.UI.Xaml.Controls.ContentPresenter
+	public  partial class ListViewItemPresenter : global::Microsoft.UI.Xaml.Controls.ContentPresenter
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -23,11 +23,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush SelectedPointerOverBorderBrush
+		public  global::Microsoft.UI.Xaml.Media.Brush SelectedPointerOverBorderBrush
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(SelectedPointerOverBorderBrushProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(SelectedPointerOverBorderBrushProperty);
 			}
 			set
 			{
@@ -37,11 +37,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush SelectedPointerOverBackground
+		public  global::Microsoft.UI.Xaml.Media.Brush SelectedPointerOverBackground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(SelectedPointerOverBackgroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(SelectedPointerOverBackgroundProperty);
 			}
 			set
 			{
@@ -51,11 +51,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush SelectedForeground
+		public  global::Microsoft.UI.Xaml.Media.Brush SelectedForeground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(SelectedForegroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(SelectedForegroundProperty);
 			}
 			set
 			{
@@ -65,11 +65,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Thickness SelectedBorderThickness
+		public  global::Microsoft.UI.Xaml.Thickness SelectedBorderThickness
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Thickness)this.GetValue(SelectedBorderThicknessProperty);
+				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(SelectedBorderThicknessProperty);
 			}
 			set
 			{
@@ -79,11 +79,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush SelectedBackground
+		public  global::Microsoft.UI.Xaml.Media.Brush SelectedBackground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(SelectedBackgroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(SelectedBackgroundProperty);
 			}
 			set
 			{
@@ -107,11 +107,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Thickness PointerOverBackgroundMargin
+		public  global::Microsoft.UI.Xaml.Thickness PointerOverBackgroundMargin
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Thickness)this.GetValue(PointerOverBackgroundMarginProperty);
+				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(PointerOverBackgroundMarginProperty);
 			}
 			set
 			{
@@ -121,11 +121,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush PointerOverBackground
+		public  global::Microsoft.UI.Xaml.Media.Brush PointerOverBackground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(PointerOverBackgroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(PointerOverBackgroundProperty);
 			}
 			set
 			{
@@ -135,11 +135,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush PlaceholderBackground
+		public  global::Microsoft.UI.Xaml.Media.Brush PlaceholderBackground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(PlaceholderBackgroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(PlaceholderBackgroundProperty);
 			}
 			set
 			{
@@ -149,11 +149,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.VerticalAlignment ListViewItemPresenterVerticalContentAlignment
+		public  global::Microsoft.UI.Xaml.VerticalAlignment ListViewItemPresenterVerticalContentAlignment
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.VerticalAlignment)this.GetValue(ListViewItemPresenterVerticalContentAlignmentProperty);
+				return (global::Microsoft.UI.Xaml.VerticalAlignment)this.GetValue(ListViewItemPresenterVerticalContentAlignmentProperty);
 			}
 			set
 			{
@@ -163,11 +163,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Thickness ListViewItemPresenterPadding
+		public  global::Microsoft.UI.Xaml.Thickness ListViewItemPresenterPadding
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Thickness)this.GetValue(ListViewItemPresenterPaddingProperty);
+				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(ListViewItemPresenterPaddingProperty);
 			}
 			set
 			{
@@ -177,11 +177,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.HorizontalAlignment ListViewItemPresenterHorizontalContentAlignment
+		public  global::Microsoft.UI.Xaml.HorizontalAlignment ListViewItemPresenterHorizontalContentAlignment
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.HorizontalAlignment)this.GetValue(ListViewItemPresenterHorizontalContentAlignmentProperty);
+				return (global::Microsoft.UI.Xaml.HorizontalAlignment)this.GetValue(ListViewItemPresenterHorizontalContentAlignmentProperty);
 			}
 			set
 			{
@@ -191,11 +191,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush FocusBorderBrush
+		public  global::Microsoft.UI.Xaml.Media.Brush FocusBorderBrush
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(FocusBorderBrushProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(FocusBorderBrushProperty);
 			}
 			set
 			{
@@ -219,11 +219,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush DragForeground
+		public  global::Microsoft.UI.Xaml.Media.Brush DragForeground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(DragForegroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(DragForegroundProperty);
 			}
 			set
 			{
@@ -233,11 +233,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush DragBackground
+		public  global::Microsoft.UI.Xaml.Media.Brush DragBackground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(DragBackgroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(DragBackgroundProperty);
 			}
 			set
 			{
@@ -261,11 +261,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Thickness ContentMargin
+		public  global::Microsoft.UI.Xaml.Thickness ContentMargin
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Thickness)this.GetValue(ContentMarginProperty);
+				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(ContentMarginProperty);
 			}
 			set
 			{
@@ -275,11 +275,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush CheckSelectingBrush
+		public  global::Microsoft.UI.Xaml.Media.Brush CheckSelectingBrush
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(CheckSelectingBrushProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(CheckSelectingBrushProperty);
 			}
 			set
 			{
@@ -289,11 +289,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush CheckHintBrush
+		public  global::Microsoft.UI.Xaml.Media.Brush CheckHintBrush
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(CheckHintBrushProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(CheckHintBrushProperty);
 			}
 			set
 			{
@@ -303,11 +303,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush CheckBrush
+		public  global::Microsoft.UI.Xaml.Media.Brush CheckBrush
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(CheckBrushProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(CheckBrushProperty);
 			}
 			set
 			{
@@ -317,11 +317,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush SelectedPressedBackground
+		public  global::Microsoft.UI.Xaml.Media.Brush SelectedPressedBackground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(SelectedPressedBackgroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(SelectedPressedBackgroundProperty);
 			}
 			set
 			{
@@ -331,11 +331,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush PressedBackground
+		public  global::Microsoft.UI.Xaml.Media.Brush PressedBackground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(PressedBackgroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(PressedBackgroundProperty);
 			}
 			set
 			{
@@ -345,11 +345,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush PointerOverForeground
+		public  global::Microsoft.UI.Xaml.Media.Brush PointerOverForeground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(PointerOverForegroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(PointerOverForegroundProperty);
 			}
 			set
 			{
@@ -359,11 +359,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush FocusSecondaryBorderBrush
+		public  global::Microsoft.UI.Xaml.Media.Brush FocusSecondaryBorderBrush
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(FocusSecondaryBorderBrushProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(FocusSecondaryBorderBrushProperty);
 			}
 			set
 			{
@@ -373,11 +373,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode CheckMode
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode CheckMode
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode)this.GetValue(CheckModeProperty);
+				return (global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode)this.GetValue(CheckModeProperty);
 			}
 			set
 			{
@@ -387,11 +387,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush CheckBoxBrush
+		public  global::Microsoft.UI.Xaml.Media.Brush CheckBoxBrush
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(CheckBoxBrushProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(CheckBoxBrushProperty);
 			}
 			set
 			{
@@ -401,11 +401,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Thickness RevealBorderThickness
+		public  global::Microsoft.UI.Xaml.Thickness RevealBorderThickness
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Thickness)this.GetValue(RevealBorderThicknessProperty);
+				return (global::Microsoft.UI.Xaml.Thickness)this.GetValue(RevealBorderThicknessProperty);
 			}
 			set
 			{
@@ -415,11 +415,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush RevealBorderBrush
+		public  global::Microsoft.UI.Xaml.Media.Brush RevealBorderBrush
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(RevealBorderBrushProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(RevealBorderBrushProperty);
 			}
 			set
 			{
@@ -443,11 +443,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush RevealBackground
+		public  global::Microsoft.UI.Xaml.Media.Brush RevealBackground
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(RevealBackgroundProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(RevealBackgroundProperty);
 			}
 			set
 			{
@@ -457,363 +457,363 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CheckBrushProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"CheckBrush", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty CheckBrushProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"CheckBrush", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CheckHintBrushProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"CheckHintBrush", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty CheckHintBrushProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"CheckHintBrush", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CheckSelectingBrushProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"CheckSelectingBrush", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty CheckSelectingBrushProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"CheckSelectingBrush", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ContentMarginProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ContentMargin", typeof(global::Windows.UI.Xaml.Thickness), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Thickness)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ContentMarginProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ContentMargin", typeof(global::Microsoft.UI.Xaml.Thickness), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Thickness)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty DisabledOpacityProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty DisabledOpacityProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"DisabledOpacity", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty DragBackgroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"DragBackground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty DragBackgroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"DragBackground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty DragForegroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"DragForeground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty DragForegroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"DragForeground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty DragOpacityProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty DragOpacityProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"DragOpacity", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FocusBorderBrushProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"FocusBorderBrush", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty FocusBorderBrushProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"FocusBorderBrush", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ListViewItemPresenterHorizontalContentAlignmentProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ListViewItemPresenterHorizontalContentAlignment", typeof(global::Windows.UI.Xaml.HorizontalAlignment), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.HorizontalAlignment)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ListViewItemPresenterHorizontalContentAlignmentProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ListViewItemPresenterHorizontalContentAlignment", typeof(global::Microsoft.UI.Xaml.HorizontalAlignment), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.HorizontalAlignment)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ListViewItemPresenterPaddingProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ListViewItemPresenterPadding", typeof(global::Windows.UI.Xaml.Thickness), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Thickness)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ListViewItemPresenterPaddingProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ListViewItemPresenterPadding", typeof(global::Microsoft.UI.Xaml.Thickness), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Thickness)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ListViewItemPresenterVerticalContentAlignmentProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ListViewItemPresenterVerticalContentAlignment", typeof(global::Windows.UI.Xaml.VerticalAlignment), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.VerticalAlignment)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ListViewItemPresenterVerticalContentAlignmentProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ListViewItemPresenterVerticalContentAlignment", typeof(global::Microsoft.UI.Xaml.VerticalAlignment), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.VerticalAlignment)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PlaceholderBackgroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"PlaceholderBackground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty PlaceholderBackgroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"PlaceholderBackground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PointerOverBackgroundMarginProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"PointerOverBackgroundMargin", typeof(global::Windows.UI.Xaml.Thickness), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Thickness)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty PointerOverBackgroundMarginProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"PointerOverBackgroundMargin", typeof(global::Microsoft.UI.Xaml.Thickness), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Thickness)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PointerOverBackgroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"PointerOverBackground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty PointerOverBackgroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"PointerOverBackground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ReorderHintOffsetProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ReorderHintOffsetProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"ReorderHintOffset", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SelectedBackgroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"SelectedBackground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty SelectedBackgroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"SelectedBackground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SelectedBorderThicknessProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"SelectedBorderThickness", typeof(global::Windows.UI.Xaml.Thickness), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Thickness)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty SelectedBorderThicknessProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"SelectedBorderThickness", typeof(global::Microsoft.UI.Xaml.Thickness), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Thickness)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SelectedForegroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"SelectedForeground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty SelectedForegroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"SelectedForeground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SelectedPointerOverBackgroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"SelectedPointerOverBackground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty SelectedPointerOverBackgroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"SelectedPointerOverBackground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SelectedPointerOverBorderBrushProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"SelectedPointerOverBorderBrush", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty SelectedPointerOverBorderBrushProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"SelectedPointerOverBorderBrush", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SelectionCheckMarkVisualEnabledProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty SelectionCheckMarkVisualEnabledProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"SelectionCheckMarkVisualEnabled", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CheckBoxBrushProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"CheckBoxBrush", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty CheckBoxBrushProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"CheckBoxBrush", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CheckModeProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"CheckMode", typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty CheckModeProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"CheckMode", typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenterCheckMode)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FocusSecondaryBorderBrushProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"FocusSecondaryBorderBrush", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty FocusSecondaryBorderBrushProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"FocusSecondaryBorderBrush", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PointerOverForegroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"PointerOverForeground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty PointerOverForegroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"PointerOverForeground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PressedBackgroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"PressedBackground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty PressedBackgroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"PressedBackground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SelectedPressedBackgroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"SelectedPressedBackground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty SelectedPressedBackgroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"SelectedPressedBackground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RevealBackgroundProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"RevealBackground", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty RevealBackgroundProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"RevealBackground", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RevealBackgroundShowsAboveContentProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty RevealBackgroundShowsAboveContentProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"RevealBackgroundShowsAboveContent", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RevealBorderBrushProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"RevealBorderBrush", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty RevealBorderBrushProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"RevealBorderBrush", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RevealBorderThicknessProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"RevealBorderThickness", typeof(global::Windows.UI.Xaml.Thickness), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Thickness)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty RevealBorderThicknessProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"RevealBorderThickness", typeof(global::Microsoft.UI.Xaml.Thickness), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Thickness)));
 		#endif
 		#if false || false || NET461 || __WASM__ || false
 		[global::Uno.NotImplemented]
 		public ListViewItemPresenter() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter", "ListViewItemPresenter.ListViewItemPresenter()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter", "ListViewItemPresenter.ListViewItemPresenter()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenter()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckHintBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckHintBrush.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckSelectingBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckSelectingBrush.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBrush.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragBackground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragBackground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragForeground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragForeground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusBorderBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusBorderBrush.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedForeground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedForeground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBackground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBackground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBorderBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBorderBrush.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBorderThickness.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBorderThickness.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacity.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacity.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragOpacity.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragOpacity.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ReorderHintOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ReorderHintOffset.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterHorizontalContentAlignment.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterHorizontalContentAlignment.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignment.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignment.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterPadding.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterPadding.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundMargin.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundMargin.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ContentMargin.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ContentMargin.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPressedBackground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPressedBackground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PressedBackground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PressedBackground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrush.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrush.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckMode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckMode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverForeground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverForeground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackground.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackground.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderBrush.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderThickness.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderThickness.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundShowsAboveContent.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundShowsAboveContent.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderBrushProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderThicknessProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundShowsAboveContentProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPressedBackgroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PressedBackgroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrushProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrushProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckModeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverForegroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckHintBrushProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckSelectingBrushProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBrushProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragBackgroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragForegroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusBorderBrushProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackgroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackgroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedForegroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBackgroundProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBorderBrushProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBorderThicknessProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacityProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragOpacityProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ReorderHintOffsetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterHorizontalContentAlignmentProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignmentProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterPaddingProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundMarginProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ContentMarginProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenter()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckHintBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckHintBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckSelectingBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckSelectingBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragBackground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragBackground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragForeground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragForeground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusBorderBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusBorderBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedForeground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedForeground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBackground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBackground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBorderBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBorderBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBorderThickness.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBorderThickness.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacity.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacity.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragOpacity.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragOpacity.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ReorderHintOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ReorderHintOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterHorizontalContentAlignment.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterHorizontalContentAlignment.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignment.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignment.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterPadding.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterPadding.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundMargin.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundMargin.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ContentMargin.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ContentMargin.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPressedBackground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPressedBackground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PressedBackground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PressedBackground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverForeground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverForeground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackground.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackground.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderThickness.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderThickness.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundShowsAboveContent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundShowsAboveContent.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderBrushProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBorderThicknessProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.RevealBackgroundShowsAboveContentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPressedBackgroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PressedBackgroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBoxBrushProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusSecondaryBorderBrushProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckModeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverForegroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectionCheckMarkVisualEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckHintBrushProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckSelectingBrushProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.CheckBrushProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragBackgroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragForegroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.FocusBorderBrushProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PlaceholderBackgroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBackgroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedForegroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBackgroundProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedPointerOverBorderBrushProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.SelectedBorderThicknessProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DisabledOpacityProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.DragOpacityProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ReorderHintOffsetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterHorizontalContentAlignmentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterVerticalContentAlignmentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ListViewItemPresenterPaddingProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.PointerOverBackgroundMarginProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ListViewItemPresenter.ContentMarginProperty.get
 	}
 }

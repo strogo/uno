@@ -6,15 +6,15 @@ using Uno.UI.Extensions;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Metadata;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class Application
 	{
 		public Application()
 		{
-			Windows.UI.Xaml.GenericStyles.Initialize();
+			Microsoft.UI.Xaml.GenericStyles.Initialize();
 			Window.Current.ToString();
 			Current = this;
 			PermissionsHelper.Initialize();

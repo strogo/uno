@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class BringIntoViewRequestedEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class BringIntoViewRequestedEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewRequestedEventArgs", "double BringIntoViewRequestedEventArgs.VerticalOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs", "double BringIntoViewRequestedEventArgs.VerticalOffset");
 			}
 		}
 		#endif
@@ -31,13 +31,13 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewRequestedEventArgs", "Rect BringIntoViewRequestedEventArgs.TargetRect");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs", "Rect BringIntoViewRequestedEventArgs.TargetRect");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement TargetElement
+		public  global::Microsoft.UI.Xaml.UIElement TargetElement
 		{
 			get
 			{
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewRequestedEventArgs", "UIElement BringIntoViewRequestedEventArgs.TargetElement");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs", "UIElement BringIntoViewRequestedEventArgs.TargetElement");
 			}
 		}
 		#endif
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewRequestedEventArgs", "double BringIntoViewRequestedEventArgs.HorizontalOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs", "double BringIntoViewRequestedEventArgs.HorizontalOffset");
 			}
 		}
 		#endif
@@ -73,7 +73,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewRequestedEventArgs", "bool BringIntoViewRequestedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs", "bool BringIntoViewRequestedEventArgs.Handled");
 			}
 		}
 		#endif
@@ -87,7 +87,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewRequestedEventArgs", "bool BringIntoViewRequestedEventArgs.AnimationDesired");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs", "bool BringIntoViewRequestedEventArgs.AnimationDesired");
 			}
 		}
 		#endif
@@ -111,19 +111,19 @@ namespace Windows.UI.Xaml
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.TargetElement.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.TargetElement.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.AnimationDesired.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.AnimationDesired.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.TargetRect.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.TargetRect.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.HorizontalAlignmentRatio.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalAlignmentRatio.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.HorizontalOffset.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.HorizontalOffset.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalOffset.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalOffset.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewRequestedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.TargetElement.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.TargetElement.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.AnimationDesired.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.AnimationDesired.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.TargetRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.TargetRect.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.HorizontalAlignmentRatio.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalAlignmentRatio.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.HorizontalOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.HorizontalOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.VerticalOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewRequestedEventArgs.Handled.set
 	}
 }

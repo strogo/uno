@@ -7,10 +7,10 @@
 
 using System;
 using Uno.UI.Helpers.WinUI;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using Uno.UI;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
 
 #if XAMARIN_IOS_UNIFIED
 using UIKit;
@@ -18,7 +18,7 @@ using UIKit;
 using AppKit;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class NavigationViewItemBase : ListViewItem
 	{

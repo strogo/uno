@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ManipulationStartedRoutedEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class ManipulationStartedRoutedEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if false
 		[global::Uno.NotImplemented]
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs", "bool ManipulationStartedRoutedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs", "bool ManipulationStartedRoutedEventArgs.Handled");
 			}
 		}
 		#endif
 		#if false
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Container
+		public  global::Microsoft.UI.Xaml.UIElement Container
 		{
 			get
 			{
@@ -65,21 +65,21 @@ namespace Windows.UI.Xaml.Input
 		[global::Uno.NotImplemented]
 		public ManipulationStartedRoutedEventArgs() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs", "ManipulationStartedRoutedEventArgs.ManipulationStartedRoutedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs", "ManipulationStartedRoutedEventArgs.ManipulationStartedRoutedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.ManipulationStartedRoutedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Container.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Position.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Handled.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.PointerDeviceType.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Cumulative.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.ManipulationStartedRoutedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Container.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Position.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.PointerDeviceType.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs.Cumulative.get
 		#if false
 		[global::Uno.NotImplemented]
 		public  void Complete()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationStartedRoutedEventArgs", "void ManipulationStartedRoutedEventArgs.Complete()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationStartedRoutedEventArgs", "void ManipulationStartedRoutedEventArgs.Complete()");
 		}
 		#endif
 	}

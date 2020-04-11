@@ -1,19 +1,19 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class VariableSizedWrapGrid : global::Windows.UI.Xaml.Controls.Panel
+	public  partial class VariableSizedWrapGrid : global::Microsoft.UI.Xaml.Controls.Panel
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.VerticalAlignment VerticalChildrenAlignment
+		public  global::Microsoft.UI.Xaml.VerticalAlignment VerticalChildrenAlignment
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.VerticalAlignment)this.GetValue(VerticalChildrenAlignmentProperty);
+				return (global::Microsoft.UI.Xaml.VerticalAlignment)this.GetValue(VerticalChildrenAlignmentProperty);
 			}
 			set
 			{
@@ -23,11 +23,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Orientation Orientation
+		public  global::Microsoft.UI.Xaml.Controls.Orientation Orientation
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.Orientation)this.GetValue(OrientationProperty);
+				return (global::Microsoft.UI.Xaml.Controls.Orientation)this.GetValue(OrientationProperty);
 			}
 			set
 			{
@@ -79,11 +79,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.HorizontalAlignment HorizontalChildrenAlignment
+		public  global::Microsoft.UI.Xaml.HorizontalAlignment HorizontalChildrenAlignment
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.HorizontalAlignment)this.GetValue(HorizontalChildrenAlignmentProperty);
+				return (global::Microsoft.UI.Xaml.HorizontalAlignment)this.GetValue(HorizontalChildrenAlignmentProperty);
 			}
 			set
 			{
@@ -93,114 +93,114 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ColumnSpanProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.RegisterAttached(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ColumnSpanProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.RegisterAttached(
 			"ColumnSpan", typeof(int), 
-			typeof(global::Windows.UI.Xaml.Controls.VariableSizedWrapGrid), 
+			typeof(global::Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid), 
 			new FrameworkPropertyMetadata(default(int)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HorizontalChildrenAlignmentProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"HorizontalChildrenAlignment", typeof(global::Windows.UI.Xaml.HorizontalAlignment), 
-			typeof(global::Windows.UI.Xaml.Controls.VariableSizedWrapGrid), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.HorizontalAlignment)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty HorizontalChildrenAlignmentProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"HorizontalChildrenAlignment", typeof(global::Microsoft.UI.Xaml.HorizontalAlignment), 
+			typeof(global::Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.HorizontalAlignment)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ItemHeightProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ItemHeightProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"ItemHeight", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.VariableSizedWrapGrid), 
+			typeof(global::Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ItemWidthProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ItemWidthProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"ItemWidth", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.VariableSizedWrapGrid), 
+			typeof(global::Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty MaximumRowsOrColumnsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty MaximumRowsOrColumnsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MaximumRowsOrColumns", typeof(int), 
-			typeof(global::Windows.UI.Xaml.Controls.VariableSizedWrapGrid), 
+			typeof(global::Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid), 
 			new FrameworkPropertyMetadata(default(int)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty OrientationProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"Orientation", typeof(global::Windows.UI.Xaml.Controls.Orientation), 
-			typeof(global::Windows.UI.Xaml.Controls.VariableSizedWrapGrid), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.Orientation)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty OrientationProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"Orientation", typeof(global::Microsoft.UI.Xaml.Controls.Orientation), 
+			typeof(global::Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.Orientation)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RowSpanProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.RegisterAttached(
+		public static global::Microsoft.UI.Xaml.DependencyProperty RowSpanProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.RegisterAttached(
 			"RowSpan", typeof(int), 
-			typeof(global::Windows.UI.Xaml.Controls.VariableSizedWrapGrid), 
+			typeof(global::Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid), 
 			new FrameworkPropertyMetadata(default(int)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty VerticalChildrenAlignmentProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"VerticalChildrenAlignment", typeof(global::Windows.UI.Xaml.VerticalAlignment), 
-			typeof(global::Windows.UI.Xaml.Controls.VariableSizedWrapGrid), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.VerticalAlignment)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty VerticalChildrenAlignmentProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"VerticalChildrenAlignment", typeof(global::Microsoft.UI.Xaml.VerticalAlignment), 
+			typeof(global::Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.VerticalAlignment)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.VariableSizedWrapGrid()
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.VariableSizedWrapGrid()
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.ItemHeight.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.ItemHeight.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.ItemWidth.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.ItemWidth.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.Orientation.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.Orientation.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.HorizontalChildrenAlignment.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.HorizontalChildrenAlignment.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.VerticalChildrenAlignment.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.VerticalChildrenAlignment.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.MaximumRowsOrColumns.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.MaximumRowsOrColumns.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.ItemHeightProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.ItemWidthProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.OrientationProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.HorizontalChildrenAlignmentProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.VerticalChildrenAlignmentProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.MaximumRowsOrColumnsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.RowSpanProperty.get
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.VariableSizedWrapGrid()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.VariableSizedWrapGrid()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ItemHeight.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ItemHeight.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ItemWidth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ItemWidth.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.Orientation.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.Orientation.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.HorizontalChildrenAlignment.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.HorizontalChildrenAlignment.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.VerticalChildrenAlignment.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.VerticalChildrenAlignment.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.MaximumRowsOrColumns.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.MaximumRowsOrColumns.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ItemHeightProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ItemWidthProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.OrientationProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.HorizontalChildrenAlignmentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.VerticalChildrenAlignmentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.MaximumRowsOrColumnsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.RowSpanProperty.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static int GetRowSpan( global::Windows.UI.Xaml.UIElement element)
+		public static int GetRowSpan( global::Microsoft.UI.Xaml.UIElement element)
 		{
 			return (int)element.GetValue(RowSpanProperty);
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void SetRowSpan( global::Windows.UI.Xaml.UIElement element,  int value)
+		public static void SetRowSpan( global::Microsoft.UI.Xaml.UIElement element,  int value)
 		{
 			element.SetValue(RowSpanProperty, value);
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.VariableSizedWrapGrid.ColumnSpanProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.VariableSizedWrapGrid.ColumnSpanProperty.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static int GetColumnSpan( global::Windows.UI.Xaml.UIElement element)
+		public static int GetColumnSpan( global::Microsoft.UI.Xaml.UIElement element)
 		{
 			return (int)element.GetValue(ColumnSpanProperty);
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void SetColumnSpan( global::Windows.UI.Xaml.UIElement element,  int value)
+		public static void SetColumnSpan( global::Microsoft.UI.Xaml.UIElement element,  int value)
 		{
 			element.SetValue(ColumnSpanProperty, value);
 		}

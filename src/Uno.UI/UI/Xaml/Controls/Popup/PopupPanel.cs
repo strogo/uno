@@ -7,8 +7,8 @@ using Uno.Extensions;
 using Uno.UI;
 using Windows.Foundation;
 using Windows.UI.ViewManagement;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Media;
 #if XAMARIN_IOS
 using UIKit;
 using View = UIKit.UIView;
@@ -18,10 +18,10 @@ using View = AppKit.NSView;
 #elif __ANDROID__
 using View = Android.Views.View;
 #elif NET461 || __WASM__
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	internal partial class PopupPanel : Panel
 	{

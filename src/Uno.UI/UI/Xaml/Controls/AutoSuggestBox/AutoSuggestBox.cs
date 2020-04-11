@@ -7,9 +7,9 @@ using Uno.Logging;
 using Uno.UI;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using System.Collections.Specialized;
 
 #if __IOS__
@@ -18,7 +18,7 @@ using UIKit;
 using AppKit;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public  partial class AutoSuggestBox : ItemsControl
 	{
@@ -288,7 +288,7 @@ namespace Windows.UI.Xaml.Controls
 
 		private void OnTextBoxKeyDown(object sender, KeyRoutedEventArgs e)
 		{
-			if(e.Key == System.VirtualKey.Enter)
+			if(e.Key == Windows.System.VirtualKey.Enter)
 			{
 				if (this.Log().IsEnabled(Microsoft.Extensions.Logging.LogLevel.Debug))
 				{

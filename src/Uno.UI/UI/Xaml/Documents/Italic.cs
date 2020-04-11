@@ -1,10 +1,10 @@
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	public  partial class Italic : Span
 	{
 		public Italic()
 		{
-			FontStyle = Text.FontStyle.Italic;
+			FontStyle = Windows.UI.Text.FontStyle.Italic;
 		}
 
 		protected override void OnStyleChanged()

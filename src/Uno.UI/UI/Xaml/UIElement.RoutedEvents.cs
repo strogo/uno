@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
-using Windows.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Input;
 using Microsoft.Extensions.Logging;
 using Uno;
 using Uno.Extensions;
@@ -15,7 +15,7 @@ using Uno.UI.Xaml.Input;
 using UIKit;
 #endif
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	/*
 		This partial file handles the registration and bubbling of routed events of a UIElement

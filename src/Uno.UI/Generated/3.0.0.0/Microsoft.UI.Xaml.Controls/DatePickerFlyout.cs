@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || NET461 || false || false
 	[global::Uno.NotImplemented]
@@ -71,10 +71,10 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CalendarIdentifierProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty CalendarIdentifierProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"CalendarIdentifier", typeof(string), 
-			typeof(global::Windows.UI.Xaml.Controls.DatePickerFlyout), 
+			typeof(global::Microsoft.UI.Xaml.Controls.DatePickerFlyout), 
 			new FrameworkPropertyMetadata(default(string)));
 		#endif
 		// Skipping already declared property DateProperty
@@ -85,82 +85,82 @@ namespace Windows.UI.Xaml.Controls
 		// Skipping already declared property YearVisibleProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty DayFormatProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty DayFormatProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"DayFormat", typeof(string), 
-			typeof(global::Windows.UI.Xaml.Controls.DatePickerFlyout), 
+			typeof(global::Microsoft.UI.Xaml.Controls.DatePickerFlyout), 
 			new FrameworkPropertyMetadata(default(string)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty MonthFormatProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty MonthFormatProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MonthFormat", typeof(string), 
-			typeof(global::Windows.UI.Xaml.Controls.DatePickerFlyout), 
+			typeof(global::Microsoft.UI.Xaml.Controls.DatePickerFlyout), 
 			new FrameworkPropertyMetadata(default(string)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty YearFormatProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty YearFormatProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"YearFormat", typeof(string), 
-			typeof(global::Windows.UI.Xaml.Controls.DatePickerFlyout), 
+			typeof(global::Microsoft.UI.Xaml.Controls.DatePickerFlyout), 
 			new FrameworkPropertyMetadata(default(string)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Controls.DatePickerFlyout.DatePickerFlyout()
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DatePickerFlyout()
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.CalendarIdentifier.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.CalendarIdentifier.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.Date.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.Date.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DayVisible.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DayVisible.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MonthVisible.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MonthVisible.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.YearVisible.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.YearVisible.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MinYear.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MinYear.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MaxYear.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MaxYear.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DatePicked.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DatePicked.remove
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DatePickerFlyout()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DatePickerFlyout()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.CalendarIdentifier.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.CalendarIdentifier.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.Date.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.Date.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DayVisible.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DayVisible.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthVisible.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthVisible.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.YearVisible.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.YearVisible.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MinYear.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MinYear.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MaxYear.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MaxYear.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DatePicked.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DatePicked.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.Foundation.IAsyncOperation<global::System.DateTimeOffset?> ShowAtAsync( global::Windows.UI.Xaml.FrameworkElement target)
+		public  global::Windows.Foundation.IAsyncOperation<global::System.DateTimeOffset?> ShowAtAsync( global::Microsoft.UI.Xaml.FrameworkElement target)
 		{
 			throw new global::System.NotImplementedException("The member IAsyncOperation<DateTimeOffset?> DatePickerFlyout.ShowAtAsync(FrameworkElement target) is not implemented in Uno.");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DayFormat.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DayFormat.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MonthFormat.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MonthFormat.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.YearFormat.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.YearFormat.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DayFormatProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MonthFormatProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.YearFormatProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.CalendarIdentifierProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DateProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.DayVisibleProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MonthVisibleProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.YearVisibleProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MinYearProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerFlyout.MaxYearProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DayFormat.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DayFormat.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthFormat.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthFormat.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.YearFormat.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.YearFormat.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DayFormatProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthFormatProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.YearFormatProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.CalendarIdentifierProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.DayVisibleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MonthVisibleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.YearVisibleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MinYearProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerFlyout.MaxYearProperty.get
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.DatePickerFlyout, global::Windows.UI.Xaml.Controls.DatePickedEventArgs> DatePicked
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.DatePickerFlyout, global::Microsoft.UI.Xaml.Controls.DatePickedEventArgs> DatePicked
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.DatePickerFlyout", "event TypedEventHandler<DatePickerFlyout, DatePickedEventArgs> DatePickerFlyout.DatePicked");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.DatePickerFlyout", "event TypedEventHandler<DatePickerFlyout, DatePickedEventArgs> DatePickerFlyout.DatePicked");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.DatePickerFlyout", "event TypedEventHandler<DatePickerFlyout, DatePickedEventArgs> DatePickerFlyout.DatePicked");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.DatePickerFlyout", "event TypedEventHandler<DatePickerFlyout, DatePickedEventArgs> DatePickerFlyout.DatePicked");
 			}
 		}
 		#endif

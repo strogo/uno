@@ -8,12 +8,12 @@ using Uno;
 using Uno.UI;
 using System.Linq;
 using Android.OS;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using Windows.UI.Text;
 using Uno.Logging;
 using Microsoft.Extensions.Logging;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	internal class FontHelper
 	{

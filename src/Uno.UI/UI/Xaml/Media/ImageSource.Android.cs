@@ -16,7 +16,7 @@ using Android.Provider;
 using Microsoft.Extensions.Logging;
 using Uno.UI;
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	public partial class ImageSource
 	{

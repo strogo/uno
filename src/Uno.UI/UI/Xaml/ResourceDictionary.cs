@@ -4,7 +4,7 @@ using System.Threading;
 using Uno.UI;
 using Uno.Extensions;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class ResourceDictionary : DependencyObject
 	{

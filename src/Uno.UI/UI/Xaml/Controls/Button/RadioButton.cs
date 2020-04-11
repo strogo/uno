@@ -5,10 +5,10 @@ using Uno.Extensions;
 using System.Linq;
 using Uno.Disposables;
 using Uno.Logging;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Automation.Peers;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class RadioButton : ToggleButton
 	{

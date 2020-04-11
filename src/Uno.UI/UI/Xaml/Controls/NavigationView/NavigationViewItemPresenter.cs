@@ -6,19 +6,19 @@
 //
 
 using Uno.UI.Helpers.WinUI;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
-	public  partial class NavigationViewItemPresenter : global::Windows.UI.Xaml.Controls.ContentControl
+	public  partial class NavigationViewItemPresenter : global::Microsoft.UI.Xaml.Controls.ContentControl
 	{
 		NavigationViewItemHelper<NavigationViewItemPresenter> m_helper = new NavigationViewItemHelper<NavigationViewItemPresenter>();
 
-		public global::Windows.UI.Xaml.Controls.IconElement Icon
+		public global::Microsoft.UI.Xaml.Controls.IconElement Icon
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.IconElement)this.GetValue(IconProperty);
+				return (global::Microsoft.UI.Xaml.Controls.IconElement)this.GetValue(IconProperty);
 			}
 			set
 			{
@@ -26,13 +26,13 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 		}
 
-		public static global::Windows.UI.Xaml.DependencyProperty IconProperty { get; } = 
-			Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IconProperty { get; } = 
+			Microsoft.UI.Xaml.DependencyProperty.Register(
 				"Icon",
-				typeof(global::Windows.UI.Xaml.Controls.IconElement), 
-				typeof(global::Windows.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter), 
+				typeof(global::Microsoft.UI.Xaml.Controls.IconElement), 
+				typeof(global::Microsoft.UI.Xaml.Controls.Primitives.NavigationViewItemPresenter), 
 				new FrameworkPropertyMetadata(
-					default(global::Windows.UI.Xaml.Controls.IconElement)
+					default(global::Microsoft.UI.Xaml.Controls.IconElement)
 				)
 			);
 

@@ -5,7 +5,7 @@
 // This file is a C# translation of the NavigationViewPaneClosingEventArgs.cpp file from WinUI controls.
 //
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class NavigationViewPaneClosingEventArgs
 	{

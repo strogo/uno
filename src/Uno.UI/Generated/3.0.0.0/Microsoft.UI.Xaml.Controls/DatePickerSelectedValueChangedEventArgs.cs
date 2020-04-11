@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls
 	{
 		// Skipping already declared property NewDate
 		// Skipping already declared property OldDate
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerSelectedValueChangedEventArgs.OldDate.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.DatePickerSelectedValueChangedEventArgs.NewDate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerSelectedValueChangedEventArgs.OldDate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.DatePickerSelectedValueChangedEventArgs.NewDate.get
 	}
 }

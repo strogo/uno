@@ -4,19 +4,19 @@ using Uno.Disposables;
 using System.Text;
 using Uno.Extensions;
 using Windows.Foundation;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Markup;
 using Uno.UI.DataBinding;
 #if XAMARIN_IOS
 using View = UIKit.UIView;
 #elif XAMARIN_ANDROID
 using View = Android.Views.View;
 #else
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
     [ContentProperty(Name = "Content")]
 	public partial class SplitView : Control
@@ -409,7 +409,7 @@ namespace Windows.UI.Xaml.Controls
 			_needsVisualStateUpdate = true;
 
 			Dispatcher.RunAsync(
-				Core.CoreDispatcherPriority.Normal,
+				Windows.UI.Core.CoreDispatcherPriority.Normal,
 				() =>
 				{
 					UpdateVisualStates(true);

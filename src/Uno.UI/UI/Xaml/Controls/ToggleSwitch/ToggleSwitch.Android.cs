@@ -5,9 +5,9 @@ using Uno.Extensions;
 using Uno.Disposables;
 using Uno.Logging;
 using Uno.UI;
-using Windows.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Input;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class ToggleSwitch
 	{

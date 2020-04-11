@@ -4,13 +4,13 @@ using AppKit;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Metadata;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Windows.ApplicationModel;
 using ObjCRuntime;
 using Windows.Graphics.Display;
 using Uno.UI.Services;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	[Register("UnoAppDelegate")]
 	public partial class Application : NSApplicationDelegate
@@ -18,7 +18,7 @@ namespace Windows.UI.Xaml
 		public Application()
 		{
 			Current = this;
-			Windows.UI.Xaml.GenericStyles.Initialize();
+			Microsoft.UI.Xaml.GenericStyles.Initialize();
 			ResourceHelper.ResourcesService = new ResourcesService(new[] { NSBundle.MainBundle });
 		}
 

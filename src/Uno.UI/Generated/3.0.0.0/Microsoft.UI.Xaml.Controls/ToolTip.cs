@@ -1,8 +1,8 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
-	public  partial class ToolTip : global::Windows.UI.Xaml.Controls.ContentControl
+	public  partial class ToolTip : global::Microsoft.UI.Xaml.Controls.ContentControl
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -20,11 +20,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement PlacementTarget
+		public  global::Microsoft.UI.Xaml.UIElement PlacementTarget
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.UIElement)this.GetValue(PlacementTargetProperty);
+				return (global::Microsoft.UI.Xaml.UIElement)this.GetValue(PlacementTargetProperty);
 			}
 			set
 			{
@@ -48,7 +48,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.ToolTipTemplateSettings TemplateSettings
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.ToolTipTemplateSettings TemplateSettings
 		{
 			get
 			{
@@ -72,59 +72,59 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HorizontalOffsetProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty HorizontalOffsetProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"HorizontalOffset", typeof(double),
-			typeof(global::Windows.UI.Xaml.Controls.ToolTip),
+			typeof(global::Microsoft.UI.Xaml.Controls.ToolTip),
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PlacementTargetProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"PlacementTarget", typeof(global::Windows.UI.Xaml.UIElement),
-			typeof(global::Windows.UI.Xaml.Controls.ToolTip),
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.UIElement)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty PlacementTargetProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"PlacementTarget", typeof(global::Microsoft.UI.Xaml.UIElement),
+			typeof(global::Microsoft.UI.Xaml.Controls.ToolTip),
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.UIElement)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty VerticalOffsetProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty VerticalOffsetProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"VerticalOffset", typeof(double),
-			typeof(global::Windows.UI.Xaml.Controls.ToolTip),
+			typeof(global::Microsoft.UI.Xaml.Controls.ToolTip),
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PlacementRectProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty PlacementRectProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"PlacementRect", typeof(global::Windows.Foundation.Rect?),
-			typeof(global::Windows.UI.Xaml.Controls.ToolTip),
+			typeof(global::Microsoft.UI.Xaml.Controls.ToolTip),
 			new FrameworkPropertyMetadata(default(global::Windows.Foundation.Rect?)));
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.ToolTip()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.HorizontalOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.HorizontalOffset.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.IsOpen.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.IsOpen.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.Placement.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.Placement.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.PlacementTarget.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.PlacementTarget.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.VerticalOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.VerticalOffset.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.TemplateSettings.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.Closed.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.Closed.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.Opened.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.Opened.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.PlacementRect.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.PlacementRect.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.PlacementRectProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.HorizontalOffsetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.IsOpenProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.PlacementProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.PlacementTargetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToolTip.VerticalOffsetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.ToolTip()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.HorizontalOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.HorizontalOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.IsOpen.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.IsOpen.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.Placement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.Placement.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.PlacementTarget.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.PlacementTarget.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.VerticalOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.VerticalOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.TemplateSettings.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.Closed.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.Closed.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.Opened.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.Opened.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.PlacementRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.PlacementRect.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.PlacementRectProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.HorizontalOffsetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.IsOpenProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.PlacementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.PlacementTargetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToolTip.VerticalOffsetProperty.get
 	}
 }

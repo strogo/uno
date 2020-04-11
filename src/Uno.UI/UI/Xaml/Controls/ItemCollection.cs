@@ -5,7 +5,7 @@ using System.Text;
 using Windows.Foundation.Collections;
 using Uno.UI.Extensions;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public sealed partial class ItemCollection : IList<object>, IEnumerable<object>, IObservableVector<object>
 	{

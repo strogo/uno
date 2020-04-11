@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using Uno.UI;
 using Windows.Foundation;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using Uno.Extensions;
 using Uno.Disposables;
 using Windows.Globalization.DateTimeFormatting;
@@ -25,7 +25,7 @@ using _View = Android.Views.ViewGroup;
 using _View = System.Object;
 #endif
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	public partial class VisualTreeHelper
 	{

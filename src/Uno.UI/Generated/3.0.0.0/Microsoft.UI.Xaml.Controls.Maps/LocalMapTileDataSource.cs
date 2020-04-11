@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class LocalMapTileDataSource : global::Windows.UI.Xaml.Controls.Maps.MapTileDataSource
+	public  partial class LocalMapTileDataSource : global::Microsoft.UI.Xaml.Controls.Maps.MapTileDataSource
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "string LocalMapTileDataSource.UriFormatString");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "string LocalMapTileDataSource.UriFormatString");
 			}
 		}
 		#endif
@@ -25,35 +25,35 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public LocalMapTileDataSource() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "LocalMapTileDataSource.LocalMapTileDataSource()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "LocalMapTileDataSource.LocalMapTileDataSource()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource.LocalMapTileDataSource()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource.LocalMapTileDataSource()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public LocalMapTileDataSource( string uriFormatString) : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "LocalMapTileDataSource.LocalMapTileDataSource(string uriFormatString)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "LocalMapTileDataSource.LocalMapTileDataSource(string uriFormatString)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource.LocalMapTileDataSource(string)
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource.UriFormatString.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource.UriFormatString.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource.UriRequested.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource.UriRequested.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource.LocalMapTileDataSource(string)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource.UriFormatString.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource.UriFormatString.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource.UriRequested.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource.UriRequested.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource, global::Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs> UriRequested
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource, global::Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs> UriRequested
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "event TypedEventHandler<LocalMapTileDataSource, MapTileUriRequestedEventArgs> LocalMapTileDataSource.UriRequested");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "event TypedEventHandler<LocalMapTileDataSource, MapTileUriRequestedEventArgs> LocalMapTileDataSource.UriRequested");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "event TypedEventHandler<LocalMapTileDataSource, MapTileUriRequestedEventArgs> LocalMapTileDataSource.UriRequested");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.LocalMapTileDataSource", "event TypedEventHandler<LocalMapTileDataSource, MapTileUriRequestedEventArgs> LocalMapTileDataSource.UriRequested");
 			}
 		}
 		#endif

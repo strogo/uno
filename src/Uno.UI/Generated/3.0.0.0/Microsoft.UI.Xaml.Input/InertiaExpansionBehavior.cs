@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.InertiaExpansionBehavior", "double InertiaExpansionBehavior.DesiredExpansion");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.InertiaExpansionBehavior", "double InertiaExpansionBehavior.DesiredExpansion");
 			}
 		}
 		#endif
@@ -31,13 +31,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.InertiaExpansionBehavior", "double InertiaExpansionBehavior.DesiredDeceleration");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.InertiaExpansionBehavior", "double InertiaExpansionBehavior.DesiredDeceleration");
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.InertiaExpansionBehavior.DesiredDeceleration.get
-		// Forced skipping of method Windows.UI.Xaml.Input.InertiaExpansionBehavior.DesiredDeceleration.set
-		// Forced skipping of method Windows.UI.Xaml.Input.InertiaExpansionBehavior.DesiredExpansion.get
-		// Forced skipping of method Windows.UI.Xaml.Input.InertiaExpansionBehavior.DesiredExpansion.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.InertiaExpansionBehavior.DesiredDeceleration.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.InertiaExpansionBehavior.DesiredDeceleration.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.InertiaExpansionBehavior.DesiredExpansion.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.InertiaExpansionBehavior.DesiredExpansion.set
 	}
 }

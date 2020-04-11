@@ -10,11 +10,11 @@ using Foundation;
 using UIKit;
 using CoreGraphics;
 using Uno.Collections;
-using Windows.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Input;
 using WebKit;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml;
 using Uno.UI.Controls;
 using Uno.Logging;
 using Windows.Foundation;
@@ -152,7 +152,7 @@ namespace Uno.UI.Controls
 		private void OnKeyboardWillShow(object sender, UIKeyboardEventArgs e)
 		{
 			var keyboardRect = ((NSValue)e.Notification.UserInfo.ObjectForKey(UIKeyboard.BoundsUserInfoKey)).RectangleFValue;
-			var windowRect = Windows.UI.Xaml.Window.Current.Bounds;
+			var windowRect = Microsoft.UI.Xaml.Window.Current.Bounds;
 			_inputPane.OccludedRect = new Rect(0, windowRect.Height - keyboardRect.Height, keyboardRect.Width, keyboardRect.Height);
 		}
 
@@ -231,7 +231,7 @@ namespace Uno.UI.Controls
 			var viewRectInScrollView = CGRect.Empty;
 
 			//if the view is a multilineTextBox, we want to based our ScrollRectToVisible logic on caret position not on the bottom of the multilineTextBox view 
-			var multilineTextBoxView = view as Windows.UI.Xaml.Controls.MultilineTextBoxView;
+			var multilineTextBoxView = view as Microsoft.UI.Xaml.Controls.MultilineTextBoxView;
 			if (multilineTextBoxView == null)
 			{
 				multilineTextBoxView = (view as TextBox)?.MultilineTextBox;

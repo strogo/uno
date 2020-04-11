@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	#if false || false || false || false || false
 	#if false || false || false || false || false
@@ -8,8 +8,8 @@ namespace Windows.UI.Xaml.Documents
 	#endif
 	public   enum UnderlineStyle 
 	{
-		// Skipping already declared field Windows.UI.Xaml.Documents.UnderlineStyle.None
-		// Skipping already declared field Windows.UI.Xaml.Documents.UnderlineStyle.Single
+		// Skipping already declared field Microsoft.UI.Xaml.Documents.UnderlineStyle.None
+		// Skipping already declared field Microsoft.UI.Xaml.Documents.UnderlineStyle.Single
 	}
 	#endif
 }

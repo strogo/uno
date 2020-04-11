@@ -12,11 +12,11 @@ using Windows.UI.Core;
 using Uno.UI.Controls;
 using System.ComponentModel;
 using Uno.Extensions.Specialized;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Uno.Logging;
 using Microsoft.Extensions.Logging;
 using Uno.UI;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 using Uno.UI.Extensions;
 
 #if XAMARIN_IOS_UNIFIED
@@ -26,7 +26,7 @@ using CoreGraphics;
 using CoreAnimation;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class NativeListViewBase : UICollectionView
 	{

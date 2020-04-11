@@ -1,6 +1,6 @@
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Markup;
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	[ContentProperty(Name = nameof(Children))]
 	public partial class GeometryGroup : Geometry

@@ -5,10 +5,10 @@ using System.Text;
 using Uno.UI;
 using Windows.Foundation;
 using Windows.UI.ViewManagement;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Media;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	internal partial class FlyoutBasePopupPanel : PlacementPopupPanel
 	{
@@ -20,7 +20,7 @@ namespace Windows.UI.Xaml.Controls
 
 			// Required for the dismiss handling
 			// This should however be customized depending of the Popup.DismissMode
-			Background = new SolidColorBrush(Colors.Transparent);
+			Background = new SolidColorBrush(Windows.UI.Colors.Transparent);
 		}
 
 		protected override FlyoutPlacementMode PopupPlacement => _flyout.Placement;

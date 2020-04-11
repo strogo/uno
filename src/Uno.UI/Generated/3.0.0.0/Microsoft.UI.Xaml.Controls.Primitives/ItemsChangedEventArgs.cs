@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.GeneratorPosition OldPosition
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.GeneratorPosition OldPosition
 		{
 			get
 			{
@@ -49,7 +49,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.GeneratorPosition Position
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.GeneratorPosition Position
 		{
 			get
 			{
@@ -57,10 +57,10 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.Action.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.Position.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.OldPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.ItemCount.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.ItemUICount.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.Action.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.Position.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.OldPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.ItemCount.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.ItemsChangedEventArgs.ItemUICount.get
 	}
 }

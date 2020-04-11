@@ -9,7 +9,7 @@ using Windows.Foundation.Metadata;
 using Windows.UI.Core;
 using Uno.Logging;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public sealed partial class Window
 	{

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 #if false
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 		}
 #endif
-		// Forced skipping of method Windows.UI.Xaml.RectHelper.Empty.get
+		// Forced skipping of method Microsoft.UI.Xaml.RectHelper.Empty.get
 #if false
 		[global::Uno.NotImplemented]
 		public static global::Windows.Foundation.Rect FromCoordinatesAndDimensions( float x,  float y,  float width,  float height)

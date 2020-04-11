@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Parent
+		public  global::Microsoft.UI.Xaml.UIElement Parent
 		{
 			get
 			{
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementFactoryGetArgs", "UIElement ElementFactoryGetArgs.Parent");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementFactoryGetArgs", "UIElement ElementFactoryGetArgs.Parent");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementFactoryGetArgs", "object ElementFactoryGetArgs.Data");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementFactoryGetArgs", "object ElementFactoryGetArgs.Data");
 			}
 		}
 		#endif
@@ -39,13 +39,13 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public ElementFactoryGetArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementFactoryGetArgs", "ElementFactoryGetArgs.ElementFactoryGetArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementFactoryGetArgs", "ElementFactoryGetArgs.ElementFactoryGetArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryGetArgs.ElementFactoryGetArgs()
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryGetArgs.Data.get
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryGetArgs.Data.set
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryGetArgs.Parent.get
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryGetArgs.Parent.set
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryGetArgs.ElementFactoryGetArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryGetArgs.Data.get
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryGetArgs.Data.set
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryGetArgs.Parent.get
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryGetArgs.Parent.set
 	}
 }

@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class HttpMapTileDataSource : global::Windows.UI.Xaml.Controls.Maps.MapTileDataSource
+	public  partial class HttpMapTileDataSource : global::Microsoft.UI.Xaml.Controls.Maps.MapTileDataSource
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "string HttpMapTileDataSource.UriFormatString");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "string HttpMapTileDataSource.UriFormatString");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "bool HttpMapTileDataSource.AllowCaching");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "bool HttpMapTileDataSource.AllowCaching");
 			}
 		}
 		#endif
@@ -49,38 +49,38 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public HttpMapTileDataSource() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "HttpMapTileDataSource.HttpMapTileDataSource()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "HttpMapTileDataSource.HttpMapTileDataSource()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.HttpMapTileDataSource()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.HttpMapTileDataSource()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public HttpMapTileDataSource( string uriFormatString) : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "HttpMapTileDataSource.HttpMapTileDataSource(string uriFormatString)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "HttpMapTileDataSource.HttpMapTileDataSource(string uriFormatString)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.HttpMapTileDataSource(string)
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.UriFormatString.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.UriFormatString.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.AdditionalRequestHeaders.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.AllowCaching.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.AllowCaching.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.UriRequested.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource.UriRequested.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.HttpMapTileDataSource(string)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.UriFormatString.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.UriFormatString.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.AdditionalRequestHeaders.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.AllowCaching.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.AllowCaching.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.UriRequested.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource.UriRequested.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource, global::Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs> UriRequested
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource, global::Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs> UriRequested
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "event TypedEventHandler<HttpMapTileDataSource, MapTileUriRequestedEventArgs> HttpMapTileDataSource.UriRequested");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "event TypedEventHandler<HttpMapTileDataSource, MapTileUriRequestedEventArgs> HttpMapTileDataSource.UriRequested");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "event TypedEventHandler<HttpMapTileDataSource, MapTileUriRequestedEventArgs> HttpMapTileDataSource.UriRequested");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.HttpMapTileDataSource", "event TypedEventHandler<HttpMapTileDataSource, MapTileUriRequestedEventArgs> HttpMapTileDataSource.UriRequested");
 			}
 		}
 		#endif

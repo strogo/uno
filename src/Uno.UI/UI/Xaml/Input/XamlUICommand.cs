@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Windows.Input;
 using Windows.Foundation;
 
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	public partial class XamlUICommand : DependencyObject, ICommand
 	{
@@ -44,42 +44,42 @@ namespace Windows.UI.Xaml.Input
 		public IList<KeyboardAccelerator> KeyboardAccelerators => (IList<KeyboardAccelerator>)this.GetValue(KeyboardAcceleratorsProperty);
 
 		public static DependencyProperty AccessKeyProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(AccessKey),
 			propertyType: typeof(string),
 			ownerType: typeof(XamlUICommand),
 			typeMetadata: new FrameworkPropertyMetadata(default(string)));
 
 		public static DependencyProperty CommandProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(Command),
 			propertyType: typeof(ICommand),
 			ownerType: typeof(XamlUICommand),
 			typeMetadata: new FrameworkPropertyMetadata(default(ICommand)));
 
 		public static DependencyProperty DescriptionProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(Description),
 			propertyType: typeof(string),
 			ownerType: typeof(XamlUICommand),
 			typeMetadata: new FrameworkPropertyMetadata(default(string)));
 
 		public static DependencyProperty IconSourceProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(IconSource),
 			propertyType: typeof(Controls.IconSource),
 			ownerType: typeof(XamlUICommand),
 			typeMetadata: new FrameworkPropertyMetadata(default(Controls.IconSource)));
 
 		public static DependencyProperty KeyboardAcceleratorsProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(KeyboardAccelerators),
 			propertyType: typeof(IList<KeyboardAccelerator>),
 			ownerType: typeof(XamlUICommand),
 			typeMetadata: new FrameworkPropertyMetadata(default(IList<KeyboardAccelerator>)));
 
 		public static DependencyProperty LabelProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(Label),
 			propertyType: typeof(string),
 			ownerType: typeof(XamlUICommand),

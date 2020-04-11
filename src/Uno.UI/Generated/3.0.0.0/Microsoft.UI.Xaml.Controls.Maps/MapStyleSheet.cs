@@ -1,71 +1,71 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class MapStyleSheet : global::Windows.UI.Xaml.DependencyObject
+	public  partial class MapStyleSheet : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet Aerial()
+		public static global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet Aerial()
 		{
 			throw new global::System.NotImplementedException("The member MapStyleSheet MapStyleSheet.Aerial() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet AerialWithOverlay()
+		public static global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet AerialWithOverlay()
 		{
 			throw new global::System.NotImplementedException("The member MapStyleSheet MapStyleSheet.AerialWithOverlay() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet RoadLight()
+		public static global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet RoadLight()
 		{
 			throw new global::System.NotImplementedException("The member MapStyleSheet MapStyleSheet.RoadLight() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet RoadDark()
+		public static global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet RoadDark()
 		{
 			throw new global::System.NotImplementedException("The member MapStyleSheet MapStyleSheet.RoadDark() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet RoadHighContrastLight()
+		public static global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet RoadHighContrastLight()
 		{
 			throw new global::System.NotImplementedException("The member MapStyleSheet MapStyleSheet.RoadHighContrastLight() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet RoadHighContrastDark()
+		public static global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet RoadHighContrastDark()
 		{
 			throw new global::System.NotImplementedException("The member MapStyleSheet MapStyleSheet.RoadHighContrastDark() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet Combine( global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet> styleSheets)
+		public static global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet Combine( global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet> styleSheets)
 		{
 			throw new global::System.NotImplementedException("The member MapStyleSheet MapStyleSheet.Combine(IEnumerable<MapStyleSheet> styleSheets) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet ParseFromJson( string styleAsJson)
+		public static global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet ParseFromJson( string styleAsJson)
 		{
 			throw new global::System.NotImplementedException("The member MapStyleSheet MapStyleSheet.ParseFromJson(string styleAsJson) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static bool TryParseFromJson( string styleAsJson, out global::Windows.UI.Xaml.Controls.Maps.MapStyleSheet styleSheet)
+		public static bool TryParseFromJson( string styleAsJson, out global::Microsoft.UI.Xaml.Controls.Maps.MapStyleSheet styleSheet)
 		{
 			throw new global::System.NotImplementedException("The member bool MapStyleSheet.TryParseFromJson(string styleAsJson, out MapStyleSheet styleSheet) is not implemented in Uno.");
 		}

@@ -8,7 +8,7 @@ using System.Text;
 using Windows.Foundation;
 using Uno.UI;
 
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
 	internal static partial class AnimatorFactory
 	{

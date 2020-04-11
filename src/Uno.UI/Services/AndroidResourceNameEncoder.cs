@@ -12,7 +12,7 @@ namespace Uno.UI
 		private const string NumberPrefix = "__";
 
 		// These characters are not supported on Android, but they're used by the attached property localization syntax.
-		// Example: "MyUid.[using:Windows.UI.Xaml.Automation]AutomationProperties.Name"
+		// Example: "MyUid.[using:Microsoft.UI.Xaml.Automation]AutomationProperties.Name"
 		private static readonly Regex sanitizeName = new Regex(@"[^a-zA-Z0-9_.]", RegexOptions.Compiled);
 
 		/// <summary>

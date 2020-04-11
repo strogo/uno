@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewOptions", "double BringIntoViewOptions.VerticalOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewOptions", "double BringIntoViewOptions.VerticalOffset");
 			}
 		}
 		#endif
@@ -33,7 +33,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewOptions", "double BringIntoViewOptions.VerticalAlignmentRatio");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewOptions", "double BringIntoViewOptions.VerticalAlignmentRatio");
 			}
 		}
 		#endif
@@ -47,7 +47,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewOptions", "double BringIntoViewOptions.HorizontalOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewOptions", "double BringIntoViewOptions.HorizontalOffset");
 			}
 		}
 		#endif
@@ -61,23 +61,23 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BringIntoViewOptions", "double BringIntoViewOptions.HorizontalAlignmentRatio");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BringIntoViewOptions", "double BringIntoViewOptions.HorizontalAlignmentRatio");
 			}
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.BringIntoViewOptions.BringIntoViewOptions()
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.BringIntoViewOptions()
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.AnimationDesired.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.AnimationDesired.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.TargetRect.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.TargetRect.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.HorizontalAlignmentRatio.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.HorizontalAlignmentRatio.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.VerticalAlignmentRatio.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.VerticalAlignmentRatio.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.HorizontalOffset.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.HorizontalOffset.set
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.VerticalOffset.get
-		// Forced skipping of method Windows.UI.Xaml.BringIntoViewOptions.VerticalOffset.set
+		// Skipping already declared method Microsoft.UI.Xaml.BringIntoViewOptions.BringIntoViewOptions()
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.BringIntoViewOptions()
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.AnimationDesired.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.AnimationDesired.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.TargetRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.TargetRect.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.HorizontalAlignmentRatio.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.HorizontalAlignmentRatio.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.VerticalAlignmentRatio.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.VerticalAlignmentRatio.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.HorizontalOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.HorizontalOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.VerticalOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.BringIntoViewOptions.VerticalOffset.set
 	}
 }

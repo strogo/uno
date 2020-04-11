@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if false || false || false || false || false
 	#if false || false || false || false || false
@@ -8,9 +8,9 @@ namespace Windows.UI.Xaml.Media
 	#endif
 	public   enum AlignmentY 
 	{
-		// Skipping already declared field Windows.UI.Xaml.Media.AlignmentY.Top
-		// Skipping already declared field Windows.UI.Xaml.Media.AlignmentY.Center
-		// Skipping already declared field Windows.UI.Xaml.Media.AlignmentY.Bottom
+		// Skipping already declared field Microsoft.UI.Xaml.Media.AlignmentY.Top
+		// Skipping already declared field Microsoft.UI.Xaml.Media.AlignmentY.Center
+		// Skipping already declared field Microsoft.UI.Xaml.Media.AlignmentY.Bottom
 	}
 	#endif
 }

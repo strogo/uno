@@ -3,7 +3,7 @@ using System;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Metadata;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Windows.ApplicationModel;
 using Windows.Graphics.Display;
 using Windows.UI.Core;
@@ -14,7 +14,7 @@ using System.Threading;
 using Uno.UI;
 using Uno.UI.Xaml;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class Application
 	{
@@ -24,7 +24,7 @@ namespace Windows.UI.Xaml
 		{
 			if (!_startInvoked)
 			{
-				throw new InvalidOperationException("The application must be started using Application.Start first, e.g. Windows.UI.Xaml.Application.Start(_ => new App());");
+				throw new InvalidOperationException("The application must be started using Application.Start first, e.g. Microsoft.UI.Xaml.Application.Start(_ => new App());");
 			}
 
 			CoreDispatcher.Main.RunAsync(CoreDispatcherPriority.Normal, Initialize);
@@ -56,7 +56,7 @@ namespace Windows.UI.Xaml
 				// Force init
 				Window.Current.ToString();
 
-				Windows.UI.Xaml.GenericStyles.Initialize();
+				Microsoft.UI.Xaml.GenericStyles.Initialize();
 
 				var arguments = WebAssemblyRuntime.InvokeJS("Uno.UI.WindowManager.findLaunchArguments()");
 
@@ -71,7 +71,7 @@ namespace Windows.UI.Xaml
 
 		private ApplicationTheme GetDefaultSystemTheme()
 		{
-			var serializedTheme = WebAssemblyRuntime.InvokeJS("Windows.UI.Xaml.Application.getDefaultSystemTheme()");
+			var serializedTheme = WebAssemblyRuntime.InvokeJS("Microsoft.UI.Xaml.Application.getDefaultSystemTheme()");
 			
 			if (serializedTheme != null)
 			{

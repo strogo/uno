@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty CanMaximizeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty CanMaximizeProperty
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty CanMinimizeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty CanMinimizeProperty
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsModalProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsModalProperty
 		{
 			get
 			{
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsTopmostProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsTopmostProperty
 		{
 			get
 			{
@@ -49,7 +49,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty WindowInteractionStateProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty WindowInteractionStateProperty
 		{
 			get
 			{
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty WindowVisualStateProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty WindowVisualStateProperty
 		{
 			get
 			{
@@ -67,11 +67,11 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.WindowPatternIdentifiers.CanMaximizeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.WindowPatternIdentifiers.CanMinimizeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.WindowPatternIdentifiers.IsModalProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.WindowPatternIdentifiers.IsTopmostProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.WindowPatternIdentifiers.WindowInteractionStateProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.WindowPatternIdentifiers.WindowVisualStateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.CanMaximizeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.CanMinimizeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.IsModalProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.IsTopmostProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.WindowInteractionStateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.WindowPatternIdentifiers.WindowVisualStateProperty.get
 	}
 }

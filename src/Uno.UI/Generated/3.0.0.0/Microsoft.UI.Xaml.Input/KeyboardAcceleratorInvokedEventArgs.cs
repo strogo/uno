@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs", "bool KeyboardAcceleratorInvokedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs", "bool KeyboardAcceleratorInvokedEventArgs.Handled");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DependencyObject Element
+		public  global::Microsoft.UI.Xaml.DependencyObject Element
 		{
 			get
 			{
@@ -33,7 +33,7 @@ namespace Windows.UI.Xaml.Input
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.KeyboardAccelerator KeyboardAccelerator
+		public  global::Microsoft.UI.Xaml.Input.KeyboardAccelerator KeyboardAccelerator
 		{
 			get
 			{
@@ -41,9 +41,9 @@ namespace Windows.UI.Xaml.Input
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Handled.set
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Element.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.KeyboardAccelerator.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.Element.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs.KeyboardAccelerator.get
 	}
 }

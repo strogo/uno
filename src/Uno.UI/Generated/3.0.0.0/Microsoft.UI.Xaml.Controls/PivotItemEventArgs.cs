@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.PivotItem Item
+		public  global::Microsoft.UI.Xaml.Controls.PivotItem Item
 		{
 			get
 			{
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.PivotItemEventArgs", "PivotItem PivotItemEventArgs.Item");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.PivotItemEventArgs", "PivotItem PivotItemEventArgs.Item");
 			}
 		}
 		#endif
@@ -25,11 +25,11 @@ namespace Windows.UI.Xaml.Controls
 		[global::Uno.NotImplemented]
 		public PivotItemEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.PivotItemEventArgs", "PivotItemEventArgs.PivotItemEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.PivotItemEventArgs", "PivotItemEventArgs.PivotItemEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.PivotItemEventArgs.PivotItemEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.PivotItemEventArgs.Item.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.PivotItemEventArgs.Item.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.PivotItemEventArgs.PivotItemEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.PivotItemEventArgs.Item.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.PivotItemEventArgs.Item.set
 	}
 }

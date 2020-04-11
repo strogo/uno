@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class TreeViewNode : global::Windows.UI.Xaml.DependencyObject
+	public  partial class TreeViewNode : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.TreeViewNode", "bool TreeViewNode.HasUnrealizedChildren");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.TreeViewNode", "bool TreeViewNode.HasUnrealizedChildren");
 			}
 		}
 		#endif
@@ -51,7 +51,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Controls.TreeViewNode> Children
+		public  global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.TreeViewNode> Children
 		{
 			get
 			{
@@ -81,7 +81,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.TreeViewNode Parent
+		public  global::Microsoft.UI.Xaml.Controls.TreeViewNode Parent
 		{
 			get
 			{
@@ -91,51 +91,51 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ContentProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ContentProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Content", typeof(object), 
-			typeof(global::Windows.UI.Xaml.Controls.TreeViewNode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode), 
 			new FrameworkPropertyMetadata(default(object)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty DepthProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty DepthProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Depth", typeof(int), 
-			typeof(global::Windows.UI.Xaml.Controls.TreeViewNode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode), 
 			new FrameworkPropertyMetadata(default(int)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HasChildrenProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty HasChildrenProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"HasChildren", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.TreeViewNode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsExpandedProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsExpandedProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsExpanded", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.TreeViewNode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.TreeViewNode), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Controls.TreeViewNode.TreeViewNode()
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.TreeViewNode()
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.Content.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.Content.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.Parent.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.IsExpanded.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.IsExpanded.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.HasChildren.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.Depth.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.Children.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.ContentProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.DepthProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.IsExpandedProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewNode.HasChildrenProperty.get
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.TreeViewNode.TreeViewNode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.TreeViewNode()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.Content.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.Content.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.Parent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpanded.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildren.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.Depth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.HasUnrealizedChildren.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.Children.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.ContentProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.DepthProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.IsExpandedProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewNode.HasChildrenProperty.get
 	}
 }

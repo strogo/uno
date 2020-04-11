@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class PointKeyFrameCollection : global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.PointKeyFrame>,global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+	public  partial class PointKeyFrameCollection : global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>,global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -21,42 +21,42 @@ namespace Windows.UI.Xaml.Media.Animation
 		[global::Uno.NotImplemented]
 		public PointKeyFrameCollection() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection", "PointKeyFrameCollection.PointKeyFrameCollection()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection", "PointKeyFrameCollection.PointKeyFrameCollection()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.PointKeyFrameCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.Size.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.GetView()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.IndexOf(Windows.UI.Xaml.Media.Animation.PointKeyFrame, out uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.SetAt(uint, Windows.UI.Xaml.Media.Animation.PointKeyFrame)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.InsertAt(uint, Windows.UI.Xaml.Media.Animation.PointKeyFrame)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.Append(Windows.UI.Xaml.Media.Animation.PointKeyFrame)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.Clear()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.GetMany(uint, Windows.UI.Xaml.Media.Animation.PointKeyFrame[])
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.ReplaceAll(Windows.UI.Xaml.Media.Animation.PointKeyFrame[])
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection.First()
-		// Processing: System.Collections.Generic.IList<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.PointKeyFrameCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.IndexOf(Microsoft.UI.Xaml.Media.Animation.PointKeyFrame, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.SetAt(uint, Microsoft.UI.Xaml.Media.Animation.PointKeyFrame)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.InsertAt(uint, Microsoft.UI.Xaml.Media.Animation.PointKeyFrame)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.Append(Microsoft.UI.Xaml.Media.Animation.PointKeyFrame)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.GetMany(uint, Microsoft.UI.Xaml.Media.Animation.PointKeyFrame[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.ReplaceAll(Microsoft.UI.Xaml.Media.Animation.PointKeyFrame[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection.First()
+		// Processing: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
-		public int IndexOf( global::Windows.UI.Xaml.Media.Animation.PointKeyFrame item)
+		public int IndexOf( global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
-		public void Insert( int index,  global::Windows.UI.Xaml.Media.Animation.PointKeyFrame item)
+		public void Insert( int index,  global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
 		public void RemoveAt( int index)
 		{
@@ -65,7 +65,7 @@ namespace Windows.UI.Xaml.Media.Animation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public global::Windows.UI.Xaml.Media.Animation.PointKeyFrame this[int index]
+		public global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame this[int index]
 		{
 			get
 			{
@@ -77,17 +77,17 @@ namespace Windows.UI.Xaml.Media.Animation
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// Processing: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
-		public void Add( global::Windows.UI.Xaml.Media.Animation.PointKeyFrame item)
+		public void Add( global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
 		public void Clear()
 		{
@@ -95,25 +95,25 @@ namespace Windows.UI.Xaml.Media.Animation
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
-		public bool Contains( global::Windows.UI.Xaml.Media.Animation.PointKeyFrame item)
+		public bool Contains( global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
-		public void CopyTo( global::Windows.UI.Xaml.Media.Animation.PointKeyFrame[] array,  int arrayIndex)
+		public void CopyTo( global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame[] array,  int arrayIndex)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
-		public bool Remove( global::Windows.UI.Xaml.Media.Animation.PointKeyFrame item)
+		public bool Remove( global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
@@ -146,11 +146,11 @@ namespace Windows.UI.Xaml.Media.Animation
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Media.Animation.PointKeyFrame>
+		// DeclaringType: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Media.Animation.PointKeyFrame>
 		[global::Uno.NotImplemented]
-		public global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.Media.Animation.PointKeyFrame> GetEnumerator()
+		public global::System.Collections.Generic.IEnumerator<global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrame> GetEnumerator()
 		{
 			throw new global::System.NotSupportedException();
 		}

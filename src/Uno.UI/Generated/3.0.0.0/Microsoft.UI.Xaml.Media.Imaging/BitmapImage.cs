@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media.Imaging
+namespace Microsoft.UI.Xaml.Media.Imaging
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class BitmapImage : global::Windows.UI.Xaml.Media.Imaging.BitmapSource
+	public  partial class BitmapImage : global::Microsoft.UI.Xaml.Media.Imaging.BitmapSource
 	{
 		// Skipping already declared property UriSource
 		// Skipping already declared property DecodePixelWidth
@@ -53,76 +53,76 @@ namespace Windows.UI.Xaml.Media.Imaging
 		// Skipping already declared property DecodePixelTypeProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty AutoPlayProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty AutoPlayProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AutoPlay", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage), 
+			typeof(global::Microsoft.UI.Xaml.Media.Imaging.BitmapImage), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsAnimatedBitmapProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsAnimatedBitmapProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsAnimatedBitmap", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage), 
+			typeof(global::Microsoft.UI.Xaml.Media.Imaging.BitmapImage), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsPlayingProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsPlayingProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsPlaying", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Media.Imaging.BitmapImage), 
+			typeof(global::Microsoft.UI.Xaml.Media.Imaging.BitmapImage), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage(System.Uri)
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage(System.Uri)
-		// Skipping already declared method Windows.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage()
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage()
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.CreateOptions.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.CreateOptions.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.UriSource.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.UriSource.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelWidth.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelWidth.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelHeight.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelHeight.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DownloadProgress.add
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DownloadProgress.remove
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.ImageOpened.add
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.ImageOpened.remove
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.ImageFailed.add
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.ImageFailed.remove
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelType.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelType.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.IsAnimatedBitmap.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.IsPlaying.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.AutoPlay.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.AutoPlay.set
+		// Skipping already declared method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage(System.Uri)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage(System.Uri)
+		// Skipping already declared method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.BitmapImage()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.CreateOptions.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.CreateOptions.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.UriSource.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.UriSource.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelWidth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelWidth.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelHeight.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelHeight.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DownloadProgress.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DownloadProgress.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.ImageOpened.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.ImageOpened.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.ImageFailed.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.ImageFailed.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelType.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelType.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsAnimatedBitmap.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsPlaying.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.AutoPlay.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.AutoPlay.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void Play()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Imaging.BitmapImage", "void BitmapImage.Play()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Imaging.BitmapImage", "void BitmapImage.Play()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void Stop()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Imaging.BitmapImage", "void BitmapImage.Stop()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Imaging.BitmapImage", "void BitmapImage.Stop()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.IsAnimatedBitmapProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.IsPlayingProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.AutoPlayProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelTypeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.CreateOptionsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.UriSourceProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelWidthProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelHeightProperty.get
-		// Skipping already declared event Windows.UI.Xaml.Media.Imaging.BitmapImage.DownloadProgress
-		// Skipping already declared event Windows.UI.Xaml.Media.Imaging.BitmapImage.ImageFailed
-		// Skipping already declared event Windows.UI.Xaml.Media.Imaging.BitmapImage.ImageOpened
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsAnimatedBitmapProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.IsPlayingProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.AutoPlayProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelTypeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.CreateOptionsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.UriSourceProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelWidthProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DecodePixelHeightProperty.get
+		// Skipping already declared event Microsoft.UI.Xaml.Media.Imaging.BitmapImage.DownloadProgress
+		// Skipping already declared event Microsoft.UI.Xaml.Media.Imaging.BitmapImage.ImageFailed
+		// Skipping already declared event Microsoft.UI.Xaml.Media.Imaging.BitmapImage.ImageOpened
 	}
 }

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Documents
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Documents.LogicalDirection LogicalDirection
+		public  global::Microsoft.UI.Xaml.Documents.LogicalDirection LogicalDirection
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Documents
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DependencyObject Parent
+		public  global::Microsoft.UI.Xaml.DependencyObject Parent
 		{
 			get
 			{
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Documents
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.FrameworkElement VisualParent
+		public  global::Microsoft.UI.Xaml.FrameworkElement VisualParent
 		{
 			get
 			{
@@ -47,20 +47,20 @@ namespace Windows.UI.Xaml.Documents
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Documents.TextPointer.Parent.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.TextPointer.VisualParent.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.TextPointer.LogicalDirection.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.TextPointer.Offset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.TextPointer.Parent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.TextPointer.VisualParent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.TextPointer.LogicalDirection.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.TextPointer.Offset.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.Foundation.Rect GetCharacterRect( global::Windows.UI.Xaml.Documents.LogicalDirection direction)
+		public  global::Windows.Foundation.Rect GetCharacterRect( global::Microsoft.UI.Xaml.Documents.LogicalDirection direction)
 		{
 			throw new global::System.NotImplementedException("The member Rect TextPointer.GetCharacterRect(LogicalDirection direction) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Documents.TextPointer GetPositionAtOffset( int offset,  global::Windows.UI.Xaml.Documents.LogicalDirection direction)
+		public  global::Microsoft.UI.Xaml.Documents.TextPointer GetPositionAtOffset( int offset,  global::Microsoft.UI.Xaml.Documents.LogicalDirection direction)
 		{
 			throw new global::System.NotImplementedException("The member TextPointer TextPointer.GetPositionAtOffset(int offset, LogicalDirection direction) is not implemented in Uno.");
 		}

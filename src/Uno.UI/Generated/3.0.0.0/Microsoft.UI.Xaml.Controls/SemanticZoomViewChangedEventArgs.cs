@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.SemanticZoomLocation SourceItem
+		public  global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation SourceItem
 		{
 			get
 			{
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs", "SemanticZoomLocation SemanticZoomViewChangedEventArgs.SourceItem");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs", "SemanticZoomLocation SemanticZoomViewChangedEventArgs.SourceItem");
 			}
 		}
 		#endif
@@ -31,13 +31,13 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs", "bool SemanticZoomViewChangedEventArgs.IsSourceZoomedInView");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs", "bool SemanticZoomViewChangedEventArgs.IsSourceZoomedInView");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.SemanticZoomLocation DestinationItem
+		public  global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation DestinationItem
 		{
 			get
 			{
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs", "SemanticZoomLocation SemanticZoomViewChangedEventArgs.DestinationItem");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs", "SemanticZoomLocation SemanticZoomViewChangedEventArgs.DestinationItem");
 			}
 		}
 		#endif
@@ -53,15 +53,15 @@ namespace Windows.UI.Xaml.Controls
 		[global::Uno.NotImplemented]
 		public SemanticZoomViewChangedEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs", "SemanticZoomViewChangedEventArgs.SemanticZoomViewChangedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs", "SemanticZoomViewChangedEventArgs.SemanticZoomViewChangedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.SemanticZoomViewChangedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.IsSourceZoomedInView.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.IsSourceZoomedInView.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.SourceItem.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.SourceItem.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.DestinationItem.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.DestinationItem.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.SemanticZoomViewChangedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.IsSourceZoomedInView.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.IsSourceZoomedInView.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.SourceItem.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.SourceItem.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.DestinationItem.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SemanticZoomViewChangedEventArgs.DestinationItem.set
 	}
 }

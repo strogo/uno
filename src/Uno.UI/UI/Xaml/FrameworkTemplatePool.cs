@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using System.Linq;
 using Uno.Diagnostics.Eventing;
 using Windows.UI.Core;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 using Uno.Extensions;
 using Uno.Logging;
 using Uno.UI;
@@ -26,7 +26,7 @@ using View = UIKit.UIView;
 using ViewGroup = UIKit.UIView;
 using Color = UIKit.UIColor;
 using Font = UIKit.UIFont;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using DependencyObject = System.Object;
 using UIKit;
 #elif __MACOS__
@@ -34,20 +34,20 @@ using View = AppKit.NSView;
 using ViewGroup = AppKit.NSView;
 using Color = AppKit.NSColor;
 using Font = AppKit.NSFont;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using DependencyObject = System.Object;
 using AppKit;
 #elif METRO
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Markup;
 #else
-using View = Windows.UI.Xaml.UIElement;
-using ViewGroup = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
+using ViewGroup = Microsoft.UI.Xaml.UIElement;
 #endif
 
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	/// <summary>
 	/// Provides an instance pool for FrameworkTemplates, when <see cref="FrameworkTemplate.LoadContentCached"/> is called.

@@ -1,4 +1,4 @@
-﻿namespace Windows.UI.Xaml.Controls
+﻿namespace Microsoft.UI.Xaml.Controls
 {
 	internal sealed class DisplayMemberTemplateSelector : DataTemplateSelector
 	{

@@ -4,13 +4,12 @@
 
 using System;
 using System.Collections.Generic;
-using System.Drawing;
 using Uno.Disposables;
 using System.Runtime.CompilerServices;
 using System.Text;
 using Uno.UI;
 using Uno.UI.DataBinding;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Windows.Foundation;
 using Windows.UI.Core;
 using Uno;
@@ -29,10 +28,10 @@ using Font = UIKit.UIFont;
 using View = AppKit.NSView;
 using AppKit;
 #else
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class ScrollViewer : ContentControl, IFrameworkTemplatePoolAware
 	{
@@ -45,8 +44,8 @@ namespace Windows.UI.Xaml.Controls
 
 		private readonly SerialDisposable _sizeChangedSubscription = new SerialDisposable();
 
-		internal Foundation.Size ViewportMeasureSize { get; private set; }
-		internal Foundation.Size ViewportArrangeSize { get; private set; }
+		internal Size ViewportMeasureSize { get; private set; }
+		internal Size ViewportArrangeSize { get; private set; }
 
 		static ScrollViewer()
 		{
@@ -247,13 +246,13 @@ namespace Windows.UI.Xaml.Controls
 #if __IOS__
 		[global::Uno.NotImplemented]
 #endif
-		public static bool GetBringIntoViewOnFocusChange( global::Windows.UI.Xaml.DependencyObject element)
+		public static bool GetBringIntoViewOnFocusChange( global::Microsoft.UI.Xaml.DependencyObject element)
 			=> (bool)element.GetValue(BringIntoViewOnFocusChangeProperty);
 
 #if __IOS__
 		[global::Uno.NotImplemented]
 #endif
-		public static void SetBringIntoViewOnFocusChange( global::Windows.UI.Xaml.DependencyObject element,  bool bringIntoViewOnFocusChange)
+		public static void SetBringIntoViewOnFocusChange( global::Microsoft.UI.Xaml.DependencyObject element,  bool bringIntoViewOnFocusChange)
 			=> element.SetValue(BringIntoViewOnFocusChangeProperty, bringIntoViewOnFocusChange);
 
 #if __IOS__
@@ -567,7 +566,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 
-		protected override Foundation.Size MeasureOverride(Foundation.Size availableSize)
+		protected override Size MeasureOverride(Size availableSize)
 		{
 			ViewportMeasureSize = availableSize;
 
@@ -578,7 +577,7 @@ namespace Windows.UI.Xaml.Controls
 		private IScrollContentPresenter _sv;
 #pragma warning restore 649 // unused member for Unit tests
 
-		protected override Foundation.Size ArrangeOverride(Foundation.Size finalSize)
+		protected override Size ArrangeOverride(Size finalSize)
 		{
 			ViewportArrangeSize = finalSize;
 

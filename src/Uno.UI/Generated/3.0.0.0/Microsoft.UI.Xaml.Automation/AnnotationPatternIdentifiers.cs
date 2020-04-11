@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty AnnotationTypeIdProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty AnnotationTypeIdProperty
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty AnnotationTypeNameProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty AnnotationTypeNameProperty
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty AuthorProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty AuthorProperty
 		{
 			get
 			{
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty DateTimeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty DateTimeProperty
 		{
 			get
 			{
@@ -49,7 +49,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty TargetProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty TargetProperty
 		{
 			get
 			{
@@ -57,10 +57,10 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.AnnotationPatternIdentifiers.AnnotationTypeIdProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AnnotationPatternIdentifiers.AnnotationTypeNameProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AnnotationPatternIdentifiers.AuthorProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AnnotationPatternIdentifiers.DateTimeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AnnotationPatternIdentifiers.TargetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.AnnotationTypeIdProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.AnnotationTypeNameProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.AuthorProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.DateTimeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AnnotationPatternIdentifiers.TargetProperty.get
 	}
 }

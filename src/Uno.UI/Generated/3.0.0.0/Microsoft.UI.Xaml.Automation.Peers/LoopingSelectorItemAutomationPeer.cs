@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Peers
+namespace Microsoft.UI.Xaml.Automation.Peers
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class LoopingSelectorItemAutomationPeer : global::Windows.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer,global::Windows.UI.Xaml.Automation.Provider.IScrollItemProvider,global::Windows.UI.Xaml.Automation.Provider.ISelectionItemProvider
+	public  partial class LoopingSelectorItemAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer,global::Microsoft.UI.Xaml.Automation.Provider.IScrollItemProvider,global::Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple SelectionContainer
+		public  global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple SelectionContainer
 		{
 			get
 			{
@@ -31,33 +31,33 @@ namespace Windows.UI.Xaml.Automation.Peers
 		[global::Uno.NotImplemented]
 		public  void ScrollIntoView()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer", "void LoopingSelectorItemAutomationPeer.ScrollIntoView()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer", "void LoopingSelectorItemAutomationPeer.ScrollIntoView()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer.IsSelected.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer.SelectionContainer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer.IsSelected.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer.SelectionContainer.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void AddToSelection()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer", "void LoopingSelectorItemAutomationPeer.AddToSelection()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer", "void LoopingSelectorItemAutomationPeer.AddToSelection()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void RemoveFromSelection()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer", "void LoopingSelectorItemAutomationPeer.RemoveFromSelection()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer", "void LoopingSelectorItemAutomationPeer.RemoveFromSelection()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void Select()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer", "void LoopingSelectorItemAutomationPeer.Select()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.LoopingSelectorItemAutomationPeer", "void LoopingSelectorItemAutomationPeer.Select()");
 		}
 		#endif
-		// Processing: Windows.UI.Xaml.Automation.Provider.IScrollItemProvider
-		// Processing: Windows.UI.Xaml.Automation.Provider.ISelectionItemProvider
+		// Processing: Microsoft.UI.Xaml.Automation.Provider.IScrollItemProvider
+		// Processing: Microsoft.UI.Xaml.Automation.Provider.ISelectionItemProvider
 	}
 }

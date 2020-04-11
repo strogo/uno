@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using Uno.Disposables;
 using System.Text;
 using System.Linq;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Markup;
 using Uno.Extensions;
 using Windows.UI.Core;
 using Uno.Logging;
 
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
 	[ContentProperty(Name = "KeyFrames")]
 	public partial class DoubleAnimationUsingKeyFrames : Timeline, ITimeline
@@ -51,7 +51,7 @@ namespace Windows.UI.Xaml.Media.Animation
 #if __ANDROID__
 				Dispatcher.RunAnimation(() =>
 #else
-				Dispatcher.RunAsync(Core.CoreDispatcherPriority.High, () =>
+				Dispatcher.RunAsync(CoreDispatcherPriority.High, () =>
 #endif
 				{
 #endif

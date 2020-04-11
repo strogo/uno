@@ -5,7 +5,7 @@ using Android.OS;
 using Android.Views;
 using Uno.UI;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public abstract class NativePage : BaseActivity
     {
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Controls
 
 			var decorView = (ContextHelper.Current as Android.App.Activity).Window.DecorView;
 
-			Windows.UI.Xaml.Window.Current.SystemUiVisibility = (int)decorView.SystemUiVisibility;
+			Microsoft.UI.Xaml.Window.Current.SystemUiVisibility = (int)decorView.SystemUiVisibility;
 			decorView.SetOnSystemUiVisibilityChangeListener(new OnSystemUiVisibilityChangeListener());
 		}
 

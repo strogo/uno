@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BrushTransition", "TimeSpan BrushTransition.Duration");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BrushTransition", "TimeSpan BrushTransition.Duration");
 			}
 		}
 		#endif
@@ -25,11 +25,11 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public BrushTransition() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.BrushTransition", "BrushTransition.BrushTransition()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.BrushTransition", "BrushTransition.BrushTransition()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.BrushTransition.BrushTransition()
-		// Forced skipping of method Windows.UI.Xaml.BrushTransition.Duration.get
-		// Forced skipping of method Windows.UI.Xaml.BrushTransition.Duration.set
+		// Forced skipping of method Microsoft.UI.Xaml.BrushTransition.BrushTransition()
+		// Forced skipping of method Microsoft.UI.Xaml.BrushTransition.Duration.get
+		// Forced skipping of method Microsoft.UI.Xaml.BrushTransition.Duration.set
 	}
 }

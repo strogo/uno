@@ -2,7 +2,7 @@
 using Android.Support.V4.Content;
 using System;
 using System.ComponentModel;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 
 namespace Uno.UI
 {

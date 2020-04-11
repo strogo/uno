@@ -10,7 +10,7 @@ using Uno.Disposables;
 using Windows.ApplicationModel.Core;
 using Windows.UI.ViewManagement;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class NavigationView : ContentControl
 	{

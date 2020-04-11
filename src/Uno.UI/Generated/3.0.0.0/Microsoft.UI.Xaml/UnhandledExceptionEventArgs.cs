@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -10,9 +10,9 @@ namespace Windows.UI.Xaml
 		// Skipping already declared property Handled
 		// Skipping already declared property Exception
 		// Skipping already declared property Message
-		// Forced skipping of method Windows.UI.Xaml.UnhandledExceptionEventArgs.Exception.get
-		// Forced skipping of method Windows.UI.Xaml.UnhandledExceptionEventArgs.Message.get
-		// Forced skipping of method Windows.UI.Xaml.UnhandledExceptionEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.UnhandledExceptionEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.UnhandledExceptionEventArgs.Exception.get
+		// Forced skipping of method Microsoft.UI.Xaml.UnhandledExceptionEventArgs.Message.get
+		// Forced skipping of method Microsoft.UI.Xaml.UnhandledExceptionEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.UnhandledExceptionEventArgs.Handled.set
 	}
 }

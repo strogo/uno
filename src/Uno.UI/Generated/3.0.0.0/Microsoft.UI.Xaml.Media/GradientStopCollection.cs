@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class GradientStopCollection : global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.GradientStop>,global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.GradientStop>
+	public  partial class GradientStopCollection : global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Media.GradientStop>,global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Media.GradientStop>
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,25 +17,25 @@ namespace Windows.UI.Xaml.Media
 			}
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Media.GradientStopCollection.GradientStopCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.GradientStopCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.Size.get
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.GetView()
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.IndexOf(Windows.UI.Xaml.Media.GradientStop, out uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.SetAt(uint, Windows.UI.Xaml.Media.GradientStop)
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.InsertAt(uint, Windows.UI.Xaml.Media.GradientStop)
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.Append(Windows.UI.Xaml.Media.GradientStop)
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.Clear()
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.GetMany(uint, Windows.UI.Xaml.Media.GradientStop[])
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.ReplaceAll(Windows.UI.Xaml.Media.GradientStop[])
-		// Forced skipping of method Windows.UI.Xaml.Media.GradientStopCollection.First()
-		// Processing: System.Collections.Generic.IList<Windows.UI.Xaml.Media.GradientStop>
-		// Skipping already implement System.Collections.Generic.IList<Windows.UI.Xaml.Media.GradientStop>.this[int]
-		// Processing: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.GradientStop>
-		// Skipping already implement System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.GradientStop>.Count
+		// Skipping already declared method Microsoft.UI.Xaml.Media.GradientStopCollection.GradientStopCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.GradientStopCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.IndexOf(Microsoft.UI.Xaml.Media.GradientStop, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.SetAt(uint, Microsoft.UI.Xaml.Media.GradientStop)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.InsertAt(uint, Microsoft.UI.Xaml.Media.GradientStop)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.Append(Microsoft.UI.Xaml.Media.GradientStop)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.GetMany(uint, Microsoft.UI.Xaml.Media.GradientStop[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.ReplaceAll(Microsoft.UI.Xaml.Media.GradientStop[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.GradientStopCollection.First()
+		// Processing: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.GradientStop>
+		// Skipping already implement System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.GradientStop>.this[int]
+		// Processing: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.GradientStop>
+		// Skipping already implement System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.GradientStop>.Count
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public bool IsReadOnly
@@ -50,7 +50,7 @@ namespace Windows.UI.Xaml.Media
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Media.GradientStop>
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Media.GradientStop>
 		// Processing: System.Collections.IEnumerable
 	}
 }

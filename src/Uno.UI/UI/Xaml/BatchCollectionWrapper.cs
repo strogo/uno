@@ -4,7 +4,7 @@ using System.Collections.Specialized;
 using System.Linq;
 using System.Collections;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	/// <summary>
 	/// A collection of items, 

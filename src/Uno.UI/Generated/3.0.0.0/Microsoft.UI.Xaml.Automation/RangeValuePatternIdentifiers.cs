@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsReadOnlyProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsReadOnlyProperty
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty LargeChangeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty LargeChangeProperty
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty MaximumProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty MaximumProperty
 		{
 			get
 			{
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty MinimumProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty MinimumProperty
 		{
 			get
 			{
@@ -49,7 +49,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty SmallChangeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty SmallChangeProperty
 		{
 			get
 			{
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ValueProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ValueProperty
 		{
 			get
 			{
@@ -67,11 +67,11 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.RangeValuePatternIdentifiers.IsReadOnlyProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.RangeValuePatternIdentifiers.LargeChangeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.RangeValuePatternIdentifiers.MaximumProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.RangeValuePatternIdentifiers.MinimumProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.RangeValuePatternIdentifiers.SmallChangeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.RangeValuePatternIdentifiers.ValueProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.IsReadOnlyProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.LargeChangeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.MaximumProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.MinimumProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.SmallChangeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.RangeValuePatternIdentifiers.ValueProperty.get
 	}
 }

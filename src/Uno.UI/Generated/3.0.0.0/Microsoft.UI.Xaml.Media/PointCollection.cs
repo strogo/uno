@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -17,21 +17,21 @@ namespace Windows.UI.Xaml.Media
 			}
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Media.PointCollection.PointCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.PointCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.Size.get
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.GetView()
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.IndexOf(Windows.Foundation.Point, out uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.SetAt(uint, Windows.Foundation.Point)
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.InsertAt(uint, Windows.Foundation.Point)
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.Append(Windows.Foundation.Point)
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.Clear()
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.GetMany(uint, Windows.Foundation.Point[])
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.ReplaceAll(Windows.Foundation.Point[])
-		// Forced skipping of method Windows.UI.Xaml.Media.PointCollection.First()
+		// Skipping already declared method Microsoft.UI.Xaml.Media.PointCollection.PointCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.PointCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.IndexOf(Windows.Foundation.Point, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.SetAt(uint, Windows.Foundation.Point)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.InsertAt(uint, Windows.Foundation.Point)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.Append(Windows.Foundation.Point)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.GetMany(uint, Windows.Foundation.Point[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.ReplaceAll(Windows.Foundation.Point[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.PointCollection.First()
 		// Processing: System.Collections.Generic.IList<Windows.Foundation.Point>
 		// Skipping already implement System.Collections.Generic.IList<Windows.Foundation.Point>.this[int]
 		// Processing: System.Collections.Generic.ICollection<Windows.Foundation.Point>

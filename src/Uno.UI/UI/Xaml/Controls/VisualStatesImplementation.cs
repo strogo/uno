@@ -6,11 +6,11 @@ using System.Runtime.CompilerServices;
 using Uno.Extensions;
 using Uno.UI.DataBinding;
 using Uno.Logging;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Media.Animation;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media.Animation;
 
 #if __ANDROID__
 using Android.Views;

@@ -15,7 +15,7 @@ using Uno.Disposables;
 
 using AppKit;
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	public partial class ImageSource
 	{

@@ -235,7 +235,7 @@
 			<FontWeight x:Key="HubSectionHeaderThemeFontWeight">Normal</FontWeight>
 			<x:Boolean x:Key="IsApplicationFocusVisualKindReveal">False</x:Boolean>
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Slider -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Slider -->
 			<StaticResource x:Key="SliderContainerBackground" ResourceKey="SystemControlTransparentBrush" />
 			<StaticResource x:Key="SliderContainerBackgroundPointerOver" ResourceKey="SystemControlTransparentBrush" />
 			<StaticResource x:Key="SliderContainerBackgroundPressed" ResourceKey="SystemControlTransparentBrush" />
@@ -259,7 +259,7 @@
 			<StaticResource x:Key="SliderInlineTickBarFill" ResourceKey="SystemControlBackgroundAltHighBrush" />
 
 			
-            <!-- Resources for Windows.UI.Xaml.Controls.Primitives.ScrollBar -->
+            <!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.ScrollBar -->
             <StaticResource x:Key="ScrollBarBackground" ResourceKey="SystemControlTransparentBrush" />
             <StaticResource x:Key="ScrollBarBackgroundPointerOver" ResourceKey="SystemControlTransparentBrush" />
             <StaticResource x:Key="ScrollBarBackgroundDisabled" ResourceKey="SystemControlTransparentBrush" />
@@ -476,7 +476,7 @@
 			<SolidColorBrush x:Key="CheckBoxPressedBorderThemeBrush" Color="#FFFFFFFF" />
 			<SolidColorBrush x:Key="CheckBoxPressedForegroundThemeBrush" Color="#FF000000" />
 
-		    <!-- Resources for Windows.UI.Xaml.Controls.Button -->
+		    <!-- Resources for Microsoft.UI.Xaml.Controls.Button -->
 			<StaticResource x:Key="ButtonBackground" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="ButtonBackgroundPointerOver" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="ButtonBackgroundPressed" ResourceKey="SystemControlBackgroundBaseMediumLowBrush" />
@@ -490,7 +490,7 @@
 			<StaticResource x:Key="ButtonBorderBrushPressed" ResourceKey="SystemControlHighlightTransparentBrush" />
 			<StaticResource x:Key="ButtonBorderBrushDisabled" ResourceKey="SystemControlDisabledTransparentBrush" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.CheckBox -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.CheckBox -->
 			<StaticResource x:Key="CheckBoxForegroundUnchecked" ResourceKey="SystemControlForegroundBaseHighBrush" />
 			<StaticResource x:Key="CheckBoxForegroundUncheckedPointerOver" ResourceKey="SystemControlForegroundBaseHighBrush" />
 			<StaticResource x:Key="CheckBoxForegroundUncheckedPressed" ResourceKey="SystemControlForegroundBaseHighBrush" />
@@ -709,7 +709,7 @@
 			<SolidColorBrush x:Key="AutoSuggestBoxSuggestionsListBackground" Color="{StaticResource SystemChromeMediumLowColor}" />
 			<SolidColorBrush x:Key="AutoSuggestBoxSuggestionsListBorderBrush" Color="{StaticResource SystemChromeHighColor}" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Pivot -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Pivot -->
 			<SolidColorBrush x:Key="PivotBackground" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotHeaderBackground" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotNextButtonBackground" Color="{StaticResource SystemBaseMediumLowColor}" />
@@ -731,10 +731,10 @@
 			<SolidColorBrush x:Key="PivotPreviousButtonForegroundPointerOver" Color="{StaticResource SystemAltMediumHighColor}" />
 			<SolidColorBrush x:Key="PivotPreviousButtonForegroundPressed" Color="{StaticResource SystemAltMediumHighColor}" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.PivotItem -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.PivotItem -->
 			<SolidColorBrush x:Key="PivotItemBackground" Color="Transparent" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.PivotHeaderItem -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem -->
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselected" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselectedPointerOver" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselectedPressed" Color="Transparent" />
@@ -946,9 +946,9 @@
 			<!--
         Resources for:
                 
-        Windows.UI.Xaml.Controls.TextBox
-        Windows.UI.Xaml.Controls.PasswordBox
-        Windows.UI.Xaml.Controls.RichEditBox
+        Microsoft.UI.Xaml.Controls.TextBox
+        Microsoft.UI.Xaml.Controls.PasswordBox
+        Microsoft.UI.Xaml.Controls.RichEditBox
         AutoSuggestTextBoxStyle
     -->
 			<SolidColorBrush x:Key="TextControlForeground"  Color="{StaticResource SystemBaseHighColor}" />
@@ -1035,7 +1035,7 @@
 			<xamarin:Thickness x:Key="SearchBoxBorderThickness">0</xamarin:Thickness>
 			<xamarin:SolidColorBrush x:Key="SystemControlAcrylicElementBrush" Color="White"></xamarin:SolidColorBrush>
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.HyperlinkButton -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.HyperlinkButton -->
 			<xamarin:StaticResource x:Key="HyperlinkButtonForeground" ResourceKey="SystemControlHyperlinkTextBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonForegroundPointerOver" ResourceKey="SystemControlPageTextBaseMediumBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonForegroundPressed" ResourceKey="SystemControlHighlightBaseMediumLowBrush" />
@@ -1049,7 +1049,7 @@
 			<xamarin:StaticResource x:Key="HyperlinkButtonBorderBrushPressed" ResourceKey="SystemControlTransparentBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonBorderBrushDisabled" ResourceKey="SystemControlTransparentBrush" />
 
-            <!-- Resources for Windows.UI.Xaml.Controls.Primitives.RepeatButton -->
+            <!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.RepeatButton -->
             <StaticResource x:Key="RepeatButtonBackground" ResourceKey="SystemControlBackgroundBaseLowBrush" />
             <StaticResource x:Key="RepeatButtonBackgroundPointerOver" ResourceKey="SystemControlBackgroundBaseLowBrush" />
             <StaticResource x:Key="RepeatButtonBackgroundPressed" ResourceKey="SystemControlBackgroundBaseMediumLowBrush" />
@@ -1313,7 +1313,7 @@
 			<FontWeight x:Key="HubSectionHeaderThemeFontWeight">Normal</FontWeight>
 			<x:Boolean x:Key="IsApplicationFocusVisualKindReveal">False</x:Boolean>
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Slider -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Slider -->
 			<StaticResource x:Key="SliderContainerBackground" ResourceKey="SystemControlTransparentBrush" />
 			<StaticResource x:Key="SliderContainerBackgroundPointerOver" ResourceKey="SystemControlTransparentBrush" />
 			<StaticResource x:Key="SliderContainerBackgroundPressed" ResourceKey="SystemControlTransparentBrush" />
@@ -1336,7 +1336,7 @@
 			<StaticResource x:Key="SliderTickBarFillDisabled" ResourceKey="SystemControlDisabledBaseMediumLowBrush" />
 			<StaticResource x:Key="SliderInlineTickBarFill" ResourceKey="SystemControlBackgroundAltHighBrush" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.ScrollBar -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.ScrollBar -->
             <StaticResource x:Key="ScrollBarBackground" ResourceKey="SystemControlTransparentBrush" />
             <StaticResource x:Key="ScrollBarBackgroundPointerOver" ResourceKey="SystemControlTransparentBrush" />
             <StaticResource x:Key="ScrollBarBackgroundDisabled" ResourceKey="SystemControlTransparentBrush" />
@@ -1547,7 +1547,7 @@
 			<SolidColorBrush x:Key="CheckBoxPressedBorderThemeBrush" Color="{ThemeResource SystemColorButtonTextColor}" />
 			<SolidColorBrush x:Key="CheckBoxPressedForegroundThemeBrush" Color="{ThemeResource SystemColorButtonFaceColor}" />
 
-		    <!-- Resources for Windows.UI.Xaml.Controls.Button -->
+		    <!-- Resources for Microsoft.UI.Xaml.Controls.Button -->
 			<StaticResource x:Key="ButtonBackground" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="ButtonBackgroundPointerOver" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="ButtonBackgroundPressed" ResourceKey="SystemControlBackgroundBaseMediumLowBrush" />
@@ -1561,7 +1561,7 @@
 			<StaticResource x:Key="ButtonBorderBrushPressed" ResourceKey="SystemControlHighlightTransparentBrush" />
 			<StaticResource x:Key="ButtonBorderBrushDisabled" ResourceKey="SystemControlDisabledTransparentBrush" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.CheckBox -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.CheckBox -->
 			<StaticResource x:Key="CheckBoxForegroundUnchecked" ResourceKey="SystemControlForegroundBaseHighBrush" />
 			<StaticResource x:Key="CheckBoxForegroundUncheckedPointerOver" ResourceKey="SystemControlForegroundBaseHighBrush" />
 			<StaticResource x:Key="CheckBoxForegroundUncheckedPressed" ResourceKey="SystemControlForegroundBaseHighBrush" />
@@ -1780,7 +1780,7 @@
 			<SolidColorBrush x:Key="AutoSuggestBoxSuggestionsListBackground" Color="{StaticResource SystemChromeMediumLowColor}" />
 			<SolidColorBrush x:Key="AutoSuggestBoxSuggestionsListBorderBrush" Color="{StaticResource SystemChromeHighColor}" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Pivot -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Pivot -->
             <SolidColorBrush x:Key="PivotBackground" Color="Transparent" />
             <SolidColorBrush x:Key="PivotHeaderBackground" Color="Transparent" />
             <SolidColorBrush x:Key="PivotNextButtonBackground" Color="{StaticResource SystemBaseMediumLowColor}" />
@@ -1802,10 +1802,10 @@
 			<SolidColorBrush x:Key="PivotPreviousButtonForegroundPointerOver" Color="{StaticResource SystemAltMediumHighColor}" />
 			<SolidColorBrush x:Key="PivotPreviousButtonForegroundPressed" Color="{StaticResource SystemAltMediumHighColor}" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.PivotItem -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.PivotItem -->
 			<SolidColorBrush x:Key="PivotItemBackground" Color="Transparent" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.PivotHeaderItem -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem -->
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselected" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselectedPointerOver" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselectedPressed" Color="Transparent" />
@@ -2008,9 +2008,9 @@
 			<!--
         Resources for:
                 
-        Windows.UI.Xaml.Controls.TextBox
-        Windows.UI.Xaml.Controls.PasswordBox
-        Windows.UI.Xaml.Controls.RichEditBox
+        Microsoft.UI.Xaml.Controls.TextBox
+        Microsoft.UI.Xaml.Controls.PasswordBox
+        Microsoft.UI.Xaml.Controls.RichEditBox
         AutoSuggestTextBoxStyle
     -->
 			<SolidColorBrush x:Key="TextControlForeground" Color="{StaticResource SystemBaseHighColor}" />
@@ -2097,7 +2097,7 @@
 			<xamarin:Thickness x:Key="SearchBoxBorderThickness">0</xamarin:Thickness>
 			<xamarin:SolidColorBrush x:Key="SystemControlAcrylicElementBrush" Color="White"></xamarin:SolidColorBrush>
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.HyperlinkButton -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.HyperlinkButton -->
 			<xamarin:StaticResource x:Key="HyperlinkButtonForeground" ResourceKey="SystemControlHyperlinkTextBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonForegroundPointerOver" ResourceKey="SystemControlPageTextBaseMediumBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonForegroundPressed" ResourceKey="SystemControlHighlightBaseMediumLowBrush" />
@@ -2111,7 +2111,7 @@
 			<xamarin:StaticResource x:Key="HyperlinkButtonBorderBrushPressed" ResourceKey="SystemControlTransparentBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonBorderBrushDisabled" ResourceKey="SystemControlTransparentBrush" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.RepeatButton -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.RepeatButton -->
 			<StaticResource x:Key="RepeatButtonBackground" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="RepeatButtonBackgroundPointerOver" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="RepeatButtonBackgroundPressed" ResourceKey="SystemControlBackgroundBaseMediumLowBrush" />
@@ -2376,7 +2376,7 @@
 			<FontWeight x:Key="HubSectionHeaderThemeFontWeight">Normal</FontWeight>
 			<x:Boolean x:Key="IsApplicationFocusVisualKindReveal">False</x:Boolean>
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Slider -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Slider -->
 			<StaticResource x:Key="SliderContainerBackground" ResourceKey="SystemControlTransparentBrush" />
 			<StaticResource x:Key="SliderContainerBackgroundPointerOver" ResourceKey="SystemControlTransparentBrush" />
 			<StaticResource x:Key="SliderContainerBackgroundPressed" ResourceKey="SystemControlTransparentBrush" />
@@ -2399,7 +2399,7 @@
 			<StaticResource x:Key="SliderTickBarFillDisabled" ResourceKey="SystemControlDisabledBaseMediumLowBrush" />
 			<StaticResource x:Key="SliderInlineTickBarFill" ResourceKey="SystemControlBackgroundAltHighBrush" />
 
-			            <!-- Resources for Windows.UI.Xaml.Controls.Primitives.ScrollBar -->
+			            <!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.ScrollBar -->
             <StaticResource x:Key="ScrollBarBackground" ResourceKey="SystemControlTransparentBrush" />
             <StaticResource x:Key="ScrollBarBackgroundPointerOver" ResourceKey="SystemControlTransparentBrush" />
             <StaticResource x:Key="ScrollBarBackgroundDisabled" ResourceKey="SystemControlTransparentBrush" />
@@ -2610,7 +2610,7 @@
 			<SolidColorBrush x:Key="CheckBoxPressedBorderThemeBrush" Color="#FF000000" />
 			<SolidColorBrush x:Key="CheckBoxPressedForegroundThemeBrush" Color="#FFFFFFFF" />
 
-		    <!-- Resources for Windows.UI.Xaml.Controls.Button -->
+		    <!-- Resources for Microsoft.UI.Xaml.Controls.Button -->
 			<StaticResource x:Key="ButtonBackground" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="ButtonBackgroundPointerOver" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="ButtonBackgroundPressed" ResourceKey="SystemControlBackgroundBaseMediumLowBrush" />
@@ -2624,7 +2624,7 @@
 			<StaticResource x:Key="ButtonBorderBrushPressed" ResourceKey="SystemControlHighlightTransparentBrush" />
 			<StaticResource x:Key="ButtonBorderBrushDisabled" ResourceKey="SystemControlDisabledTransparentBrush" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.CheckBox -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.CheckBox -->
 			<StaticResource x:Key="CheckBoxForegroundUnchecked" ResourceKey="SystemControlForegroundBaseHighBrush" />
 			<StaticResource x:Key="CheckBoxForegroundUncheckedPointerOver" ResourceKey="SystemControlForegroundBaseHighBrush" />
 			<StaticResource x:Key="CheckBoxForegroundUncheckedPressed" ResourceKey="SystemControlForegroundBaseHighBrush" />
@@ -2843,7 +2843,7 @@
 			<SolidColorBrush x:Key="AutoSuggestBoxSuggestionsListBackground" Color="{StaticResource SystemChromeMediumLowColor}" />
 			<SolidColorBrush x:Key="AutoSuggestBoxSuggestionsListBorderBrush" Color="{StaticResource SystemChromeHighColor}" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Pivot -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Pivot -->
 			<SolidColorBrush x:Key="PivotBackground" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotHeaderBackground" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotNextButtonBackground" Color="{StaticResource SystemBaseMediumLowColor}" />
@@ -2865,10 +2865,10 @@
 			<SolidColorBrush x:Key="PivotPreviousButtonForegroundPointerOver" Color="{StaticResource SystemAltMediumHighColor}" />
 			<SolidColorBrush x:Key="PivotPreviousButtonForegroundPressed" Color="{StaticResource SystemAltMediumHighColor}" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.PivotItem -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.PivotItem -->
 			<SolidColorBrush x:Key="PivotItemBackground" Color="Transparent" />
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.PivotHeaderItem -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem -->
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselected" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselectedPointerOver" Color="Transparent" />
 			<SolidColorBrush x:Key="PivotHeaderItemBackgroundUnselectedPressed" Color="Transparent" />
@@ -3070,9 +3070,9 @@
 			<!--
         Resources for:
                 
-        Windows.UI.Xaml.Controls.TextBox
-        Windows.UI.Xaml.Controls.PasswordBox
-        Windows.UI.Xaml.Controls.RichEditBox
+        Microsoft.UI.Xaml.Controls.TextBox
+        Microsoft.UI.Xaml.Controls.PasswordBox
+        Microsoft.UI.Xaml.Controls.RichEditBox
         AutoSuggestTextBoxStyle
     -->
 			<SolidColorBrush x:Key="TextControlForeground"  Color="{StaticResource SystemBaseHighColor}" />
@@ -3159,7 +3159,7 @@
 			<xamarin:Thickness x:Key="SearchBoxBorderThickness">0</xamarin:Thickness>
 			<xamarin:SolidColorBrush x:Key="SystemControlAcrylicElementBrush" Color="White"></xamarin:SolidColorBrush>
 
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.HyperlinkButton -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.HyperlinkButton -->
 			<xamarin:StaticResource x:Key="HyperlinkButtonForeground" ResourceKey="SystemControlHyperlinkTextBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonForegroundPointerOver" ResourceKey="SystemControlPageTextBaseMediumBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonForegroundPressed" ResourceKey="SystemControlHighlightBaseMediumLowBrush" />
@@ -3173,7 +3173,7 @@
 			<xamarin:StaticResource x:Key="HyperlinkButtonBorderBrushPressed" ResourceKey="SystemControlTransparentBrush" />
 			<xamarin:StaticResource x:Key="HyperlinkButtonBorderBrushDisabled" ResourceKey="SystemControlTransparentBrush" />
 		  
-			<!-- Resources for Windows.UI.Xaml.Controls.Primitives.RepeatButton -->
+			<!-- Resources for Microsoft.UI.Xaml.Controls.Primitives.RepeatButton -->
 			<StaticResource x:Key="RepeatButtonBackground" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="RepeatButtonBackgroundPointerOver" ResourceKey="SystemControlBackgroundBaseLowBrush" />
 			<StaticResource x:Key="RepeatButtonBackgroundPressed" ResourceKey="SystemControlBackgroundBaseMediumLowBrush" />

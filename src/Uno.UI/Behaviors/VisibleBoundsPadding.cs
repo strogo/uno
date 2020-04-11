@@ -11,8 +11,8 @@ using Uno.Logging;
 using Windows.Foundation;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 using Microsoft.Extensions.Logging;
 #if XAMARIN_IOS
 using UIKit;

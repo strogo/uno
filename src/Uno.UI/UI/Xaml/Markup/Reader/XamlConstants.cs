@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Windows.UI.Xaml.Markup.Reader
+namespace Microsoft.UI.Xaml.Markup.Reader
 {
     internal static class XamlConstants
 	{
@@ -13,7 +13,7 @@ namespace Windows.UI.Xaml.Markup.Reader
 
 		public const string RootUINamespace = "Windows.UI";
 		public const string BaseXamlNamespace = RootUINamespace + ".Xaml";
-		public const string UnoXamlNamespace = "Windows.UI.Xaml";
+		public const string UnoXamlNamespace = "Microsoft.UI.Xaml";
 
 		public static class Namespaces
 		{

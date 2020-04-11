@@ -3,7 +3,7 @@ using System.Linq;
 using System.Windows.Input;
 using Uno.UI.Samples.UITests.Helpers;
 using Windows.UI.Core;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 
 namespace SamplesApp.Windows_UI_Xaml_Controls.Models
 {

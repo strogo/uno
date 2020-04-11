@@ -908,12 +908,12 @@ declare namespace Windows.UI.ViewManagement {
         static setBackgroundColor(colorString: string): void;
     }
 }
-declare namespace Windows.UI.Xaml {
+declare namespace Microsoft.UI.Xaml {
     class Application {
         static getDefaultSystemTheme(): string;
     }
 }
-declare namespace Windows.UI.Xaml {
+declare namespace Microsoft.UI.Xaml {
     enum ApplicationTheme {
         Light = "Light",
         Dark = "Dark"

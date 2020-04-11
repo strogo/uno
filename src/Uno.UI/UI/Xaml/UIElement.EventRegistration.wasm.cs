@@ -7,7 +7,7 @@ using Uno.Extensions;
 using Uno.Logging;
 using Uno.UI.Xaml;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	partial class UIElement
 	{

@@ -1,15 +1,15 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ManipulationStartingRoutedEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class ManipulationStartingRoutedEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.ManipulationPivot Pivot
+		public  global::Microsoft.UI.Xaml.Input.ManipulationPivot Pivot
 		{
 			get
 			{
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "ManipulationPivot ManipulationStartingRoutedEventArgs.Pivot");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "ManipulationPivot ManipulationStartingRoutedEventArgs.Pivot");
 			}
 		}
 		#endif
 		#if false
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.ManipulationModes Mode
+		public  global::Microsoft.UI.Xaml.Input.ManipulationModes Mode
 		{
 			get
 			{
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "ManipulationModes ManipulationStartingRoutedEventArgs.Mode");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "ManipulationModes ManipulationStartingRoutedEventArgs.Mode");
 			}
 		}
 		#endif
@@ -45,13 +45,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "bool ManipulationStartingRoutedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "bool ManipulationStartingRoutedEventArgs.Handled");
 			}
 		}
 		#endif
 		#if false
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Container
+		public  global::Microsoft.UI.Xaml.UIElement Container
 		{
 			get
 			{
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "UIElement ManipulationStartingRoutedEventArgs.Container");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "UIElement ManipulationStartingRoutedEventArgs.Container");
 			}
 		}
 		#endif
@@ -67,17 +67,17 @@ namespace Windows.UI.Xaml.Input
 		[global::Uno.NotImplemented]
 		public ManipulationStartingRoutedEventArgs() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "ManipulationStartingRoutedEventArgs.ManipulationStartingRoutedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs", "ManipulationStartingRoutedEventArgs.ManipulationStartingRoutedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.ManipulationStartingRoutedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Mode.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Mode.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Container.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Container.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Pivot.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Pivot.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.ManipulationStartingRoutedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Mode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Mode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Container.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Container.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Pivot.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Pivot.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationStartingRoutedEventArgs.Handled.set
 	}
 }

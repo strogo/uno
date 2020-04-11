@@ -2,8 +2,8 @@
 using System.ComponentModel;
 using System.Drawing;
 using System.Globalization;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Media;
 using Uno.UI.Extensions;
 
 #if XAMARIN_IOS_UNIFIED

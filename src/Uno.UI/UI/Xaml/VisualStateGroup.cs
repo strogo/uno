@@ -1,4 +1,4 @@
-﻿using Windows.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml.Controls;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -9,8 +9,8 @@ using System.Text;
 using Uno.Extensions;
 using Uno.Logging;
 using Uno.UI.DataBinding;
-using Windows.UI.Xaml.Media.Animation;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Media.Animation;
+using Microsoft.UI.Xaml.Markup;
 using Uno.UI;
 using Windows.Foundation.Collections;
 using Microsoft.Extensions.Logging;
@@ -21,7 +21,7 @@ using UIKit;
 using AppKit;
 #endif
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	[ContentProperty(Name = "States")]
 	public sealed partial class VisualStateGroup : DependencyObject

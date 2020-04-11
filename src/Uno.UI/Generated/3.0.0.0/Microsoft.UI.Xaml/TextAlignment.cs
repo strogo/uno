@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	#if false || false || false || false || false
@@ -8,17 +8,17 @@ namespace Windows.UI.Xaml
 	#endif
 	public   enum TextAlignment 
 	{
-		// Skipping already declared field Windows.UI.Xaml.TextAlignment.Center
-		// Skipping already declared field Windows.UI.Xaml.TextAlignment.Left
+		// Skipping already declared field Microsoft.UI.Xaml.TextAlignment.Center
+		// Skipping already declared field Microsoft.UI.Xaml.TextAlignment.Left
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		Start,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.TextAlignment.Right
+		// Skipping already declared field Microsoft.UI.Xaml.TextAlignment.Right
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		End,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.TextAlignment.Justify
-		// Skipping already declared field Windows.UI.Xaml.TextAlignment.DetectFromContent
+		// Skipping already declared field Microsoft.UI.Xaml.TextAlignment.Justify
+		// Skipping already declared field Microsoft.UI.Xaml.TextAlignment.DetectFromContent
 	}
 	#endif
 }

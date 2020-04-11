@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Android.Support.V7.Widget;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	internal class UnoViewHolder : RecyclerView.ViewHolder
 	{

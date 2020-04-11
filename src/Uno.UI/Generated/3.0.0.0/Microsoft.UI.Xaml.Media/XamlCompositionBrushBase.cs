@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class XamlCompositionBrushBase : global::Windows.UI.Xaml.Media.Brush
+	public  partial class XamlCompositionBrushBase : global::Microsoft.UI.Xaml.Media.Brush
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -31,44 +31,44 @@ namespace Windows.UI.Xaml.Media
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlCompositionBrushBase", "CompositionBrush XamlCompositionBrushBase.CompositionBrush");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlCompositionBrushBase", "CompositionBrush XamlCompositionBrushBase.CompositionBrush");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FallbackColorProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty FallbackColorProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"FallbackColor", typeof(global::Windows.UI.Color), 
-			typeof(global::Windows.UI.Xaml.Media.XamlCompositionBrushBase), 
+			typeof(global::Microsoft.UI.Xaml.Media.XamlCompositionBrushBase), 
 			new FrameworkPropertyMetadata(default(global::Windows.UI.Color)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected XamlCompositionBrushBase() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlCompositionBrushBase", "XamlCompositionBrushBase.XamlCompositionBrushBase()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlCompositionBrushBase", "XamlCompositionBrushBase.XamlCompositionBrushBase()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlCompositionBrushBase.XamlCompositionBrushBase()
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlCompositionBrushBase.FallbackColor.get
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlCompositionBrushBase.FallbackColor.set
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlCompositionBrushBase.CompositionBrush.get
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlCompositionBrushBase.CompositionBrush.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.XamlCompositionBrushBase()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.FallbackColor.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.FallbackColor.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.CompositionBrush.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.CompositionBrush.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnConnected()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlCompositionBrushBase", "void XamlCompositionBrushBase.OnConnected()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlCompositionBrushBase", "void XamlCompositionBrushBase.OnConnected()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnDisconnected()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlCompositionBrushBase", "void XamlCompositionBrushBase.OnDisconnected()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlCompositionBrushBase", "void XamlCompositionBrushBase.OnDisconnected()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlCompositionBrushBase.FallbackColorProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlCompositionBrushBase.FallbackColorProperty.get
 	}
 }

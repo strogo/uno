@@ -1,19 +1,19 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class KeyboardAccelerator : global::Windows.UI.Xaml.DependencyObject
+	public  partial class KeyboardAccelerator : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DependencyObject ScopeOwner
+		public  global::Microsoft.UI.Xaml.DependencyObject ScopeOwner
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.DependencyObject)this.GetValue(ScopeOwnerProperty);
+				return (global::Microsoft.UI.Xaml.DependencyObject)this.GetValue(ScopeOwnerProperty);
 			}
 			set
 			{
@@ -65,65 +65,65 @@ namespace Windows.UI.Xaml.Input
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsEnabledProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsEnabledProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsEnabled", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Input.KeyboardAccelerator), 
+			typeof(global::Microsoft.UI.Xaml.Input.KeyboardAccelerator), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty KeyProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty KeyProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Key", typeof(global::Windows.System.VirtualKey), 
-			typeof(global::Windows.UI.Xaml.Input.KeyboardAccelerator), 
+			typeof(global::Microsoft.UI.Xaml.Input.KeyboardAccelerator), 
 			new FrameworkPropertyMetadata(default(global::Windows.System.VirtualKey)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ModifiersProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ModifiersProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Modifiers", typeof(global::Windows.System.VirtualKeyModifiers), 
-			typeof(global::Windows.UI.Xaml.Input.KeyboardAccelerator), 
+			typeof(global::Microsoft.UI.Xaml.Input.KeyboardAccelerator), 
 			new FrameworkPropertyMetadata(default(global::Windows.System.VirtualKeyModifiers)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ScopeOwnerProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ScopeOwner", typeof(global::Windows.UI.Xaml.DependencyObject), 
-			typeof(global::Windows.UI.Xaml.Input.KeyboardAccelerator), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.DependencyObject)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ScopeOwnerProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ScopeOwner", typeof(global::Microsoft.UI.Xaml.DependencyObject), 
+			typeof(global::Microsoft.UI.Xaml.Input.KeyboardAccelerator), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.DependencyObject)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Input.KeyboardAccelerator.KeyboardAccelerator()
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.KeyboardAccelerator()
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.Key.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.Key.set
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.Modifiers.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.Modifiers.set
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.IsEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.IsEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.ScopeOwner.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.ScopeOwner.set
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.Invoked.add
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.Invoked.remove
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.KeyProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.ModifiersProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.IsEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Input.KeyboardAccelerator.ScopeOwnerProperty.get
+		// Skipping already declared method Microsoft.UI.Xaml.Input.KeyboardAccelerator.KeyboardAccelerator()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.KeyboardAccelerator()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.Key.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.Key.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.Modifiers.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.Modifiers.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.IsEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.IsEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.ScopeOwner.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.ScopeOwner.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.Invoked.add
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.Invoked.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.KeyProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.ModifiersProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.IsEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.KeyboardAccelerator.ScopeOwnerProperty.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Input.KeyboardAccelerator, global::Windows.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs> Invoked
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Input.KeyboardAccelerator, global::Microsoft.UI.Xaml.Input.KeyboardAcceleratorInvokedEventArgs> Invoked
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.KeyboardAccelerator", "event TypedEventHandler<KeyboardAccelerator, KeyboardAcceleratorInvokedEventArgs> KeyboardAccelerator.Invoked");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.KeyboardAccelerator", "event TypedEventHandler<KeyboardAccelerator, KeyboardAcceleratorInvokedEventArgs> KeyboardAccelerator.Invoked");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.KeyboardAccelerator", "event TypedEventHandler<KeyboardAccelerator, KeyboardAcceleratorInvokedEventArgs> KeyboardAccelerator.Invoked");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.KeyboardAccelerator", "event TypedEventHandler<KeyboardAccelerator, KeyboardAcceleratorInvokedEventArgs> KeyboardAccelerator.Invoked");
 			}
 		}
 		#endif

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Markup
+namespace Microsoft.UI.Xaml.Markup
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -32,23 +32,23 @@ namespace Windows.UI.Xaml.Markup
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		global::Windows.UI.Xaml.Markup.IXamlType TargetType
+		global::Microsoft.UI.Xaml.Markup.IXamlType TargetType
 		{
 			get;
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		global::Windows.UI.Xaml.Markup.IXamlType Type
+		global::Microsoft.UI.Xaml.Markup.IXamlType Type
 		{
 			get;
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Markup.IXamlMember.IsAttachable.get
-		// Forced skipping of method Windows.UI.Xaml.Markup.IXamlMember.IsDependencyProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Markup.IXamlMember.IsReadOnly.get
-		// Forced skipping of method Windows.UI.Xaml.Markup.IXamlMember.Name.get
-		// Forced skipping of method Windows.UI.Xaml.Markup.IXamlMember.TargetType.get
-		// Forced skipping of method Windows.UI.Xaml.Markup.IXamlMember.Type.get
+		// Forced skipping of method Microsoft.UI.Xaml.Markup.IXamlMember.IsAttachable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Markup.IXamlMember.IsDependencyProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Markup.IXamlMember.IsReadOnly.get
+		// Forced skipping of method Microsoft.UI.Xaml.Markup.IXamlMember.Name.get
+		// Forced skipping of method Microsoft.UI.Xaml.Markup.IXamlMember.TargetType.get
+		// Forced skipping of method Microsoft.UI.Xaml.Markup.IXamlMember.Type.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		object GetValue( object instance);
 		#endif

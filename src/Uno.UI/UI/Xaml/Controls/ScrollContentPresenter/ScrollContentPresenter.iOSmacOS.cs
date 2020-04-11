@@ -1,8 +1,8 @@
 ﻿using Uno.Extensions;
 using Uno.UI.DataBinding;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 using Uno.UI.Extensions;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 using System;
 using System.Collections.Generic;
 using System.Drawing;
@@ -24,7 +24,7 @@ using CoreGraphics;
 using Uno.Logging;
 using Windows.Foundation;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class ScrollContentPresenter : _NativeScrollView, DependencyObject
 	{

@@ -12,7 +12,7 @@ using Android.Views;
 using Android.Widget;
 using Uno.Extensions;
 using Uno.Logging;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 using Uno.UI.Extensions;
 using System.Drawing;
 using Windows.UI.Core;

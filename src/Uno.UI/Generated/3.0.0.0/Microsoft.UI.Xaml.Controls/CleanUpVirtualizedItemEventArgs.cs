@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class CleanUpVirtualizedItemEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class CleanUpVirtualizedItemEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs", "bool CleanUpVirtualizedItemEventArgs.Cancel");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs", "bool CleanUpVirtualizedItemEventArgs.Cancel");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement UIElement
+		public  global::Microsoft.UI.Xaml.UIElement UIElement
 		{
 			get
 			{
@@ -41,9 +41,9 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.Value.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.UIElement.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.Cancel.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.Cancel.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.Value.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.UIElement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.Cancel.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.CleanUpVirtualizedItemEventArgs.Cancel.set
 	}
 }

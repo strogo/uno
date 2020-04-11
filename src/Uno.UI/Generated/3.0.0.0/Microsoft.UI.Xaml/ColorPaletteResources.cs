@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ColorPaletteResources : global::Windows.UI.Xaml.ResourceDictionary
+	public  partial class ColorPaletteResources : global::Microsoft.UI.Xaml.ResourceDictionary
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ListMedium");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ListMedium");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ListLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ListLow");
 			}
 		}
 		#endif
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ErrorText");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ErrorText");
 			}
 		}
 		#endif
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeWhite");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeWhite");
 			}
 		}
 		#endif
@@ -73,7 +73,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeMediumLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeMediumLow");
 			}
 		}
 		#endif
@@ -87,7 +87,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeMedium");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeMedium");
 			}
 		}
 		#endif
@@ -101,7 +101,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeLow");
 			}
 		}
 		#endif
@@ -115,7 +115,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeHigh");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeHigh");
 			}
 		}
 		#endif
@@ -129,7 +129,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeGray");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeGray");
 			}
 		}
 		#endif
@@ -143,7 +143,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeDisabledLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeDisabledLow");
 			}
 		}
 		#endif
@@ -157,7 +157,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeDisabledHigh");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeDisabledHigh");
 			}
 		}
 		#endif
@@ -171,7 +171,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeBlackMediumLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeBlackMediumLow");
 			}
 		}
 		#endif
@@ -185,7 +185,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeBlackMedium");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeBlackMedium");
 			}
 		}
 		#endif
@@ -199,7 +199,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeBlackLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeBlackLow");
 			}
 		}
 		#endif
@@ -213,7 +213,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeBlackHigh");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeBlackHigh");
 			}
 		}
 		#endif
@@ -227,7 +227,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeAltLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.ChromeAltLow");
 			}
 		}
 		#endif
@@ -241,7 +241,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseMediumLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseMediumLow");
 			}
 		}
 		#endif
@@ -255,7 +255,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseMediumHigh");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseMediumHigh");
 			}
 		}
 		#endif
@@ -269,7 +269,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseMedium");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseMedium");
 			}
 		}
 		#endif
@@ -283,7 +283,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseLow");
 			}
 		}
 		#endif
@@ -297,7 +297,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseHigh");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.BaseHigh");
 			}
 		}
 		#endif
@@ -311,7 +311,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltMediumLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltMediumLow");
 			}
 		}
 		#endif
@@ -325,7 +325,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltMediumHigh");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltMediumHigh");
 			}
 		}
 		#endif
@@ -339,7 +339,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltMedium");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltMedium");
 			}
 		}
 		#endif
@@ -353,7 +353,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltLow");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltLow");
 			}
 		}
 		#endif
@@ -367,7 +367,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltHigh");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.AltHigh");
 			}
 		}
 		#endif
@@ -381,7 +381,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.Accent");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "Color? ColorPaletteResources.Accent");
 			}
 		}
 		#endif
@@ -389,63 +389,63 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public ColorPaletteResources() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ColorPaletteResources", "ColorPaletteResources.ColorPaletteResources()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ColorPaletteResources", "ColorPaletteResources.ColorPaletteResources()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ColorPaletteResources()
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltHigh.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltHigh.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltMedium.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltMedium.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltMediumHigh.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltMediumHigh.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltMediumLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.AltMediumLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseHigh.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseHigh.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseMedium.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseMedium.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseMediumHigh.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseMediumHigh.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseMediumLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.BaseMediumLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeAltLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeAltLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeBlackHigh.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeBlackHigh.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeBlackLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeBlackLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeBlackMediumLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeBlackMediumLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeBlackMedium.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeBlackMedium.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeDisabledHigh.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeDisabledHigh.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeDisabledLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeDisabledLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeHigh.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeHigh.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeMedium.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeMedium.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeMediumLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeMediumLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeWhite.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeWhite.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeGray.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ChromeGray.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ListLow.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ListLow.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ListMedium.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ListMedium.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ErrorText.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.ErrorText.set
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.Accent.get
-		// Forced skipping of method Windows.UI.Xaml.ColorPaletteResources.Accent.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ColorPaletteResources()
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltHigh.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltHigh.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltMedium.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltMedium.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltMediumHigh.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltMediumHigh.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltMediumLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.AltMediumLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseHigh.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseHigh.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseMedium.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseMedium.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseMediumHigh.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseMediumHigh.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseMediumLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.BaseMediumLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeAltLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeAltLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackHigh.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackHigh.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackMediumLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackMediumLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackMedium.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeBlackMedium.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeDisabledHigh.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeDisabledHigh.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeDisabledLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeDisabledLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeHigh.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeHigh.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeMedium.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeMedium.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeMediumLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeMediumLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeWhite.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeWhite.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeGray.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ChromeGray.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ListLow.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ListLow.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ListMedium.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ListMedium.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ErrorText.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.ErrorText.set
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.Accent.get
+		// Forced skipping of method Microsoft.UI.Xaml.ColorPaletteResources.Accent.set
 	}
 }

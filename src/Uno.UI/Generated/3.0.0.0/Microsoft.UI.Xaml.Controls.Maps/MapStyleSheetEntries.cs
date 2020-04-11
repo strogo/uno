@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -647,69 +647,69 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Area.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Airport.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Cemetery.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Continent.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Education.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.IndigenousPeoplesReserve.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Island.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Medical.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Military.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Nautical.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Neighborhood.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Runway.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Sand.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.ShoppingCenter.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Stadium.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Vegetation.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Forest.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.GolfCourse.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Park.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.PlayingField.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Reserve.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Point.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.NaturalPoint.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Peak.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.VolcanicPeak.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.WaterPoint.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.PointOfInterest.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Business.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.FoodPoint.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.PopulatedPlace.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Capital.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.AdminDistrictCapital.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.CountryRegionCapital.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.RoadShield.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.RoadExit.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Transit.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Political.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.CountryRegion.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.AdminDistrict.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.District.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Structure.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Building.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.EducationBuilding.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.MedicalBuilding.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.TransitBuilding.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Transportation.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Road.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.ControlledAccessHighway.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.HighSpeedRamp.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Highway.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.MajorRoad.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.ArterialRoad.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Street.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Ramp.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.UnpavedStreet.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.TollRoad.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Railway.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Trail.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.WaterRoute.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Water.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.River.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.RouteLine.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.WalkingRoute.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapStyleSheetEntries.DrivingRoute.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Area.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Airport.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Cemetery.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Continent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Education.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.IndigenousPeoplesReserve.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Island.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Medical.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Military.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Nautical.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Neighborhood.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Runway.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Sand.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.ShoppingCenter.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Stadium.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Vegetation.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Forest.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.GolfCourse.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Park.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.PlayingField.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Reserve.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Point.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.NaturalPoint.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Peak.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.VolcanicPeak.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.WaterPoint.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.PointOfInterest.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Business.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.FoodPoint.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.PopulatedPlace.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Capital.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.AdminDistrictCapital.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.CountryRegionCapital.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.RoadShield.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.RoadExit.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Transit.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Political.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.CountryRegion.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.AdminDistrict.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.District.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Structure.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Building.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.EducationBuilding.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.MedicalBuilding.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.TransitBuilding.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Transportation.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Road.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.ControlledAccessHighway.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.HighSpeedRamp.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Highway.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.MajorRoad.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.ArterialRoad.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Street.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Ramp.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.UnpavedStreet.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.TollRoad.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Railway.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Trail.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.WaterRoute.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.Water.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.River.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.RouteLine.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.WalkingRoute.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapStyleSheetEntries.DrivingRoute.get
 	}
 }

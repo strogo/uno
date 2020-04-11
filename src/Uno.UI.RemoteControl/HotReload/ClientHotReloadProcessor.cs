@@ -7,9 +7,9 @@ using Microsoft.Extensions.Logging;
 using Newtonsoft.Json;
 using Uno.Extensions;
 using Uno.UI.RemoteControl.HotReload.Messages;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Markup;
 
 namespace Uno.UI.RemoteControl.HotReload
 {

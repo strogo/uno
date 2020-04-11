@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ParallaxView : global::Windows.UI.Xaml.FrameworkElement
+	public  partial class ParallaxView : global::Microsoft.UI.Xaml.FrameworkElement
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -23,11 +23,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.ParallaxSourceOffsetKind VerticalSourceOffsetKind
+		public  global::Microsoft.UI.Xaml.Controls.ParallaxSourceOffsetKind VerticalSourceOffsetKind
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.ParallaxSourceOffsetKind)this.GetValue(VerticalSourceOffsetKindProperty);
+				return (global::Microsoft.UI.Xaml.Controls.ParallaxSourceOffsetKind)this.GetValue(VerticalSourceOffsetKindProperty);
 			}
 			set
 			{
@@ -65,11 +65,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Source
+		public  global::Microsoft.UI.Xaml.UIElement Source
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.UIElement)this.GetValue(SourceProperty);
+				return (global::Microsoft.UI.Xaml.UIElement)this.GetValue(SourceProperty);
 			}
 			set
 			{
@@ -149,11 +149,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.ParallaxSourceOffsetKind HorizontalSourceOffsetKind
+		public  global::Microsoft.UI.Xaml.Controls.ParallaxSourceOffsetKind HorizontalSourceOffsetKind
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.ParallaxSourceOffsetKind)this.GetValue(HorizontalSourceOffsetKindProperty);
+				return (global::Microsoft.UI.Xaml.Controls.ParallaxSourceOffsetKind)this.GetValue(HorizontalSourceOffsetKindProperty);
 			}
 			set
 			{
@@ -191,11 +191,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Child
+		public  global::Microsoft.UI.Xaml.UIElement Child
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.UIElement)this.GetValue(ChildProperty);
+				return (global::Microsoft.UI.Xaml.UIElement)this.GetValue(ChildProperty);
 			}
 			set
 			{
@@ -205,179 +205,179 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ChildProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"Child", typeof(global::Windows.UI.Xaml.UIElement), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.UIElement)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ChildProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"Child", typeof(global::Microsoft.UI.Xaml.UIElement), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.UIElement)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HorizontalShiftProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty HorizontalShiftProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"HorizontalShift", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HorizontalSourceEndOffsetProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty HorizontalSourceEndOffsetProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"HorizontalSourceEndOffset", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HorizontalSourceOffsetKindProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"HorizontalSourceOffsetKind", typeof(global::Windows.UI.Xaml.Controls.ParallaxSourceOffsetKind), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.ParallaxSourceOffsetKind)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty HorizontalSourceOffsetKindProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"HorizontalSourceOffsetKind", typeof(global::Microsoft.UI.Xaml.Controls.ParallaxSourceOffsetKind), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.ParallaxSourceOffsetKind)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HorizontalSourceStartOffsetProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty HorizontalSourceStartOffsetProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"HorizontalSourceStartOffset", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsHorizontalShiftClampedProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsHorizontalShiftClampedProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsHorizontalShiftClamped", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsVerticalShiftClampedProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsVerticalShiftClampedProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsVerticalShiftClamped", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty MaxHorizontalShiftRatioProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty MaxHorizontalShiftRatioProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MaxHorizontalShiftRatio", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty MaxVerticalShiftRatioProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty MaxVerticalShiftRatioProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MaxVerticalShiftRatio", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SourceProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"Source", typeof(global::Windows.UI.Xaml.UIElement), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.UIElement)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty SourceProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"Source", typeof(global::Microsoft.UI.Xaml.UIElement), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.UIElement)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty VerticalShiftProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty VerticalShiftProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"VerticalShift", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty VerticalSourceEndOffsetProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty VerticalSourceEndOffsetProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"VerticalSourceEndOffset", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty VerticalSourceOffsetKindProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"VerticalSourceOffsetKind", typeof(global::Windows.UI.Xaml.Controls.ParallaxSourceOffsetKind), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.ParallaxSourceOffsetKind)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty VerticalSourceOffsetKindProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"VerticalSourceOffsetKind", typeof(global::Microsoft.UI.Xaml.Controls.ParallaxSourceOffsetKind), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.ParallaxSourceOffsetKind)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty VerticalSourceStartOffsetProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty VerticalSourceStartOffsetProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"VerticalSourceStartOffset", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ParallaxView), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ParallaxView), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public ParallaxView() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ParallaxView", "ParallaxView.ParallaxView()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ParallaxView", "ParallaxView.ParallaxView()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.ParallaxView()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.Child.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.Child.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalShift.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalShift.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceEndOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceEndOffset.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceOffsetKind.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceOffsetKind.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceStartOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceStartOffset.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.IsHorizontalShiftClamped.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.IsHorizontalShiftClamped.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.IsVerticalShiftClamped.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.IsVerticalShiftClamped.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.MaxHorizontalShiftRatio.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.MaxHorizontalShiftRatio.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.MaxVerticalShiftRatio.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.MaxVerticalShiftRatio.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.Source.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.Source.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalShift.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalShift.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceEndOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceEndOffset.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceOffsetKind.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceOffsetKind.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceStartOffset.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceStartOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.ParallaxView()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.Child.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.Child.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalShift.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalShift.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceEndOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceEndOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceOffsetKind.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceOffsetKind.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceStartOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceStartOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.IsHorizontalShiftClamped.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.IsHorizontalShiftClamped.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.IsVerticalShiftClamped.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.IsVerticalShiftClamped.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.MaxHorizontalShiftRatio.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.MaxHorizontalShiftRatio.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.MaxVerticalShiftRatio.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.MaxVerticalShiftRatio.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.Source.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.Source.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalShift.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalShift.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceEndOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceEndOffset.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceOffsetKind.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceOffsetKind.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceStartOffset.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceStartOffset.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void RefreshAutomaticHorizontalOffsets()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ParallaxView", "void ParallaxView.RefreshAutomaticHorizontalOffsets()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ParallaxView", "void ParallaxView.RefreshAutomaticHorizontalOffsets()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void RefreshAutomaticVerticalOffsets()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ParallaxView", "void ParallaxView.RefreshAutomaticVerticalOffsets()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ParallaxView", "void ParallaxView.RefreshAutomaticVerticalOffsets()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.ChildProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceEndOffsetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceOffsetKindProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalSourceStartOffsetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.MaxHorizontalShiftRatioProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.HorizontalShiftProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.IsHorizontalShiftClampedProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.IsVerticalShiftClampedProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.SourceProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceEndOffsetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceOffsetKindProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalSourceStartOffsetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.MaxVerticalShiftRatioProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ParallaxView.VerticalShiftProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.ChildProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceEndOffsetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceOffsetKindProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalSourceStartOffsetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.MaxHorizontalShiftRatioProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.HorizontalShiftProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.IsHorizontalShiftClampedProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.IsVerticalShiftClampedProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.SourceProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceEndOffsetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceOffsetKindProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalSourceStartOffsetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.MaxVerticalShiftRatioProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ParallaxView.VerticalShiftProperty.get
 	}
 }

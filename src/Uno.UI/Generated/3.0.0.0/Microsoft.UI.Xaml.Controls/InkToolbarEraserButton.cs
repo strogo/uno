@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class InkToolbarEraserButton : global::Windows.UI.Xaml.Controls.InkToolbarToolButton
+	public  partial class InkToolbarEraserButton : global::Microsoft.UI.Xaml.Controls.InkToolbarToolButton
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -23,22 +23,22 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsClearAllVisibleProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsClearAllVisibleProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsClearAllVisible", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.InkToolbarEraserButton), 
+			typeof(global::Microsoft.UI.Xaml.Controls.InkToolbarEraserButton), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public InkToolbarEraserButton() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.InkToolbarEraserButton", "InkToolbarEraserButton.InkToolbarEraserButton()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.InkToolbarEraserButton", "InkToolbarEraserButton.InkToolbarEraserButton()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarEraserButton.InkToolbarEraserButton()
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarEraserButton.IsClearAllVisible.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarEraserButton.IsClearAllVisible.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarEraserButton.IsClearAllVisibleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarEraserButton.InkToolbarEraserButton()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarEraserButton.IsClearAllVisible.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarEraserButton.IsClearAllVisible.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarEraserButton.IsClearAllVisibleProperty.get
 	}
 }

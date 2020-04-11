@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.TreeViewItemInvokedEventArgs", "bool TreeViewItemInvokedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.TreeViewItemInvokedEventArgs", "bool TreeViewItemInvokedEventArgs.Handled");
 			}
 		}
 		#endif
@@ -31,8 +31,8 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewItemInvokedEventArgs.InvokedItem.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewItemInvokedEventArgs.Handled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.TreeViewItemInvokedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewItemInvokedEventArgs.InvokedItem.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewItemInvokedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.TreeViewItemInvokedEventArgs.Handled.get
 	}
 }

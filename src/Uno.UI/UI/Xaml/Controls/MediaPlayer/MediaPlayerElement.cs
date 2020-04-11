@@ -4,9 +4,9 @@ using Uno.Extensions;
 using Windows.Media.Playback;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	[TemplatePart(Name = PosterImageName, Type = typeof(Image))]
 	[TemplatePart(Name = TransportControlsPresenterName, Type = typeof(ContentPresenter))]
@@ -26,7 +26,7 @@ namespace Windows.UI.Xaml.Controls
 
 		private bool _isTransportControlsBound;
 
-		#region Source Property
+#region Source Property
 
 		public IMediaPlaybackSource Source
 		{
@@ -59,9 +59,9 @@ namespace Windows.UI.Xaml.Controls
 			});
 		}
 
-		#endregion
+#endregion
 
-		#region PosterSource Property
+#region PosterSource Property
 
 		public ImageSource PosterSource
 		{
@@ -87,9 +87,9 @@ namespace Windows.UI.Xaml.Controls
 			});
 		}
 
-		#endregion
+#endregion
 
-		#region AutoPlay Property
+#region AutoPlay Property
 
 		public bool AutoPlay
 		{
@@ -115,9 +115,9 @@ namespace Windows.UI.Xaml.Controls
 			});
 		}
 
-		#endregion
+#endregion
 
-		#region IsFullWindow Property
+#region IsFullWindow Property
 
 		public bool IsFullWindow
 		{
@@ -157,13 +157,13 @@ namespace Windows.UI.Xaml.Controls
 					_layoutRoot.RemoveFromSuperview();
 #endif
 
-					Windows.UI.Xaml.Window.Current.DisplayFullscreen(_layoutRoot);
+					Microsoft.UI.Xaml.Window.Current.DisplayFullscreen(_layoutRoot);
 				}
 				else
 				{
 					ApplicationView.GetForCurrentView().ExitFullScreenMode();
 
-					Windows.UI.Xaml.Window.Current.DisplayFullscreen(null);
+					Microsoft.UI.Xaml.Window.Current.DisplayFullscreen(null);
 
 #if __ANDROID__
 					this.AddView(_layoutRoot);
@@ -178,9 +178,9 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 
-		#endregion
+#endregion
 
-		#region MediaPlayer Property
+#region MediaPlayer Property
 
 		public Windows.Media.Playback.MediaPlayer MediaPlayer
 		{
@@ -233,9 +233,9 @@ namespace Windows.UI.Xaml.Controls
 			});
 		}
 
-		#endregion
+#endregion
 
-		#region AreTransportControlsEnabled Property
+#region AreTransportControlsEnabled Property
 
 		public bool AreTransportControlsEnabled
 		{
@@ -250,9 +250,9 @@ namespace Windows.UI.Xaml.Controls
 				typeof(MediaPlayerElement),
 				new FrameworkPropertyMetadata(false));
 
-		#endregion
+#endregion
 
-		#region Stretch Property
+#region Stretch Property
 
 		public Stretch Stretch
 		{
@@ -267,7 +267,7 @@ namespace Windows.UI.Xaml.Controls
 				typeof(MediaPlayerElement),
 				new FrameworkPropertyMetadata(Stretch.Uniform));
 
-		#endregion
+#endregion
 
 		private MediaTransportControls _transportControls;
 		public MediaTransportControls TransportControls

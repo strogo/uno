@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -37,59 +37,59 @@ namespace Windows.UI.Xaml.Media
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.LoadedImageSurface.DecodedPhysicalSize.get
-		// Forced skipping of method Windows.UI.Xaml.Media.LoadedImageSurface.DecodedSize.get
-		// Forced skipping of method Windows.UI.Xaml.Media.LoadedImageSurface.NaturalSize.get
-		// Forced skipping of method Windows.UI.Xaml.Media.LoadedImageSurface.LoadCompleted.add
-		// Forced skipping of method Windows.UI.Xaml.Media.LoadedImageSurface.LoadCompleted.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.LoadedImageSurface.DecodedPhysicalSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.LoadedImageSurface.DecodedSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.LoadedImageSurface.NaturalSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.LoadedImageSurface.LoadCompleted.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.LoadedImageSurface.LoadCompleted.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void Dispose()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.LoadedImageSurface", "void LoadedImageSurface.Dispose()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.LoadedImageSurface", "void LoadedImageSurface.Dispose()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Media.LoadedImageSurface StartLoadFromUri( global::System.Uri uri,  global::Windows.Foundation.Size desiredMaxSize)
+		public static global::Microsoft.UI.Xaml.Media.LoadedImageSurface StartLoadFromUri( global::System.Uri uri,  global::Windows.Foundation.Size desiredMaxSize)
 		{
 			throw new global::System.NotImplementedException("The member LoadedImageSurface LoadedImageSurface.StartLoadFromUri(Uri uri, Size desiredMaxSize) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Media.LoadedImageSurface StartLoadFromUri( global::System.Uri uri)
+		public static global::Microsoft.UI.Xaml.Media.LoadedImageSurface StartLoadFromUri( global::System.Uri uri)
 		{
 			throw new global::System.NotImplementedException("The member LoadedImageSurface LoadedImageSurface.StartLoadFromUri(Uri uri) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Media.LoadedImageSurface StartLoadFromStream( global::Windows.Storage.Streams.IRandomAccessStream stream,  global::Windows.Foundation.Size desiredMaxSize)
+		public static global::Microsoft.UI.Xaml.Media.LoadedImageSurface StartLoadFromStream( global::Windows.Storage.Streams.IRandomAccessStream stream,  global::Windows.Foundation.Size desiredMaxSize)
 		{
 			throw new global::System.NotImplementedException("The member LoadedImageSurface LoadedImageSurface.StartLoadFromStream(IRandomAccessStream stream, Size desiredMaxSize) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Media.LoadedImageSurface StartLoadFromStream( global::Windows.Storage.Streams.IRandomAccessStream stream)
+		public static global::Microsoft.UI.Xaml.Media.LoadedImageSurface StartLoadFromStream( global::Windows.Storage.Streams.IRandomAccessStream stream)
 		{
 			throw new global::System.NotImplementedException("The member LoadedImageSurface LoadedImageSurface.StartLoadFromStream(IRandomAccessStream stream) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Media.LoadedImageSurface, global::Windows.UI.Xaml.Media.LoadedImageSourceLoadCompletedEventArgs> LoadCompleted
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Media.LoadedImageSurface, global::Microsoft.UI.Xaml.Media.LoadedImageSourceLoadCompletedEventArgs> LoadCompleted
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.LoadedImageSurface", "event TypedEventHandler<LoadedImageSurface, LoadedImageSourceLoadCompletedEventArgs> LoadedImageSurface.LoadCompleted");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.LoadedImageSurface", "event TypedEventHandler<LoadedImageSurface, LoadedImageSourceLoadCompletedEventArgs> LoadedImageSurface.LoadCompleted");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.LoadedImageSurface", "event TypedEventHandler<LoadedImageSurface, LoadedImageSourceLoadCompletedEventArgs> LoadedImageSurface.LoadCompleted");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.LoadedImageSurface", "event TypedEventHandler<LoadedImageSurface, LoadedImageSourceLoadCompletedEventArgs> LoadedImageSurface.LoadCompleted");
 			}
 		}
 		#endif

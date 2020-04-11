@@ -3,10 +3,10 @@ using System;
 using System.Collections.Generic;
 using Uno.Disposables;
 using System.Text;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Automation.Peers;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class PasswordBox : TextBox
 	{
@@ -137,7 +137,7 @@ namespace Windows.UI.Xaml.Controls
 			set => this.SetValue(IsPasswordRevealButtonEnabledProperty, value);			
 		}
 
-		public static global::Windows.UI.Xaml.DependencyProperty IsPasswordRevealButtonEnabledProperty { get; } = 
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsPasswordRevealButtonEnabledProperty { get; } = 
 			DependencyProperty.Register(
 				nameof(IsPasswordRevealButtonEnabled),
 				typeof(bool),

@@ -18,10 +18,10 @@ using NativeView = UIKit.UIView;
 #elif __MACOS__
 using NativeView = AppKit.NSView;
 #else
-using NativeView = Windows.UI.Xaml.UIElement;
+using NativeView = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class Grid : Panel, IDisposable
 	{

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Automation;
-using Windows.UI.Xaml.Automation.Peers;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Automation;
+using Microsoft.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Controls;
 using Uno.UI.Xaml.Controls;
 
 namespace Uno.UI
@@ -39,12 +39,12 @@ namespace Uno.UI
 		public static class CompositionTarget
 		{
 			/// <summary>
-			/// The delay between invocations of the <see cref="Windows.UI.Xaml.Media.CompositionTarget.Rendering"/> event, in milliseconds.
+			/// The delay between invocations of the <see cref="Microsoft.UI.Xaml.Media.CompositionTarget.Rendering"/> event, in milliseconds.
 			/// Lower values will increase the rate at which the event fires, at the expense of increased CPU usage.
 			///
 			/// This property is only used on WebAssembly.
 			/// </summary>
-			/// <remarks>The <see cref="Windows.UI.Xaml.Media.CompositionTarget.Rendering"/> event is used by Xamarin.Forms for WebAssembly for XF animations.</remarks>
+			/// <remarks>The <see cref="Microsoft.UI.Xaml.Media.CompositionTarget.Rendering"/> event is used by Xamarin.Forms for WebAssembly for XF animations.</remarks>
 			public static int RenderEventThrottle { get; set; } = 30;
 		}
 
@@ -67,7 +67,7 @@ namespace Uno.UI
 			public static bool UseLegacyContentAlignment { get; set; } = false;
 
 			/// <summary>
-			/// Enables the lazy materialization of <see cref="Windows.UI.Xaml.Controls.Control"/> template. This behavior
+			/// Enables the lazy materialization of <see cref="Microsoft.UI.Xaml.Controls.Control"/> template. This behavior
 			/// is not aligned with UWP, which materializes templates immediately, making x:Name controls available
 			/// in the constructor of a control.
 			/// </summary>
@@ -110,7 +110,7 @@ namespace Uno.UI
 			public static bool UseLegacyApplyStylePhase { get; set; } = false;
 
 			/// <summary>
-			/// When changing a style on a <see cref="Windows.UI.Xaml.FrameworkElement"/> clears
+			/// When changing a style on a <see cref="Microsoft.UI.Xaml.FrameworkElement"/> clears
 			/// the previous style setters. This property is applicable only when <see cref="UseLegacyApplyStylePhase"/>
 			/// is set to <see cref="false"/>.
 			/// </summary>
@@ -118,8 +118,8 @@ namespace Uno.UI
 
 #if __ANDROID__
 			/// <summary>
-			/// Controls the propagation of <see cref="Windows.UI.Xaml.FrameworkElement.Loaded"/> and
-			/// <see cref="Windows.UI.Xaml.FrameworkElement.Unloaded"/> events through managed
+			/// Controls the propagation of <see cref="Microsoft.UI.Xaml.FrameworkElement.Loaded"/> and
+			/// <see cref="Microsoft.UI.Xaml.FrameworkElement.Unloaded"/> events through managed
 			/// or native visual tree traversal.
 			/// </summary>
 			/// <remarks>
@@ -131,8 +131,8 @@ namespace Uno.UI
 
 #if __WASM__
 			/// <summary>
-			/// Controls the propagation of <see cref="Windows.UI.Xaml.FrameworkElement.Loaded"/> and
-			/// <see cref="Windows.UI.Xaml.FrameworkElement.Unloaded"/> events through managed
+			/// Controls the propagation of <see cref="Microsoft.UI.Xaml.FrameworkElement.Loaded"/> and
+			/// <see cref="Microsoft.UI.Xaml.FrameworkElement.Unloaded"/> events through managed
 			/// or native visual tree traversal.
 			/// </summary>
 			/// <remarks>

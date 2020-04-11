@@ -4,7 +4,7 @@ using System.Text;
 using Uno;
 using Windows.Devices.Input;
 
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	public sealed partial class Pointer : IEquatable<Pointer>
 	{

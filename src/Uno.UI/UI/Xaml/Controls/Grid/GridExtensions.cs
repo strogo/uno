@@ -16,13 +16,13 @@ using View = MonoTouch.UIKit.UIView;
 using Color = MonoTouch.UIKit.UIColor;
 using Font = MonoTouch.UIKit.UIFont;
 #elif NETFX_CORE
-using View = Windows.UI.Xaml.FrameworkElement;
-using Windows.UI.Xaml.Controls;
+using View = Microsoft.UI.Xaml.FrameworkElement;
+using Microsoft.UI.Xaml.Controls;
 #else
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
     public static class GridExtensions
     {

@@ -5,12 +5,12 @@ using System.Diagnostics;
 using Uno.Disposables;
 using Windows.Foundation;
 using Windows.System;
-using Windows.UI.Xaml.Automation.Peers;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Markup;
-using Windows.UI.Xaml.Media.Animation;
+using Microsoft.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Media.Animation;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	[ContentProperty(Name = "Items")]
 	public partial class MenuFlyoutSubItem : MenuFlyoutItemBase, ISubMenuOwner
@@ -52,15 +52,15 @@ namespace Windows.UI.Xaml.Controls
 			set => this.SetValue(IconProperty, value);
 		}
 
-		public static Windows.UI.Xaml.DependencyProperty TextProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static Microsoft.UI.Xaml.DependencyProperty TextProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Text",
 			typeof(string),
 			typeof(MenuFlyoutSubItem),
 			new FrameworkPropertyMetadata(default(string)));
 
-		public static Windows.UI.Xaml.DependencyProperty IconProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static Microsoft.UI.Xaml.DependencyProperty IconProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Icon",
 			typeof(IconElement),
 			typeof(MenuFlyoutSubItem),

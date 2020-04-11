@@ -3,7 +3,7 @@ using Android.Animation;
 using Android.Widget;
 using Com.Airbnb.Lottie;
 using Windows.Foundation;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 
 namespace Microsoft.Toolkit.Uwp.UI.Lottie
 {
@@ -96,16 +96,16 @@ namespace Microsoft.Toolkit.Uwp.UI.Lottie
 
 				switch (player.Stretch)
 				{
-					case Windows.UI.Xaml.Media.Stretch.None:
+					case Microsoft.UI.Xaml.Media.Stretch.None:
 						_animation.SetScaleType(ImageView.ScaleType.Center);
 						break;
-					case Windows.UI.Xaml.Media.Stretch.Uniform:
+					case Microsoft.UI.Xaml.Media.Stretch.Uniform:
 						_animation.SetScaleType(ImageView.ScaleType.CenterInside);
 						break;
-					case Windows.UI.Xaml.Media.Stretch.Fill:
+					case Microsoft.UI.Xaml.Media.Stretch.Fill:
 						_animation.SetScaleType(ImageView.ScaleType.FitXy);
 						break;
-					case Windows.UI.Xaml.Media.Stretch.UniformToFill:
+					case Microsoft.UI.Xaml.Media.Stretch.UniformToFill:
 						_animation.SetScaleType(ImageView.ScaleType.CenterCrop);
 						break;
 				}

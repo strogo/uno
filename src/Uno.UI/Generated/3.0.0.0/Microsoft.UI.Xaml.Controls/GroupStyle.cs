@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.ItemsPanelTemplate Panel
+		public  global::Microsoft.UI.Xaml.Controls.ItemsPanelTemplate Panel
 		{
 			get
 			{
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.GroupStyle", "ItemsPanelTemplate GroupStyle.Panel");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.GroupStyle", "ItemsPanelTemplate GroupStyle.Panel");
 			}
 		}
 		#endif
@@ -26,7 +26,7 @@ namespace Windows.UI.Xaml.Controls
 		// Skipping already declared property HeaderTemplate
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.StyleSelector ContainerStyleSelector
+		public  global::Microsoft.UI.Xaml.Controls.StyleSelector ContainerStyleSelector
 		{
 			get
 			{
@@ -34,13 +34,13 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.GroupStyle", "StyleSelector GroupStyle.ContainerStyleSelector");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.GroupStyle", "StyleSelector GroupStyle.ContainerStyleSelector");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Style ContainerStyle
+		public  global::Microsoft.UI.Xaml.Style ContainerStyle
 		{
 			get
 			{
@@ -48,29 +48,29 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.GroupStyle", "Style GroupStyle.ContainerStyle");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.GroupStyle", "Style GroupStyle.ContainerStyle");
 			}
 		}
 		#endif
 		// Skipping already declared property HeaderContainerStyle
-		// Skipping already declared method Windows.UI.Xaml.Controls.GroupStyle.GroupStyle()
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.GroupStyle()
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.Panel.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.Panel.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.ContainerStyle.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.ContainerStyle.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.ContainerStyleSelector.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.ContainerStyleSelector.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.HeaderTemplate.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.HeaderTemplate.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.HeaderTemplateSelector.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.HeaderTemplateSelector.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.HidesIfEmpty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.HidesIfEmpty.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.HeaderContainerStyle.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.HeaderContainerStyle.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.PropertyChanged.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.GroupStyle.PropertyChanged.remove
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.GroupStyle.GroupStyle()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.GroupStyle()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.Panel.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.Panel.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.ContainerStyle.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.ContainerStyle.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.ContainerStyleSelector.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.ContainerStyleSelector.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.HeaderTemplate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.HeaderTemplate.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.HeaderTemplateSelector.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.HeaderTemplateSelector.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.HidesIfEmpty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.HidesIfEmpty.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.HeaderContainerStyle.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.HeaderContainerStyle.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.PropertyChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.GroupStyle.PropertyChanged.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  event global::System.ComponentModel.PropertyChangedEventHandler PropertyChanged
@@ -78,12 +78,12 @@ namespace Windows.UI.Xaml.Controls
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.GroupStyle", "event PropertyChangedEventHandler GroupStyle.PropertyChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.GroupStyle", "event PropertyChangedEventHandler GroupStyle.PropertyChanged");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.GroupStyle", "event PropertyChangedEventHandler GroupStyle.PropertyChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.GroupStyle", "event PropertyChangedEventHandler GroupStyle.PropertyChanged");
 			}
 		}
 		#endif

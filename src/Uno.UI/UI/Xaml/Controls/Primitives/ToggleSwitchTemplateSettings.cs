@@ -1,16 +1,16 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	[global::Uno.NotImplemented]
-	public partial class ToggleSwitchTemplateSettings : global::Windows.UI.Xaml.DependencyObject
+	public partial class ToggleSwitchTemplateSettings : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		[global::Uno.NotImplemented]
 		public  double CurtainCurrentToOffOffset
 		{
 			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "CurtainCurrentToOffOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "CurtainCurrentToOffOffset");
 				return 0;
 			}
 		}
@@ -20,7 +20,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		{
 			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "CurtainCurrentToOnOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "CurtainCurrentToOnOffset");
 				return 0;
 			}
 		}
@@ -30,7 +30,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		{
 			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "CurtainOffToOnOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "CurtainOffToOnOffset");
 				return 0;
 			}
 		}
@@ -40,7 +40,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		{
 			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "CurtainOnToOffOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "CurtainOnToOffOffset");
 				return 0;
 			}
 		}
@@ -50,7 +50,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		{
 			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "KnobCurrentToOffOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "KnobCurrentToOffOffset");
 				return 0;
 			}
 		}
@@ -60,7 +60,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		{
 			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "KnobCurrentToOnOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "KnobCurrentToOnOffset");
 				return 0;
 			}
 		}
@@ -70,7 +70,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		{
 			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "KnobOffToOnOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "KnobOffToOnOffset");
 				return 0;
 			}
 		}
@@ -80,7 +80,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		{
 			get
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "KnobOnToOffOffset");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.ToggleSwitchTemplateSettings", "KnobOnToOffOffset");
 				return 0;
 			}
 		}

@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ManipulationDeltaRoutedEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class ManipulationDeltaRoutedEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if false
 		[global::Uno.NotImplemented]
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs", "bool ManipulationDeltaRoutedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs", "bool ManipulationDeltaRoutedEventArgs.Handled");
 			}
 		}
 		#endif
 		#if false
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Container
+		public  global::Microsoft.UI.Xaml.UIElement Container
 		{
 			get
 			{
@@ -95,24 +95,24 @@ namespace Windows.UI.Xaml.Input
 		[global::Uno.NotImplemented]
 		public ManipulationDeltaRoutedEventArgs() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs", "ManipulationDeltaRoutedEventArgs.ManipulationDeltaRoutedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs", "ManipulationDeltaRoutedEventArgs.ManipulationDeltaRoutedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.ManipulationDeltaRoutedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Container.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Position.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.IsInertial.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Delta.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Cumulative.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Velocities.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Handled.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.PointerDeviceType.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.ManipulationDeltaRoutedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Container.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Position.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.IsInertial.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Delta.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Cumulative.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Velocities.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs.PointerDeviceType.get
 		#if false
 		[global::Uno.NotImplemented]
 		public  void Complete()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs", "void ManipulationDeltaRoutedEventArgs.Complete()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationDeltaRoutedEventArgs", "void ManipulationDeltaRoutedEventArgs.Complete()");
 		}
 		#endif
 	}

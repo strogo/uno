@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Maps.MapCamera Camera
+		public  global::Microsoft.UI.Xaml.Controls.Maps.MapCamera Camera
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Maps.MapCameraChangeReason ChangeReason
+		public  global::Microsoft.UI.Xaml.Controls.Maps.MapCameraChangeReason ChangeReason
 		{
 			get
 			{
@@ -31,11 +31,11 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapTargetCameraChangedEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapTargetCameraChangedEventArgs", "MapTargetCameraChangedEventArgs.MapTargetCameraChangedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapTargetCameraChangedEventArgs", "MapTargetCameraChangedEventArgs.MapTargetCameraChangedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTargetCameraChangedEventArgs.MapTargetCameraChangedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTargetCameraChangedEventArgs.Camera.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTargetCameraChangedEventArgs.ChangeReason.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTargetCameraChangedEventArgs.MapTargetCameraChangedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTargetCameraChangedEventArgs.Camera.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTargetCameraChangedEventArgs.ChangeReason.get
 	}
 }

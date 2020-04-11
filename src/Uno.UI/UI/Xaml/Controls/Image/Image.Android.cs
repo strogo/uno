@@ -8,8 +8,8 @@ using Uno.Logging;
 using Uno.Diagnostics.Eventing;
 using Uno.UI.DataBinding;
 using Uno.UI.Controls;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Media;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -22,10 +22,10 @@ using Android.Runtime;
 using System.Threading;
 using Uno.UI;
 using Windows.UI.Core;
-using Windows.UI.Xaml.Media.Imaging;
+using Microsoft.UI.Xaml.Media.Imaging;
 using Windows.Storage.Streams;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class Image : ImageView, IImage
 	{

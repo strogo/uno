@@ -19,7 +19,7 @@ using View = UIKit.UIView;
 using View = MonoTouch.UIKit.UIView;
 #endif
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	/// <summary>
 	/// Defines a delegate to be called when a property value changes.

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs", "bool AccessKeyInvokedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.AccessKeyInvokedEventArgs", "bool AccessKeyInvokedEventArgs.Handled");
 			}
 		}
 		#endif
@@ -25,11 +25,11 @@ namespace Windows.UI.Xaml.Input
 		[global::Uno.NotImplemented]
 		public AccessKeyInvokedEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs", "AccessKeyInvokedEventArgs.AccessKeyInvokedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.AccessKeyInvokedEventArgs", "AccessKeyInvokedEventArgs.AccessKeyInvokedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs.AccessKeyInvokedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.AccessKeyInvokedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.AccessKeyInvokedEventArgs.AccessKeyInvokedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.AccessKeyInvokedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.AccessKeyInvokedEventArgs.Handled.set
 	}
 }

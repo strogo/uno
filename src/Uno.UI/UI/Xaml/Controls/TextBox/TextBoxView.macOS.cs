@@ -1,7 +1,7 @@
 using CoreGraphics;
 using System;
 using Uno.Extensions;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using Uno.UI.Controls;
 using Foundation;
 using System.Collections;
@@ -9,7 +9,7 @@ using System.Linq;
 using AppKit;
 using _TextField = AppKit.NSTextField;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class TextBoxView : _TextField, ITextBoxView, DependencyObject, IFontScalable
 	{

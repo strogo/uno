@@ -1,14 +1,14 @@
 ﻿using Android.Graphics;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using System;
 using Uno.Logging;
 using Uno.Extensions;
 using System.Drawing;
 using Uno.UI;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using System.Linq;
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public partial class Shape
 	{

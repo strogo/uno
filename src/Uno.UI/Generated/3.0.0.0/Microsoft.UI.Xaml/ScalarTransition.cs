@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ScalarTransition", "TimeSpan ScalarTransition.Duration");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ScalarTransition", "TimeSpan ScalarTransition.Duration");
 			}
 		}
 		#endif
@@ -25,11 +25,11 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public ScalarTransition() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ScalarTransition", "ScalarTransition.ScalarTransition()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ScalarTransition", "ScalarTransition.ScalarTransition()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.ScalarTransition.ScalarTransition()
-		// Forced skipping of method Windows.UI.Xaml.ScalarTransition.Duration.get
-		// Forced skipping of method Windows.UI.Xaml.ScalarTransition.Duration.set
+		// Forced skipping of method Microsoft.UI.Xaml.ScalarTransition.ScalarTransition()
+		// Forced skipping of method Microsoft.UI.Xaml.ScalarTransition.Duration.get
+		// Forced skipping of method Microsoft.UI.Xaml.ScalarTransition.Duration.set
 	}
 }

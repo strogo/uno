@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class MapCamera : global::Windows.UI.Xaml.DependencyObject
+	public  partial class MapCamera : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "double MapCamera.Roll");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "double MapCamera.Roll");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "double MapCamera.Pitch");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "double MapCamera.Pitch");
 			}
 		}
 		#endif
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "Geopoint MapCamera.Location");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "Geopoint MapCamera.Location");
 			}
 		}
 		#endif
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "double MapCamera.Heading");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "double MapCamera.Heading");
 			}
 		}
 		#endif
@@ -73,7 +73,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "double MapCamera.FieldOfView");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "double MapCamera.FieldOfView");
 			}
 		}
 		#endif
@@ -81,43 +81,43 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapCamera( global::Windows.Devices.Geolocation.Geopoint location) : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "MapCamera.MapCamera(Geopoint location)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "MapCamera.MapCamera(Geopoint location)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.MapCamera(Windows.Devices.Geolocation.Geopoint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.MapCamera(Windows.Devices.Geolocation.Geopoint)
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public MapCamera( global::Windows.Devices.Geolocation.Geopoint location,  double headingInDegrees) : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "MapCamera.MapCamera(Geopoint location, double headingInDegrees)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "MapCamera.MapCamera(Geopoint location, double headingInDegrees)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.MapCamera(Windows.Devices.Geolocation.Geopoint, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.MapCamera(Windows.Devices.Geolocation.Geopoint, double)
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public MapCamera( global::Windows.Devices.Geolocation.Geopoint location,  double headingInDegrees,  double pitchInDegrees) : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "MapCamera.MapCamera(Geopoint location, double headingInDegrees, double pitchInDegrees)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "MapCamera.MapCamera(Geopoint location, double headingInDegrees, double pitchInDegrees)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.MapCamera(Windows.Devices.Geolocation.Geopoint, double, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.MapCamera(Windows.Devices.Geolocation.Geopoint, double, double)
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public MapCamera( global::Windows.Devices.Geolocation.Geopoint location,  double headingInDegrees,  double pitchInDegrees,  double rollInDegrees,  double fieldOfViewInDegrees) : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCamera", "MapCamera.MapCamera(Geopoint location, double headingInDegrees, double pitchInDegrees, double rollInDegrees, double fieldOfViewInDegrees)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCamera", "MapCamera.MapCamera(Geopoint location, double headingInDegrees, double pitchInDegrees, double rollInDegrees, double fieldOfViewInDegrees)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.MapCamera(Windows.Devices.Geolocation.Geopoint, double, double, double, double)
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.Location.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.Location.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.Heading.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.Heading.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.Pitch.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.Pitch.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.Roll.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.Roll.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.FieldOfView.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCamera.FieldOfView.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.MapCamera(Windows.Devices.Geolocation.Geopoint, double, double, double, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.Location.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.Location.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.Heading.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.Heading.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.Pitch.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.Pitch.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.Roll.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.Roll.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.FieldOfView.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCamera.FieldOfView.set
 	}
 }

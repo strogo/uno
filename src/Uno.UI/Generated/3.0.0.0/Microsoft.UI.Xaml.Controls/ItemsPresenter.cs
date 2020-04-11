@@ -1,20 +1,20 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ItemsPresenter : global::Windows.UI.Xaml.FrameworkElement,global::Windows.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo
+	public  partial class ItemsPresenter : global::Microsoft.UI.Xaml.FrameworkElement,global::Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo
 	{
 		// Skipping already declared property Padding
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Animation.TransitionCollection HeaderTransitions
+		public  global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection HeaderTransitions
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Animation.TransitionCollection)this.GetValue(HeaderTransitionsProperty);
+				return (global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection)this.GetValue(HeaderTransitionsProperty);
 			}
 			set
 			{
@@ -24,11 +24,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DataTemplate HeaderTemplate
+		public  global::Microsoft.UI.Xaml.DataTemplate HeaderTemplate
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.DataTemplate)this.GetValue(HeaderTemplateProperty);
+				return (global::Microsoft.UI.Xaml.DataTemplate)this.GetValue(HeaderTemplateProperty);
 			}
 			set
 			{
@@ -52,11 +52,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Animation.TransitionCollection FooterTransitions
+		public  global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection FooterTransitions
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Animation.TransitionCollection)this.GetValue(FooterTransitionsProperty);
+				return (global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection)this.GetValue(FooterTransitionsProperty);
 			}
 			set
 			{
@@ -66,11 +66,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DataTemplate FooterTemplate
+		public  global::Microsoft.UI.Xaml.DataTemplate FooterTemplate
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.DataTemplate)this.GetValue(FooterTemplateProperty);
+				return (global::Microsoft.UI.Xaml.DataTemplate)this.GetValue(FooterTemplateProperty);
 			}
 			set
 			{
@@ -96,84 +96,84 @@ namespace Windows.UI.Xaml.Controls
 		// Skipping already declared property AreVerticalSnapPointsRegular
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HeaderProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty HeaderProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Header", typeof(object), 
-			typeof(global::Windows.UI.Xaml.Controls.ItemsPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ItemsPresenter), 
 			new FrameworkPropertyMetadata(default(object)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"HeaderTemplate", typeof(global::Windows.UI.Xaml.DataTemplate), 
-			typeof(global::Windows.UI.Xaml.Controls.ItemsPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.DataTemplate)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"HeaderTemplate", typeof(global::Microsoft.UI.Xaml.DataTemplate), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ItemsPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.DataTemplate)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HeaderTransitionsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"HeaderTransitions", typeof(global::Windows.UI.Xaml.Media.Animation.TransitionCollection), 
-			typeof(global::Windows.UI.Xaml.Controls.ItemsPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Animation.TransitionCollection)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty HeaderTransitionsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"HeaderTransitions", typeof(global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ItemsPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection)));
 		#endif
 		// Skipping already declared property PaddingProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FooterProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty FooterProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Footer", typeof(object), 
-			typeof(global::Windows.UI.Xaml.Controls.ItemsPresenter), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ItemsPresenter), 
 			new FrameworkPropertyMetadata(default(object)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FooterTemplateProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"FooterTemplate", typeof(global::Windows.UI.Xaml.DataTemplate), 
-			typeof(global::Windows.UI.Xaml.Controls.ItemsPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.DataTemplate)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty FooterTemplateProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"FooterTemplate", typeof(global::Microsoft.UI.Xaml.DataTemplate), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ItemsPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.DataTemplate)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FooterTransitionsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"FooterTransitions", typeof(global::Windows.UI.Xaml.Media.Animation.TransitionCollection), 
-			typeof(global::Windows.UI.Xaml.Controls.ItemsPresenter), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Animation.TransitionCollection)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty FooterTransitionsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"FooterTransitions", typeof(global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ItemsPresenter), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Controls.ItemsPresenter.ItemsPresenter()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.ItemsPresenter()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.Header.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.Header.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HeaderTemplate.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HeaderTemplate.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HeaderTransitions.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HeaderTransitions.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.Padding.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.Padding.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.Footer.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.Footer.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.FooterTemplate.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.FooterTemplate.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.FooterTransitions.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.FooterTransitions.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.AreHorizontalSnapPointsRegular.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.AreVerticalSnapPointsRegular.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HorizontalSnapPointsChanged.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HorizontalSnapPointsChanged.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.VerticalSnapPointsChanged.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.VerticalSnapPointsChanged.remove
-		// Skipping already declared method Windows.UI.Xaml.Controls.ItemsPresenter.GetIrregularSnapPoints(Windows.UI.Xaml.Controls.Orientation, Windows.UI.Xaml.Controls.Primitives.SnapPointsAlignment)
-		// Skipping already declared method Windows.UI.Xaml.Controls.ItemsPresenter.GetRegularSnapPoints(Windows.UI.Xaml.Controls.Orientation, Windows.UI.Xaml.Controls.Primitives.SnapPointsAlignment, out float)
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.FooterProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.FooterTemplateProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.FooterTransitionsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HeaderProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HeaderTemplateProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.HeaderTransitionsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsPresenter.PaddingProperty.get
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsPresenter.ItemsPresenter()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.ItemsPresenter()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.Header.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.Header.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTemplate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTemplate.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTransitions.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTransitions.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.Padding.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.Padding.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.Footer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.Footer.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTemplate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTemplate.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTransitions.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTransitions.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.AreHorizontalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.AreVerticalSnapPointsRegular.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HorizontalSnapPointsChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HorizontalSnapPointsChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.VerticalSnapPointsChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.VerticalSnapPointsChanged.remove
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsPresenter.GetIrregularSnapPoints(Microsoft.UI.Xaml.Controls.Orientation, Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment)
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsPresenter.GetRegularSnapPoints(Microsoft.UI.Xaml.Controls.Orientation, Microsoft.UI.Xaml.Controls.Primitives.SnapPointsAlignment, out float)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTemplateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.FooterTransitionsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTemplateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.HeaderTransitionsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsPresenter.PaddingProperty.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  event global::System.EventHandler<object> HorizontalSnapPointsChanged
@@ -181,12 +181,12 @@ namespace Windows.UI.Xaml.Controls
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ItemsPresenter", "event EventHandler<object> ItemsPresenter.HorizontalSnapPointsChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ItemsPresenter", "event EventHandler<object> ItemsPresenter.HorizontalSnapPointsChanged");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ItemsPresenter", "event EventHandler<object> ItemsPresenter.HorizontalSnapPointsChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ItemsPresenter", "event EventHandler<object> ItemsPresenter.HorizontalSnapPointsChanged");
 			}
 		}
 		#endif
@@ -197,15 +197,15 @@ namespace Windows.UI.Xaml.Controls
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ItemsPresenter", "event EventHandler<object> ItemsPresenter.VerticalSnapPointsChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ItemsPresenter", "event EventHandler<object> ItemsPresenter.VerticalSnapPointsChanged");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ItemsPresenter", "event EventHandler<object> ItemsPresenter.VerticalSnapPointsChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ItemsPresenter", "event EventHandler<object> ItemsPresenter.VerticalSnapPointsChanged");
 			}
 		}
 		#endif
-		// Processing: Windows.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo
+		// Processing: Microsoft.UI.Xaml.Controls.Primitives.IScrollSnapPointsInfo
 	}
 }

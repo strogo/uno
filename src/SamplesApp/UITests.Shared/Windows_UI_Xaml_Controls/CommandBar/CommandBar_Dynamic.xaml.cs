@@ -6,13 +6,13 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using Uno.UI.Samples.Controls;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Navigation;
 
 namespace Uno.UI.Samples.Content.UITests.CommandBar
 {
@@ -24,10 +24,10 @@ namespace Uno.UI.Samples.Content.UITests.CommandBar
 			this.InitializeComponent();
 
 			cbVisibility.ItemsSource = Visibilities;
-			cbVisibility.SelectedItem = Windows.UI.Xaml.Visibility.Visible;
+			cbVisibility.SelectedItem = Microsoft.UI.Xaml.Visibility.Visible;
 
 			CommandVisibility.ItemsSource = Visibilities;
-			CommandVisibility.SelectedItem = Windows.UI.Xaml.Visibility.Visible;
+			CommandVisibility.SelectedItem = Microsoft.UI.Xaml.Visibility.Visible;
 
 			BackgroundColor.ItemsSource = Colors;
 			BackgroundColor.SelectedItem = Windows.UI.Colors.Red;
@@ -54,10 +54,10 @@ namespace Uno.UI.Samples.Content.UITests.CommandBar
 			false,
 		};
 
-		public Windows.UI.Xaml.Visibility[] Visibilities = new[]
+		public Microsoft.UI.Xaml.Visibility[] Visibilities = new[]
 		{
-			Windows.UI.Xaml.Visibility.Visible,
-			Windows.UI.Xaml.Visibility.Collapsed,
+			Microsoft.UI.Xaml.Visibility.Visible,
+			Microsoft.UI.Xaml.Visibility.Collapsed,
 		};
 	}
 }

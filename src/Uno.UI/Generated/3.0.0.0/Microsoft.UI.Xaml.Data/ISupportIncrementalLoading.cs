@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Data
+namespace Microsoft.UI.Xaml.Data
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -8,7 +8,7 @@ namespace Windows.UI.Xaml.Data
 	public  partial interface ISupportIncrementalLoading 
 	{
 		// Skipping already declared property HasMoreItems
-		// Skipping already declared method Windows.UI.Xaml.Data.ISupportIncrementalLoading.LoadMoreItemsAsync(uint)
-		// Forced skipping of method Windows.UI.Xaml.Data.ISupportIncrementalLoading.HasMoreItems.get
+		// Skipping already declared method Microsoft.UI.Xaml.Data.ISupportIncrementalLoading.LoadMoreItemsAsync(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ISupportIncrementalLoading.HasMoreItems.get
 	}
 }

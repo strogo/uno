@@ -9,7 +9,7 @@ using Foundation;
 using Windows.UI.Input;
 using CoreGraphics;
 
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	partial class PointerRoutedEventArgs
 	{

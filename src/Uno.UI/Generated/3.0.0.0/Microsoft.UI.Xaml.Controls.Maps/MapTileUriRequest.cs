@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapTileUriRequest", "Uri MapTileUriRequest.Uri");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequest", "Uri MapTileUriRequest.Uri");
 			}
 		}
 		#endif
@@ -25,15 +25,15 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapTileUriRequest() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapTileUriRequest", "MapTileUriRequest.MapTileUriRequest()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequest", "MapTileUriRequest.MapTileUriRequest()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequest.MapTileUriRequest()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequest.Uri.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequest.Uri.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequest.MapTileUriRequest()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequest.Uri.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequest.Uri.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Maps.MapTileUriRequestDeferral GetDeferral()
+		public  global::Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestDeferral GetDeferral()
 		{
 			throw new global::System.NotImplementedException("The member MapTileUriRequestDeferral MapTileUriRequest.GetDeferral() is not implemented in Uno.");
 		}

@@ -1,15 +1,15 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ManipulationInertiaStartingRoutedEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class ManipulationInertiaStartingRoutedEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.InertiaTranslationBehavior TranslationBehavior
+		public  global::Microsoft.UI.Xaml.Input.InertiaTranslationBehavior TranslationBehavior
 		{
 			get
 			{
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "InertiaTranslationBehavior ManipulationInertiaStartingRoutedEventArgs.TranslationBehavior");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "InertiaTranslationBehavior ManipulationInertiaStartingRoutedEventArgs.TranslationBehavior");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.InertiaRotationBehavior RotationBehavior
+		public  global::Microsoft.UI.Xaml.Input.InertiaRotationBehavior RotationBehavior
 		{
 			get
 			{
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "InertiaRotationBehavior ManipulationInertiaStartingRoutedEventArgs.RotationBehavior");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "InertiaRotationBehavior ManipulationInertiaStartingRoutedEventArgs.RotationBehavior");
 			}
 		}
 		#endif
@@ -45,13 +45,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "bool ManipulationInertiaStartingRoutedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "bool ManipulationInertiaStartingRoutedEventArgs.Handled");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.InertiaExpansionBehavior ExpansionBehavior
+		public  global::Microsoft.UI.Xaml.Input.InertiaExpansionBehavior ExpansionBehavior
 		{
 			get
 			{
@@ -59,13 +59,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "InertiaExpansionBehavior ManipulationInertiaStartingRoutedEventArgs.ExpansionBehavior");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "InertiaExpansionBehavior ManipulationInertiaStartingRoutedEventArgs.ExpansionBehavior");
 			}
 		}
 		#endif
 		#if false
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Container
+		public  global::Microsoft.UI.Xaml.UIElement Container
 		{
 			get
 			{
@@ -117,22 +117,22 @@ namespace Windows.UI.Xaml.Input
 		[global::Uno.NotImplemented]
 		public ManipulationInertiaStartingRoutedEventArgs() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "ManipulationInertiaStartingRoutedEventArgs.ManipulationInertiaStartingRoutedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs", "ManipulationInertiaStartingRoutedEventArgs.ManipulationInertiaStartingRoutedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ManipulationInertiaStartingRoutedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Container.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ExpansionBehavior.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ExpansionBehavior.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.RotationBehavior.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.RotationBehavior.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.TranslationBehavior.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.TranslationBehavior.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Handled.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.PointerDeviceType.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Delta.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Cumulative.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Velocities.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ManipulationInertiaStartingRoutedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Container.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ExpansionBehavior.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.ExpansionBehavior.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.RotationBehavior.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.RotationBehavior.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.TranslationBehavior.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.TranslationBehavior.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.PointerDeviceType.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Delta.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Cumulative.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationInertiaStartingRoutedEventArgs.Velocities.get
 	}
 }

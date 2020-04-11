@@ -2,7 +2,7 @@
 using Uno.Extensions;
 using Uno.Logging;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	/// <summary>
 	/// Defines a property assignation in a style or story board.

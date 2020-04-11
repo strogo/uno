@@ -1,13 +1,13 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class PickerConfirmedEventArgs : global::Windows.UI.Xaml.DependencyObject
+	public  partial class PickerConfirmedEventArgs : global::Microsoft.UI.Xaml.DependencyObject
 	{
-		// Skipping already declared method Windows.UI.Xaml.Controls.PickerConfirmedEventArgs.PickerConfirmedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.PickerConfirmedEventArgs.PickerConfirmedEventArgs()
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.PickerConfirmedEventArgs.PickerConfirmedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.PickerConfirmedEventArgs.PickerConfirmedEventArgs()
 	}
 }

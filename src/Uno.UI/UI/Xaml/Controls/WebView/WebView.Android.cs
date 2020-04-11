@@ -20,7 +20,7 @@ using Uno.UI;
 using Uno.Logging;
 using Uno.Disposables;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class WebView : Control, ICustomClippingElement
 	{

@@ -7,7 +7,7 @@ using Uno.UI;
 using Android.Views;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
     public partial class PivotItem : ContentControl
     {

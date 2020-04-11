@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class TimelineMarkerCollection : global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.TimelineMarker>,global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.TimelineMarker>
+	public  partial class TimelineMarkerCollection : global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Media.TimelineMarker>,global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Media.TimelineMarker>
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -21,42 +21,42 @@ namespace Windows.UI.Xaml.Media
 		[global::Uno.NotImplemented]
 		public TimelineMarkerCollection() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.TimelineMarkerCollection", "TimelineMarkerCollection.TimelineMarkerCollection()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.TimelineMarkerCollection", "TimelineMarkerCollection.TimelineMarkerCollection()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.TimelineMarkerCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.Size.get
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.GetView()
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.IndexOf(Windows.UI.Xaml.Media.TimelineMarker, out uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.SetAt(uint, Windows.UI.Xaml.Media.TimelineMarker)
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.InsertAt(uint, Windows.UI.Xaml.Media.TimelineMarker)
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.Append(Windows.UI.Xaml.Media.TimelineMarker)
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.Clear()
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.GetMany(uint, Windows.UI.Xaml.Media.TimelineMarker[])
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.ReplaceAll(Windows.UI.Xaml.Media.TimelineMarker[])
-		// Forced skipping of method Windows.UI.Xaml.Media.TimelineMarkerCollection.First()
-		// Processing: System.Collections.Generic.IList<Windows.UI.Xaml.Media.TimelineMarker>
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.TimelineMarkerCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.IndexOf(Microsoft.UI.Xaml.Media.TimelineMarker, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.SetAt(uint, Microsoft.UI.Xaml.Media.TimelineMarker)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.InsertAt(uint, Microsoft.UI.Xaml.Media.TimelineMarker)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.Append(Microsoft.UI.Xaml.Media.TimelineMarker)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.GetMany(uint, Microsoft.UI.Xaml.Media.TimelineMarker[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.ReplaceAll(Microsoft.UI.Xaml.Media.TimelineMarker[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.TimelineMarkerCollection.First()
+		// Processing: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.TimelineMarker>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
-		public int IndexOf( global::Windows.UI.Xaml.Media.TimelineMarker item)
+		public int IndexOf( global::Microsoft.UI.Xaml.Media.TimelineMarker item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
-		public void Insert( int index,  global::Windows.UI.Xaml.Media.TimelineMarker item)
+		public void Insert( int index,  global::Microsoft.UI.Xaml.Media.TimelineMarker item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
 		public void RemoveAt( int index)
 		{
@@ -65,7 +65,7 @@ namespace Windows.UI.Xaml.Media
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public global::Windows.UI.Xaml.Media.TimelineMarker this[int index]
+		public global::Microsoft.UI.Xaml.Media.TimelineMarker this[int index]
 		{
 			get
 			{
@@ -77,17 +77,17 @@ namespace Windows.UI.Xaml.Media
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.TimelineMarker>
+		// Processing: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.TimelineMarker>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
-		public void Add( global::Windows.UI.Xaml.Media.TimelineMarker item)
+		public void Add( global::Microsoft.UI.Xaml.Media.TimelineMarker item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
 		public void Clear()
 		{
@@ -95,25 +95,25 @@ namespace Windows.UI.Xaml.Media
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
-		public bool Contains( global::Windows.UI.Xaml.Media.TimelineMarker item)
+		public bool Contains( global::Microsoft.UI.Xaml.Media.TimelineMarker item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
-		public void CopyTo( global::Windows.UI.Xaml.Media.TimelineMarker[] array,  int arrayIndex)
+		public void CopyTo( global::Microsoft.UI.Xaml.Media.TimelineMarker[] array,  int arrayIndex)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
-		public bool Remove( global::Windows.UI.Xaml.Media.TimelineMarker item)
+		public bool Remove( global::Microsoft.UI.Xaml.Media.TimelineMarker item)
 		{
 			throw new global::System.NotSupportedException();
 		}
@@ -146,11 +146,11 @@ namespace Windows.UI.Xaml.Media
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Media.TimelineMarker>
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Media.TimelineMarker>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Media.TimelineMarker>
+		// DeclaringType: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Media.TimelineMarker>
 		[global::Uno.NotImplemented]
-		public global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.Media.TimelineMarker> GetEnumerator()
+		public global::System.Collections.Generic.IEnumerator<global::Microsoft.UI.Xaml.Media.TimelineMarker> GetEnumerator()
 		{
 			throw new global::System.NotSupportedException();
 		}

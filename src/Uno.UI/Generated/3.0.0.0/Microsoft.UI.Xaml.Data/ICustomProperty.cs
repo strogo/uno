@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Data
+namespace Microsoft.UI.Xaml.Data
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -31,8 +31,8 @@ namespace Windows.UI.Xaml.Data
 			get;
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Data.ICustomProperty.Type.get
-		// Forced skipping of method Windows.UI.Xaml.Data.ICustomProperty.Name.get
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ICustomProperty.Type.get
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ICustomProperty.Name.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		object GetValue( object target);
 		#endif
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml.Data
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		void SetIndexedValue( object target,  object value,  object index);
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Data.ICustomProperty.CanWrite.get
-		// Forced skipping of method Windows.UI.Xaml.Data.ICustomProperty.CanRead.get
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ICustomProperty.CanWrite.get
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ICustomProperty.CanRead.get
 	}
 }

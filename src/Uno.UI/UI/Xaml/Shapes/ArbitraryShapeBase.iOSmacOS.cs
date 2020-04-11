@@ -4,7 +4,7 @@ using System.Linq;
 using Uno.Extensions;
 using CoreAnimation;
 using Uno.Disposables;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using Windows.Foundation;
 using Uno.Logging;
 using Uno.UI;
@@ -15,7 +15,7 @@ using _Color = UIKit.UIColor;
 using _Color = AppKit.NSColor;
 #endif
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public abstract partial class ArbitraryShapeBase
 	{

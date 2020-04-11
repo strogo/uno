@@ -1,15 +1,15 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class MediaPlayerElement : global::Windows.UI.Xaml.Controls.Control
+	public  partial class MediaPlayerElement : global::Microsoft.UI.Xaml.Controls.Control
 	{
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.MediaTransportControls TransportControls
+		public  global::Microsoft.UI.Xaml.Controls.MediaTransportControls TransportControls
 		{
 			get
 			{
@@ -17,17 +17,17 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.MediaPlayerElement", "MediaTransportControls MediaPlayerElement.TransportControls");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.MediaPlayerElement", "MediaTransportControls MediaPlayerElement.TransportControls");
 			}
 		}
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Stretch Stretch
+		public  global::Microsoft.UI.Xaml.Media.Stretch Stretch
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Stretch)this.GetValue(StretchProperty);
+				return (global::Microsoft.UI.Xaml.Media.Stretch)this.GetValue(StretchProperty);
 			}
 			set
 			{
@@ -51,11 +51,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.ImageSource PosterSource
+		public  global::Microsoft.UI.Xaml.Media.ImageSource PosterSource
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.ImageSource)this.GetValue(PosterSourceProperty);
+				return (global::Microsoft.UI.Xaml.Media.ImageSource)this.GetValue(PosterSourceProperty);
 			}
 			set
 			{
@@ -117,96 +117,96 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty AreTransportControlsEnabledProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty AreTransportControlsEnabledProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AreTransportControlsEnabled", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerElement), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerElement), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty AutoPlayProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty AutoPlayProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AutoPlay", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerElement), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerElement), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsFullWindowProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsFullWindowProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsFullWindow", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerElement), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerElement), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty MediaPlayerProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty MediaPlayerProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MediaPlayer", typeof(global::Windows.Media.Playback.MediaPlayer), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerElement), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerElement), 
 			new FrameworkPropertyMetadata(default(global::Windows.Media.Playback.MediaPlayer)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PosterSourceProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"PosterSource", typeof(global::Windows.UI.Xaml.Media.ImageSource), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerElement), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.ImageSource)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty PosterSourceProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"PosterSource", typeof(global::Microsoft.UI.Xaml.Media.ImageSource), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerElement), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.ImageSource)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SourceProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty SourceProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Source", typeof(global::Windows.Media.Playback.IMediaPlaybackSource), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerElement), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerElement), 
 			new FrameworkPropertyMetadata(default(global::Windows.Media.Playback.IMediaPlaybackSource)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty StretchProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"Stretch", typeof(global::Windows.UI.Xaml.Media.Stretch), 
-			typeof(global::Windows.UI.Xaml.Controls.MediaPlayerElement), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Stretch)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty StretchProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"Stretch", typeof(global::Microsoft.UI.Xaml.Media.Stretch), 
+			typeof(global::Microsoft.UI.Xaml.Controls.MediaPlayerElement), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Stretch)));
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public MediaPlayerElement() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.MediaPlayerElement", "MediaPlayerElement.MediaPlayerElement()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.MediaPlayerElement", "MediaPlayerElement.MediaPlayerElement()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.MediaPlayerElement()
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.Source.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.Source.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.TransportControls.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.TransportControls.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.AreTransportControlsEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.AreTransportControlsEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.PosterSource.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.PosterSource.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.Stretch.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.Stretch.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.AutoPlay.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.AutoPlay.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.IsFullWindow.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.IsFullWindow.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.MediaPlayer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.MediaPlayerElement()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.Source.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.Source.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.TransportControls.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.TransportControls.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.AreTransportControlsEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.AreTransportControlsEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.PosterSource.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.PosterSource.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.Stretch.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.Stretch.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.AutoPlay.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.AutoPlay.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.IsFullWindow.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.IsFullWindow.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.MediaPlayer.get
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void SetMediaPlayer( global::Windows.Media.Playback.MediaPlayer mediaPlayer)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.MediaPlayerElement", "void MediaPlayerElement.SetMediaPlayer(MediaPlayer mediaPlayer)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.MediaPlayerElement", "void MediaPlayerElement.SetMediaPlayer(MediaPlayer mediaPlayer)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.SourceProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.AreTransportControlsEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.PosterSourceProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.StretchProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.AutoPlayProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.IsFullWindowProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.MediaPlayerElement.MediaPlayerProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.SourceProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.AreTransportControlsEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.PosterSourceProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.StretchProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.AutoPlayProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.IsFullWindowProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.MediaPlayerElement.MediaPlayerProperty.get
 	}
 }

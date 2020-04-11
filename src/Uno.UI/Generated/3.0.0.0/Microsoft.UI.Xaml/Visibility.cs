@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	#if false || false || false || false || false
@@ -8,8 +8,8 @@ namespace Windows.UI.Xaml
 	#endif
 	public   enum Visibility 
 	{
-		// Skipping already declared field Windows.UI.Xaml.Visibility.Visible
-		// Skipping already declared field Windows.UI.Xaml.Visibility.Collapsed
+		// Skipping already declared field Microsoft.UI.Xaml.Visibility.Visible
+		// Skipping already declared field Microsoft.UI.Xaml.Visibility.Collapsed
 	}
 	#endif
 }

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.InkToolbarStencilButton StencilButton
+		public  global::Microsoft.UI.Xaml.Controls.InkToolbarStencilButton StencilButton
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.InkToolbarStencilKind StencilKind
+		public  global::Microsoft.UI.Xaml.Controls.InkToolbarStencilKind StencilKind
 		{
 			get
 			{
@@ -31,11 +31,11 @@ namespace Windows.UI.Xaml.Controls
 		[global::Uno.NotImplemented]
 		public InkToolbarIsStencilButtonCheckedChangedEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs", "InkToolbarIsStencilButtonCheckedChangedEventArgs.InkToolbarIsStencilButtonCheckedChangedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs", "InkToolbarIsStencilButtonCheckedChangedEventArgs.InkToolbarIsStencilButtonCheckedChangedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.InkToolbarIsStencilButtonCheckedChangedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.StencilButton.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.StencilKind.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.InkToolbarIsStencilButtonCheckedChangedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.StencilButton.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarIsStencilButtonCheckedChangedEventArgs.StencilKind.get
 	}
 }

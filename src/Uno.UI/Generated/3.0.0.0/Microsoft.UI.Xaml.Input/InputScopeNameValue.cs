@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if false || false || false || false || false
 	#if false || false || false || false || false
@@ -8,14 +8,14 @@ namespace Windows.UI.Xaml.Input
 	#endif
 	public   enum InputScopeNameValue 
 	{
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.Default
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.Url
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.EmailSmtpAddress
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.PersonalFullName
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.Default
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.Url
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.EmailSmtpAddress
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.PersonalFullName
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		CurrencyAmountAndSymbol,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.CurrencyAmount
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.CurrencyAmount
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		DateMonthNumber,
 		#endif
@@ -28,11 +28,11 @@ namespace Windows.UI.Xaml.Input
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		Digits,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.Number
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.Number
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		Password,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.TelephoneNumber
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.TelephoneNumber
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		TelephoneCountryCode,
 		#endif
@@ -48,7 +48,7 @@ namespace Windows.UI.Xaml.Input
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		TimeMinutesOrSeconds,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.NumberFullWidth
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.NumberFullWidth
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		AlphanumericHalfWidth,
 		#endif
@@ -73,7 +73,7 @@ namespace Windows.UI.Xaml.Input
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		HangulFullWidth,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.Search
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.Search
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		Formula,
 		#endif
@@ -98,14 +98,14 @@ namespace Windows.UI.Xaml.Input
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		NameOrPhoneNumber,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.EmailNameOrAddress
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.EmailNameOrAddress
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		Maps,
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		NumericPassword,
 		#endif
-		// Skipping already declared field Windows.UI.Xaml.Input.InputScopeNameValue.NumericPin
+		// Skipping already declared field Microsoft.UI.Xaml.Input.InputScopeNameValue.NumericPin
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		AlphanumericPin,
 		#endif

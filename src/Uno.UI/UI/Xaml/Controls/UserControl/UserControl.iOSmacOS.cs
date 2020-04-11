@@ -1,6 +1,6 @@
 ﻿using System;
 using System.ComponentModel;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Markup;
 
 #if XAMARIN_IOS_UNIFIED
 using UIKit;
@@ -9,7 +9,7 @@ using AppKit;
 using UIView = AppKit.NSView;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class UserControl : ContentControl
 	{

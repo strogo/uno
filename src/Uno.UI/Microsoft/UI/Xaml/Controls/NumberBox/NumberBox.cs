@@ -5,13 +5,13 @@ using System.Text;
 using Uno.UI.Helpers.WinUI;
 using Windows.Globalization.NumberFormatting;
 using Windows.System;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Automation;
-using Windows.UI.Xaml.Automation.Peers;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Automation;
+using Microsoft.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using Windows.Foundation.Metadata;
 using System.Globalization;
 using Uno.Disposables;
@@ -26,7 +26,7 @@ namespace Microsoft.UI.Xaml.Controls
 		SignificantDigitsNumberRounder m_displayRounder = new SignificantDigitsNumberRounder();
 
 		TextBox m_textBox;
-		Windows.UI.Xaml.Controls.Primitives.Popup m_popup;
+		Microsoft.UI.Xaml.Controls.Primitives.Popup m_popup;
 
 		SerialDisposable _eventSubscriptions = new SerialDisposable();
 
@@ -127,7 +127,7 @@ namespace Microsoft.UI.Xaml.Controls
 				m_textBox = textBox;
 			}
 
-			m_popup = GetTemplateChild(c_numberBoxPopupName) as Windows.UI.Xaml.Controls.Primitives.Popup;
+			m_popup = GetTemplateChild(c_numberBoxPopupName) as Microsoft.UI.Xaml.Controls.Primitives.Popup;
 
 			if (SharedHelpers.IsThemeShadowAvailable())
 			{

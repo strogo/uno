@@ -10,7 +10,7 @@ using Windows.Foundation;
 using Uno.Logging;
 using Uno.UI;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class FrameworkElement
 	{

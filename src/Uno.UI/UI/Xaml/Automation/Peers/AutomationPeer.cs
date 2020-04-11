@@ -1,13 +1,13 @@
 using System;
 using System.Collections.Generic;
-using Windows.UI.Xaml.Automation.Provider;
+using Microsoft.UI.Xaml.Automation.Provider;
 
-namespace Windows.UI.Xaml.Automation.Peers
+namespace Microsoft.UI.Xaml.Automation.Peers
 {
 	public partial class AutomationPeer : DependencyObject
 	{
 		[global::Uno.NotImplemented]
-		public static bool ListenerExists(global::Windows.UI.Xaml.Automation.Peers.AutomationEvents eventId)
+		public static bool ListenerExists(global::Microsoft.UI.Xaml.Automation.Peers.AutomationEvents eventId)
 		{
 			return false;
 		}
@@ -152,7 +152,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 
 		internal static void RaiseEventIfListener(DependencyObject target, AutomationEvents eventId)
 		{
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "RaiseEventIfListener");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "RaiseEventIfListener");
 		}
 
 		#endregion
@@ -162,7 +162,7 @@ namespace Windows.UI.Xaml.Automation.Peers
 		[Uno.NotImplemented]
 		public static bool ListenerfExists(AutomationEvents eventId)
 		{
-			Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.AutomationPeer", "bool AutomationPeer.ListenerExists");
+			Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.AutomationPeer", "bool AutomationPeer.ListenerExists");
 			return false;
 		}
 

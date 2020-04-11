@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ListViewBase : global::Windows.UI.Xaml.Controls.ISemanticZoomInformation
+	public  partial class ListViewBase : global::Microsoft.UI.Xaml.Controls.ISemanticZoomInformation
 	{
 		// Skipping already declared property SelectionMode
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
@@ -27,11 +27,11 @@ namespace Windows.UI.Xaml.Controls
 		// Skipping already declared property IncrementalLoadingThreshold
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Animation.TransitionCollection HeaderTransitions
+		public  global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection HeaderTransitions
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Animation.TransitionCollection)this.GetValue(HeaderTransitionsProperty);
+				return (global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection)this.GetValue(HeaderTransitionsProperty);
 			}
 			set
 			{
@@ -87,11 +87,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Animation.TransitionCollection FooterTransitions
+		public  global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection FooterTransitions
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Animation.TransitionCollection)this.GetValue(FooterTransitionsProperty);
+				return (global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection)this.GetValue(FooterTransitionsProperty);
 			}
 			set
 			{
@@ -103,11 +103,11 @@ namespace Windows.UI.Xaml.Controls
 		// Skipping already declared property Footer
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.ListViewReorderMode ReorderMode
+		public  global::Microsoft.UI.Xaml.Controls.ListViewReorderMode ReorderMode
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.ListViewReorderMode)this.GetValue(ReorderModeProperty);
+				return (global::Microsoft.UI.Xaml.Controls.ListViewReorderMode)this.GetValue(ReorderModeProperty);
 			}
 			set
 			{
@@ -131,7 +131,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::System.Collections.Generic.IReadOnlyList<global::Windows.UI.Xaml.Data.ItemIndexRange> SelectedRanges
+		public  global::System.Collections.Generic.IReadOnlyList<global::Microsoft.UI.Xaml.Data.ItemIndexRange> SelectedRanges
 		{
 			get
 			{
@@ -155,11 +155,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.SemanticZoom SemanticZoomOwner
+		public  global::Microsoft.UI.Xaml.Controls.SemanticZoom SemanticZoomOwner
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.SemanticZoom)this.GetValue(SemanticZoomOwnerProperty);
+				return (global::Microsoft.UI.Xaml.Controls.SemanticZoom)this.GetValue(SemanticZoomOwnerProperty);
 			}
 			set
 			{
@@ -197,18 +197,18 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CanDragItemsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty CanDragItemsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"CanDragItems", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CanReorderItemsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty CanReorderItemsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"CanReorderItems", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		// Skipping already declared property DataFetchSizeProperty
@@ -216,191 +216,191 @@ namespace Windows.UI.Xaml.Controls
 		// Skipping already declared property HeaderTemplateProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HeaderTransitionsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"HeaderTransitions", typeof(global::Windows.UI.Xaml.Media.Animation.TransitionCollection), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Animation.TransitionCollection)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty HeaderTransitionsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"HeaderTransitions", typeof(global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection)));
 		#endif
 		// Skipping already declared property IncrementalLoadingThresholdProperty
 		// Skipping already declared property IncrementalLoadingTriggerProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsActiveViewProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsActiveViewProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsActiveView", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		// Skipping already declared property IsItemClickEnabledProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsSwipeEnabledProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsSwipeEnabledProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsSwipeEnabled", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsZoomedInViewProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsZoomedInViewProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsZoomedInView", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		// Skipping already declared property SelectionModeProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SemanticZoomOwnerProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"SemanticZoomOwner", typeof(global::Windows.UI.Xaml.Controls.SemanticZoom), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.SemanticZoom)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty SemanticZoomOwnerProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"SemanticZoomOwner", typeof(global::Microsoft.UI.Xaml.Controls.SemanticZoom), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.SemanticZoom)));
 		#endif
 		// Skipping already declared property FooterProperty
 		// Skipping already declared property FooterTemplateProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FooterTransitionsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"FooterTransitions", typeof(global::Windows.UI.Xaml.Media.Animation.TransitionCollection), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Animation.TransitionCollection)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty FooterTransitionsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"FooterTransitions", typeof(global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Animation.TransitionCollection)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ShowsScrollingPlaceholdersProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ShowsScrollingPlaceholdersProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"ShowsScrollingPlaceholders", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ReorderModeProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ReorderMode", typeof(global::Windows.UI.Xaml.Controls.ListViewReorderMode), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.ListViewReorderMode)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ReorderModeProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ReorderMode", typeof(global::Microsoft.UI.Xaml.Controls.ListViewReorderMode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.ListViewReorderMode)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsMultiSelectCheckBoxEnabledProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsMultiSelectCheckBoxEnabledProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsMultiSelectCheckBoxEnabled", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SingleSelectionFollowsFocusProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty SingleSelectionFollowsFocusProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"SingleSelectionFollowsFocus", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.ListViewBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ListViewBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Controls.ListViewBase.ListViewBase()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ListViewBase()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SelectedItems.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SelectionMode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SelectionMode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsSwipeEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsSwipeEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.CanDragItems.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.CanDragItems.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.CanReorderItems.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.CanReorderItems.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsItemClickEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsItemClickEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.DataFetchSize.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.DataFetchSize.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IncrementalLoadingThreshold.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IncrementalLoadingThreshold.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IncrementalLoadingTrigger.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IncrementalLoadingTrigger.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ItemClick.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ItemClick.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.DragItemsStarting.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.DragItemsStarting.remove
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.ListViewBase.ListViewBase()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ListViewBase()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SelectedItems.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SelectionMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SelectionMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsSwipeEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsSwipeEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.CanDragItems.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.CanDragItems.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.CanReorderItems.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.CanReorderItems.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsItemClickEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsItemClickEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.DataFetchSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.DataFetchSize.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingThreshold.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingThreshold.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingTrigger.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingTrigger.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ItemClick.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ItemClick.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsStarting.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsStarting.remove
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void ScrollIntoView( object item)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.ScrollIntoView(object item)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.ScrollIntoView(object item)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void SelectAll()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.SelectAll()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.SelectAll()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.Foundation.IAsyncOperation<global::Windows.UI.Xaml.Data.LoadMoreItemsResult> LoadMoreItemsAsync()
+		public  global::Windows.Foundation.IAsyncOperation<global::Microsoft.UI.Xaml.Data.LoadMoreItemsResult> LoadMoreItemsAsync()
 		{
 			throw new global::System.NotImplementedException("The member IAsyncOperation<LoadMoreItemsResult> ListViewBase.LoadMoreItemsAsync() is not implemented in Uno.");
 		}
 		#endif
 		#if false || false || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void ScrollIntoView( object item,  global::Windows.UI.Xaml.Controls.ScrollIntoViewAlignment alignment)
+		public  void ScrollIntoView( object item,  global::Microsoft.UI.Xaml.Controls.ScrollIntoViewAlignment alignment)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.ScrollIntoView(object item, ScrollIntoViewAlignment alignment)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.ScrollIntoView(object item, ScrollIntoViewAlignment alignment)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.Header.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.Header.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.HeaderTemplate.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.HeaderTemplate.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.HeaderTransitions.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.HeaderTransitions.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ShowsScrollingPlaceholders.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ShowsScrollingPlaceholders.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ContainerContentChanging.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ContainerContentChanging.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.Header.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.Header.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTemplate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTemplate.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTransitions.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTransitions.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ShowsScrollingPlaceholders.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ShowsScrollingPlaceholders.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ContainerContentChanging.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ContainerContentChanging.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void SetDesiredContainerUpdateDuration( global::System.TimeSpan duration)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.SetDesiredContainerUpdateDuration(TimeSpan duration)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.SetDesiredContainerUpdateDuration(TimeSpan duration)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.Footer.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.Footer.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.FooterTemplate.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.FooterTemplate.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.FooterTransitions.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.FooterTransitions.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ReorderMode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ReorderMode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SelectedRanges.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsMultiSelectCheckBoxEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsMultiSelectCheckBoxEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.DragItemsCompleted.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.DragItemsCompleted.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ChoosingItemContainer.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ChoosingItemContainer.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ChoosingGroupHeaderContainer.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ChoosingGroupHeaderContainer.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.Footer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.Footer.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.FooterTemplate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.FooterTemplate.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.FooterTransitions.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.FooterTransitions.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ReorderMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ReorderMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SelectedRanges.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsMultiSelectCheckBoxEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsMultiSelectCheckBoxEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsCompleted.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.DragItemsCompleted.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ChoosingItemContainer.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ChoosingItemContainer.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ChoosingGroupHeaderContainer.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ChoosingGroupHeaderContainer.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void SelectRange( global::Windows.UI.Xaml.Data.ItemIndexRange itemIndexRange)
+		public  void SelectRange( global::Microsoft.UI.Xaml.Data.ItemIndexRange itemIndexRange)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.SelectRange(ItemIndexRange itemIndexRange)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.SelectRange(ItemIndexRange itemIndexRange)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void DeselectRange( global::Windows.UI.Xaml.Data.ItemIndexRange itemIndexRange)
+		public  void DeselectRange( global::Microsoft.UI.Xaml.Data.ItemIndexRange itemIndexRange)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.DeselectRange(ItemIndexRange itemIndexRange)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.DeselectRange(ItemIndexRange itemIndexRange)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocus.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocus.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocus.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocus.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  bool IsDragSource()
@@ -410,175 +410,175 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.Foundation.IAsyncOperation<bool> TryStartConnectedAnimationAsync( global::Windows.UI.Xaml.Media.Animation.ConnectedAnimation animation,  object item,  string elementName)
+		public  global::Windows.Foundation.IAsyncOperation<bool> TryStartConnectedAnimationAsync( global::Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation animation,  object item,  string elementName)
 		{
 			throw new global::System.NotImplementedException("The member IAsyncOperation<bool> ListViewBase.TryStartConnectedAnimationAsync(ConnectedAnimation animation, object item, string elementName) is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Animation.ConnectedAnimation PrepareConnectedAnimation( string key,  object item,  string elementName)
+		public  global::Microsoft.UI.Xaml.Media.Animation.ConnectedAnimation PrepareConnectedAnimation( string key,  object item,  string elementName)
 		{
 			throw new global::System.NotImplementedException("The member ConnectedAnimation ListViewBase.PrepareConnectedAnimation(string key, object item, string elementName) is not implemented in Uno.");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SemanticZoomOwner.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SemanticZoomOwner.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsActiveView.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsActiveView.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsZoomedInView.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsZoomedInView.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SemanticZoomOwner.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SemanticZoomOwner.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsActiveView.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsActiveView.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsZoomedInView.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsZoomedInView.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void InitializeViewChange()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.InitializeViewChange()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.InitializeViewChange()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void CompleteViewChange()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.CompleteViewChange()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.CompleteViewChange()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void MakeVisible( global::Windows.UI.Xaml.Controls.SemanticZoomLocation item)
+		public  void MakeVisible( global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation item)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.MakeVisible(SemanticZoomLocation item)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.MakeVisible(SemanticZoomLocation item)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void StartViewChangeFrom( global::Windows.UI.Xaml.Controls.SemanticZoomLocation source,  global::Windows.UI.Xaml.Controls.SemanticZoomLocation destination)
+		public  void StartViewChangeFrom( global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation source,  global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation destination)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.StartViewChangeFrom(SemanticZoomLocation source, SemanticZoomLocation destination)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.StartViewChangeFrom(SemanticZoomLocation source, SemanticZoomLocation destination)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void StartViewChangeTo( global::Windows.UI.Xaml.Controls.SemanticZoomLocation source,  global::Windows.UI.Xaml.Controls.SemanticZoomLocation destination)
+		public  void StartViewChangeTo( global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation source,  global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation destination)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.StartViewChangeTo(SemanticZoomLocation source, SemanticZoomLocation destination)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.StartViewChangeTo(SemanticZoomLocation source, SemanticZoomLocation destination)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void CompleteViewChangeFrom( global::Windows.UI.Xaml.Controls.SemanticZoomLocation source,  global::Windows.UI.Xaml.Controls.SemanticZoomLocation destination)
+		public  void CompleteViewChangeFrom( global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation source,  global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation destination)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.CompleteViewChangeFrom(SemanticZoomLocation source, SemanticZoomLocation destination)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.CompleteViewChangeFrom(SemanticZoomLocation source, SemanticZoomLocation destination)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void CompleteViewChangeTo( global::Windows.UI.Xaml.Controls.SemanticZoomLocation source,  global::Windows.UI.Xaml.Controls.SemanticZoomLocation destination)
+		public  void CompleteViewChangeTo( global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation source,  global::Microsoft.UI.Xaml.Controls.SemanticZoomLocation destination)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "void ListViewBase.CompleteViewChangeTo(SemanticZoomLocation source, SemanticZoomLocation destination)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "void ListViewBase.CompleteViewChangeTo(SemanticZoomLocation source, SemanticZoomLocation destination)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocusProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsMultiSelectCheckBoxEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ReorderModeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.ShowsScrollingPlaceholdersProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.FooterProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.FooterTemplateProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.FooterTransitionsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SelectionModeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsSwipeEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.CanDragItemsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.CanReorderItemsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsItemClickEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.DataFetchSizeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IncrementalLoadingThresholdProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IncrementalLoadingTriggerProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.SemanticZoomOwnerProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsActiveViewProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.IsZoomedInViewProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.HeaderProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.HeaderTemplateProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ListViewBase.HeaderTransitionsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SingleSelectionFollowsFocusProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsMultiSelectCheckBoxEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ReorderModeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.ShowsScrollingPlaceholdersProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.FooterProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.FooterTemplateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.FooterTransitionsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SelectionModeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsSwipeEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.CanDragItemsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.CanReorderItemsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsItemClickEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.DataFetchSizeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingThresholdProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IncrementalLoadingTriggerProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.SemanticZoomOwnerProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsActiveViewProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.IsZoomedInViewProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.HeaderProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTemplateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ListViewBase.HeaderTransitionsProperty.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.UI.Xaml.Controls.DragItemsStartingEventHandler DragItemsStarting
-		{
-			[global::Uno.NotImplemented]
-			add
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event DragItemsStartingEventHandler ListViewBase.DragItemsStarting");
-			}
-			[global::Uno.NotImplemented]
-			remove
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event DragItemsStartingEventHandler ListViewBase.DragItemsStarting");
-			}
-		}
-		#endif
-		// Skipping already declared event Windows.UI.Xaml.Controls.ListViewBase.ItemClick
-		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.ListViewBase, global::Windows.UI.Xaml.Controls.ContainerContentChangingEventArgs> ContainerContentChanging
+		public  event global::Microsoft.UI.Xaml.Controls.DragItemsStartingEventHandler DragItemsStarting
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ContainerContentChangingEventArgs> ListViewBase.ContainerContentChanging");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event DragItemsStartingEventHandler ListViewBase.DragItemsStarting");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ContainerContentChangingEventArgs> ListViewBase.ContainerContentChanging");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event DragItemsStartingEventHandler ListViewBase.DragItemsStarting");
+			}
+		}
+		#endif
+		// Skipping already declared event Microsoft.UI.Xaml.Controls.ListViewBase.ItemClick
+		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
+		[global::Uno.NotImplemented]
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.ListViewBase, global::Microsoft.UI.Xaml.Controls.ContainerContentChangingEventArgs> ContainerContentChanging
+		{
+			[global::Uno.NotImplemented]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ContainerContentChangingEventArgs> ListViewBase.ContainerContentChanging");
+			}
+			[global::Uno.NotImplemented]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ContainerContentChangingEventArgs> ListViewBase.ContainerContentChanging");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.ListViewBase, global::Windows.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs> ChoosingGroupHeaderContainer
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.ListViewBase, global::Microsoft.UI.Xaml.Controls.ChoosingGroupHeaderContainerEventArgs> ChoosingGroupHeaderContainer
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ChoosingGroupHeaderContainerEventArgs> ListViewBase.ChoosingGroupHeaderContainer");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ChoosingGroupHeaderContainerEventArgs> ListViewBase.ChoosingGroupHeaderContainer");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ChoosingGroupHeaderContainerEventArgs> ListViewBase.ChoosingGroupHeaderContainer");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ChoosingGroupHeaderContainerEventArgs> ListViewBase.ChoosingGroupHeaderContainer");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.ListViewBase, global::Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs> ChoosingItemContainer
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.ListViewBase, global::Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs> ChoosingItemContainer
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ChoosingItemContainerEventArgs> ListViewBase.ChoosingItemContainer");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ChoosingItemContainerEventArgs> ListViewBase.ChoosingItemContainer");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ChoosingItemContainerEventArgs> ListViewBase.ChoosingItemContainer");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, ChoosingItemContainerEventArgs> ListViewBase.ChoosingItemContainer");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.ListViewBase, global::Windows.UI.Xaml.Controls.DragItemsCompletedEventArgs> DragItemsCompleted
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.ListViewBase, global::Microsoft.UI.Xaml.Controls.DragItemsCompletedEventArgs> DragItemsCompleted
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, DragItemsCompletedEventArgs> ListViewBase.DragItemsCompleted");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, DragItemsCompletedEventArgs> ListViewBase.DragItemsCompleted");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, DragItemsCompletedEventArgs> ListViewBase.DragItemsCompleted");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ListViewBase", "event TypedEventHandler<ListViewBase, DragItemsCompletedEventArgs> ListViewBase.DragItemsCompleted");
 			}
 		}
 		#endif
-		// Processing: Windows.UI.Xaml.Controls.ISemanticZoomInformation
+		// Processing: Microsoft.UI.Xaml.Controls.ISemanticZoomInformation
 	}
 }

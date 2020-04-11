@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
 	#if false || false || false || false || false
 	#if false || false || false || false || false
@@ -8,8 +8,8 @@ namespace Windows.UI.Xaml.Media.Animation
 	#endif
 	public   enum FillBehavior 
 	{
-		// Skipping already declared field Windows.UI.Xaml.Media.Animation.FillBehavior.HoldEnd
-		// Skipping already declared field Windows.UI.Xaml.Media.Animation.FillBehavior.Stop
+		// Skipping already declared field Microsoft.UI.Xaml.Media.Animation.FillBehavior.HoldEnd
+		// Skipping already declared field Microsoft.UI.Xaml.Media.Animation.FillBehavior.Stop
 	}
 	#endif
 }

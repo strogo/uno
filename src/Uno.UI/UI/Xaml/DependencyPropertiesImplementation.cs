@@ -12,12 +12,12 @@ using Uno.Logging;
 using Uno.UI;
 using Uno.UI.DataBinding;
 using Windows.Foundation;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Media.Animation;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media.Animation;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
 #if XAMARIN_IOS
 using Color = UIKit.UIColor;
 using View = UIKit.UIView;
@@ -26,7 +26,7 @@ using Color = Android.Resource.Color;
 using View = Android.Views.View;
 #elif NET461
 using Color = System.Object;
-using View = Windows.UI.Xaml.FrameworkElement;
+using View = Microsoft.UI.Xaml.FrameworkElement;
 #endif  
 
 

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.SelectorItem ItemContainer
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.SelectorItem ItemContainer
 		{
 			get
 			{
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs", "SelectorItem ChoosingItemContainerEventArgs.ItemContainer");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs", "SelectorItem ChoosingItemContainerEventArgs.ItemContainer");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs", "bool ChoosingItemContainerEventArgs.IsContainerPrepared");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs", "bool ChoosingItemContainerEventArgs.IsContainerPrepared");
 			}
 		}
 		#endif
@@ -59,15 +59,15 @@ namespace Windows.UI.Xaml.Controls
 		[global::Uno.NotImplemented]
 		public ChoosingItemContainerEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs", "ChoosingItemContainerEventArgs.ChoosingItemContainerEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs", "ChoosingItemContainerEventArgs.ChoosingItemContainerEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ChoosingItemContainerEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ItemIndex.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs.Item.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ItemContainer.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ItemContainer.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs.IsContainerPrepared.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ChoosingItemContainerEventArgs.IsContainerPrepared.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ChoosingItemContainerEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ItemIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.Item.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ItemContainer.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.ItemContainer.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.IsContainerPrepared.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ChoosingItemContainerEventArgs.IsContainerPrepared.set
 	}
 }

@@ -11,10 +11,10 @@ using Android.OS;
 using Android.Views.InputMethods;
 using Uno.UI;
 using Windows.UI.ViewManagement;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using Windows.Devices.Sensors;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	[Activity(ConfigurationChanges = ConfigChanges.Orientation | ConfigChanges.ScreenSize, WindowSoftInputMode = SoftInput.AdjustPan | SoftInput.StateHidden)]
 	public class ApplicationActivity : Controls.NativePage

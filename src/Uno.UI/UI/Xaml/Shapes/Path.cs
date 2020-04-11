@@ -1,10 +1,10 @@
-﻿using Windows.UI.Xaml.Media;
+﻿using Microsoft.UI.Xaml.Media;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public partial class Path : ArbitraryShapeBase
 	{

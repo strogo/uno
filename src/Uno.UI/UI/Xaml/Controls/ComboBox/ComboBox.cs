@@ -6,21 +6,22 @@ using Uno.Client;
 using System.Collections;
 using Uno.UI.Controls;
 using Uno.Extensions;
-using Windows.UI.Xaml.Automation.Peers;
-using Windows.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Input;
 using Uno.Logging;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls.Primitives;
 using Windows.Foundation;
 using Uno.UI;
 using System.Linq;
 using Windows.UI.ViewManagement;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 using Microsoft.Extensions.Logging;
 
 using Uno.UI.DataBinding;
 using Uno.UI.Xaml.Controls;
+using Windows.UI.Core;
 #if __ANDROID__
 using Android.Views;
 using _View = Android.Views.View;
@@ -31,10 +32,10 @@ using _View = UIKit.UIView;
 using AppKit;
 using _View = AppKit.NSView;
 #else
-using _View = Windows.UI.Xaml.FrameworkElement;
+using _View = Microsoft.UI.Xaml.FrameworkElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	// Temporarily inheriting from ListViewBase instead of Selector to leverage existing selection and virtualization code
 	public partial class ComboBox : ListViewBase // TODO: Selector
@@ -62,7 +63,7 @@ namespace Windows.UI.Xaml.Controls
 			IsItemClickEnabled = true;
 		}
 
-		public global::Windows.UI.Xaml.Controls.Primitives.ComboBoxTemplateSettings TemplateSettings { get; } = new Primitives.ComboBoxTemplateSettings();
+		public global::Microsoft.UI.Xaml.Controls.Primitives.ComboBoxTemplateSettings TemplateSettings { get; } = new Primitives.ComboBoxTemplateSettings();
 
 		protected override DependencyObject GetContainerForItemOverride() => new ComboBoxItem { IsGeneratedContainer = true };
 
@@ -165,7 +166,7 @@ namespace Windows.UI.Xaml.Controls
 			Xaml.Window.Current.SizeChanged -= OnWindowSizeChanged;
 		}
 
-		private void OnWindowSizeChanged(object sender, Core.WindowSizeChangedEventArgs e)
+		private void OnWindowSizeChanged(object sender, WindowSizeChangedEventArgs e)
 		{
 			IsDropDownOpen = false;
 		}

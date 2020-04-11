@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class DragEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class DragEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragEventArgs", "bool DragEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragEventArgs", "bool DragEventArgs.Handled");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragEventArgs", "DataPackage DragEventArgs.Data");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragEventArgs", "DataPackage DragEventArgs.Data");
 			}
 		}
 		#endif
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragEventArgs", "DataPackageOperation DragEventArgs.AcceptedOperation");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragEventArgs", "DataPackageOperation DragEventArgs.AcceptedOperation");
 			}
 		}
 		#endif
@@ -61,7 +61,7 @@ namespace Windows.UI.Xaml
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DragUIOverride DragUIOverride
+		public  global::Microsoft.UI.Xaml.DragUIOverride DragUIOverride
 		{
 			get
 			{
@@ -89,29 +89,29 @@ namespace Windows.UI.Xaml
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.Handled.set
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.Data.get
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.Data.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.Data.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.Data.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.Foundation.Point GetPosition( global::Windows.UI.Xaml.UIElement relativeTo)
+		public  global::Windows.Foundation.Point GetPosition( global::Microsoft.UI.Xaml.UIElement relativeTo)
 		{
 			throw new global::System.NotImplementedException("The member Point DragEventArgs.GetPosition(UIElement relativeTo) is not implemented in Uno.");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.DataView.get
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.DragUIOverride.get
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.Modifiers.get
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.AcceptedOperation.get
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.AcceptedOperation.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.DataView.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.DragUIOverride.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.Modifiers.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.AcceptedOperation.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.AcceptedOperation.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DragOperationDeferral GetDeferral()
+		public  global::Microsoft.UI.Xaml.DragOperationDeferral GetDeferral()
 		{
 			throw new global::System.NotImplementedException("The member DragOperationDeferral DragEventArgs.GetDeferral() is not implemented in Uno.");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.DragEventArgs.AllowedOperations.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragEventArgs.AllowedOperations.get
 	}
 }

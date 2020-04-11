@@ -1,16 +1,16 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ItemsStackPanel : global::Windows.UI.Xaml.Controls.Panel
+	public  partial class ItemsStackPanel : global::Microsoft.UI.Xaml.Controls.Panel
 	{
 		// Skipping already declared property Orientation
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.ItemsUpdatingScrollMode ItemsUpdatingScrollMode
+		public  global::Microsoft.UI.Xaml.Controls.ItemsUpdatingScrollMode ItemsUpdatingScrollMode
 		{
 			get
 			{
@@ -18,7 +18,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ItemsStackPanel", "ItemsUpdatingScrollMode ItemsStackPanel.ItemsUpdatingScrollMode");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ItemsStackPanel", "ItemsUpdatingScrollMode ItemsStackPanel.ItemsUpdatingScrollMode");
 			}
 		}
 		#endif
@@ -80,7 +80,7 @@ namespace Windows.UI.Xaml.Controls
 #endif
 #if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.PanelScrollingDirection ScrollingDirection
+		public  global::Microsoft.UI.Xaml.Controls.PanelScrollingDirection ScrollingDirection
 		{
 			get
 			{
@@ -91,39 +91,39 @@ namespace Windows.UI.Xaml.Controls
 		// Skipping already declared property AreStickyGroupHeadersEnabled
 		#if false || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty CacheLengthProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty CacheLengthProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"CacheLength", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.ItemsStackPanel), 
+			typeof(global::Microsoft.UI.Xaml.Controls.ItemsStackPanel), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		// Skipping already declared property GroupHeaderPlacementProperty
 		// Skipping already declared property GroupPaddingProperty
 		// Skipping already declared property OrientationProperty
 		// Skipping already declared property AreStickyGroupHeadersEnabledProperty
-		// Skipping already declared method Windows.UI.Xaml.Controls.ItemsStackPanel.ItemsStackPanel()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.ItemsStackPanel()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.GroupPadding.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.GroupPadding.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.Orientation.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.Orientation.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.FirstCacheIndex.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.FirstVisibleIndex.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.LastVisibleIndex.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.LastCacheIndex.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.ScrollingDirection.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.GroupHeaderPlacement.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.GroupHeaderPlacement.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.ItemsUpdatingScrollMode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.ItemsUpdatingScrollMode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.CacheLength.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.CacheLength.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.GroupPaddingProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.OrientationProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.GroupHeaderPlacementProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ItemsStackPanel.CacheLengthProperty.get
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.ItemsStackPanel.ItemsStackPanel()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.ItemsStackPanel()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.GroupPadding.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.GroupPadding.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.Orientation.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.Orientation.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.FirstCacheIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.FirstVisibleIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.LastVisibleIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.LastCacheIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.ScrollingDirection.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.GroupHeaderPlacement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.GroupHeaderPlacement.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.ItemsUpdatingScrollMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.ItemsUpdatingScrollMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.CacheLength.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.CacheLength.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.AreStickyGroupHeadersEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.GroupPaddingProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.OrientationProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.GroupHeaderPlacementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ItemsStackPanel.CacheLengthProperty.get
 	}
 }

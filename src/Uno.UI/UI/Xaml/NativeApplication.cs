@@ -12,24 +12,24 @@ using Uno.Extensions;
 using Microsoft.Extensions.Logging;
 using System.ComponentModel;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public class NativeApplication : Android.App.Application
 	{
 		private readonly Application _app;
 		private Intent _lastHandledIntent;
 
-		public delegate Windows.UI.Xaml.Application AppBuilder();
+		public delegate Microsoft.UI.Xaml.Application AppBuilder();
 
 		[EditorBrowsable(EditorBrowsableState.Never)]
-		public NativeApplication(Windows.UI.Xaml.Application app, IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer)
+		public NativeApplication(Microsoft.UI.Xaml.Application app, IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer)
 			: this(() => app, javaReference, transfer)
 		{
 			if (this.Log().IsEnabled(LogLevel.Warning))
 			{
 				this.Log().LogWarning(
-					"The constructor on Windows.UI.Xaml.NativeApplication uses an explicitly created Windows.UI.Xaml.Application instance. " +
-					"Instead, use the constructor that requires a Windows.UI.Xaml.NativeApplication.AppBuilder delegate.");
+					"The constructor on Microsoft.UI.Xaml.NativeApplication uses an explicitly created Microsoft.UI.Xaml.Application instance. " +
+					"Instead, use the constructor that requires a Microsoft.UI.Xaml.NativeApplication.AppBuilder delegate.");
 			}
 		}
 
@@ -40,7 +40,7 @@ namespace Windows.UI.Xaml
 		public NativeApplication(AppBuilder appBuilder, IntPtr javaReference, Android.Runtime.JniHandleOwnership transfer)
 			: base(javaReference, transfer)
 		{
-			// Delay create the Windows.UI.Xaml.Application in order to get the
+			// Delay create the Microsoft.UI.Xaml.Application in order to get the
 			// Android.App.Application.Context to be populated properly. This enables
 			// APIs such as Windows.Storage.ApplicationData.Current.LocalSettings to function properly.
 			_app = appBuilder();

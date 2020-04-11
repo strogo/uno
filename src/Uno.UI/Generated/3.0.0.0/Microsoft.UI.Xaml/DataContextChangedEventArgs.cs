@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -9,8 +9,8 @@ namespace Windows.UI.Xaml
 	{
 		// Skipping already declared property Handled
 		// Skipping already declared property NewValue
-		// Forced skipping of method Windows.UI.Xaml.DataContextChangedEventArgs.NewValue.get
-		// Forced skipping of method Windows.UI.Xaml.DataContextChangedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.DataContextChangedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.DataContextChangedEventArgs.NewValue.get
+		// Forced skipping of method Microsoft.UI.Xaml.DataContextChangedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.DataContextChangedEventArgs.Handled.set
 	}
 }

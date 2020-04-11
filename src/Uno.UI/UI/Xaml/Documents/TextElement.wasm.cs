@@ -1,6 +1,6 @@
 ﻿using Uno.UI.UI.Xaml.Documents;
 
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	partial class TextElement
 	{

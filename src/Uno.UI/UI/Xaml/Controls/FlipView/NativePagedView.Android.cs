@@ -9,7 +9,7 @@ using Uno.UI;
 using Uno.UI.DataBinding;
 using Uno.UI.Controls;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class NativePagedView : ViewPager, DependencyObject, ILayoutConstraints
 	{

@@ -1,4 +1,4 @@
-﻿namespace Windows.UI.Xaml {
+﻿namespace Microsoft.UI.Xaml {
 
     export class Application {
         public static getDefaultSystemTheme(): string {

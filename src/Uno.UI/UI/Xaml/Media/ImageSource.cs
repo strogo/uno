@@ -11,7 +11,7 @@ using System.ComponentModel;
 using System.Runtime.CompilerServices;
 using Uno;
 using Uno.Diagnostics.Eventing;
-using Windows.UI.Xaml.Media.Imaging;
+using Microsoft.UI.Xaml.Media.Imaging;
 using Uno.Helpers;
 
 #if !IS_UNO
@@ -19,7 +19,7 @@ using Uno.Web.Query;
 using Uno.Web.Query.Cache;
 #endif
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	[TypeConverter(typeof(ImageSourceConverter))]
 	public partial class ImageSource : DependencyObject, IDisposable

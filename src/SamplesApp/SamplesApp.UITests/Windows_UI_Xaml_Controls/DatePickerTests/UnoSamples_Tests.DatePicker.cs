@@ -56,7 +56,7 @@ namespace SamplesApp.UITests.Windows_UI_Xaml_Controls.DatePickerTests
 			// Open flyout
 			theDatePicker.Tap();
 
-			_app.WaitForDependencyPropertyValue(datePickerFlyout, "Content", "Windows.UI.Xaml.Controls.DatePickerSelector");
+			_app.WaitForDependencyPropertyValue(datePickerFlyout, "Content", "Microsoft.UI.Xaml.Controls.DatePickerSelector");
 
 			_app.TapCoordinates(20, 20);
 		}

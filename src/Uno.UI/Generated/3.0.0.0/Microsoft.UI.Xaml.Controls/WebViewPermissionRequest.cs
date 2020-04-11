@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.WebViewPermissionType PermissionType
+		public  global::Microsoft.UI.Xaml.Controls.WebViewPermissionType PermissionType
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.WebViewPermissionState State
+		public  global::Microsoft.UI.Xaml.Controls.WebViewPermissionState State
 		{
 			get
 			{
@@ -47,29 +47,29 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.WebViewPermissionRequest.Uri.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.WebViewPermissionRequest.PermissionType.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.WebViewPermissionRequest.Id.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.WebViewPermissionRequest.State.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.WebViewPermissionRequest.Uri.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.WebViewPermissionRequest.PermissionType.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.WebViewPermissionRequest.Id.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.WebViewPermissionRequest.State.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void Defer()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.WebViewPermissionRequest", "void WebViewPermissionRequest.Defer()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.WebViewPermissionRequest", "void WebViewPermissionRequest.Defer()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void Allow()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.WebViewPermissionRequest", "void WebViewPermissionRequest.Allow()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.WebViewPermissionRequest", "void WebViewPermissionRequest.Allow()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void Deny()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.WebViewPermissionRequest", "void WebViewPermissionRequest.Deny()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.WebViewPermissionRequest", "void WebViewPermissionRequest.Deny()");
 		}
 		#endif
 	}

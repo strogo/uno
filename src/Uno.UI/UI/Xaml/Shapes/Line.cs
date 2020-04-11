@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public partial class Line : ArbitraryShapeBase
 	{
@@ -20,10 +20,10 @@ namespace Windows.UI.Xaml.Shapes
 			set => SetValue(X1Property, value);
 		}
 
-		public static global::Windows.UI.Xaml.DependencyProperty X1Property { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty X1Property { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"X1", typeof(double),
-			typeof(global::Windows.UI.Xaml.Shapes.Line),
+			typeof(global::Microsoft.UI.Xaml.Shapes.Line),
 			new FrameworkPropertyMetadata(
 				defaultValue: 0.0,
 				options: FrameworkPropertyMetadataOptions.AffectsMeasure,
@@ -47,10 +47,10 @@ namespace Windows.UI.Xaml.Shapes
 			set => SetValue(X2Property, value);
 		}
 
-		public static global::Windows.UI.Xaml.DependencyProperty X2Property { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty X2Property { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"X2", typeof(double),
-			typeof(global::Windows.UI.Xaml.Shapes.Line),
+			typeof(global::Microsoft.UI.Xaml.Shapes.Line),
 			new FrameworkPropertyMetadata(
 				defaultValue: 0.0,
 				options: FrameworkPropertyMetadataOptions.AffectsMeasure,
@@ -73,10 +73,10 @@ namespace Windows.UI.Xaml.Shapes
 			set => SetValue(Y1Property, value);
 		}
 
-		public static global::Windows.UI.Xaml.DependencyProperty Y1Property { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty Y1Property { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Y1", typeof(double),
-			typeof(global::Windows.UI.Xaml.Shapes.Line),
+			typeof(global::Microsoft.UI.Xaml.Shapes.Line),
 			new FrameworkPropertyMetadata(
 				defaultValue: 0.0,
 				options: FrameworkPropertyMetadataOptions.AffectsMeasure,
@@ -100,10 +100,10 @@ namespace Windows.UI.Xaml.Shapes
 			set => SetValue(Y2Property, value);
 		}
 
-		public static global::Windows.UI.Xaml.DependencyProperty Y2Property { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty Y2Property { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Y2", typeof(double),
-			typeof(global::Windows.UI.Xaml.Shapes.Line),
+			typeof(global::Microsoft.UI.Xaml.Shapes.Line),
 			new FrameworkPropertyMetadata(
 				defaultValue: 0.0,
 				options: FrameworkPropertyMetadataOptions.AffectsMeasure,

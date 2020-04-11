@@ -1,6 +1,6 @@
-﻿using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Data;
+﻿using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Data;
 using Uno.Extensions;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Text;
 using Uno.UI.Converters;
 using Uno.UI.Controls;
 using Uno;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 
 #if XAMARIN_IOS_UNIFIED
 using UIKit;
@@ -25,7 +25,7 @@ using _View = AppKit.NSView;
 using Uno.UI.Views.Controls;
 #endif
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public static partial class GenericStyles
 	{
@@ -63,7 +63,7 @@ namespace Windows.UI.Xaml
 		private static void InitDatePicker()
         {
 #if !__MACOS__
-			var style = new Style(typeof(Windows.UI.Xaml.Controls.DatePicker))
+			var style = new Style(typeof(Microsoft.UI.Xaml.Controls.DatePicker))
             {
                 Setters =  {
                     new Setter<DatePicker>("Template", t =>
@@ -72,14 +72,14 @@ namespace Windows.UI.Xaml
                 }
             };
 
-			Style.RegisterDefaultStyleForType(typeof(Windows.UI.Xaml.Controls.DatePicker), style);
+			Style.RegisterDefaultStyleForType(typeof(Microsoft.UI.Xaml.Controls.DatePicker), style);
 #endif
 		}
 
 		private static void InitDatePickerSelector()
 		{
 #if !__MACOS__
-			var style = new Style(typeof(Windows.UI.Xaml.Controls.DatePickerSelector))
+			var style = new Style(typeof(Microsoft.UI.Xaml.Controls.DatePickerSelector))
 			{
 				Setters =  {
 					new Setter<DatePickerSelector>("Template", t =>
@@ -97,7 +97,7 @@ namespace Windows.UI.Xaml
 				}
 			};
 
-			Style.RegisterDefaultStyleForType(typeof(Windows.UI.Xaml.Controls.DatePickerSelector), style);
+			Style.RegisterDefaultStyleForType(typeof(Microsoft.UI.Xaml.Controls.DatePickerSelector), style);
 #endif
 		}
 
@@ -207,7 +207,7 @@ namespace Windows.UI.Xaml
 
 		private static void InitWebView()
 		{
-			var style = new Style(typeof(Windows.UI.Xaml.Controls.WebView))
+			var style = new Style(typeof(Microsoft.UI.Xaml.Controls.WebView))
 			{
 				Setters =  {
 					new Setter<WebView>("Template", t =>
@@ -217,12 +217,12 @@ namespace Windows.UI.Xaml
 				}
 			};
 
-			Style.RegisterDefaultStyleForType(typeof(Windows.UI.Xaml.Controls.WebView), style);
+			Style.RegisterDefaultStyleForType(typeof(Microsoft.UI.Xaml.Controls.WebView), style);
 		}
 
 		private static void InitItemsControl()
 		{
-			var style = new Style(typeof(Windows.UI.Xaml.Controls.ItemsControl))
+			var style = new Style(typeof(Microsoft.UI.Xaml.Controls.ItemsControl))
 			{
 				Setters =  {
 					new Setter<ItemsControl>("Template", t =>
@@ -234,13 +234,13 @@ namespace Windows.UI.Xaml
 				}
 			};
 
-			Style.RegisterDefaultStyleForType(typeof(Windows.UI.Xaml.Controls.ItemsControl), style);
+			Style.RegisterDefaultStyleForType(typeof(Microsoft.UI.Xaml.Controls.ItemsControl), style);
 		}
 
 		private static void InitFlipView()
 		{
 #if !__MACOS__
-			var style = new Style(typeof(Windows.UI.Xaml.Controls.FlipView))
+			var style = new Style(typeof(Microsoft.UI.Xaml.Controls.FlipView))
 			{
 				Setters =  {
 
@@ -258,7 +258,7 @@ namespace Windows.UI.Xaml
 				}
 			};
 
-			Style.RegisterDefaultStyleForType(typeof(Windows.UI.Xaml.Controls.FlipView), style);
+			Style.RegisterDefaultStyleForType(typeof(Microsoft.UI.Xaml.Controls.FlipView), style);
 #endif
 		}
 

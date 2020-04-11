@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -12,7 +12,7 @@ namespace Windows.UI.Xaml
 		// Skipping already declared property DebugSettings
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.ApplicationRequiresPointerMode RequiresPointerMode
+		public  global::Microsoft.UI.Xaml.ApplicationRequiresPointerMode RequiresPointerMode
 		{
 			get
 			{
@@ -20,13 +20,13 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "ApplicationRequiresPointerMode Application.RequiresPointerMode");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "ApplicationRequiresPointerMode Application.RequiresPointerMode");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.FocusVisualKind FocusVisualKind
+		public  global::Microsoft.UI.Xaml.FocusVisualKind FocusVisualKind
 		{
 			get
 			{
@@ -34,13 +34,13 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "FocusVisualKind Application.FocusVisualKind");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "FocusVisualKind Application.FocusVisualKind");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.ApplicationHighContrastAdjustment HighContrastAdjustment
+		public  global::Microsoft.UI.Xaml.ApplicationHighContrastAdjustment HighContrastAdjustment
 		{
 			get
 			{
@@ -48,134 +48,134 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "ApplicationHighContrastAdjustment Application.HighContrastAdjustment");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "ApplicationHighContrastAdjustment Application.HighContrastAdjustment");
 			}
 		}
 		#endif
 		// Skipping already declared property Current
-		// Skipping already declared method Windows.UI.Xaml.Application.Application()
-		// Forced skipping of method Windows.UI.Xaml.Application.Application()
-		// Forced skipping of method Windows.UI.Xaml.Application.Resources.get
-		// Forced skipping of method Windows.UI.Xaml.Application.Resources.set
-		// Forced skipping of method Windows.UI.Xaml.Application.DebugSettings.get
-		// Forced skipping of method Windows.UI.Xaml.Application.RequestedTheme.get
-		// Forced skipping of method Windows.UI.Xaml.Application.RequestedTheme.set
-		// Forced skipping of method Windows.UI.Xaml.Application.UnhandledException.add
-		// Forced skipping of method Windows.UI.Xaml.Application.UnhandledException.remove
-		// Forced skipping of method Windows.UI.Xaml.Application.Suspending.add
-		// Forced skipping of method Windows.UI.Xaml.Application.Suspending.remove
-		// Forced skipping of method Windows.UI.Xaml.Application.Resuming.add
-		// Forced skipping of method Windows.UI.Xaml.Application.Resuming.remove
-		// Skipping already declared method Windows.UI.Xaml.Application.Exit()
-		// Forced skipping of method Windows.UI.Xaml.Application.FocusVisualKind.get
-		// Forced skipping of method Windows.UI.Xaml.Application.FocusVisualKind.set
-		// Forced skipping of method Windows.UI.Xaml.Application.RequiresPointerMode.get
-		// Forced skipping of method Windows.UI.Xaml.Application.RequiresPointerMode.set
-		// Forced skipping of method Windows.UI.Xaml.Application.LeavingBackground.add
-		// Forced skipping of method Windows.UI.Xaml.Application.LeavingBackground.remove
-		// Forced skipping of method Windows.UI.Xaml.Application.EnteredBackground.add
-		// Forced skipping of method Windows.UI.Xaml.Application.EnteredBackground.remove
-		// Forced skipping of method Windows.UI.Xaml.Application.HighContrastAdjustment.get
-		// Forced skipping of method Windows.UI.Xaml.Application.HighContrastAdjustment.set
-		// Skipping already declared method Windows.UI.Xaml.Application.OnActivated(Windows.ApplicationModel.Activation.IActivatedEventArgs)
-		// Skipping already declared method Windows.UI.Xaml.Application.OnLaunched(Windows.ApplicationModel.Activation.LaunchActivatedEventArgs)
+		// Skipping already declared method Microsoft.UI.Xaml.Application.Application()
+		// Forced skipping of method Microsoft.UI.Xaml.Application.Application()
+		// Forced skipping of method Microsoft.UI.Xaml.Application.Resources.get
+		// Forced skipping of method Microsoft.UI.Xaml.Application.Resources.set
+		// Forced skipping of method Microsoft.UI.Xaml.Application.DebugSettings.get
+		// Forced skipping of method Microsoft.UI.Xaml.Application.RequestedTheme.get
+		// Forced skipping of method Microsoft.UI.Xaml.Application.RequestedTheme.set
+		// Forced skipping of method Microsoft.UI.Xaml.Application.UnhandledException.add
+		// Forced skipping of method Microsoft.UI.Xaml.Application.UnhandledException.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Application.Suspending.add
+		// Forced skipping of method Microsoft.UI.Xaml.Application.Suspending.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Application.Resuming.add
+		// Forced skipping of method Microsoft.UI.Xaml.Application.Resuming.remove
+		// Skipping already declared method Microsoft.UI.Xaml.Application.Exit()
+		// Forced skipping of method Microsoft.UI.Xaml.Application.FocusVisualKind.get
+		// Forced skipping of method Microsoft.UI.Xaml.Application.FocusVisualKind.set
+		// Forced skipping of method Microsoft.UI.Xaml.Application.RequiresPointerMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Application.RequiresPointerMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Application.LeavingBackground.add
+		// Forced skipping of method Microsoft.UI.Xaml.Application.LeavingBackground.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Application.EnteredBackground.add
+		// Forced skipping of method Microsoft.UI.Xaml.Application.EnteredBackground.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Application.HighContrastAdjustment.get
+		// Forced skipping of method Microsoft.UI.Xaml.Application.HighContrastAdjustment.set
+		// Skipping already declared method Microsoft.UI.Xaml.Application.OnActivated(Windows.ApplicationModel.Activation.IActivatedEventArgs)
+		// Skipping already declared method Microsoft.UI.Xaml.Application.OnLaunched(Windows.ApplicationModel.Activation.LaunchActivatedEventArgs)
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnFileActivated( global::Windows.ApplicationModel.Activation.FileActivatedEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.OnFileActivated(FileActivatedEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.OnFileActivated(FileActivatedEventArgs args)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnSearchActivated( global::Windows.ApplicationModel.Activation.SearchActivatedEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.OnSearchActivated(SearchActivatedEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.OnSearchActivated(SearchActivatedEventArgs args)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnShareTargetActivated( global::Windows.ApplicationModel.Activation.ShareTargetActivatedEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.OnShareTargetActivated(ShareTargetActivatedEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.OnShareTargetActivated(ShareTargetActivatedEventArgs args)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnFileOpenPickerActivated( global::Windows.ApplicationModel.Activation.FileOpenPickerActivatedEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.OnFileOpenPickerActivated(FileOpenPickerActivatedEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.OnFileOpenPickerActivated(FileOpenPickerActivatedEventArgs args)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnFileSavePickerActivated( global::Windows.ApplicationModel.Activation.FileSavePickerActivatedEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.OnFileSavePickerActivated(FileSavePickerActivatedEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.OnFileSavePickerActivated(FileSavePickerActivatedEventArgs args)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnCachedFileUpdaterActivated( global::Windows.ApplicationModel.Activation.CachedFileUpdaterActivatedEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.OnCachedFileUpdaterActivated(CachedFileUpdaterActivatedEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.OnCachedFileUpdaterActivated(CachedFileUpdaterActivatedEventArgs args)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual void OnBackgroundActivated( global::Windows.ApplicationModel.Activation.BackgroundActivatedEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.OnBackgroundActivated(BackgroundActivatedEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.OnBackgroundActivated(BackgroundActivatedEventArgs args)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Application.Current.get
-		// Skipping already declared method Windows.UI.Xaml.Application.Start(Windows.UI.Xaml.ApplicationInitializationCallback)
+		// Forced skipping of method Microsoft.UI.Xaml.Application.Current.get
+		// Skipping already declared method Microsoft.UI.Xaml.Application.Start(Microsoft.UI.Xaml.ApplicationInitializationCallback)
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public static void LoadComponent( object component,  global::System.Uri resourceLocator)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.LoadComponent(object component, Uri resourceLocator)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.LoadComponent(object component, Uri resourceLocator)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void LoadComponent( object component,  global::System.Uri resourceLocator,  global::Windows.UI.Xaml.Controls.Primitives.ComponentResourceLocation componentResourceLocation)
+		public static void LoadComponent( object component,  global::System.Uri resourceLocator,  global::Microsoft.UI.Xaml.Controls.Primitives.ComponentResourceLocation componentResourceLocation)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "void Application.LoadComponent(object component, Uri resourceLocator, ComponentResourceLocation componentResourceLocation)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "void Application.LoadComponent(object component, Uri resourceLocator, ComponentResourceLocation componentResourceLocation)");
 		}
 		#endif
-		// Skipping already declared event Windows.UI.Xaml.Application.Resuming
-		// Skipping already declared event Windows.UI.Xaml.Application.Suspending
-		// Skipping already declared event Windows.UI.Xaml.Application.UnhandledException
+		// Skipping already declared event Microsoft.UI.Xaml.Application.Resuming
+		// Skipping already declared event Microsoft.UI.Xaml.Application.Suspending
+		// Skipping already declared event Microsoft.UI.Xaml.Application.UnhandledException
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.UI.Xaml.EnteredBackgroundEventHandler EnteredBackground
-		{
-			[global::Uno.NotImplemented]
-			add
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "event EnteredBackgroundEventHandler Application.EnteredBackground");
-			}
-			[global::Uno.NotImplemented]
-			remove
-			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "event EnteredBackgroundEventHandler Application.EnteredBackground");
-			}
-		}
-		#endif
-		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		[global::Uno.NotImplemented]
-		public  event global::Windows.UI.Xaml.LeavingBackgroundEventHandler LeavingBackground
+		public  event global::Microsoft.UI.Xaml.EnteredBackgroundEventHandler EnteredBackground
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "event LeavingBackgroundEventHandler Application.LeavingBackground");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "event EnteredBackgroundEventHandler Application.EnteredBackground");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Application", "event LeavingBackgroundEventHandler Application.LeavingBackground");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "event EnteredBackgroundEventHandler Application.EnteredBackground");
+			}
+		}
+		#endif
+		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
+		[global::Uno.NotImplemented]
+		public  event global::Microsoft.UI.Xaml.LeavingBackgroundEventHandler LeavingBackground
+		{
+			[global::Uno.NotImplemented]
+			add
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "event LeavingBackgroundEventHandler Application.LeavingBackground");
+			}
+			[global::Uno.NotImplemented]
+			remove
+			{
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Application", "event LeavingBackgroundEventHandler Application.LeavingBackground");
 			}
 		}
 		#endif

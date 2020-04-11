@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class DragStartingEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class DragStartingEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragStartingEventArgs", "bool DragStartingEventArgs.Cancel");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragStartingEventArgs", "bool DragStartingEventArgs.Cancel");
 			}
 		}
 		#endif
@@ -33,7 +33,7 @@ namespace Windows.UI.Xaml
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DragUI DragUI
+		public  global::Microsoft.UI.Xaml.DragUI DragUI
 		{
 			get
 			{
@@ -51,29 +51,29 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragStartingEventArgs", "DataPackageOperation DragStartingEventArgs.AllowedOperations");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragStartingEventArgs", "DataPackageOperation DragStartingEventArgs.AllowedOperations");
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.DragStartingEventArgs.Cancel.get
-		// Forced skipping of method Windows.UI.Xaml.DragStartingEventArgs.Cancel.set
-		// Forced skipping of method Windows.UI.Xaml.DragStartingEventArgs.Data.get
-		// Forced skipping of method Windows.UI.Xaml.DragStartingEventArgs.DragUI.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragStartingEventArgs.Cancel.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragStartingEventArgs.Cancel.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragStartingEventArgs.Data.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragStartingEventArgs.DragUI.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DragOperationDeferral GetDeferral()
+		public  global::Microsoft.UI.Xaml.DragOperationDeferral GetDeferral()
 		{
 			throw new global::System.NotImplementedException("The member DragOperationDeferral DragStartingEventArgs.GetDeferral() is not implemented in Uno.");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.Foundation.Point GetPosition( global::Windows.UI.Xaml.UIElement relativeTo)
+		public  global::Windows.Foundation.Point GetPosition( global::Microsoft.UI.Xaml.UIElement relativeTo)
 		{
 			throw new global::System.NotImplementedException("The member Point DragStartingEventArgs.GetPosition(UIElement relativeTo) is not implemented in Uno.");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.DragStartingEventArgs.AllowedOperations.get
-		// Forced skipping of method Windows.UI.Xaml.DragStartingEventArgs.AllowedOperations.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragStartingEventArgs.AllowedOperations.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragStartingEventArgs.AllowedOperations.set
 	}
 }

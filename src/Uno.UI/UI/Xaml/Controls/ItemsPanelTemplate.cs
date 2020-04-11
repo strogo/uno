@@ -1,5 +1,5 @@
 ﻿using System;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using Uno.Extensions;
 
 #if XAMARIN_ANDROID
@@ -13,10 +13,10 @@ using Font = UIKit.UIFont;
 using View = AppKit.NSView;
 using ViewGroup = AppKit.NSView;
 #else
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class ItemsPanelTemplate : FrameworkTemplate
 	{

@@ -2,7 +2,7 @@
 using Android.Graphics;
 using Uno.UI;
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public partial class Ellipse : ArbitraryShapeBase
 	{

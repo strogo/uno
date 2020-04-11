@@ -2,7 +2,7 @@
 #pragma warning disable 114 // new keyword hiding
 using Windows.UI.Text;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public  partial class TextBlock : FrameworkElement
 	{
@@ -11,7 +11,7 @@ namespace Windows.UI.Xaml.Controls
 			Inlines = new Documents.InlineCollection(this);
 		}
 
-		public global::Windows.UI.Xaml.Documents.InlineCollection Inlines { get; }
+		public global::Microsoft.UI.Xaml.Documents.InlineCollection Inlines { get; }
 		
 		#region TextDecorations
 

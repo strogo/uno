@@ -11,7 +11,7 @@ using Windows.Foundation;
 using Uno.UI.Services;
 using Uno.Diagnostics.Eventing;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class FrameworkElement
 	{

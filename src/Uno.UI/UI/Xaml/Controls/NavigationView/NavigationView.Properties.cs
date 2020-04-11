@@ -8,7 +8,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class NavigationView : ContentControl
 	{
@@ -206,7 +206,7 @@ namespace Windows.UI.Xaml.Controls
 			=> (NavigationViewTemplateSettings)GetValue(TemplateSettingsProperty);
 
 		public static DependencyProperty IsPaneVisibleProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsPaneVisible",
 			typeof(bool),
 			typeof(NavigationView),
@@ -217,7 +217,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty OverflowLabelModeProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"OverflowLabelMode",
 			typeof(NavigationViewOverflowLabelMode),
 			typeof(NavigationView),
@@ -228,7 +228,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty PaneCustomContentProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"PaneCustomContent",
 			typeof(UIElement),
 			typeof(NavigationView),
@@ -239,7 +239,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty PaneDisplayModeProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"PaneDisplayMode",
 			typeof(NavigationViewPaneDisplayMode),
 			typeof(NavigationView),
@@ -250,7 +250,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty PaneHeaderProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"PaneHeader",
 			typeof(UIElement),
 			typeof(NavigationView),
@@ -259,7 +259,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty SelectionFollowsFocusProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"SelectionFollowsFocus",
 			typeof(NavigationViewSelectionFollowsFocus),
 			typeof(NavigationView),
@@ -269,7 +269,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty ShoulderNavigationEnabledProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"ShoulderNavigationEnabled",
 			typeof(NavigationViewShoulderNavigationEnabled),
 			typeof(NavigationView),
@@ -279,7 +279,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty TemplateSettingsProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"TemplateSettings",
 			typeof(NavigationViewTemplateSettings),
 			typeof(NavigationView),
@@ -287,7 +287,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty ContentOverlayProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"ContentOverlay",
 			typeof(UIElement),
 			typeof(NavigationView),
@@ -295,7 +295,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty AlwaysShowHeaderProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AlwaysShowHeader",
 			typeof(bool),
 			typeof(NavigationView),
@@ -306,7 +306,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty AutoSuggestBoxProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AutoSuggestBox",
 			typeof(AutoSuggestBox),
 			typeof(NavigationView),
@@ -317,7 +317,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty CompactModeThresholdWidthProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(CompactModeThresholdWidth),
 			propertyType: typeof(double),
 			ownerType: typeof(NavigationView),
@@ -327,7 +327,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty CompactPaneLengthProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(CompactPaneLength),
 			propertyType: typeof(double),
 			ownerType: typeof(NavigationView),
@@ -338,7 +338,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty DisplayModeProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(DisplayMode),
 			propertyType: typeof(NavigationViewDisplayMode),
 			ownerType: typeof(NavigationView),
@@ -349,7 +349,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty ExpandedModeThresholdWidthProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(ExpandedModeThresholdWidth),
 			propertyType: typeof(double),
 			ownerType: typeof(NavigationView),
@@ -358,7 +358,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty HeaderProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Header",
 			typeof(object),
 			typeof(NavigationView),
@@ -368,7 +368,7 @@ namespace Windows.UI.Xaml.Controls
 			));
 
 		public static DependencyProperty HeaderTemplateProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"HeaderTemplate",
 			typeof(DataTemplate),
 			typeof(NavigationView),
@@ -376,7 +376,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty IsPaneOpenProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsPaneOpen",
 			typeof(bool),
 			typeof(NavigationView),
@@ -386,7 +386,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty IsPaneToggleButtonVisibleProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsPaneToggleButtonVisible",
 			typeof(bool),
 			typeof(NavigationView),
@@ -396,7 +396,7 @@ namespace Windows.UI.Xaml.Controls
 			);
 
 		public static DependencyProperty IsSettingsVisibleProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: "IsSettingsVisible",
 			propertyType: typeof(bool),
 			ownerType: typeof(NavigationView),
@@ -407,7 +407,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty MenuItemContainerStyleProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MenuItemContainerStyle",
 			typeof(Style),
 			typeof(NavigationView),
@@ -415,7 +415,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty MenuItemContainerStyleSelectorProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MenuItemContainerStyleSelector",
 			typeof(StyleSelector),
 			typeof(NavigationView),
@@ -423,7 +423,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty MenuItemTemplateProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MenuItemTemplate",
 			typeof(DataTemplate),
 			typeof(NavigationView),
@@ -431,7 +431,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty MenuItemTemplateSelectorProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MenuItemTemplateSelector",
 			typeof(DataTemplateSelector),
 			typeof(NavigationView),
@@ -439,7 +439,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty MenuItemsProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(MenuItems),
 			propertyType: typeof(IList<object>),
 			ownerType: typeof(NavigationView),
@@ -448,7 +448,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty MenuItemsSourceProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"MenuItemsSource",
 			typeof(object),
 			typeof(NavigationView),
@@ -456,7 +456,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty OpenPaneLengthProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(OpenPaneLength),
 			propertyType: typeof(double),
 			ownerType: typeof(NavigationView),
@@ -465,7 +465,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty PaneFooterProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"PaneFooter",
 			typeof(UIElement),
 			typeof(NavigationView),
@@ -473,7 +473,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty PaneToggleButtonStyleProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"PaneToggleButtonStyle",
 			typeof(Style),
 			typeof(NavigationView),
@@ -482,7 +482,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty SelectedItemProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: nameof(SelectedItem),
 			propertyType: typeof(object),
 			ownerType: typeof(NavigationView),
@@ -493,7 +493,7 @@ namespace Windows.UI.Xaml.Controls
 		);
 
 		public static DependencyProperty SettingsItemProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"SettingsItem",
 			typeof(object),
 			typeof(NavigationView),
@@ -501,7 +501,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty IsBackButtonVisibleProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsBackButtonVisible",
 			typeof(NavigationViewBackButtonVisible),
 			typeof(NavigationView),
@@ -509,7 +509,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty IsBackEnabledProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsBackEnabled",
 			typeof(bool),
 			typeof(NavigationView),
@@ -518,7 +518,7 @@ namespace Windows.UI.Xaml.Controls
 				propertyChangedCallback: (s, e) => (s as NavigationView)?.OnPropertyChanged(e)));
 
 		public static DependencyProperty PaneTitleProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"PaneTitle",
 			typeof(string),
 			typeof(NavigationView),

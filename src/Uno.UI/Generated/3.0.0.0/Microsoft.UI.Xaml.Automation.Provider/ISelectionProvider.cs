@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Provider
+namespace Microsoft.UI.Xaml.Automation.Provider
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -19,10 +19,10 @@ namespace Windows.UI.Xaml.Automation.Provider
 			get;
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.ISelectionProvider.CanSelectMultiple.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.ISelectionProvider.IsSelectionRequired.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.CanSelectMultiple.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.ISelectionProvider.IsSelectionRequired.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		global::Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple[] GetSelection();
+		global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple[] GetSelection();
 		#endif
 	}
 }

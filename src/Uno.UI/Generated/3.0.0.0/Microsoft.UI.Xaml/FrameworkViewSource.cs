@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -11,10 +11,10 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public FrameworkViewSource() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.FrameworkViewSource", "FrameworkViewSource.FrameworkViewSource()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.FrameworkViewSource", "FrameworkViewSource.FrameworkViewSource()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.FrameworkViewSource.FrameworkViewSource()
+		// Forced skipping of method Microsoft.UI.Xaml.FrameworkViewSource.FrameworkViewSource()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  global::Windows.ApplicationModel.Core.IFrameworkView CreateView()

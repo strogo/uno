@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty BoundingRectangleProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty BoundingRectangleProperty
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty HasKeyboardFocusProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty HasKeyboardFocusProperty
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty HelpTextProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty HelpTextProperty
 		{
 			get
 			{
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsContentElementProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsContentElementProperty
 		{
 			get
 			{
@@ -49,7 +49,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsControlElementProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsControlElementProperty
 		{
 			get
 			{
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsEnabledProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsEnabledProperty
 		{
 			get
 			{
@@ -69,7 +69,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsKeyboardFocusableProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsKeyboardFocusableProperty
 		{
 			get
 			{
@@ -79,7 +79,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsOffscreenProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsOffscreenProperty
 		{
 			get
 			{
@@ -89,7 +89,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsPasswordProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsPasswordProperty
 		{
 			get
 			{
@@ -99,7 +99,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsRequiredForFormProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsRequiredForFormProperty
 		{
 			get
 			{
@@ -109,7 +109,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ItemStatusProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ItemStatusProperty
 		{
 			get
 			{
@@ -119,7 +119,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ItemTypeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ItemTypeProperty
 		{
 			get
 			{
@@ -129,7 +129,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty LabeledByProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty LabeledByProperty
 		{
 			get
 			{
@@ -139,7 +139,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty LiveSettingProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty LiveSettingProperty
 		{
 			get
 			{
@@ -149,7 +149,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty LocalizedControlTypeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty LocalizedControlTypeProperty
 		{
 			get
 			{
@@ -159,7 +159,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty NameProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty NameProperty
 		{
 			get
 			{
@@ -169,7 +169,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty AcceleratorKeyProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty AcceleratorKeyProperty
 		{
 			get
 			{
@@ -179,7 +179,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty AccessKeyProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty AccessKeyProperty
 		{
 			get
 			{
@@ -189,7 +189,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty AutomationIdProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty AutomationIdProperty
 		{
 			get
 			{
@@ -199,7 +199,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty OrientationProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty OrientationProperty
 		{
 			get
 			{
@@ -209,7 +209,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ClassNameProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ClassNameProperty
 		{
 			get
 			{
@@ -219,7 +219,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ClickablePointProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ClickablePointProperty
 		{
 			get
 			{
@@ -229,7 +229,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ControlTypeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ControlTypeProperty
 		{
 			get
 			{
@@ -239,7 +239,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ControlledPeersProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ControlledPeersProperty
 		{
 			get
 			{
@@ -249,7 +249,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty AnnotationsProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty AnnotationsProperty
 		{
 			get
 			{
@@ -259,7 +259,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty LevelProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty LevelProperty
 		{
 			get
 			{
@@ -269,7 +269,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty PositionInSetProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty PositionInSetProperty
 		{
 			get
 			{
@@ -279,7 +279,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty SizeOfSetProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty SizeOfSetProperty
 		{
 			get
 			{
@@ -289,7 +289,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty LandmarkTypeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty LandmarkTypeProperty
 		{
 			get
 			{
@@ -299,7 +299,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty LocalizedLandmarkTypeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty LocalizedLandmarkTypeProperty
 		{
 			get
 			{
@@ -309,7 +309,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty DescribedByProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty DescribedByProperty
 		{
 			get
 			{
@@ -319,7 +319,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty FlowsFromProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty FlowsFromProperty
 		{
 			get
 			{
@@ -329,7 +329,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty FlowsToProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty FlowsToProperty
 		{
 			get
 			{
@@ -339,7 +339,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty FullDescriptionProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty FullDescriptionProperty
 		{
 			get
 			{
@@ -349,7 +349,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsDataValidForFormProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsDataValidForFormProperty
 		{
 			get
 			{
@@ -359,7 +359,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsPeripheralProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsPeripheralProperty
 		{
 			get
 			{
@@ -369,7 +369,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty CultureProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty CultureProperty
 		{
 			get
 			{
@@ -379,7 +379,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty HeadingLevelProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty HeadingLevelProperty
 		{
 			get
 			{
@@ -389,7 +389,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsDialogProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsDialogProperty
 		{
 			get
 			{
@@ -397,44 +397,44 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsDialogProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.HeadingLevelProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.CultureProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsPeripheralProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsDataValidForFormProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.FullDescriptionProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.DescribedByProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.FlowsToProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.FlowsFromProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.LandmarkTypeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.LocalizedLandmarkTypeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.PositionInSetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.SizeOfSetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.LevelProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.AnnotationsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.ControlledPeersProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.AcceleratorKeyProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.AccessKeyProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.AutomationIdProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.BoundingRectangleProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.ClassNameProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.ClickablePointProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.ControlTypeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.HasKeyboardFocusProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.HelpTextProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsContentElementProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsControlElementProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsKeyboardFocusableProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsOffscreenProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsPasswordProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.IsRequiredForFormProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.ItemStatusProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.ItemTypeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.LabeledByProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.LocalizedControlTypeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.NameProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.OrientationProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.AutomationElementIdentifiers.LiveSettingProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsDialogProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.HeadingLevelProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.CultureProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsPeripheralProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsDataValidForFormProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.FullDescriptionProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.DescribedByProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.FlowsToProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.FlowsFromProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LandmarkTypeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LocalizedLandmarkTypeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.PositionInSetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.SizeOfSetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LevelProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.AnnotationsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ControlledPeersProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.AcceleratorKeyProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.AccessKeyProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.AutomationIdProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.BoundingRectangleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ClassNameProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ClickablePointProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ControlTypeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.HasKeyboardFocusProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.HelpTextProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsContentElementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsControlElementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsKeyboardFocusableProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsOffscreenProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsPasswordProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.IsRequiredForFormProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ItemStatusProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.ItemTypeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LabeledByProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LocalizedControlTypeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.NameProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.OrientationProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.AutomationElementIdentifiers.LiveSettingProperty.get
 	}
 }

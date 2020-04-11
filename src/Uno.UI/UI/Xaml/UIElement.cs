@@ -3,8 +3,8 @@
 #endif
 
 using Windows.Foundation;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using System.Collections.Generic;
 using Uno.Extensions;
 using Uno.Logging;
@@ -12,7 +12,7 @@ using Uno.Disposables;
 using System.Linq;
 using Windows.Devices.Input;
 using Windows.System;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using Uno.UI;
 using Uno;
 using Uno.UI.Controls;
@@ -20,15 +20,15 @@ using Uno.UI.Media;
 using System;
 using System.Numerics;
 using System.Reflection;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Markup;
 using Microsoft.Extensions.Logging;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
 
 #if __IOS__
 using UIKit;
 #endif
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class UIElement : DependencyObject, IXUidProvider
 	{
@@ -473,7 +473,7 @@ namespace Windows.UI.Xaml
 
 #if !__WASM__
 		/// <summary>
-		/// Backing property for <see cref="Windows.UI.Xaml.Controls.Primitives.LayoutInformation.GetAvailableSize(UIElement)"/>
+		/// Backing property for <see cref="Microsoft.UI.Xaml.Controls.Primitives.LayoutInformation.GetAvailableSize(UIElement)"/>
 		/// </summary>
 		internal Size LastAvailableSize { get; set; }
 

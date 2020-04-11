@@ -1,7 +1,7 @@
 ﻿using Android.Graphics;
 using Uno.UI;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	partial struct CornerRadius
 	{

@@ -4,7 +4,7 @@ using System.Linq;
 using Uno.Extensions;
 using Uno.Logging;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	[Markup.ContentProperty(Name = "Setters")] 
 	public partial class Style

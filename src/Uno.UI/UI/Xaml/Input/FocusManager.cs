@@ -1,15 +1,15 @@
-﻿using Windows.UI.Xaml.Input;
+﻿using Microsoft.UI.Xaml.Input;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using Uno.Extensions;
 using Uno.UI.Extensions;
 using Windows.UI.Core;
 using Windows.UI.ViewManagement;
 using Microsoft.Extensions.Logging;
 
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	public sealed partial class FocusManager
 	{

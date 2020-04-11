@@ -9,12 +9,12 @@ using System.Linq;
 using System.Text;
 using Uno.UI.DataBinding;
 using Uno.UI.Extensions;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 using System.Diagnostics.CodeAnalysis;
 using Uno.Logging;
 using Windows.UI.Core;
 using Uno.UI.Controls;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 
 #if XAMARIN_IOS_UNIFIED
 using Foundation;

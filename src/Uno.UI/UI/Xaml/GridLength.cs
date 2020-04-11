@@ -5,7 +5,7 @@ using System.Text;
 using System.Text.RegularExpressions;
 using Uno.Extensions;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial struct GridLength : IEquatable<GridLength>
 	{

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Vector3Transition", "TimeSpan Vector3Transition.Duration");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Vector3Transition", "TimeSpan Vector3Transition.Duration");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Vector3TransitionComponents Components
+		public  global::Microsoft.UI.Xaml.Vector3TransitionComponents Components
 		{
 			get
 			{
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Vector3Transition", "Vector3TransitionComponents Vector3Transition.Components");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Vector3Transition", "Vector3TransitionComponents Vector3Transition.Components");
 			}
 		}
 		#endif
@@ -39,13 +39,13 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public Vector3Transition() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Vector3Transition", "Vector3Transition.Vector3Transition()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Vector3Transition", "Vector3Transition.Vector3Transition()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Vector3Transition.Vector3Transition()
-		// Forced skipping of method Windows.UI.Xaml.Vector3Transition.Duration.get
-		// Forced skipping of method Windows.UI.Xaml.Vector3Transition.Duration.set
-		// Forced skipping of method Windows.UI.Xaml.Vector3Transition.Components.get
-		// Forced skipping of method Windows.UI.Xaml.Vector3Transition.Components.set
+		// Forced skipping of method Microsoft.UI.Xaml.Vector3Transition.Vector3Transition()
+		// Forced skipping of method Microsoft.UI.Xaml.Vector3Transition.Duration.get
+		// Forced skipping of method Microsoft.UI.Xaml.Vector3Transition.Duration.set
+		// Forced skipping of method Microsoft.UI.Xaml.Vector3Transition.Components.get
+		// Forced skipping of method Microsoft.UI.Xaml.Vector3Transition.Components.set
 	}
 }

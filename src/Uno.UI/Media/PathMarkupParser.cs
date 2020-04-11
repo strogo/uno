@@ -34,7 +34,7 @@ using System.IO;
 using System.Text;
 using Uno.Media;
 using Windows.Foundation;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 
 namespace Uno.Media
 {

@@ -4,12 +4,12 @@ using System.Text;
 using Windows.Foundation;
 using Windows.System;
 using Windows.UI.Input;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using Uno.UI;
 
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	public sealed partial class Hyperlink : Span
 	{
@@ -90,8 +90,8 @@ namespace Windows.UI.Xaml.Documents
 		private void OnUnderlineStyleChanged()
 		{
 			TextDecorations = UnderlineStyle == UnderlineStyle.Single
-				? Text.TextDecorations.Underline
-				: Text.TextDecorations.None;
+				? Windows.UI.Text.TextDecorations.Underline
+				: Windows.UI.Text.TextDecorations.None;
 		}
 
 		#endregion

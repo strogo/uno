@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequest", "IRandomAccessStreamReference MapTileBitmapRequest.PixelData");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequest", "IRandomAccessStreamReference MapTileBitmapRequest.PixelData");
 			}
 		}
 		#endif
@@ -25,15 +25,15 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapTileBitmapRequest() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequest", "MapTileBitmapRequest.MapTileBitmapRequest()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequest", "MapTileBitmapRequest.MapTileBitmapRequest()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequest.MapTileBitmapRequest()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequest.PixelData.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequest.PixelData.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequest.MapTileBitmapRequest()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequest.PixelData.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequest.PixelData.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequestDeferral GetDeferral()
+		public  global::Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequestDeferral GetDeferral()
 		{
 			throw new global::System.NotImplementedException("The member MapTileBitmapRequestDeferral MapTileBitmapRequest.GetDeferral() is not implemented in Uno.");
 		}

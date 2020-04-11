@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class MapPolygon : global::Windows.UI.Xaml.Controls.Maps.MapElement
+	public  partial class MapPolygon : global::Microsoft.UI.Xaml.Controls.Maps.MapElement
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapPolygon", "Color MapPolygon.StrokeColor");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapPolygon", "Color MapPolygon.StrokeColor");
 			}
 		}
 		#endif
@@ -73,7 +73,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapPolygon", "Color MapPolygon.FillColor");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapPolygon", "Color MapPolygon.FillColor");
 			}
 		}
 		#endif
@@ -89,49 +89,49 @@ namespace Windows.UI.Xaml.Controls.Maps
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty PathProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty PathProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Path", typeof(global::Windows.Devices.Geolocation.Geopath), 
-			typeof(global::Windows.UI.Xaml.Controls.Maps.MapPolygon), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Maps.MapPolygon), 
 			new FrameworkPropertyMetadata(default(global::Windows.Devices.Geolocation.Geopath)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty StrokeDashedProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty StrokeDashedProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"StrokeDashed", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.Maps.MapPolygon), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Maps.MapPolygon), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty StrokeThicknessProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty StrokeThicknessProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"StrokeThickness", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Controls.Maps.MapPolygon), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Maps.MapPolygon), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public MapPolygon() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapPolygon", "MapPolygon.MapPolygon()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapPolygon", "MapPolygon.MapPolygon()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.MapPolygon()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.Path.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.Path.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.StrokeColor.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.StrokeColor.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.StrokeThickness.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.StrokeThickness.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.StrokeDashed.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.StrokeDashed.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.FillColor.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.FillColor.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.Paths.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.PathProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.StrokeThicknessProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapPolygon.StrokeDashedProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.MapPolygon()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.Path.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.Path.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.StrokeColor.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.StrokeColor.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.StrokeThickness.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.StrokeThickness.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.StrokeDashed.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.StrokeDashed.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.FillColor.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.FillColor.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.Paths.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.PathProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.StrokeThicknessProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapPolygon.StrokeDashedProperty.get
 	}
 }

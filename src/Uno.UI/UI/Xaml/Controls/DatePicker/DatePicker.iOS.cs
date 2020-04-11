@@ -6,10 +6,10 @@ using System.Text;
 using UIKit;
 using CoreGraphics;
 using Uno.UI.Extensions;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Controls.Primitives;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class DatePicker
 	{

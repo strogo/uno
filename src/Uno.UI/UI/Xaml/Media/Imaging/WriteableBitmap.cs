@@ -2,9 +2,9 @@ using System;
 using Windows.Foundation;
 using Windows.Storage.Streams;
 
-namespace Windows.UI.Xaml.Media.Imaging
+namespace Microsoft.UI.Xaml.Media.Imaging
 {
-	public partial class WriteableBitmap : global::Windows.UI.Xaml.Media.Imaging.BitmapSource
+	public partial class WriteableBitmap : global::Microsoft.UI.Xaml.Media.Imaging.BitmapSource
 	{
 		internal event EventHandler Invalidated;
 

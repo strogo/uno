@@ -6,7 +6,7 @@ using Android.Views.Animations;
 using Uno.Extensions;
 using Uno.Logging;
 
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
     internal sealed class NativeValueAnimatorAdapter : IValueAnimator
     {

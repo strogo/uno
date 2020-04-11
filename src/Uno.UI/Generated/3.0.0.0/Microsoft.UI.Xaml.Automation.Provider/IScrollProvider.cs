@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Provider
+namespace Microsoft.UI.Xaml.Automation.Provider
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -43,14 +43,14 @@ namespace Windows.UI.Xaml.Automation.Provider
 			get;
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IScrollProvider.HorizontallyScrollable.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalScrollPercent.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalViewSize.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IScrollProvider.VerticallyScrollable.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IScrollProvider.VerticalScrollPercent.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IScrollProvider.VerticalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalScrollPercent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.HorizontalViewSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticallyScrollable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalScrollPercent.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IScrollProvider.VerticalViewSize.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		void Scroll( global::Windows.UI.Xaml.Automation.ScrollAmount horizontalAmount,  global::Windows.UI.Xaml.Automation.ScrollAmount verticalAmount);
+		void Scroll( global::Microsoft.UI.Xaml.Automation.ScrollAmount horizontalAmount,  global::Microsoft.UI.Xaml.Automation.ScrollAmount verticalAmount);
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		void SetScrollPercent( double horizontalPercent,  double verticalPercent);

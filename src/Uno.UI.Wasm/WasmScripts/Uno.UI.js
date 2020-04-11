@@ -1095,7 +1095,7 @@ var Uno;
             getEventExtractor(eventExtractorId) {
                 if (eventExtractorId) {
                     //
-                    // NOTE TO MAINTAINERS: Keep in sync with Windows.UI.Xaml.UIElement.HtmlEventExtractor
+                    // NOTE TO MAINTAINERS: Keep in sync with Microsoft.UI.Xaml.UIElement.HtmlEventExtractor
                     //
                     switch (eventExtractorId) {
                         case 1:
@@ -1588,13 +1588,13 @@ var Uno;
                 }
                 else {
                     if (!WindowManager.resizeMethod) {
-                        WindowManager.resizeMethod = Module.mono_bind_static_method("[Uno.UI] Windows.UI.Xaml.Window:Resize");
+                        WindowManager.resizeMethod = Module.mono_bind_static_method("[Uno.UI] Microsoft.UI.Xaml.Window:Resize");
                     }
                     if (!WindowManager.dispatchEventMethod) {
-                        WindowManager.dispatchEventMethod = Module.mono_bind_static_method("[Uno.UI] Windows.UI.Xaml.UIElement:DispatchEvent");
+                        WindowManager.dispatchEventMethod = Module.mono_bind_static_method("[Uno.UI] Microsoft.UI.Xaml.UIElement:DispatchEvent");
                     }
                     if (!WindowManager.focusInMethod) {
-                        WindowManager.focusInMethod = Module.mono_bind_static_method("[Uno.UI] Windows.UI.Xaml.Input.FocusManager:ReceiveFocusNative");
+                        WindowManager.focusInMethod = Module.mono_bind_static_method("[Uno.UI] Microsoft.UI.Xaml.Input.FocusManager:ReceiveFocusNative");
                     }
                 }
             }
@@ -2945,8 +2945,8 @@ var Windows;
         })(ViewManagement = UI.ViewManagement || (UI.ViewManagement = {}));
     })(UI = Windows.UI || (Windows.UI = {}));
 })(Windows || (Windows = {}));
-var Windows;
-(function (Windows) {
+var Microsoft;
+(function (Microsoft) {
     var UI;
     (function (UI) {
         var Xaml;
@@ -2964,10 +2964,10 @@ var Windows;
             }
             Xaml.Application = Application;
         })(Xaml = UI.Xaml || (UI.Xaml = {}));
-    })(UI = Windows.UI || (Windows.UI = {}));
-})(Windows || (Windows = {}));
-var Windows;
-(function (Windows) {
+    })(UI = Microsoft.UI || (Microsoft.UI = {}));
+})(Microsoft || (Microsoft = {}));
+var Microsoft;
+(function (Microsoft) {
     var UI;
     (function (UI) {
         var Xaml;
@@ -2978,8 +2978,8 @@ var Windows;
                 ApplicationTheme["Dark"] = "Dark";
             })(ApplicationTheme = Xaml.ApplicationTheme || (Xaml.ApplicationTheme = {}));
         })(Xaml = UI.Xaml || (UI.Xaml = {}));
-    })(UI = Windows.UI || (Windows.UI = {}));
-})(Windows || (Windows = {}));
+    })(UI = Microsoft.UI || (Microsoft.UI = {}));
+})(Microsoft || (Microsoft = {}));
 var Windows;
 (function (Windows) {
     var Phone;

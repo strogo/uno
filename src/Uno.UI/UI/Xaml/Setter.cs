@@ -7,9 +7,9 @@ using Uno.Logging;
 using Uno.UI.DataBinding;
 using Windows.Foundation;
 using Windows.Foundation.Metadata;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public delegate object SetterValueProviderHandler();
 

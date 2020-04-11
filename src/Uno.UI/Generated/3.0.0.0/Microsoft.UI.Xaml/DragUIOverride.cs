@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "bool DragUIOverride.IsGlyphVisible");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "bool DragUIOverride.IsGlyphVisible");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "bool DragUIOverride.IsContentVisible");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "bool DragUIOverride.IsContentVisible");
 			}
 		}
 		#endif
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "bool DragUIOverride.IsCaptionVisible");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "bool DragUIOverride.IsCaptionVisible");
 			}
 		}
 		#endif
@@ -59,51 +59,51 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "string DragUIOverride.Caption");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "string DragUIOverride.Caption");
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.DragUIOverride.Caption.get
-		// Forced skipping of method Windows.UI.Xaml.DragUIOverride.Caption.set
-		// Forced skipping of method Windows.UI.Xaml.DragUIOverride.IsContentVisible.get
-		// Forced skipping of method Windows.UI.Xaml.DragUIOverride.IsContentVisible.set
-		// Forced skipping of method Windows.UI.Xaml.DragUIOverride.IsCaptionVisible.get
-		// Forced skipping of method Windows.UI.Xaml.DragUIOverride.IsCaptionVisible.set
-		// Forced skipping of method Windows.UI.Xaml.DragUIOverride.IsGlyphVisible.get
-		// Forced skipping of method Windows.UI.Xaml.DragUIOverride.IsGlyphVisible.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragUIOverride.Caption.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragUIOverride.Caption.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragUIOverride.IsContentVisible.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragUIOverride.IsContentVisible.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragUIOverride.IsCaptionVisible.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragUIOverride.IsCaptionVisible.set
+		// Forced skipping of method Microsoft.UI.Xaml.DragUIOverride.IsGlyphVisible.get
+		// Forced skipping of method Microsoft.UI.Xaml.DragUIOverride.IsGlyphVisible.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void Clear()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "void DragUIOverride.Clear()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "void DragUIOverride.Clear()");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void SetContentFromBitmapImage( global::Windows.UI.Xaml.Media.Imaging.BitmapImage bitmapImage)
+		public  void SetContentFromBitmapImage( global::Microsoft.UI.Xaml.Media.Imaging.BitmapImage bitmapImage)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "void DragUIOverride.SetContentFromBitmapImage(BitmapImage bitmapImage)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "void DragUIOverride.SetContentFromBitmapImage(BitmapImage bitmapImage)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void SetContentFromBitmapImage( global::Windows.UI.Xaml.Media.Imaging.BitmapImage bitmapImage,  global::Windows.Foundation.Point anchorPoint)
+		public  void SetContentFromBitmapImage( global::Microsoft.UI.Xaml.Media.Imaging.BitmapImage bitmapImage,  global::Windows.Foundation.Point anchorPoint)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "void DragUIOverride.SetContentFromBitmapImage(BitmapImage bitmapImage, Point anchorPoint)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "void DragUIOverride.SetContentFromBitmapImage(BitmapImage bitmapImage, Point anchorPoint)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void SetContentFromSoftwareBitmap( global::Windows.Graphics.Imaging.SoftwareBitmap softwareBitmap)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "void DragUIOverride.SetContentFromSoftwareBitmap(SoftwareBitmap softwareBitmap)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "void DragUIOverride.SetContentFromSoftwareBitmap(SoftwareBitmap softwareBitmap)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void SetContentFromSoftwareBitmap( global::Windows.Graphics.Imaging.SoftwareBitmap softwareBitmap,  global::Windows.Foundation.Point anchorPoint)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DragUIOverride", "void DragUIOverride.SetContentFromSoftwareBitmap(SoftwareBitmap softwareBitmap, Point anchorPoint)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DragUIOverride", "void DragUIOverride.SetContentFromSoftwareBitmap(SoftwareBitmap softwareBitmap, Point anchorPoint)");
 		}
 		#endif
 	}

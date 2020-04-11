@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Maps.MapTileUriRequest Request
+		public  global::Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequest Request
 		{
 			get
 			{
@@ -61,14 +61,14 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapTileUriRequestedEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs", "MapTileUriRequestedEventArgs.MapTileUriRequestedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs", "MapTileUriRequestedEventArgs.MapTileUriRequestedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.MapTileUriRequestedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.X.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.Y.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.ZoomLevel.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.Request.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.FrameIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.MapTileUriRequestedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.X.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.Y.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.ZoomLevel.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.Request.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileUriRequestedEventArgs.FrameIndex.get
 	}
 }

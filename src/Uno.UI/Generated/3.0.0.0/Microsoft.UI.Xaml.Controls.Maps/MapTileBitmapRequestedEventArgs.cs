@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequest Request
+		public  global::Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequest Request
 		{
 			get
 			{
@@ -61,14 +61,14 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapTileBitmapRequestedEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs", "MapTileBitmapRequestedEventArgs.MapTileBitmapRequestedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs", "MapTileBitmapRequestedEventArgs.MapTileBitmapRequestedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.MapTileBitmapRequestedEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.X.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.Y.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.ZoomLevel.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.Request.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.FrameIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.MapTileBitmapRequestedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.X.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.Y.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.ZoomLevel.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.Request.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapTileBitmapRequestedEventArgs.FrameIndex.get
 	}
 }

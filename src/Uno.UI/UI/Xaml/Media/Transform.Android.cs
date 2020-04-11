@@ -2,7 +2,7 @@
 using System.Numerics;
 using Windows.Foundation;
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	/// <summary>
 	/// Transform: Android part

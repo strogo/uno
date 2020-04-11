@@ -3,7 +3,7 @@ using CoreGraphics;
 using System;
 using System.Collections.Generic;
 using Uno.Disposables;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using Uno.UI.Extensions;
 
 #if __IOS__
@@ -18,7 +18,7 @@ using _Color = AppKit.NSColor;
 using _Image = AppKit.NSImage;
 #endif
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	internal class BorderLayerRenderer
 	{

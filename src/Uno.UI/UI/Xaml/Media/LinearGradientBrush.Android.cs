@@ -5,7 +5,7 @@ using Android.Graphics;
 using System.Linq;
 using System.Drawing;
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	public partial class LinearGradientBrush
 	{

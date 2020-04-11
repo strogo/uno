@@ -1,9 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Text;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Markup;
+using Windows.Foundation.Collections;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	[ContentProperty(Name = "Items")]
 	public partial class NativePivotPresenter : Control
@@ -22,9 +22,9 @@ namespace Windows.UI.Xaml.Controls
 			InitializePartial();
 		}
 
-		private void Items_VectorChanged(Foundation.Collections.IObservableVector<object> sender, Foundation.Collections.IVectorChangedEventArgs @event)
+		private void Items_VectorChanged(IObservableVector<object> sender, IVectorChangedEventArgs @event)
 		{
-			if (@event.CollectionChange == Foundation.Collections.CollectionChange.ItemInserted)
+			if (@event.CollectionChange == CollectionChange.ItemInserted)
 			{
 				UpdateItems();
 			}

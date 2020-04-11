@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationPivot", "double ManipulationPivot.Radius");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationPivot", "double ManipulationPivot.Radius");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationPivot", "Point ManipulationPivot.Center");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationPivot", "Point ManipulationPivot.Center");
 			}
 		}
 		#endif
@@ -39,21 +39,21 @@ namespace Windows.UI.Xaml.Input
 		[global::Uno.NotImplemented]
 		public ManipulationPivot( global::Windows.Foundation.Point center,  double radius) 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationPivot", "ManipulationPivot.ManipulationPivot(Point center, double radius)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationPivot", "ManipulationPivot.ManipulationPivot(Point center, double radius)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationPivot.ManipulationPivot(Windows.Foundation.Point, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationPivot.ManipulationPivot(Windows.Foundation.Point, double)
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public ManipulationPivot() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.ManipulationPivot", "ManipulationPivot.ManipulationPivot()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.ManipulationPivot", "ManipulationPivot.ManipulationPivot()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationPivot.ManipulationPivot()
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationPivot.Center.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationPivot.Center.set
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationPivot.Radius.get
-		// Forced skipping of method Windows.UI.Xaml.Input.ManipulationPivot.Radius.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationPivot.ManipulationPivot()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationPivot.Center.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationPivot.Center.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationPivot.Radius.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.ManipulationPivot.Radius.set
 	}
 }

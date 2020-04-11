@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -23,28 +23,28 @@ namespace Windows.UI.Xaml
 		}
 		#endif
 		// Skipping already declared property Current
-		// Forced skipping of method Windows.UI.Xaml.Window.Bounds.get
-		// Forced skipping of method Windows.UI.Xaml.Window.Visible.get
-		// Forced skipping of method Windows.UI.Xaml.Window.Content.get
-		// Forced skipping of method Windows.UI.Xaml.Window.Content.set
-		// Forced skipping of method Windows.UI.Xaml.Window.CoreWindow.get
-		// Forced skipping of method Windows.UI.Xaml.Window.Dispatcher.get
-		// Forced skipping of method Windows.UI.Xaml.Window.Activated.add
-		// Forced skipping of method Windows.UI.Xaml.Window.Activated.remove
-		// Forced skipping of method Windows.UI.Xaml.Window.Closed.add
-		// Forced skipping of method Windows.UI.Xaml.Window.Closed.remove
-		// Forced skipping of method Windows.UI.Xaml.Window.SizeChanged.add
-		// Forced skipping of method Windows.UI.Xaml.Window.SizeChanged.remove
-		// Forced skipping of method Windows.UI.Xaml.Window.VisibilityChanged.add
-		// Forced skipping of method Windows.UI.Xaml.Window.VisibilityChanged.remove
-		// Skipping already declared method Windows.UI.Xaml.Window.Activate()
-		// Skipping already declared method Windows.UI.Xaml.Window.Close()
-		// Skipping already declared method Windows.UI.Xaml.Window.SetTitleBar(Windows.UI.Xaml.UIElement)
-		// Forced skipping of method Windows.UI.Xaml.Window.Compositor.get
-		// Forced skipping of method Windows.UI.Xaml.Window.Current.get
-		// Skipping already declared event Windows.UI.Xaml.Window.Activated
-		// Skipping already declared event Windows.UI.Xaml.Window.Closed
-		// Skipping already declared event Windows.UI.Xaml.Window.SizeChanged
-		// Skipping already declared event Windows.UI.Xaml.Window.VisibilityChanged
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Bounds.get
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Visible.get
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Content.get
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Content.set
+		// Forced skipping of method Microsoft.UI.Xaml.Window.CoreWindow.get
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Dispatcher.get
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Activated.add
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Activated.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Closed.add
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Closed.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Window.SizeChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Window.SizeChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Window.VisibilityChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Window.VisibilityChanged.remove
+		// Skipping already declared method Microsoft.UI.Xaml.Window.Activate()
+		// Skipping already declared method Microsoft.UI.Xaml.Window.Close()
+		// Skipping already declared method Microsoft.UI.Xaml.Window.SetTitleBar(Microsoft.UI.Xaml.UIElement)
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Compositor.get
+		// Forced skipping of method Microsoft.UI.Xaml.Window.Current.get
+		// Skipping already declared event Microsoft.UI.Xaml.Window.Activated
+		// Skipping already declared event Microsoft.UI.Xaml.Window.Closed
+		// Skipping already declared event Microsoft.UI.Xaml.Window.SizeChanged
+		// Skipping already declared event Microsoft.UI.Xaml.Window.VisibilityChanged
 	}
 }

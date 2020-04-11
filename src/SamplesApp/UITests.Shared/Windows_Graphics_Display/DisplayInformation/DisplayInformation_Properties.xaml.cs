@@ -1,4 +1,4 @@
-﻿using Windows.UI.Xaml.Controls;
+﻿using Microsoft.UI.Xaml.Controls;
 using Uno.UI.Samples.Controls;
 using System.Reflection;
 using System;
@@ -30,7 +30,7 @@ namespace UITests.Shared.Windows_Graphics_Display.DisplayInformation
 
 		}
 
-		private void Refresh_Click(object sender, Windows.UI.Xaml.RoutedEventArgs e)
+		private void Refresh_Click(object sender, Microsoft.UI.Xaml.RoutedEventArgs e)
 		{
 			RefreshDisplayInformation();
 		}

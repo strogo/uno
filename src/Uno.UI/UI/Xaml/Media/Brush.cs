@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using System.ComponentModel;
+using Windows.UI;
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	[TypeConverter(typeof(BrushConverter))]
 	public partial class Brush : DependencyObject

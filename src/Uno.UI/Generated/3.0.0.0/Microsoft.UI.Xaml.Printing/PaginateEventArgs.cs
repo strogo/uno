@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Printing
+namespace Microsoft.UI.Xaml.Printing
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -31,11 +31,11 @@ namespace Windows.UI.Xaml.Printing
 		[global::Uno.NotImplemented]
 		public PaginateEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Printing.PaginateEventArgs", "PaginateEventArgs.PaginateEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Printing.PaginateEventArgs", "PaginateEventArgs.PaginateEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Printing.PaginateEventArgs.PaginateEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Printing.PaginateEventArgs.PrintTaskOptions.get
-		// Forced skipping of method Windows.UI.Xaml.Printing.PaginateEventArgs.CurrentPreviewPageNumber.get
+		// Forced skipping of method Microsoft.UI.Xaml.Printing.PaginateEventArgs.PaginateEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Printing.PaginateEventArgs.PrintTaskOptions.get
+		// Forced skipping of method Microsoft.UI.Xaml.Printing.PaginateEventArgs.CurrentPreviewPageNumber.get
 	}
 }

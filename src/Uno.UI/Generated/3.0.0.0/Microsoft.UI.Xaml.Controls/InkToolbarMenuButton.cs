@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class InkToolbarMenuButton : global::Windows.UI.Xaml.Controls.Primitives.ToggleButton
+	public  partial class InkToolbarMenuButton : global::Microsoft.UI.Xaml.Controls.Primitives.ToggleButton
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -23,7 +23,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.InkToolbarMenuKind MenuKind
+		public  global::Microsoft.UI.Xaml.Controls.InkToolbarMenuKind MenuKind
 		{
 			get
 			{
@@ -33,15 +33,15 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsExtensionGlyphShownProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsExtensionGlyphShownProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsExtensionGlyphShown", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.InkToolbarMenuButton), 
+			typeof(global::Microsoft.UI.Xaml.Controls.InkToolbarMenuButton), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarMenuButton.MenuKind.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarMenuButton.IsExtensionGlyphShown.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarMenuButton.IsExtensionGlyphShown.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarMenuButton.IsExtensionGlyphShownProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarMenuButton.MenuKind.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarMenuButton.IsExtensionGlyphShown.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarMenuButton.IsExtensionGlyphShown.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarMenuButton.IsExtensionGlyphShownProperty.get
 	}
 }

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
     public interface IUIElement : IDisposable
 	{

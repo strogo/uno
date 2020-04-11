@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 
 namespace Uno.UI.Xaml.Controls
 {
 	/// <summary>
-	/// Enumeration of the possible updates modes of a <see cref="Windows.UI.Xaml.Controls.ScrollViewer"/>.
+	/// Enumeration of the possible updates modes of a <see cref="Microsoft.UI.Xaml.Controls.ScrollViewer"/>.
 	/// </summary>
 	public enum ScrollViewerUpdatesMode
 	{
@@ -27,7 +27,7 @@ namespace Uno.UI.Xaml.Controls
 	}
 
 	/// <summary>
-	/// The configurations of the <see cref="Windows.UI.Xaml.Controls.ScrollViewer"/> specific to the Uno platform.
+	/// The configurations of the <see cref="Microsoft.UI.Xaml.Controls.ScrollViewer"/> specific to the Uno platform.
 	/// </summary>
 	public static class ScrollViewer
 	{
@@ -40,14 +40,14 @@ namespace Uno.UI.Xaml.Controls
 			typeof(ScrollViewer),
 			new PropertyMetadata(
 				FeatureConfiguration.ScrollViewer.DefaultUpdatesMode,
-				(snd, e) => ((Windows.UI.Xaml.Controls.ScrollViewer)snd).UpdatesMode = (ScrollViewerUpdatesMode)e.NewValue));
+				(snd, e) => ((Microsoft.UI.Xaml.Controls.ScrollViewer)snd).UpdatesMode = (ScrollViewerUpdatesMode)e.NewValue));
 
 		/// <summary>
 		/// Sets the <see cref="ScrollViewerUpdatesMode"/> of a ScrollViewer.
 		/// </summary>
 		/// <param name="scrollViewer">The target ScrollViewer to configure</param>
 		/// <param name="mode">The updates mode to set</param>
-		public static void SetUpdatesMode(Windows.UI.Xaml.Controls.ScrollViewer scrollViewer, ScrollViewerUpdatesMode mode)
+		public static void SetUpdatesMode(Microsoft.UI.Xaml.Controls.ScrollViewer scrollViewer, ScrollViewerUpdatesMode mode)
 			=> scrollViewer.SetValue(UpdatesModeProperty, mode);
 
 		/// <summary>
@@ -55,7 +55,7 @@ namespace Uno.UI.Xaml.Controls
 		/// </summary>
 		/// <param name="scrollViewer">The target ScrollViewer</param>
 		/// <returns>The updates mode of the <paramref name="scrollViewer"/>.</returns>
-		public static ScrollViewerUpdatesMode GetUpdatesMode(Windows.UI.Xaml.Controls.ScrollViewer scrollViewer)
+		public static ScrollViewerUpdatesMode GetUpdatesMode(Microsoft.UI.Xaml.Controls.ScrollViewer scrollViewer)
 			=> (ScrollViewerUpdatesMode)scrollViewer.GetValue(UpdatesModeProperty);
 	}
 }

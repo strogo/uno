@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Drawing;
 using Uno.Disposables;
-using Windows.UI.Xaml.Automation.Peers;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Controls.Primitives;
 
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	public partial class ToggleButton : ButtonBase, IFrameworkTemplatePoolAware
 	{

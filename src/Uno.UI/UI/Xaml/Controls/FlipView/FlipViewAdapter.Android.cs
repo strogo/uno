@@ -10,7 +10,7 @@ using Uno.Extensions;
 using Uno.UI.Controls;
 using Uno.Extensions.Specialized;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public class FlipViewAdapter : PagerAdapter
 	{

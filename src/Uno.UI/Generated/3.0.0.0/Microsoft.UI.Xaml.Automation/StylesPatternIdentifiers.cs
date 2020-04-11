@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ExtendedPropertiesProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ExtendedPropertiesProperty
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty FillColorProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty FillColorProperty
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty FillPatternColorProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty FillPatternColorProperty
 		{
 			get
 			{
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty FillPatternStyleProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty FillPatternStyleProperty
 		{
 			get
 			{
@@ -49,7 +49,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ShapeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ShapeProperty
 		{
 			get
 			{
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty StyleIdProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty StyleIdProperty
 		{
 			get
 			{
@@ -69,7 +69,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty StyleNameProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty StyleNameProperty
 		{
 			get
 			{
@@ -77,12 +77,12 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.StylesPatternIdentifiers.ExtendedPropertiesProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.StylesPatternIdentifiers.FillColorProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.StylesPatternIdentifiers.FillPatternColorProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.StylesPatternIdentifiers.FillPatternStyleProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.StylesPatternIdentifiers.ShapeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.StylesPatternIdentifiers.StyleIdProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.StylesPatternIdentifiers.StyleNameProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.StylesPatternIdentifiers.ExtendedPropertiesProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.StylesPatternIdentifiers.FillColorProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.StylesPatternIdentifiers.FillPatternColorProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.StylesPatternIdentifiers.FillPatternStyleProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.StylesPatternIdentifiers.ShapeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.StylesPatternIdentifiers.StyleIdProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.StylesPatternIdentifiers.StyleNameProperty.get
 	}
 }

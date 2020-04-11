@@ -6,14 +6,14 @@ using System.Linq;
 using Windows.Devices.Input;
 using Windows.Foundation;
 using Windows.UI.Input;
-using Windows.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Input;
 using Microsoft.Extensions.Logging;
 using Uno.Extensions;
 using Uno.Logging;
 using Uno.UI;
 using Uno.UI.Xaml;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	/*
 	 *	This partial file
@@ -50,7 +50,7 @@ namespace Windows.UI.Xaml
 		{
 			var uiElement = typeof(UIElement);
 			VisibilityProperty.GetMetadata(uiElement).MergePropertyChangedCallback(ClearPointersStateIfNeeded);
-			Windows.UI.Xaml.Controls.Control.IsEnabledProperty.GetMetadata(typeof(Windows.UI.Xaml.Controls.Control)).MergePropertyChangedCallback(ClearPointersStateIfNeeded);
+			Microsoft.UI.Xaml.Controls.Control.IsEnabledProperty.GetMetadata(typeof(Microsoft.UI.Xaml.Controls.Control)).MergePropertyChangedCallback(ClearPointersStateIfNeeded);
 #if __WASM__
 			HitTestVisibilityProperty.GetMetadata(uiElement).MergePropertyChangedCallback(ClearPointersStateIfNeeded);
 #endif
@@ -167,11 +167,11 @@ namespace Windows.UI.Xaml
 					return false;
 				}
 
-				if (this is Windows.UI.Xaml.Controls.Control ctrl)
+				if (this is Microsoft.UI.Xaml.Controls.Control ctrl)
 				{
 					return ctrl.IsLoaded && ctrl.IsEnabled;
 				}
-				else if (this is Windows.UI.Xaml.FrameworkElement fwElt)
+				else if (this is Microsoft.UI.Xaml.FrameworkElement fwElt)
 				{
 					return fwElt.IsLoaded;
 				}

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ColumnProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ColumnProperty
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ColumnSpanProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ColumnSpanProperty
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty ContainingGridProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty ContainingGridProperty
 		{
 			get
 			{
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty RowProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty RowProperty
 		{
 			get
 			{
@@ -49,7 +49,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty RowSpanProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty RowSpanProperty
 		{
 			get
 			{
@@ -57,10 +57,10 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.GridItemPatternIdentifiers.ColumnProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.GridItemPatternIdentifiers.ColumnSpanProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.GridItemPatternIdentifiers.ContainingGridProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.GridItemPatternIdentifiers.RowProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.GridItemPatternIdentifiers.RowSpanProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.GridItemPatternIdentifiers.ColumnProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.GridItemPatternIdentifiers.ColumnSpanProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.GridItemPatternIdentifiers.ContainingGridProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.GridItemPatternIdentifiers.RowProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.GridItemPatternIdentifiers.RowSpanProperty.get
 	}
 }

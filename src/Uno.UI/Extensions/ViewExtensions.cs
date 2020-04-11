@@ -7,12 +7,12 @@ using _View = AppKit.NSView;
 #elif __ANDROID__
 using _View = Android.Views.ViewGroup;
 #else
-using _View = Windows.UI.Xaml.UIElement;
+using _View = Microsoft.UI.Xaml.UIElement;
 #endif
 
 using System.Collections.Generic;
 using Uno.Extensions;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 
 namespace Uno.UI.Extensions
 {

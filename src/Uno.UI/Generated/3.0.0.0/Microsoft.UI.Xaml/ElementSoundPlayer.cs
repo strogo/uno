@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementSoundPlayer", "double ElementSoundPlayer.Volume");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementSoundPlayer", "double ElementSoundPlayer.Volume");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.ElementSoundPlayerState State
+		public static global::Microsoft.UI.Xaml.ElementSoundPlayerState State
 		{
 			get
 			{
@@ -31,13 +31,13 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementSoundPlayer", "ElementSoundPlayerState ElementSoundPlayer.State");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementSoundPlayer", "ElementSoundPlayerState ElementSoundPlayer.State");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.ElementSpatialAudioMode SpatialAudioMode
+		public static global::Microsoft.UI.Xaml.ElementSpatialAudioMode SpatialAudioMode
 		{
 			get
 			{
@@ -45,21 +45,21 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementSoundPlayer", "ElementSpatialAudioMode ElementSoundPlayer.SpatialAudioMode");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementSoundPlayer", "ElementSpatialAudioMode ElementSoundPlayer.SpatialAudioMode");
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.ElementSoundPlayer.SpatialAudioMode.get
-		// Forced skipping of method Windows.UI.Xaml.ElementSoundPlayer.SpatialAudioMode.set
-		// Forced skipping of method Windows.UI.Xaml.ElementSoundPlayer.Volume.get
-		// Forced skipping of method Windows.UI.Xaml.ElementSoundPlayer.Volume.set
-		// Forced skipping of method Windows.UI.Xaml.ElementSoundPlayer.State.get
-		// Forced skipping of method Windows.UI.Xaml.ElementSoundPlayer.State.set
+		// Forced skipping of method Microsoft.UI.Xaml.ElementSoundPlayer.SpatialAudioMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.ElementSoundPlayer.SpatialAudioMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.ElementSoundPlayer.Volume.get
+		// Forced skipping of method Microsoft.UI.Xaml.ElementSoundPlayer.Volume.set
+		// Forced skipping of method Microsoft.UI.Xaml.ElementSoundPlayer.State.get
+		// Forced skipping of method Microsoft.UI.Xaml.ElementSoundPlayer.State.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void Play( global::Windows.UI.Xaml.ElementSoundKind sound)
+		public static void Play( global::Microsoft.UI.Xaml.ElementSoundKind sound)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementSoundPlayer", "void ElementSoundPlayer.Play(ElementSoundKind sound)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementSoundPlayer", "void ElementSoundPlayer.Play(ElementSoundKind sound)");
 		}
 		#endif
 	}

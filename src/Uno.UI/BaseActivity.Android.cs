@@ -14,7 +14,7 @@ using Android.Views;
 using Uno.Diagnostics.Eventing;
 using Uno.Extensions;
 using Uno.Logging;
-using Windows.UI.Xaml;
+using Microsoft.UI.Xaml;
 using Android.OS;
 
 namespace Uno.UI
@@ -47,7 +47,7 @@ namespace Uno.UI
 
 		static BaseActivity()
 		{
-			Windows.UI.Xaml.GenericStyles.Initialize();
+			Microsoft.UI.Xaml.GenericStyles.Initialize();
 		}
 
 		/// <summary>
@@ -191,13 +191,13 @@ namespace Uno.UI
 		partial void InnerResume()
 		{
 			SetAsCurrent();
-			Windows.UI.Xaml.Application.Current?.OnResuming();
+			Microsoft.UI.Xaml.Application.Current?.OnResuming();
 		}
 
 		partial void InnerPause()
 		{
 			ResignCurrent();
-			Windows.UI.Xaml.Application.Current?.OnSuspending();
+			Microsoft.UI.Xaml.Application.Current?.OnSuspending();
 		}
 
 		partial void InnerStop() => ResignCurrent();

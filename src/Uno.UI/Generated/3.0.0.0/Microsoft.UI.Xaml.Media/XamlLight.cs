@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class XamlLight : global::Windows.UI.Xaml.DependencyObject
+	public  partial class XamlLight : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,14 +17,14 @@ namespace Windows.UI.Xaml.Media
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlLight", "CompositionLight XamlLight.CompositionLight");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlLight", "CompositionLight XamlLight.CompositionLight");
 			}
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Media.XamlLight.XamlLight()
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlLight.XamlLight()
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlLight.CompositionLight.get
-		// Forced skipping of method Windows.UI.Xaml.Media.XamlLight.CompositionLight.set
+		// Skipping already declared method Microsoft.UI.Xaml.Media.XamlLight.XamlLight()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlLight.XamlLight()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlLight.CompositionLight.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.XamlLight.CompositionLight.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected virtual string GetId()
@@ -34,44 +34,44 @@ namespace Windows.UI.Xaml.Media
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual void OnConnected( global::Windows.UI.Xaml.UIElement newElement)
+		protected virtual void OnConnected( global::Microsoft.UI.Xaml.UIElement newElement)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlLight", "void XamlLight.OnConnected(UIElement newElement)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlLight", "void XamlLight.OnConnected(UIElement newElement)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual void OnDisconnected( global::Windows.UI.Xaml.UIElement oldElement)
+		protected virtual void OnDisconnected( global::Microsoft.UI.Xaml.UIElement oldElement)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlLight", "void XamlLight.OnDisconnected(UIElement oldElement)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlLight", "void XamlLight.OnDisconnected(UIElement oldElement)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void AddTargetElement( string lightId,  global::Windows.UI.Xaml.UIElement element)
+		public static void AddTargetElement( string lightId,  global::Microsoft.UI.Xaml.UIElement element)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlLight", "void XamlLight.AddTargetElement(string lightId, UIElement element)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlLight", "void XamlLight.AddTargetElement(string lightId, UIElement element)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void RemoveTargetElement( string lightId,  global::Windows.UI.Xaml.UIElement element)
+		public static void RemoveTargetElement( string lightId,  global::Microsoft.UI.Xaml.UIElement element)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlLight", "void XamlLight.RemoveTargetElement(string lightId, UIElement element)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlLight", "void XamlLight.RemoveTargetElement(string lightId, UIElement element)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void AddTargetBrush( string lightId,  global::Windows.UI.Xaml.Media.Brush brush)
+		public static void AddTargetBrush( string lightId,  global::Microsoft.UI.Xaml.Media.Brush brush)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlLight", "void XamlLight.AddTargetBrush(string lightId, Brush brush)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlLight", "void XamlLight.AddTargetBrush(string lightId, Brush brush)");
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void RemoveTargetBrush( string lightId,  global::Windows.UI.Xaml.Media.Brush brush)
+		public static void RemoveTargetBrush( string lightId,  global::Microsoft.UI.Xaml.Media.Brush brush)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.XamlLight", "void XamlLight.RemoveTargetBrush(string lightId, Brush brush)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.XamlLight", "void XamlLight.RemoveTargetBrush(string lightId, Brush brush)");
 		}
 		#endif
 	}

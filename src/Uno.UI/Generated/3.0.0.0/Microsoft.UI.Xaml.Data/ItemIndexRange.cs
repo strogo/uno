@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Data
+namespace Microsoft.UI.Xaml.Data
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -41,12 +41,12 @@ namespace Windows.UI.Xaml.Data
 		[global::Uno.NotImplemented]
 		public ItemIndexRange( int firstIndex,  uint length) 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Data.ItemIndexRange", "ItemIndexRange.ItemIndexRange(int firstIndex, uint length)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Data.ItemIndexRange", "ItemIndexRange.ItemIndexRange(int firstIndex, uint length)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Data.ItemIndexRange.ItemIndexRange(int, uint)
-		// Forced skipping of method Windows.UI.Xaml.Data.ItemIndexRange.FirstIndex.get
-		// Forced skipping of method Windows.UI.Xaml.Data.ItemIndexRange.Length.get
-		// Forced skipping of method Windows.UI.Xaml.Data.ItemIndexRange.LastIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ItemIndexRange.ItemIndexRange(int, uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ItemIndexRange.FirstIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ItemIndexRange.Length.get
+		// Forced skipping of method Microsoft.UI.Xaml.Data.ItemIndexRange.LastIndex.get
 	}
 }

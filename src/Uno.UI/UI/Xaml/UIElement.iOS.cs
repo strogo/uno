@@ -14,13 +14,13 @@ using Uno.UI.Extensions;
 using Windows.Devices.Input;
 using Windows.Foundation;
 using Windows.UI.Input;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using UIViewExtensions = UIKit.UIViewExtensions;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class UIElement : BindableUIView
 	{
@@ -121,7 +121,7 @@ namespace Windows.UI.Xaml
 			}
 		}
 
-		internal Windows.Foundation.Point GetPosition(Point position, global::Windows.UI.Xaml.UIElement relativeTo)
+		internal Windows.Foundation.Point GetPosition(Point position, global::Microsoft.UI.Xaml.UIElement relativeTo)
 		{
 			return ConvertPointToCoordinateSpace(position, relativeTo);
 		}

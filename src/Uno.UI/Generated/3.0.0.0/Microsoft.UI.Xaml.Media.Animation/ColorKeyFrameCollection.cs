@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ColorKeyFrameCollection : global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame>,global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+	public  partial class ColorKeyFrameCollection : global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>,global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -21,42 +21,42 @@ namespace Windows.UI.Xaml.Media.Animation
 		[global::Uno.NotImplemented]
 		public ColorKeyFrameCollection() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection", "ColorKeyFrameCollection.ColorKeyFrameCollection()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection", "ColorKeyFrameCollection.ColorKeyFrameCollection()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.ColorKeyFrameCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Size.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.GetView()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.IndexOf(Windows.UI.Xaml.Media.Animation.ColorKeyFrame, out uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.SetAt(uint, Windows.UI.Xaml.Media.Animation.ColorKeyFrame)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.InsertAt(uint, Windows.UI.Xaml.Media.Animation.ColorKeyFrame)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Append(Windows.UI.Xaml.Media.Animation.ColorKeyFrame)
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Clear()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.GetMany(uint, Windows.UI.Xaml.Media.Animation.ColorKeyFrame[])
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.ReplaceAll(Windows.UI.Xaml.Media.Animation.ColorKeyFrame[])
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.ColorKeyFrameCollection.First()
-		// Processing: System.Collections.Generic.IList<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.ColorKeyFrameCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.IndexOf(Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.SetAt(uint, Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.InsertAt(uint, Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Append(Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.GetMany(uint, Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.ReplaceAll(Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.ColorKeyFrameCollection.First()
+		// Processing: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
-		public int IndexOf( global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame item)
+		public int IndexOf( global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
-		public void Insert( int index,  global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame item)
+		public void Insert( int index,  global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
 		public void RemoveAt( int index)
 		{
@@ -65,7 +65,7 @@ namespace Windows.UI.Xaml.Media.Animation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame this[int index]
+		public global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame this[int index]
 		{
 			get
 			{
@@ -77,17 +77,17 @@ namespace Windows.UI.Xaml.Media.Animation
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// Processing: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
-		public void Add( global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame item)
+		public void Add( global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
 		public void Clear()
 		{
@@ -95,25 +95,25 @@ namespace Windows.UI.Xaml.Media.Animation
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
-		public bool Contains( global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame item)
+		public bool Contains( global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
-		public void CopyTo( global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame[] array,  int arrayIndex)
+		public void CopyTo( global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame[] array,  int arrayIndex)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
-		public bool Remove( global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame item)
+		public bool Remove( global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame item)
 		{
 			throw new global::System.NotSupportedException();
 		}
@@ -146,11 +146,11 @@ namespace Windows.UI.Xaml.Media.Animation
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Media.Animation.ColorKeyFrame>
+		// DeclaringType: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame>
 		[global::Uno.NotImplemented]
-		public global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.Media.Animation.ColorKeyFrame> GetEnumerator()
+		public global::System.Collections.Generic.IEnumerator<global::Microsoft.UI.Xaml.Media.Animation.ColorKeyFrame> GetEnumerator()
 		{
 			throw new global::System.NotSupportedException();
 		}

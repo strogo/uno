@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Data
+namespace Microsoft.UI.Xaml.Data
 {
 	#if false || false || false || false || false
 	#if false || false || false || false || false
@@ -8,9 +8,9 @@ namespace Windows.UI.Xaml.Data
 	#endif
 	public   enum BindingMode 
 	{
-		// Skipping already declared field Windows.UI.Xaml.Data.BindingMode.OneWay
-		// Skipping already declared field Windows.UI.Xaml.Data.BindingMode.OneTime
-		// Skipping already declared field Windows.UI.Xaml.Data.BindingMode.TwoWay
+		// Skipping already declared field Microsoft.UI.Xaml.Data.BindingMode.OneWay
+		// Skipping already declared field Microsoft.UI.Xaml.Data.BindingMode.OneTime
+		// Skipping already declared field Microsoft.UI.Xaml.Data.BindingMode.TwoWay
 	}
 	#endif
 }

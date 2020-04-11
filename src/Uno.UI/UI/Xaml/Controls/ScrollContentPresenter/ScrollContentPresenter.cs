@@ -1,7 +1,7 @@
 ﻿using Uno.Extensions;
 using Uno.Logging;
 using Uno.UI.DataBinding;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -24,10 +24,10 @@ using View = AppKit.NSView;
 using Color = AppKit.NSColor;
 using Font = AppKit.NSFont;
 #else
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class ScrollContentPresenter : IScrollContentPresenter, ILayoutConstraints
 	{

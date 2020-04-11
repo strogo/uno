@@ -12,7 +12,7 @@ using System.Drawing;
 using Windows.UI.ViewManagement;
 using Uno.UI;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public sealed partial class Window
 	{

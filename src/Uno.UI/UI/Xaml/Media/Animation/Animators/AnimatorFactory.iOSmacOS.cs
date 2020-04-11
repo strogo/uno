@@ -5,7 +5,7 @@ using System.Text;
 using Uno.Extensions;
 using Uno.Logging;
 
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
 	/// <summary>
 	/// Value animator. Base on the Android ValueAnimator, this object is similar semantically. 

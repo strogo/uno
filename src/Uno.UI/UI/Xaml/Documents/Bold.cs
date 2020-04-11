@@ -1,10 +1,12 @@
-namespace Windows.UI.Xaml.Documents
+using Windows.UI.Text;
+
+namespace Microsoft.UI.Xaml.Documents
 {
 	public  partial class Bold : Span
 	{
 		public Bold()
 		{
-			FontWeight = Text.FontWeights.Bold;
+			FontWeight = FontWeights.Bold;
 		}
 
 		protected override void OnStyleChanged()

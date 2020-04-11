@@ -9,8 +9,8 @@ using Android.Widget;
 using Uno.Extensions;
 using Uno.Logging;
 using Uno.UI.DataBinding;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Data;
 using Android.Views;
 
 namespace Uno.UI.Controls

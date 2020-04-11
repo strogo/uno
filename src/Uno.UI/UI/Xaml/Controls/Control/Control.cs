@@ -6,10 +6,10 @@ using Uno;
 using Uno.UI;
 using Uno.UI.DataBinding;
 using System.Linq;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using Windows.UI.Text;
-using Windows.UI.Xaml.Markup;
+using Microsoft.UI.Xaml.Markup;
 using System.ComponentModel;
 using System.Reflection;
 using Uno.UI.Xaml;
@@ -31,10 +31,10 @@ using Color = AppKit.NSColor;
 using Font = AppKit.NSFont;
 using AppKit;
 #elif __WASM__ || NET461
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class Control : FrameworkElement
 	{

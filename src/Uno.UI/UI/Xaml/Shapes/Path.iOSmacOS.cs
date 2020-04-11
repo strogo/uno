@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using Windows.Foundation;
 using Uno.Media;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 
 #if __IOS__
 using UIKit;
@@ -13,7 +13,7 @@ using UIKit;
 using AppKit;
 #endif
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public partial class Path
 	{

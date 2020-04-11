@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Uno.Core.Comparison;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	/// <summary>
 	/// An optimized cache entry for the DependencyProperty.GetProperty method.

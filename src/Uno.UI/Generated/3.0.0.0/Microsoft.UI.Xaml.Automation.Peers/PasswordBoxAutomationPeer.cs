@@ -1,13 +1,13 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Peers
+namespace Microsoft.UI.Xaml.Automation.Peers
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class PasswordBoxAutomationPeer : global::Windows.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer
+	public  partial class PasswordBoxAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer
 	{
-		// Skipping already declared method Windows.UI.Xaml.Automation.Peers.PasswordBoxAutomationPeer.PasswordBoxAutomationPeer(Windows.UI.Xaml.Controls.PasswordBox)
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.PasswordBoxAutomationPeer.PasswordBoxAutomationPeer(Windows.UI.Xaml.Controls.PasswordBox)
+		// Skipping already declared method Microsoft.UI.Xaml.Automation.Peers.PasswordBoxAutomationPeer.PasswordBoxAutomationPeer(Microsoft.UI.Xaml.Controls.PasswordBox)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.PasswordBoxAutomationPeer.PasswordBoxAutomationPeer(Microsoft.UI.Xaml.Controls.PasswordBox)
 	}
 }

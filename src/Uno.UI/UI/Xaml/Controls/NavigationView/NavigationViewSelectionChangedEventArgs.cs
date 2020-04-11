@@ -5,7 +5,7 @@
 // This file is a C# translation of the NavigationViewSelectionChangedEventArgs.cpp file from WinUI controls.
 //
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public  partial class NavigationViewSelectionChangedEventArgs 
 	{
@@ -19,12 +19,12 @@ namespace Windows.UI.Xaml.Controls
 			get; internal set;
 		}
 
-		public global::Windows.UI.Xaml.Media.Animation.NavigationTransitionInfo RecommendedNavigationTransitionInfo
+		public global::Microsoft.UI.Xaml.Media.Animation.NavigationTransitionInfo RecommendedNavigationTransitionInfo
 		{
 			get; internal set;
 		}
 
-		public global::Windows.UI.Xaml.Controls.NavigationViewItemBase SelectedItemContainer
+		public global::Microsoft.UI.Xaml.Controls.NavigationViewItemBase SelectedItemContainer
 		{
 			get; internal set;
 		}

@@ -45,7 +45,7 @@
 		</Setter>
 	</macos:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ContentControl -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ContentControl -->
 	<Style TargetType="ContentControl">
 		<Setter Property="HorizontalContentAlignment"
 				Value="Left" />
@@ -141,7 +141,7 @@
 				Value="Normal" />
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.Primitives.HyperlinkButton -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.Primitives.HyperlinkButton -->
 	<xamarin:Style TargetType="HyperlinkButton">
 		<Setter Property="Foreground"
 				Value="{ThemeResource SystemControlHyperlinkTextBrush}" />
@@ -214,7 +214,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!--Default style for Windows.UI.Xaml.Controls.TextBox-->
+	<!--Default style for Microsoft.UI.Xaml.Controls.TextBox-->
 	<xamarin:Style x:Key="XamlDefaultTextBox"
 				   TargetType="TextBox">
 		<Setter Property="MinWidth"
@@ -486,7 +486,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ComboBox -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ComboBox -->
 	<xamarin:Style x:Key="DefaultComboBoxStyle"
 				   TargetType="ComboBox">
 		<Setter Property="Padding"
@@ -794,7 +794,7 @@
 	<Style TargetType="ComboBox"
 		   BasedOn="{StaticResource DefaultComboBoxStyle}" />
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ComboBoxItem -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ComboBoxItem -->
 	<xamarin:Style x:Key="DefaultComboBoxItemStyle"
 				   TargetType="ComboBoxItem">
 		<Setter Property="Background"
@@ -967,7 +967,7 @@
 	<xamarin:Style TargetType="ComboBoxItem"
 				   BasedOn="{StaticResource DefaultComboBoxItemStyle}" />
 
-	<!-- Style for Windows.UI.Xaml.Controls.ListViewItem -->
+	<!-- Style for Microsoft.UI.Xaml.Controls.ListViewItem -->
 	<xamarin:Style TargetType="ListViewItem"
 				   x:Key="ListViewItemExpanded">
 		<Setter Property="FontFamily"
@@ -1400,7 +1400,7 @@
 	<xamarin:Style TargetType="ListViewItem"
 				   BasedOn="{StaticResource ListViewItemExpanded}" />
 
-	<!-- Style for Windows.UI.Xaml.Controls.GridViewItem -->
+	<!-- Style for Microsoft.UI.Xaml.Controls.GridViewItem -->
 	<xamarin:Style TargetType="GridViewItem"
 				   x:Key="GridViewItemExpanded">
 		<Setter Property="FontFamily"
@@ -2154,7 +2154,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.TimePicker -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.TimePicker -->
 	<!--https://msdn.microsoft.com/en-us/library/windows/apps/mt299156.aspx-->
 	<xamarin:Style TargetType="TimePicker">
         <Setter Property="IsTabStop"
@@ -3161,7 +3161,7 @@
 	<xamarin:Style TargetType="SplitView"
 				   BasedOn="{StaticResource DefaultSplitViewStyle}" />
 
-	<!-- Default style for Windows.UI.Xaml.Controls.Button -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.Button -->
 	<xamarin:Style x:Key="XamlDefaultButton"
 				   TargetType="Button">
 		<Setter Property="Background"
@@ -3273,7 +3273,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.Primitives.ToggleButton -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.Primitives.ToggleButton -->
 	<xamarin:Style x:Key="XamlDefaultToggleButton"
 				   TargetType="ToggleButton">
 		<Setter Property="Background"
@@ -3540,7 +3540,7 @@
 	<wasm:Style TargetType="PasswordBox"
 				BasedOn="{StaticResource XamlDefaultPasswordBox}" />
 
-	<!-- Default style for Windows.UI.Xaml.Controls.CheckBox -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.CheckBox -->
 	<Style x:Key="XamlDefaultCheckBox" TargetType="CheckBox">
 		<Setter Property="Background" Value="{ThemeResource CheckBoxBackgroundUnchecked}" />
 		<Setter Property="Foreground" Value="{ThemeResource CheckBoxForegroundUnchecked}" />
@@ -3944,7 +3944,7 @@
 	</Style>
 
 
-	<!-- Default style for Windows.UI.Xaml.Controls.RadioButton -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.RadioButton -->
 	<xamarin:Style x:Key="XamlDefaultRadioButton"
 				   TargetType="RadioButton">
 		<Setter Property="Background"
@@ -4122,7 +4122,7 @@
 		</Setter>
 	</xamarin:Style>
 
-<!-- Default style for Windows.UI.Xaml.Controls.Slider -->
+<!-- Default style for Microsoft.UI.Xaml.Controls.Slider -->
 	<xamarin:Style TargetType="Thumb"
 				   x:Key="SliderThumbStyle">
 		<Setter Property="ManipulationMode"
@@ -4424,7 +4424,7 @@
 		</android:Setter>
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ListView -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ListView -->
 	<xamarin:Style TargetType="ListView">
 		<Setter Property="IsTabStop"
 				Value="False" />
@@ -4503,7 +4503,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.GridView -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.GridView -->
 	<xamarin:Style TargetType="GridView">
 		<Setter Property="Padding"
 				Value="0,0,0,10" />
@@ -4584,7 +4584,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ScrollViewer -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ScrollViewer -->
 	<xamarin:Style TargetType="ScrollViewer"
 				   x:Key="DefaultScrollViewerStyle">
 		<Setter Property="HorizontalScrollMode"
@@ -4772,7 +4772,7 @@
 	<xamarin:Style TargetType="ScrollViewer"
 				   BasedOn="{StaticResource DefaultScrollViewerStyle}" />
 
-	<!-- Default style for Windows.UI.Xaml.Controls.PasswordBox -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.PasswordBox -->
 	<xamarin:Style x:Key="XamlDefaultPasswordBox"
 				   TargetType="PasswordBox">
 		<Setter Property="MinWidth"
@@ -5102,7 +5102,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!-- Default UWP style for Windows.UI.Xaml.Controls.Frame -->
+	<!-- Default UWP style for Microsoft.UI.Xaml.Controls.Frame -->
 	<xamarin:Style x:Key="XamlDefaultFrame"
 				   TargetType="Frame">
 		<Setter Property="HorizontalContentAlignment"
@@ -5130,7 +5130,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ProgressBar -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ProgressBar -->
 	<xamarin:Style x:Key="XamlDefaultProgressBar"
 				   TargetType="ProgressBar">
 		<Setter Property="Foreground"
@@ -5167,7 +5167,7 @@
 		</Setter>
 	</xamarin:Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ProgressRing -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ProgressRing -->
         <wasm:Style x:Key="ProgressRingEllipseStyle" TargetType="Ellipse">
 	        <Setter Property="Opacity" Value="0" />
         	<Setter Property="HorizontalAlignment" Value="Left" />
@@ -5436,7 +5436,7 @@
 		</Setter>
 	</wasm:Style>
 	
-	<!-- Default style for Windows.UI.Xaml.Controls.ListViewHeaderItem -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ListViewHeaderItem -->
 	<Style TargetType="ListViewHeaderItem">
 		<Setter Property="FontFamily"
 				Value="{ThemeResource ContentControlThemeFontFamily}" />
@@ -5483,7 +5483,7 @@
 		</Setter>
 	</Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.GridViewHeaderItem -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.GridViewHeaderItem -->
 	<Style TargetType="GridViewHeaderItem">
 		<Setter Property="FontFamily"
 				Value="{ThemeResource ContentControlThemeFontFamily}" />
@@ -5530,7 +5530,7 @@
 		</Setter>
 	</Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.FlipViewItem -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.FlipViewItem -->
 	<Style TargetType="FlipViewItem">
 		<Setter Property="Background"
 				Value="Transparent" />
@@ -5559,7 +5559,7 @@
 		</Setter>
 	</Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ToggleSwitch -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ToggleSwitch -->
 	<Style x:Key="XamlDefaultToggleSwitch"
 		   TargetType="ToggleSwitch">
 		<Setter Property="Foreground"
@@ -5940,7 +5940,7 @@
 	</Style>
 
 
-	<!-- Default style for Windows.UI.Xaml.Pivot  -->
+	<!-- Default style for Microsoft.UI.Xaml.Pivot  -->
 	<Style x:Key="BaseContentControlStyle"
 		   TargetType="ContentControl">
 		<Setter Property="FontFamily"
@@ -6353,7 +6353,7 @@
 		</Setter>
 	</Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.PivotItem -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.PivotItem -->
 	<Style TargetType="PivotItem">
 		<Setter Property="Background"
 				Value="{ThemeResource PivotItemBackground}" />
@@ -6395,7 +6395,7 @@
 		</Setter>
 	</Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.Primitives.PivotHeaderItem -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.Primitives.PivotHeaderItem -->
 	<Style TargetType="local:PivotHeaderItem">
 		<Setter Property="FontSize"
 				Value="{ThemeResource PivotHeaderItemFontSize}" />
@@ -8035,7 +8035,7 @@
 		</Setter>
 	</Style>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.Primitives.RepeatButton -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.Primitives.RepeatButton -->
 	<Style x:Name="XamlDefaultRepeatButton" TargetType="RepeatButton">
 	  <Setter Property="Background" Value="{ThemeResource RepeatButtonBackground}" />
 	  <Setter Property="BackgroundSizing" Value="OuterBorderEdge" />
@@ -8128,7 +8128,7 @@
 
 	<Style TargetType="RepeatButton" BasedOn="{StaticResource XamlDefaultRepeatButton}" />
 
-	<!-- Default style for Windows.UI.Xaml.Controls.Primitives.ScrollBar -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.Primitives.ScrollBar -->
 
     <ControlTemplate x:Key="XamlDefaultScrollBar_RepeatButtonTemplate" TargetType="RepeatButton">
         <Grid x:Name="Root" Background="Transparent">

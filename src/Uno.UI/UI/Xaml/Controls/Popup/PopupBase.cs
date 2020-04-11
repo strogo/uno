@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Windows.Foundation;
-using Windows.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Input;
 using Uno.Extensions;
 using Uno.UI.DataBinding;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 #if XAMARIN_IOS
 using CoreGraphics;
 using UIKit;
@@ -18,10 +18,10 @@ using View = AppKit.NSView;
 #elif XAMARIN_ANDROID
 using View = Android.Views.View;
 #elif NET461 || __WASM__
-using View = Windows.UI.Xaml.FrameworkElement;
+using View = Microsoft.UI.Xaml.FrameworkElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class PopupBase : FrameworkElement, IPopup
 	{

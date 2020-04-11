@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using Android.Views;
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	public  partial class CompositionTarget 
 	{

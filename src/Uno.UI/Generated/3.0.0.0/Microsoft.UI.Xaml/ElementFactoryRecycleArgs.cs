@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Parent
+		public  global::Microsoft.UI.Xaml.UIElement Parent
 		{
 			get
 			{
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementFactoryRecycleArgs", "UIElement ElementFactoryRecycleArgs.Parent");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementFactoryRecycleArgs", "UIElement ElementFactoryRecycleArgs.Parent");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Element
+		public  global::Microsoft.UI.Xaml.UIElement Element
 		{
 			get
 			{
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementFactoryRecycleArgs", "UIElement ElementFactoryRecycleArgs.Element");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementFactoryRecycleArgs", "UIElement ElementFactoryRecycleArgs.Element");
 			}
 		}
 		#endif
@@ -39,13 +39,13 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public ElementFactoryRecycleArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.ElementFactoryRecycleArgs", "ElementFactoryRecycleArgs.ElementFactoryRecycleArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.ElementFactoryRecycleArgs", "ElementFactoryRecycleArgs.ElementFactoryRecycleArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryRecycleArgs.ElementFactoryRecycleArgs()
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryRecycleArgs.Element.get
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryRecycleArgs.Element.set
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryRecycleArgs.Parent.get
-		// Forced skipping of method Windows.UI.Xaml.ElementFactoryRecycleArgs.Parent.set
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryRecycleArgs.ElementFactoryRecycleArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryRecycleArgs.Element.get
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryRecycleArgs.Element.set
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryRecycleArgs.Parent.get
+		// Forced skipping of method Microsoft.UI.Xaml.ElementFactoryRecycleArgs.Parent.set
 	}
 }

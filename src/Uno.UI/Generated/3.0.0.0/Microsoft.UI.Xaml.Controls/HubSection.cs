@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class HubSection : global::Windows.UI.Xaml.Controls.Control
+	public  partial class HubSection : global::Microsoft.UI.Xaml.Controls.Control
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -23,11 +23,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DataTemplate HeaderTemplate
+		public  global::Microsoft.UI.Xaml.DataTemplate HeaderTemplate
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.DataTemplate)this.GetValue(HeaderTemplateProperty);
+				return (global::Microsoft.UI.Xaml.DataTemplate)this.GetValue(HeaderTemplateProperty);
 			}
 			set
 			{
@@ -51,11 +51,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DataTemplate ContentTemplate
+		public  global::Microsoft.UI.Xaml.DataTemplate ContentTemplate
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.DataTemplate)this.GetValue(ContentTemplateProperty);
+				return (global::Microsoft.UI.Xaml.DataTemplate)this.GetValue(ContentTemplateProperty);
 			}
 			set
 			{
@@ -65,55 +65,55 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ContentTemplateProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ContentTemplate", typeof(global::Windows.UI.Xaml.DataTemplate), 
-			typeof(global::Windows.UI.Xaml.Controls.HubSection), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.DataTemplate)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ContentTemplateProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ContentTemplate", typeof(global::Microsoft.UI.Xaml.DataTemplate), 
+			typeof(global::Microsoft.UI.Xaml.Controls.HubSection), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.DataTemplate)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HeaderProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty HeaderProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Header", typeof(object), 
-			typeof(global::Windows.UI.Xaml.Controls.HubSection), 
+			typeof(global::Microsoft.UI.Xaml.Controls.HubSection), 
 			new FrameworkPropertyMetadata(default(object)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"HeaderTemplate", typeof(global::Windows.UI.Xaml.DataTemplate), 
-			typeof(global::Windows.UI.Xaml.Controls.HubSection), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.DataTemplate)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty HeaderTemplateProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"HeaderTemplate", typeof(global::Microsoft.UI.Xaml.DataTemplate), 
+			typeof(global::Microsoft.UI.Xaml.Controls.HubSection), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.DataTemplate)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsHeaderInteractiveProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsHeaderInteractiveProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsHeaderInteractive", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.HubSection), 
+			typeof(global::Microsoft.UI.Xaml.Controls.HubSection), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public HubSection() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.HubSection", "HubSection.HubSection()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.HubSection", "HubSection.HubSection()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.HubSection()
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.Header.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.Header.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.HeaderTemplate.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.HeaderTemplate.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.ContentTemplate.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.ContentTemplate.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.IsHeaderInteractive.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.IsHeaderInteractive.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.HeaderProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.HeaderTemplateProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.ContentTemplateProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.HubSection.IsHeaderInteractiveProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.HubSection()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.Header.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.Header.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.HeaderTemplate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.HeaderTemplate.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.ContentTemplate.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.ContentTemplate.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.IsHeaderInteractive.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.IsHeaderInteractive.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.HeaderProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.HeaderTemplateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.ContentTemplateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.HubSection.IsHeaderInteractiveProperty.get
 	}
 }

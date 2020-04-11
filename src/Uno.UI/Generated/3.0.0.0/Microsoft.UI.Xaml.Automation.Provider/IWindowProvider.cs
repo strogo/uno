@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Provider
+namespace Microsoft.UI.Xaml.Automation.Provider
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -8,7 +8,7 @@ namespace Windows.UI.Xaml.Automation.Provider
 	public  partial interface IWindowProvider 
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		global::Windows.UI.Xaml.Automation.WindowInteractionState InteractionState
+		global::Microsoft.UI.Xaml.Automation.WindowInteractionState InteractionState
 		{
 			get;
 		}
@@ -38,22 +38,22 @@ namespace Windows.UI.Xaml.Automation.Provider
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		global::Windows.UI.Xaml.Automation.WindowVisualState VisualState
+		global::Microsoft.UI.Xaml.Automation.WindowVisualState VisualState
 		{
 			get;
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IWindowProvider.IsModal.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IWindowProvider.IsTopmost.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IWindowProvider.Maximizable.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IWindowProvider.Minimizable.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IWindowProvider.InteractionState.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IWindowProvider.VisualState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsModal.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.IsTopmost.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Maximizable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.Minimizable.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.InteractionState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IWindowProvider.VisualState.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		void Close();
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		void SetVisualState( global::Windows.UI.Xaml.Automation.WindowVisualState state);
+		void SetVisualState( global::Microsoft.UI.Xaml.Automation.WindowVisualState state);
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		bool WaitForInputIdle( int milliseconds);

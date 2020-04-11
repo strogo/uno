@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 using Uno.UI;
-using Windows.UI.Xaml.Automation.Peers;
+using Microsoft.UI.Xaml.Automation.Peers;
 
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	public sealed partial class AutomationProperties
 	{

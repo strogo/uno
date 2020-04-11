@@ -10,8 +10,8 @@ using System.Windows;
 using System.Windows.Controls;
 #else
 using Windows.Foundation;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
 #endif
 #if __ANDROID__ || __IOS__ || __WASM__ || __MACOS__
 using DependencyObject = System.Object;

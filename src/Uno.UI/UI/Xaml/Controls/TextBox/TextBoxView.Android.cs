@@ -8,18 +8,18 @@ using Android.Content;
 using Android.Graphics;
 using Android.Graphics.Drawables;
 using Uno.Extensions;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using Uno.Logging;
 using Android.Views;
 using Android.Runtime;
 using Android.Text;
 using Android.Views.InputMethods;
 using Android.OS;
-using Windows.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Input;
 using Uno.UI.Extensions;
 using Uno.UI.DataBinding;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class TextBoxView : EditText, DependencyObject
 	{

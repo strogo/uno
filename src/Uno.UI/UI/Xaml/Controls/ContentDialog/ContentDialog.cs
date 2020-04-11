@@ -7,10 +7,11 @@ using Uno.Client;
 using Uno.Disposables;
 using Uno.Extensions;
 using Windows.Foundation;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Windows.System;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class 
 		ContentDialog : ContentControl
@@ -46,7 +47,7 @@ namespace Windows.UI.Xaml.Controls
 		{
 			switch (e.Key)
 			{
-				case System.VirtualKey.Enter:
+				case VirtualKey.Enter:
 					switch (DefaultButton)
 					{
 						case ContentDialogButton.Close:
@@ -67,7 +68,7 @@ namespace Windows.UI.Xaml.Controls
 					}
 					break;
 
-				case System.VirtualKey.Escape:
+				case VirtualKey.Escape:
 					ProcessCloseButton();
 					break;
 			}

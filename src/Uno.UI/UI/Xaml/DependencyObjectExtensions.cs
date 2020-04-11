@@ -10,7 +10,7 @@ using Uno.Logging;
 using Uno.Diagnostics.Eventing;
 using Uno.UI.DataBinding;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public static class DependencyObjectExtensions
 	{

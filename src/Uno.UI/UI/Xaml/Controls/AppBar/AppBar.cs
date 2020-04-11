@@ -1,9 +1,9 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class AppBar : ContentControl
 	{
@@ -137,7 +137,7 @@ namespace Windows.UI.Xaml.Controls
 		private void UpdateTemplateSettings()
 		{
 			var contentHeight = (ContentTemplateRoot as FrameworkElement)?.ActualHeight ?? ActualHeight;
-			TemplateSettings.ClipRect = new Foundation.Rect(0, 0, ActualWidth, contentHeight);
+			TemplateSettings.ClipRect = new Windows.Foundation.Rect(0, 0, ActualWidth, contentHeight);
 
 			var compactVerticalDelta = _compactHeight - contentHeight;
 			TemplateSettings.CompactVerticalDelta = compactVerticalDelta;

@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media.Imaging
+namespace Microsoft.UI.Xaml.Media.Imaging
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class SvgImageSource : global::Windows.UI.Xaml.Media.ImageSource
+	public  partial class SvgImageSource : global::Microsoft.UI.Xaml.Media.ImageSource
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -51,93 +51,93 @@ namespace Windows.UI.Xaml.Media.Imaging
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RasterizePixelHeightProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty RasterizePixelHeightProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"RasterizePixelHeight", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Media.Imaging.SvgImageSource), 
+			typeof(global::Microsoft.UI.Xaml.Media.Imaging.SvgImageSource), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty RasterizePixelWidthProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty RasterizePixelWidthProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"RasterizePixelWidth", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Media.Imaging.SvgImageSource), 
+			typeof(global::Microsoft.UI.Xaml.Media.Imaging.SvgImageSource), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty UriSourceProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty UriSourceProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"UriSource", typeof(global::System.Uri), 
-			typeof(global::Windows.UI.Xaml.Media.Imaging.SvgImageSource), 
+			typeof(global::Microsoft.UI.Xaml.Media.Imaging.SvgImageSource), 
 			new FrameworkPropertyMetadata(default(global::System.Uri)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public SvgImageSource() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Imaging.SvgImageSource", "SvgImageSource.SvgImageSource()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Imaging.SvgImageSource", "SvgImageSource.SvgImageSource()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.SvgImageSource()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.SvgImageSource()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public SvgImageSource( global::System.Uri uriSource) 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Imaging.SvgImageSource", "SvgImageSource.SvgImageSource(Uri uriSource)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Imaging.SvgImageSource", "SvgImageSource.SvgImageSource(Uri uriSource)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.SvgImageSource(System.Uri)
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.UriSource.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.UriSource.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelWidth.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelWidth.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeight.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeight.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.Opened.add
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.Opened.remove
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.OpenFailed.add
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.OpenFailed.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.SvgImageSource(System.Uri)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.UriSource.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.UriSource.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelWidth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelWidth.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeight.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeight.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.Opened.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.Opened.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.OpenFailed.add
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.OpenFailed.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.Foundation.IAsyncOperation<global::Windows.UI.Xaml.Media.Imaging.SvgImageSourceLoadStatus> SetSourceAsync( global::Windows.Storage.Streams.IRandomAccessStream streamSource)
+		public  global::Windows.Foundation.IAsyncOperation<global::Microsoft.UI.Xaml.Media.Imaging.SvgImageSourceLoadStatus> SetSourceAsync( global::Windows.Storage.Streams.IRandomAccessStream streamSource)
 		{
 			throw new global::System.NotImplementedException("The member IAsyncOperation<SvgImageSourceLoadStatus> SvgImageSource.SetSourceAsync(IRandomAccessStream streamSource) is not implemented in Uno.");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.UriSourceProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelWidthProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeightProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.UriSourceProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelWidthProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Imaging.SvgImageSource.RasterizePixelHeightProperty.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Media.Imaging.SvgImageSource, global::Windows.UI.Xaml.Media.Imaging.SvgImageSourceFailedEventArgs> OpenFailed
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Media.Imaging.SvgImageSource, global::Microsoft.UI.Xaml.Media.Imaging.SvgImageSourceFailedEventArgs> OpenFailed
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Imaging.SvgImageSource", "event TypedEventHandler<SvgImageSource, SvgImageSourceFailedEventArgs> SvgImageSource.OpenFailed");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Imaging.SvgImageSource", "event TypedEventHandler<SvgImageSource, SvgImageSourceFailedEventArgs> SvgImageSource.OpenFailed");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Imaging.SvgImageSource", "event TypedEventHandler<SvgImageSource, SvgImageSourceFailedEventArgs> SvgImageSource.OpenFailed");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Imaging.SvgImageSource", "event TypedEventHandler<SvgImageSource, SvgImageSourceFailedEventArgs> SvgImageSource.OpenFailed");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Media.Imaging.SvgImageSource, global::Windows.UI.Xaml.Media.Imaging.SvgImageSourceOpenedEventArgs> Opened
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Media.Imaging.SvgImageSource, global::Microsoft.UI.Xaml.Media.Imaging.SvgImageSourceOpenedEventArgs> Opened
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Imaging.SvgImageSource", "event TypedEventHandler<SvgImageSource, SvgImageSourceOpenedEventArgs> SvgImageSource.Opened");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Imaging.SvgImageSource", "event TypedEventHandler<SvgImageSource, SvgImageSourceOpenedEventArgs> SvgImageSource.Opened");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Imaging.SvgImageSource", "event TypedEventHandler<SvgImageSource, SvgImageSourceOpenedEventArgs> SvgImageSource.Opened");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Imaging.SvgImageSource", "event TypedEventHandler<SvgImageSource, SvgImageSourceOpenedEventArgs> SvgImageSource.Opened");
 			}
 		}
 		#endif

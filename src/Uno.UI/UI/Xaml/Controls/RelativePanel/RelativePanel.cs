@@ -4,7 +4,7 @@ using System.Drawing;
 using System.Text;
 using System.Linq;
 using Uno.Extensions;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 
 #if XAMARIN_ANDROID
 using Android.Views;
@@ -12,7 +12,7 @@ using Android.Views;
 using View = UIKit.UIView;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class RelativePanel : Panel
 	{

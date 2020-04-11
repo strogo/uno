@@ -136,6 +136,8 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 			bool skipUserControlsInVisualTree
 		)
 		{
+			// Debugger.Launch();
+
 			_fileDefinition = file;
 			_targetPath = targetPath;
 			_defaultNamespace = defaultNamespace;

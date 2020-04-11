@@ -7,9 +7,9 @@ using System.Text;
 using Uno.Extensions;
 using Uno.Logging;
 using Windows.UI.Text;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Documents;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Documents;
+using Microsoft.UI.Xaml.Media;
 
 namespace Uno.UI.Controls
 {

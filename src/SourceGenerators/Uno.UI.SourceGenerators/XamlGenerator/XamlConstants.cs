@@ -13,7 +13,7 @@ namespace Uno.UI.SourceGenerators.XamlGenerator
 
 		public const string RootFoundationNamespace = "Windows.Foundation";
 		public const string RootUINamespace = "Windows.UI";
-		public const string BaseXamlNamespace = RootUINamespace + ".Xaml";
+		public const string BaseXamlNamespace = "Microsoft.UI.Xaml";
 		public const string UnoXamlNamespace = "Microsoft.UI.Xaml";
 
 		public static class Namespaces

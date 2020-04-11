@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
-	// Skipping already declared delegate Windows.UI.Xaml.SizeChangedEventHandler
+	// Skipping already declared delegate Microsoft.UI.Xaml.SizeChangedEventHandler
 }

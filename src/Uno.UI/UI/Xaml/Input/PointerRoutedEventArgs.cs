@@ -9,7 +9,7 @@ using Windows.System;
 using Windows.UI.Core;
 using Windows.UI.Input;
 
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	public sealed partial class PointerRoutedEventArgs : RoutedEventArgs, ICancellableRoutedEventArgs, CoreWindow.IPointerEventArgs
 	{

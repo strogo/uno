@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class CharacterReceivedRoutedEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class CharacterReceivedRoutedEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.CharacterReceivedRoutedEventArgs", "bool CharacterReceivedRoutedEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.CharacterReceivedRoutedEventArgs", "bool CharacterReceivedRoutedEventArgs.Handled");
 			}
 		}
 		#endif
@@ -41,9 +41,9 @@ namespace Windows.UI.Xaml.Input
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.Character.get
-		// Forced skipping of method Windows.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.KeyStatus.get
-		// Forced skipping of method Windows.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.Character.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.KeyStatus.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.CharacterReceivedRoutedEventArgs.Handled.set
 	}
 }

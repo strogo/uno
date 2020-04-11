@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -8,7 +8,7 @@ namespace Windows.UI.Xaml.Controls
 	public  partial class SplitViewPaneClosingEventArgs 
 	{
 		// Skipping already declared property Cancel
-		// Forced skipping of method Windows.UI.Xaml.Controls.SplitViewPaneClosingEventArgs.Cancel.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.SplitViewPaneClosingEventArgs.Cancel.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SplitViewPaneClosingEventArgs.Cancel.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SplitViewPaneClosingEventArgs.Cancel.set
 	}
 }

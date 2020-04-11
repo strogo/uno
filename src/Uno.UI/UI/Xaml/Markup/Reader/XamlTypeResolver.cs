@@ -9,7 +9,7 @@ using Uno;
 using Uno.Extensions;
 using Uno.Xaml;
 
-namespace Windows.UI.Xaml.Markup.Reader
+namespace Microsoft.UI.Xaml.Markup.Reader
 {
     internal class XamlTypeResolver
     {

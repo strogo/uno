@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class SwipeItems : global::Windows.UI.Xaml.DependencyObject,global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Controls.SwipeItem>,global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Controls.SwipeItem>
+	public  partial class SwipeItems : global::Microsoft.UI.Xaml.DependencyObject,global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Controls.SwipeItem>,global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Controls.SwipeItem>
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -19,11 +19,11 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.SwipeMode Mode
+		public  global::Microsoft.UI.Xaml.Controls.SwipeMode Mode
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.SwipeMode)this.GetValue(ModeProperty);
+				return (global::Microsoft.UI.Xaml.Controls.SwipeMode)this.GetValue(ModeProperty);
 			}
 			set
 			{
@@ -33,49 +33,49 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ModeProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"Mode", typeof(global::Windows.UI.Xaml.Controls.SwipeMode), 
-			typeof(global::Windows.UI.Xaml.Controls.SwipeItems), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.SwipeMode)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ModeProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"Mode", typeof(global::Microsoft.UI.Xaml.Controls.SwipeMode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.SwipeItems), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.SwipeMode)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Controls.SwipeItems.SwipeItems()
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.SwipeItems()
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.Mode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.Mode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.Size.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.GetView()
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.IndexOf(Windows.UI.Xaml.Controls.SwipeItem, out uint)
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.SetAt(uint, Windows.UI.Xaml.Controls.SwipeItem)
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.InsertAt(uint, Windows.UI.Xaml.Controls.SwipeItem)
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.Append(Windows.UI.Xaml.Controls.SwipeItem)
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.Clear()
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.GetMany(uint, Windows.UI.Xaml.Controls.SwipeItem[])
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.ReplaceAll(Windows.UI.Xaml.Controls.SwipeItem[])
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.First()
-		// Forced skipping of method Windows.UI.Xaml.Controls.SwipeItems.ModeProperty.get
-		// Processing: System.Collections.Generic.IList<Windows.UI.Xaml.Controls.SwipeItem>
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.SwipeItems.SwipeItems()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.SwipeItems()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.Mode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.Mode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.IndexOf(Microsoft.UI.Xaml.Controls.SwipeItem, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.SetAt(uint, Microsoft.UI.Xaml.Controls.SwipeItem)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.InsertAt(uint, Microsoft.UI.Xaml.Controls.SwipeItem)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.Append(Microsoft.UI.Xaml.Controls.SwipeItem)
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.GetMany(uint, Microsoft.UI.Xaml.Controls.SwipeItem[])
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.ReplaceAll(Microsoft.UI.Xaml.Controls.SwipeItem[])
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.First()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.SwipeItems.ModeProperty.get
+		// Processing: System.Collections.Generic.IList<Microsoft.UI.Xaml.Controls.SwipeItem>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
-		public int IndexOf( global::Windows.UI.Xaml.Controls.SwipeItem item)
+		public int IndexOf( global::Microsoft.UI.Xaml.Controls.SwipeItem item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
-		public void Insert( int index,  global::Windows.UI.Xaml.Controls.SwipeItem item)
+		public void Insert( int index,  global::Microsoft.UI.Xaml.Controls.SwipeItem item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
 		public void RemoveAt( int index)
 		{
@@ -84,7 +84,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public global::Windows.UI.Xaml.Controls.SwipeItem this[int index]
+		public global::Microsoft.UI.Xaml.Controls.SwipeItem this[int index]
 		{
 			get
 			{
@@ -96,17 +96,17 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.ICollection<Windows.UI.Xaml.Controls.SwipeItem>
+		// Processing: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Controls.SwipeItem>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
-		public void Add( global::Windows.UI.Xaml.Controls.SwipeItem item)
+		public void Add( global::Microsoft.UI.Xaml.Controls.SwipeItem item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
 		public void Clear()
 		{
@@ -114,25 +114,25 @@ namespace Windows.UI.Xaml.Controls
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
-		public bool Contains( global::Windows.UI.Xaml.Controls.SwipeItem item)
+		public bool Contains( global::Microsoft.UI.Xaml.Controls.SwipeItem item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
-		public void CopyTo( global::Windows.UI.Xaml.Controls.SwipeItem[] array,  int arrayIndex)
+		public void CopyTo( global::Microsoft.UI.Xaml.Controls.SwipeItem[] array,  int arrayIndex)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
-		public bool Remove( global::Windows.UI.Xaml.Controls.SwipeItem item)
+		public bool Remove( global::Microsoft.UI.Xaml.Controls.SwipeItem item)
 		{
 			throw new global::System.NotSupportedException();
 		}
@@ -165,11 +165,11 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Controls.SwipeItem>
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Controls.SwipeItem>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Controls.SwipeItem>
+		// DeclaringType: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Controls.SwipeItem>
 		[global::Uno.NotImplemented]
-		public global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.Controls.SwipeItem> GetEnumerator()
+		public global::System.Collections.Generic.IEnumerator<global::Microsoft.UI.Xaml.Controls.SwipeItem> GetEnumerator()
 		{
 			throw new global::System.NotSupportedException();
 		}

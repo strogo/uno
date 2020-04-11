@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Input
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.XYFocusNavigationStrategyOverride XYFocusNavigationStrategyOverride
+		public  global::Microsoft.UI.Xaml.Input.XYFocusNavigationStrategyOverride XYFocusNavigationStrategyOverride
 		{
 			get
 			{
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.FindNextElementOptions", "XYFocusNavigationStrategyOverride FindNextElementOptions.XYFocusNavigationStrategyOverride");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.FindNextElementOptions", "XYFocusNavigationStrategyOverride FindNextElementOptions.XYFocusNavigationStrategyOverride");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DependencyObject SearchRoot
+		public  global::Microsoft.UI.Xaml.DependencyObject SearchRoot
 		{
 			get
 			{
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.FindNextElementOptions", "DependencyObject FindNextElementOptions.SearchRoot");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.FindNextElementOptions", "DependencyObject FindNextElementOptions.SearchRoot");
 			}
 		}
 		#endif
@@ -45,7 +45,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.FindNextElementOptions", "Rect FindNextElementOptions.HintRect");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.FindNextElementOptions", "Rect FindNextElementOptions.HintRect");
 			}
 		}
 		#endif
@@ -59,7 +59,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.FindNextElementOptions", "Rect FindNextElementOptions.ExclusionRect");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.FindNextElementOptions", "Rect FindNextElementOptions.ExclusionRect");
 			}
 		}
 		#endif
@@ -67,17 +67,17 @@ namespace Windows.UI.Xaml.Input
 		[global::Uno.NotImplemented]
 		public FindNextElementOptions() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.FindNextElementOptions", "FindNextElementOptions.FindNextElementOptions()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.FindNextElementOptions", "FindNextElementOptions.FindNextElementOptions()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.FindNextElementOptions()
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.SearchRoot.get
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.SearchRoot.set
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.ExclusionRect.get
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.ExclusionRect.set
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.HintRect.get
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.HintRect.set
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.XYFocusNavigationStrategyOverride.get
-		// Forced skipping of method Windows.UI.Xaml.Input.FindNextElementOptions.XYFocusNavigationStrategyOverride.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.FindNextElementOptions()
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.SearchRoot.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.SearchRoot.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.ExclusionRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.ExclusionRect.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.HintRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.HintRect.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.XYFocusNavigationStrategyOverride.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.FindNextElementOptions.XYFocusNavigationStrategyOverride.set
 	}
 }

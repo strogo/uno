@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty CanMoveProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty CanMoveProperty
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty CanResizeProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty CanResizeProperty
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty CanRotateProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty CanRotateProperty
 		{
 			get
 			{
@@ -37,8 +37,8 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.TransformPatternIdentifiers.CanMoveProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.TransformPatternIdentifiers.CanResizeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.TransformPatternIdentifiers.CanRotateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.TransformPatternIdentifiers.CanMoveProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.TransformPatternIdentifiers.CanResizeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.TransformPatternIdentifiers.CanRotateProperty.get
 	}
 }

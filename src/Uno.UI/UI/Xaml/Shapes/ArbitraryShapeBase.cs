@@ -1,11 +1,11 @@
-﻿using Windows.UI.Xaml.Media;
+﻿using Microsoft.UI.Xaml.Media;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using Uno.Disposables;
 using Windows.Foundation;
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public abstract partial class ArbitraryShapeBase : Shape
 	{

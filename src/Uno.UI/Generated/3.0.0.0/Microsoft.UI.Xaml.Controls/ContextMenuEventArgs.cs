@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ContextMenuEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class ContextMenuEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ContextMenuEventArgs", "bool ContextMenuEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ContextMenuEventArgs", "bool ContextMenuEventArgs.Handled");
 			}
 		}
 		#endif
@@ -41,9 +41,9 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ContextMenuEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ContextMenuEventArgs.Handled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ContextMenuEventArgs.CursorLeft.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ContextMenuEventArgs.CursorTop.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ContextMenuEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ContextMenuEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ContextMenuEventArgs.CursorLeft.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ContextMenuEventArgs.CursorTop.get
 	}
 }

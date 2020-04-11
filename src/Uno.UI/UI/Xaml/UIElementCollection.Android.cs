@@ -8,7 +8,7 @@ using System;
 using Uno.UI.Controls;
 using Uno.UI;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public class UIElementCollection : BatchCollection<View>, IList<View>, IEnumerable<View>
     {

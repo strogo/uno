@@ -1,12 +1,12 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	public  partial class FlyoutShowOptions 
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.FlyoutShowMode ShowMode
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowMode ShowMode
 		{
 			get
 			{
@@ -14,13 +14,13 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions", "FlyoutShowMode FlyoutShowOptions.ShowMode");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions", "FlyoutShowMode FlyoutShowOptions.ShowMode");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.FlyoutPlacementMode Placement
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutPlacementMode Placement
 		{
 			get
 			{
@@ -28,7 +28,7 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions", "FlyoutPlacementMode FlyoutShowOptions.Placement");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions", "FlyoutPlacementMode FlyoutShowOptions.Placement");
 			}
 		}
 		#endif
@@ -42,18 +42,18 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions", "Rect? FlyoutShowOptions.ExclusionRect");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions", "Rect? FlyoutShowOptions.ExclusionRect");
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.FlyoutShowOptions()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Position.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Position.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ExclusionRect.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ExclusionRect.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ShowMode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ShowMode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Placement.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Placement.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.FlyoutShowOptions()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Position.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Position.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ExclusionRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ExclusionRect.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ShowMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.ShowMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Placement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowOptions.Placement.set
 	}
 }

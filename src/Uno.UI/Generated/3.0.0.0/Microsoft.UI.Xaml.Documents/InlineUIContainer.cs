@@ -1,15 +1,15 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class InlineUIContainer : global::Windows.UI.Xaml.Documents.Inline
+	public  partial class InlineUIContainer : global::Microsoft.UI.Xaml.Documents.Inline
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.UIElement Child
+		public  global::Microsoft.UI.Xaml.UIElement Child
 		{
 			get
 			{
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Documents
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Documents.InlineUIContainer", "UIElement InlineUIContainer.Child");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Documents.InlineUIContainer", "UIElement InlineUIContainer.Child");
 			}
 		}
 		#endif
@@ -25,11 +25,11 @@ namespace Windows.UI.Xaml.Documents
 		[global::Uno.NotImplemented]
 		public InlineUIContainer() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Documents.InlineUIContainer", "InlineUIContainer.InlineUIContainer()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Documents.InlineUIContainer", "InlineUIContainer.InlineUIContainer()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Documents.InlineUIContainer.InlineUIContainer()
-		// Forced skipping of method Windows.UI.Xaml.Documents.InlineUIContainer.Child.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.InlineUIContainer.Child.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.InlineUIContainer.InlineUIContainer()
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.InlineUIContainer.Child.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.InlineUIContainer.Child.set
 	}
 }

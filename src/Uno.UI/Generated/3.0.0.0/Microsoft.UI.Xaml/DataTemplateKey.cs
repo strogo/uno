@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DataTemplateKey", "object DataTemplateKey.DataType");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DataTemplateKey", "object DataTemplateKey.DataType");
 			}
 		}
 		#endif
@@ -25,19 +25,19 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public DataTemplateKey() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DataTemplateKey", "DataTemplateKey.DataTemplateKey()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DataTemplateKey", "DataTemplateKey.DataTemplateKey()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.DataTemplateKey.DataTemplateKey()
+		// Forced skipping of method Microsoft.UI.Xaml.DataTemplateKey.DataTemplateKey()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public DataTemplateKey( object dataType) 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.DataTemplateKey", "DataTemplateKey.DataTemplateKey(object dataType)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.DataTemplateKey", "DataTemplateKey.DataTemplateKey(object dataType)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.DataTemplateKey.DataTemplateKey(object)
-		// Forced skipping of method Windows.UI.Xaml.DataTemplateKey.DataType.get
-		// Forced skipping of method Windows.UI.Xaml.DataTemplateKey.DataType.set
+		// Forced skipping of method Microsoft.UI.Xaml.DataTemplateKey.DataTemplateKey(object)
+		// Forced skipping of method Microsoft.UI.Xaml.DataTemplateKey.DataType.get
+		// Forced skipping of method Microsoft.UI.Xaml.DataTemplateKey.DataType.set
 	}
 }

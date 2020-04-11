@@ -12,7 +12,7 @@ using Windows.UI.Core;
 
 namespace Uno.UI.Samples.UITests.Helpers
 {
-	[Windows.UI.Xaml.Data.Bindable]
+	[Microsoft.UI.Xaml.Data.Bindable]
 	public class ViewModelBase : INotifyPropertyChanged, IDisposable
 	{
 		public CoreDispatcher Dispatcher { get; }
@@ -96,7 +96,7 @@ namespace Uno.UI.Samples.UITests.Helpers
 			}
 		}
 
-		[Windows.UI.Xaml.Data.Bindable]
+		[Microsoft.UI.Xaml.Data.Bindable]
 		public class Command : ICommand
 		{
 			private readonly Action<object> _action;

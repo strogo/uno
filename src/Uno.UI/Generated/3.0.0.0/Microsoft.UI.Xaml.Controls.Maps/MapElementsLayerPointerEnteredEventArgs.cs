@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Controls.Maps
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Maps.MapElement MapElement
+		public  global::Microsoft.UI.Xaml.Controls.Maps.MapElement MapElement
 		{
 			get
 			{
@@ -41,12 +41,12 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapElementsLayerPointerEnteredEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs", "MapElementsLayerPointerEnteredEventArgs.MapElementsLayerPointerEnteredEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs", "MapElementsLayerPointerEnteredEventArgs.MapElementsLayerPointerEnteredEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs.MapElementsLayerPointerEnteredEventArgs()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs.Position.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs.Location.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs.MapElement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs.MapElementsLayerPointerEnteredEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs.Position.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs.Location.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapElementsLayerPointerEnteredEventArgs.MapElement.get
 	}
 }

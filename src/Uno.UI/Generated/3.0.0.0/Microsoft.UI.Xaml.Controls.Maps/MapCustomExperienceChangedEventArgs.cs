@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Maps
+namespace Microsoft.UI.Xaml.Controls.Maps
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -11,9 +11,9 @@ namespace Windows.UI.Xaml.Controls.Maps
 		[global::Uno.NotImplemented]
 		public MapCustomExperienceChangedEventArgs() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Maps.MapCustomExperienceChangedEventArgs", "MapCustomExperienceChangedEventArgs.MapCustomExperienceChangedEventArgs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Maps.MapCustomExperienceChangedEventArgs", "MapCustomExperienceChangedEventArgs.MapCustomExperienceChangedEventArgs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Maps.MapCustomExperienceChangedEventArgs.MapCustomExperienceChangedEventArgs()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Maps.MapCustomExperienceChangedEventArgs.MapCustomExperienceChangedEventArgs()
 	}
 }

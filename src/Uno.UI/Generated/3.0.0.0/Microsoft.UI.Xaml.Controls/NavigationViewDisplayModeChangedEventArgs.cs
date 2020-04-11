@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -8,6 +8,6 @@ namespace Windows.UI.Xaml.Controls
 	public  partial class NavigationViewDisplayModeChangedEventArgs 
 	{
 		// Skipping already declared property DisplayMode
-		// Forced skipping of method Windows.UI.Xaml.Controls.NavigationViewDisplayModeChangedEventArgs.DisplayMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.NavigationViewDisplayModeChangedEventArgs.DisplayMode.get
 	}
 }

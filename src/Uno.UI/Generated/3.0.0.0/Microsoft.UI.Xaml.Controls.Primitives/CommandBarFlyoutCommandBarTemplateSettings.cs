@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class CommandBarFlyoutCommandBarTemplateSettings : global::Windows.UI.Xaml.DependencyObject
+	public  partial class CommandBarFlyoutCommandBarTemplateSettings : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -207,25 +207,25 @@ namespace Windows.UI.Xaml.Controls.Primitives
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.OpenAnimationStartPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.OpenAnimationEndPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.CloseAnimationEndPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.CurrentWidth.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandedWidth.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionDelta.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionAnimationStartPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionAnimationEndPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionMoreButtonAnimationStartPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionMoreButtonAnimationEndPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpOverflowVerticalPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownOverflowVerticalPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpAnimationStartPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpAnimationEndPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpAnimationHoldPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownAnimationStartPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownAnimationEndPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownAnimationHoldPosition.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ContentClipRect.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.OverflowContentClipRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.OpenAnimationStartPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.OpenAnimationEndPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.CloseAnimationEndPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.CurrentWidth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandedWidth.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionDelta.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionAnimationStartPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionAnimationEndPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionMoreButtonAnimationStartPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.WidthExpansionMoreButtonAnimationEndPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpOverflowVerticalPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownOverflowVerticalPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpAnimationStartPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpAnimationEndPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandUpAnimationHoldPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownAnimationStartPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownAnimationEndPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ExpandDownAnimationHoldPosition.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.ContentClipRect.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.CommandBarFlyoutCommandBarTemplateSettings.OverflowContentClipRect.get
 	}
 }

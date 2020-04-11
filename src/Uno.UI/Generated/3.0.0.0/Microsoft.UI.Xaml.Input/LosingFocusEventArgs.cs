@@ -1,15 +1,15 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class LosingFocusEventArgs : global::Windows.UI.Xaml.RoutedEventArgs
+	public  partial class LosingFocusEventArgs : global::Microsoft.UI.Xaml.RoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DependencyObject NewFocusedElement
+		public  global::Microsoft.UI.Xaml.DependencyObject NewFocusedElement
 		{
 			get
 			{
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.LosingFocusEventArgs", "DependencyObject LosingFocusEventArgs.NewFocusedElement");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.LosingFocusEventArgs", "DependencyObject LosingFocusEventArgs.NewFocusedElement");
 			}
 		}
 		#endif
@@ -31,7 +31,7 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.LosingFocusEventArgs", "bool LosingFocusEventArgs.Handled");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.LosingFocusEventArgs", "bool LosingFocusEventArgs.Handled");
 			}
 		}
 		#endif
@@ -45,13 +45,13 @@ namespace Windows.UI.Xaml.Input
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Input.LosingFocusEventArgs", "bool LosingFocusEventArgs.Cancel");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Input.LosingFocusEventArgs", "bool LosingFocusEventArgs.Cancel");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.FocusNavigationDirection Direction
+		public  global::Microsoft.UI.Xaml.Input.FocusNavigationDirection Direction
 		{
 			get
 			{
@@ -61,7 +61,7 @@ namespace Windows.UI.Xaml.Input
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.FocusState FocusState
+		public  global::Microsoft.UI.Xaml.FocusState FocusState
 		{
 			get
 			{
@@ -71,7 +71,7 @@ namespace Windows.UI.Xaml.Input
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Input.FocusInputDeviceKind InputDevice
+		public  global::Microsoft.UI.Xaml.Input.FocusInputDeviceKind InputDevice
 		{
 			get
 			{
@@ -81,7 +81,7 @@ namespace Windows.UI.Xaml.Input
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DependencyObject OldFocusedElement
+		public  global::Microsoft.UI.Xaml.DependencyObject OldFocusedElement
 		{
 			get
 			{
@@ -99,16 +99,16 @@ namespace Windows.UI.Xaml.Input
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.OldFocusedElement.get
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.NewFocusedElement.get
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.NewFocusedElement.set
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.FocusState.get
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.Direction.get
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.Handled.get
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.Handled.set
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.InputDevice.get
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.Cancel.get
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.Cancel.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.OldFocusedElement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.NewFocusedElement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.NewFocusedElement.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.FocusState.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.Direction.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.Handled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.Handled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.InputDevice.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.Cancel.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.Cancel.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  bool TryCancel()
@@ -118,11 +118,11 @@ namespace Windows.UI.Xaml.Input
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  bool TrySetNewFocusedElement( global::Windows.UI.Xaml.DependencyObject element)
+		public  bool TrySetNewFocusedElement( global::Microsoft.UI.Xaml.DependencyObject element)
 		{
 			throw new global::System.NotImplementedException("The member bool LosingFocusEventArgs.TrySetNewFocusedElement(DependencyObject element) is not implemented in Uno.");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Input.LosingFocusEventArgs.CorrelationId.get
+		// Forced skipping of method Microsoft.UI.Xaml.Input.LosingFocusEventArgs.CorrelationId.get
 	}
 }

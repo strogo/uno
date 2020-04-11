@@ -8,7 +8,7 @@ using Uno.Extensions.Specialized;
 using Uno.UI.Helpers.WinUI;
 using Uno.Disposables;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	enum NavigationViewSplitVectorID
 	{

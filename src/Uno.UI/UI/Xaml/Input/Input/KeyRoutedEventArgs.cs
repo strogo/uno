@@ -4,7 +4,7 @@ using System.Text;
 using Windows.System;
 using Uno.UI.Xaml.Input;
 
-namespace Windows.UI.Xaml.Input
+namespace Microsoft.UI.Xaml.Input
 {
 	public partial class KeyRoutedEventArgs : RoutedEventArgs, ICancellableRoutedEventArgs
 	{

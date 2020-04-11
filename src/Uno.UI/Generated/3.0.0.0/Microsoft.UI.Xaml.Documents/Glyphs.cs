@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class Glyphs : global::Windows.UI.Xaml.FrameworkElement
+	public  partial class Glyphs : global::Microsoft.UI.Xaml.FrameworkElement
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -23,11 +23,11 @@ namespace Windows.UI.Xaml.Documents
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.StyleSimulations StyleSimulations
+		public  global::Microsoft.UI.Xaml.Media.StyleSimulations StyleSimulations
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.StyleSimulations)this.GetValue(StyleSimulationsProperty);
+				return (global::Microsoft.UI.Xaml.Media.StyleSimulations)this.GetValue(StyleSimulationsProperty);
 			}
 			set
 			{
@@ -107,11 +107,11 @@ namespace Windows.UI.Xaml.Documents
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Brush Fill
+		public  global::Microsoft.UI.Xaml.Media.Brush Fill
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Media.Brush)this.GetValue(FillProperty);
+				return (global::Microsoft.UI.Xaml.Media.Brush)this.GetValue(FillProperty);
 			}
 			set
 			{
@@ -149,121 +149,121 @@ namespace Windows.UI.Xaml.Documents
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FillProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"Fill", typeof(global::Windows.UI.Xaml.Media.Brush), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.Brush)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty FillProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"Fill", typeof(global::Microsoft.UI.Xaml.Media.Brush), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.Brush)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FontRenderingEmSizeProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty FontRenderingEmSizeProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"FontRenderingEmSize", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty FontUriProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty FontUriProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"FontUri", typeof(global::System.Uri), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
 			new FrameworkPropertyMetadata(default(global::System.Uri)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IndicesProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IndicesProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Indices", typeof(string), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
 			new FrameworkPropertyMetadata(default(string)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty OriginXProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty OriginXProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"OriginX", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty OriginYProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty OriginYProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"OriginY", typeof(double), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
 			new FrameworkPropertyMetadata(default(double)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty StyleSimulationsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"StyleSimulations", typeof(global::Windows.UI.Xaml.Media.StyleSimulations), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.StyleSimulations)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty StyleSimulationsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"StyleSimulations", typeof(global::Microsoft.UI.Xaml.Media.StyleSimulations), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.StyleSimulations)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty UnicodeStringProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty UnicodeStringProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"UnicodeString", typeof(string), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
 			new FrameworkPropertyMetadata(default(string)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ColorFontPaletteIndexProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ColorFontPaletteIndexProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"ColorFontPaletteIndex", typeof(int), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
 			new FrameworkPropertyMetadata(default(int)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsColorFontEnabledProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsColorFontEnabledProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsColorFontEnabled", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Documents.Glyphs), 
+			typeof(global::Microsoft.UI.Xaml.Documents.Glyphs), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public Glyphs() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Documents.Glyphs", "Glyphs.Glyphs()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Documents.Glyphs", "Glyphs.Glyphs()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.Glyphs()
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.UnicodeString.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.UnicodeString.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.Indices.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.Indices.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.FontUri.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.FontUri.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.StyleSimulations.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.StyleSimulations.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.FontRenderingEmSize.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.FontRenderingEmSize.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.OriginX.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.OriginX.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.OriginY.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.OriginY.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.Fill.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.Fill.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.IsColorFontEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.IsColorFontEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.ColorFontPaletteIndex.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.ColorFontPaletteIndex.set
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.IsColorFontEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.ColorFontPaletteIndexProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.UnicodeStringProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.IndicesProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.FontUriProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.StyleSimulationsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.FontRenderingEmSizeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.OriginXProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.OriginYProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.Glyphs.FillProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.Glyphs()
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.UnicodeString.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.UnicodeString.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.Indices.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.Indices.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.FontUri.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.FontUri.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.StyleSimulations.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.StyleSimulations.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.FontRenderingEmSize.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.FontRenderingEmSize.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.OriginX.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.OriginX.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.OriginY.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.OriginY.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.Fill.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.Fill.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.IsColorFontEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.IsColorFontEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.ColorFontPaletteIndex.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.ColorFontPaletteIndex.set
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.IsColorFontEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.ColorFontPaletteIndexProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.UnicodeStringProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.IndicesProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.FontUriProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.StyleSimulationsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.FontRenderingEmSizeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.OriginXProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.OriginYProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.Glyphs.FillProperty.get
 	}
 }

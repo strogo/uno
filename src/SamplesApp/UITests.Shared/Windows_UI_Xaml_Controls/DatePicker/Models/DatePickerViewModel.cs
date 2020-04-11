@@ -2,7 +2,7 @@
 using System.Windows.Input;
 using Uno.UI.Samples.UITests.Helpers;
 using Windows.UI.Core;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Data;
 
 namespace UITests.Shared.Windows_UI_Xaml_Controls.DatePicker.Models
 {

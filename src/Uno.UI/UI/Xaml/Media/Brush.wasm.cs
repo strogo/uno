@@ -3,11 +3,11 @@ using System.Text;
 using Uno.Extensions;
 using Uno.Disposables;
 
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	public abstract partial class Brush
 	{
-		internal static IDisposable AssignAndObserveBrush(Brush b, Action<Color> colorSetter)
+		internal static IDisposable AssignAndObserveBrush(Brush b, Action<Windows.UI.Color> colorSetter)
 		{
 			var disposables = new CompositeDisposable();
 

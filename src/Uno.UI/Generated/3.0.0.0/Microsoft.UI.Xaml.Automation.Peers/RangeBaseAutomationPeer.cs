@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Peers
+namespace Microsoft.UI.Xaml.Automation.Peers
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class RangeBaseAutomationPeer : global::Windows.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer,global::Windows.UI.Xaml.Automation.Provider.IRangeValueProvider
+	public  partial class RangeBaseAutomationPeer : global::Microsoft.UI.Xaml.Automation.Peers.FrameworkElementAutomationPeer,global::Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -69,25 +69,25 @@ namespace Windows.UI.Xaml.Automation.Peers
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public RangeBaseAutomationPeer( global::Windows.UI.Xaml.Controls.Primitives.RangeBase owner) : base(owner)
+		public RangeBaseAutomationPeer( global::Microsoft.UI.Xaml.Controls.Primitives.RangeBase owner) : base(owner)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer", "RangeBaseAutomationPeer.RangeBaseAutomationPeer(RangeBase owner)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer", "RangeBaseAutomationPeer.RangeBaseAutomationPeer(RangeBase owner)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.RangeBaseAutomationPeer(Windows.UI.Xaml.Controls.Primitives.RangeBase)
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.IsReadOnly.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.LargeChange.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Maximum.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Minimum.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.SmallChange.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Value.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.RangeBaseAutomationPeer(Microsoft.UI.Xaml.Controls.Primitives.RangeBase)
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.IsReadOnly.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.LargeChange.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Maximum.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Minimum.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.SmallChange.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer.Value.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public  void SetValue( double value)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer", "void RangeBaseAutomationPeer.SetValue(double value)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Automation.Peers.RangeBaseAutomationPeer", "void RangeBaseAutomationPeer.SetValue(double value)");
 		}
 		#endif
-		// Processing: Windows.UI.Xaml.Automation.Provider.IRangeValueProvider
+		// Processing: Microsoft.UI.Xaml.Automation.Provider.IRangeValueProvider
 	}
 }

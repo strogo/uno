@@ -4,8 +4,8 @@ using System.Linq;
 using System.Numerics;
 using System.Runtime.InteropServices;
 using Windows.Foundation;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
 using Uno.Collections;
 using Uno.Extensions;
 using Uno.Foundation;
@@ -13,9 +13,10 @@ using Uno.Logging;
 using Uno.UI;
 using Uno.UI.Extensions;
 using Uno.UI.Xaml;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
+using Windows.System;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class UIElement : DependencyObject
 	{
@@ -331,7 +332,7 @@ namespace Windows.UI.Xaml
 
 		public Func<Size, Size> DesiredSizeSelector { get; set; }
 
-		internal Windows.Foundation.Point GetPosition(Point position, global::Windows.UI.Xaml.UIElement relativeTo)
+		internal Windows.Foundation.Point GetPosition(Point position, global::Microsoft.UI.Xaml.UIElement relativeTo)
 			=> TransformToVisual(relativeTo).TransformPoint(position);
 
 		protected virtual void OnVisibilityChanged(Visibility oldValue, Visibility newVisibility)
@@ -469,7 +470,7 @@ namespace Windows.UI.Xaml
 				originalParent.RemoveChild(this);
 			}
 
-			if (this is Windows.UI.Xaml.Controls.Panel panel)
+			if (this is Microsoft.UI.Xaml.Controls.Panel panel)
 			{
 				panel.Children.Clear();
 			}
@@ -670,7 +671,7 @@ namespace Windows.UI.Xaml
 
 		private static KeyRoutedEventArgs PayloadToKeyArgs(object src, string payload)
 		{
-			return new KeyRoutedEventArgs(src, System.VirtualKeyHelper.FromKey(payload)) {CanBubbleNatively = true};
+			return new KeyRoutedEventArgs(src, VirtualKeyHelper.FromKey(payload)) {CanBubbleNatively = true};
 		}
 
 		private static RoutedEventArgs PayloadToFocusArgs(object src, string payload)

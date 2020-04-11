@@ -6,10 +6,10 @@
 //
 
 using System;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Shapes;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Shapes;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class NavigationViewItem : NavigationViewItemBase
 	{
@@ -29,21 +29,21 @@ namespace Windows.UI.Xaml.Controls
 		}
 
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty SelectsOnInvokedProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty SelectsOnInvokedProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"SelectsOnInvoked", typeof(bool),
-			typeof(global::Windows.UI.Xaml.Controls.NavigationViewItem),
+			typeof(global::Microsoft.UI.Xaml.Controls.NavigationViewItem),
 			new FrameworkPropertyMetadata(true));
 
-		public static global::Windows.UI.Xaml.DependencyProperty CompactPaneLengthProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty CompactPaneLengthProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"CompactPaneLength", typeof(double),
 			typeof(NavigationViewItem),
 			new FrameworkPropertyMetadata(defaultValue: 48.0)
 		);
 
-		public static global::Windows.UI.Xaml.DependencyProperty IconProperty { get; } =
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IconProperty { get; } =
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			name: "Icon",
 			propertyType: typeof(IconElement),
 			ownerType: typeof(NavigationViewItem),

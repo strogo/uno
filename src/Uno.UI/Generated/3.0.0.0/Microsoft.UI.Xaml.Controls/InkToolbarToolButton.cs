@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class InkToolbarToolButton : global::Windows.UI.Xaml.Controls.RadioButton
+	public  partial class InkToolbarToolButton : global::Microsoft.UI.Xaml.Controls.RadioButton
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -23,7 +23,7 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.InkToolbarTool ToolKind
+		public  global::Microsoft.UI.Xaml.Controls.InkToolbarTool ToolKind
 		{
 			get
 			{
@@ -33,15 +33,15 @@ namespace Windows.UI.Xaml.Controls
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsExtensionGlyphShownProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsExtensionGlyphShownProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsExtensionGlyphShown", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.InkToolbarToolButton), 
+			typeof(global::Microsoft.UI.Xaml.Controls.InkToolbarToolButton), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarToolButton.ToolKind.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarToolButton.IsExtensionGlyphShown.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarToolButton.IsExtensionGlyphShown.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarToolButton.IsExtensionGlyphShownProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarToolButton.ToolKind.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarToolButton.IsExtensionGlyphShown.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarToolButton.IsExtensionGlyphShown.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarToolButton.IsExtensionGlyphShownProperty.get
 	}
 }

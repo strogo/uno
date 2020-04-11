@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using Uno.Extensions;
 using Uno.UI;
-using Windows.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls;
 using System;
 #if XAMARIN_IOS
 using Foundation;
@@ -10,7 +10,7 @@ using UIKit;
 using Android.Text.Style;
 #endif
 
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	internal static class RunExtensions
     {

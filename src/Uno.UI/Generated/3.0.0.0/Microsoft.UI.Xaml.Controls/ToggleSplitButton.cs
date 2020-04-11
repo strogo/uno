@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ToggleSplitButton : global::Windows.UI.Xaml.Controls.SplitButton
+	public  partial class ToggleSplitButton : global::Microsoft.UI.Xaml.Controls.SplitButton
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,7 +17,7 @@ namespace Windows.UI.Xaml.Controls
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ToggleSplitButton", "bool ToggleSplitButton.IsChecked");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ToggleSplitButton", "bool ToggleSplitButton.IsChecked");
 			}
 		}
 		#endif
@@ -25,27 +25,27 @@ namespace Windows.UI.Xaml.Controls
 		[global::Uno.NotImplemented]
 		public ToggleSplitButton() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ToggleSplitButton", "ToggleSplitButton.ToggleSplitButton()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ToggleSplitButton", "ToggleSplitButton.ToggleSplitButton()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToggleSplitButton.ToggleSplitButton()
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToggleSplitButton.IsChecked.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToggleSplitButton.IsChecked.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToggleSplitButton.IsCheckedChanged.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.ToggleSplitButton.IsCheckedChanged.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToggleSplitButton.ToggleSplitButton()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToggleSplitButton.IsChecked.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToggleSplitButton.IsChecked.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToggleSplitButton.IsCheckedChanged.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.ToggleSplitButton.IsCheckedChanged.remove
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  event global::Windows.Foundation.TypedEventHandler<global::Windows.UI.Xaml.Controls.ToggleSplitButton, global::Windows.UI.Xaml.Controls.ToggleSplitButtonIsCheckedChangedEventArgs> IsCheckedChanged
+		public  event global::Windows.Foundation.TypedEventHandler<global::Microsoft.UI.Xaml.Controls.ToggleSplitButton, global::Microsoft.UI.Xaml.Controls.ToggleSplitButtonIsCheckedChangedEventArgs> IsCheckedChanged
 		{
 			[global::Uno.NotImplemented]
 			add
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ToggleSplitButton", "event TypedEventHandler<ToggleSplitButton, ToggleSplitButtonIsCheckedChangedEventArgs> ToggleSplitButton.IsCheckedChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ToggleSplitButton", "event TypedEventHandler<ToggleSplitButton, ToggleSplitButtonIsCheckedChangedEventArgs> ToggleSplitButton.IsCheckedChanged");
 			}
 			[global::Uno.NotImplemented]
 			remove
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.ToggleSplitButton", "event TypedEventHandler<ToggleSplitButton, ToggleSplitButtonIsCheckedChangedEventArgs> ToggleSplitButton.IsCheckedChanged");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.ToggleSplitButton", "event TypedEventHandler<ToggleSplitButton, ToggleSplitButtonIsCheckedChangedEventArgs> ToggleSplitButton.IsCheckedChanged");
 			}
 		}
 		#endif

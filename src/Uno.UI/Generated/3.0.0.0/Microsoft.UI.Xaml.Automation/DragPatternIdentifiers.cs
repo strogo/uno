@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation
+namespace Microsoft.UI.Xaml.Automation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -9,7 +9,7 @@ namespace Windows.UI.Xaml.Automation
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty DropEffectProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty DropEffectProperty
 		{
 			get
 			{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty DropEffectsProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty DropEffectsProperty
 		{
 			get
 			{
@@ -29,7 +29,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty GrabbedItemsProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty GrabbedItemsProperty
 		{
 			get
 			{
@@ -39,7 +39,7 @@ namespace Windows.UI.Xaml.Automation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Automation.AutomationProperty IsGrabbedProperty
+		public static global::Microsoft.UI.Xaml.Automation.AutomationProperty IsGrabbedProperty
 		{
 			get
 			{
@@ -47,9 +47,9 @@ namespace Windows.UI.Xaml.Automation
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.DragPatternIdentifiers.DropEffectProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.DragPatternIdentifiers.DropEffectsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.DragPatternIdentifiers.GrabbedItemsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.DragPatternIdentifiers.IsGrabbedProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DragPatternIdentifiers.DropEffectProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DragPatternIdentifiers.DropEffectsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DragPatternIdentifiers.GrabbedItemsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.DragPatternIdentifiers.IsGrabbedProperty.get
 	}
 }

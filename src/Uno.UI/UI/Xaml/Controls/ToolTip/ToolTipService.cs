@@ -1,9 +1,9 @@
 using System;
 using System.Threading.Tasks;
-using Windows.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Input;
 using Uno.UI;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	partial class ToolTipService
 	{
@@ -19,7 +19,7 @@ namespace Windows.UI.Xaml.Controls
 			return element.GetValue(ToolTipProperty);
 		}
 
-		public static void SetToolTip( global::Windows.UI.Xaml.DependencyObject element, object value)
+		public static void SetToolTip( global::Microsoft.UI.Xaml.DependencyObject element, object value)
 		{
 			element.SetValue(ToolTipProperty, value);
 		}

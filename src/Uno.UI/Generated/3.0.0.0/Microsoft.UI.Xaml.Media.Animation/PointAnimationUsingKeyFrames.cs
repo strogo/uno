@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media.Animation
+namespace Microsoft.UI.Xaml.Media.Animation
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class PointAnimationUsingKeyFrames : global::Windows.UI.Xaml.Media.Animation.Timeline
+	public  partial class PointAnimationUsingKeyFrames : global::Microsoft.UI.Xaml.Media.Animation.Timeline
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -23,7 +23,7 @@ namespace Windows.UI.Xaml.Media.Animation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Media.Animation.PointKeyFrameCollection KeyFrames
+		public  global::Microsoft.UI.Xaml.Media.Animation.PointKeyFrameCollection KeyFrames
 		{
 			get
 			{
@@ -33,23 +33,23 @@ namespace Windows.UI.Xaml.Media.Animation
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty EnableDependentAnimationProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty EnableDependentAnimationProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"EnableDependentAnimation", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames), 
+			typeof(global::Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		public PointAnimationUsingKeyFrames() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames", "PointAnimationUsingKeyFrames.PointAnimationUsingKeyFrames()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames", "PointAnimationUsingKeyFrames.PointAnimationUsingKeyFrames()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.PointAnimationUsingKeyFrames()
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.KeyFrames.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.EnableDependentAnimation.get
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.EnableDependentAnimation.set
-		// Forced skipping of method Windows.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.EnableDependentAnimationProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.PointAnimationUsingKeyFrames()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.KeyFrames.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.EnableDependentAnimation.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.EnableDependentAnimation.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.Animation.PointAnimationUsingKeyFrames.EnableDependentAnimationProperty.get
 	}
 }

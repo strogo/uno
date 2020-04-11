@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	#if false || false || false || false || false
@@ -8,9 +8,9 @@ namespace Windows.UI.Xaml
 	#endif
 	public   enum LineStackingStrategy 
 	{
-		// Skipping already declared field Windows.UI.Xaml.LineStackingStrategy.MaxHeight
-		// Skipping already declared field Windows.UI.Xaml.LineStackingStrategy.BlockLineHeight
-		// Skipping already declared field Windows.UI.Xaml.LineStackingStrategy.BaselineToBaseline
+		// Skipping already declared field Microsoft.UI.Xaml.LineStackingStrategy.MaxHeight
+		// Skipping already declared field Microsoft.UI.Xaml.LineStackingStrategy.BlockLineHeight
+		// Skipping already declared field Microsoft.UI.Xaml.LineStackingStrategy.BaselineToBaseline
 	}
 	#endif
 }

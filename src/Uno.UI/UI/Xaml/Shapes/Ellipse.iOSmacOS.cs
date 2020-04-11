@@ -9,7 +9,7 @@ using CoreGraphics;
 using Uno.UI;
 using Size = Windows.Foundation.Size;
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public partial class Ellipse : ArbitraryShapeBase
 	{

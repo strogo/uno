@@ -1,19 +1,19 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class RevealBrush : global::Windows.UI.Xaml.Media.XamlCompositionBrushBase
+	public  partial class RevealBrush : global::Microsoft.UI.Xaml.Media.XamlCompositionBrushBase
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.ApplicationTheme TargetTheme
+		public  global::Microsoft.UI.Xaml.ApplicationTheme TargetTheme
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.ApplicationTheme)this.GetValue(TargetThemeProperty);
+				return (global::Microsoft.UI.Xaml.ApplicationTheme)this.GetValue(TargetThemeProperty);
 			}
 			set
 			{
@@ -51,66 +51,66 @@ namespace Windows.UI.Xaml.Media
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty AlwaysUseFallbackProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty AlwaysUseFallbackProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AlwaysUseFallback", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Media.RevealBrush), 
+			typeof(global::Microsoft.UI.Xaml.Media.RevealBrush), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ColorProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty ColorProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"Color", typeof(global::Windows.UI.Color), 
-			typeof(global::Windows.UI.Xaml.Media.RevealBrush), 
+			typeof(global::Microsoft.UI.Xaml.Media.RevealBrush), 
 			new FrameworkPropertyMetadata(default(global::Windows.UI.Color)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty StateProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.RegisterAttached(
-			"State", typeof(global::Windows.UI.Xaml.Media.RevealBrushState), 
-			typeof(global::Windows.UI.Xaml.Media.RevealBrush), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Media.RevealBrushState)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty StateProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.RegisterAttached(
+			"State", typeof(global::Microsoft.UI.Xaml.Media.RevealBrushState), 
+			typeof(global::Microsoft.UI.Xaml.Media.RevealBrush), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Media.RevealBrushState)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty TargetThemeProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"TargetTheme", typeof(global::Windows.UI.Xaml.ApplicationTheme), 
-			typeof(global::Windows.UI.Xaml.Media.RevealBrush), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.ApplicationTheme)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty TargetThemeProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"TargetTheme", typeof(global::Microsoft.UI.Xaml.ApplicationTheme), 
+			typeof(global::Microsoft.UI.Xaml.Media.RevealBrush), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.ApplicationTheme)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
 		protected RevealBrush() : base()
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Media.RevealBrush", "RevealBrush.RevealBrush()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Media.RevealBrush", "RevealBrush.RevealBrush()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.RevealBrush()
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.Color.get
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.Color.set
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.TargetTheme.get
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.TargetTheme.set
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.AlwaysUseFallback.get
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.AlwaysUseFallback.set
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.ColorProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.TargetThemeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.AlwaysUseFallbackProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Media.RevealBrush.StateProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.RevealBrush()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.Color.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.Color.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.TargetTheme.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.TargetTheme.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.AlwaysUseFallback.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.AlwaysUseFallback.set
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.ColorProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.TargetThemeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.AlwaysUseFallbackProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.RevealBrush.StateProperty.get
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static void SetState( global::Windows.UI.Xaml.UIElement element,  global::Windows.UI.Xaml.Media.RevealBrushState value)
+		public static void SetState( global::Microsoft.UI.Xaml.UIElement element,  global::Microsoft.UI.Xaml.Media.RevealBrushState value)
 		{
 			element.SetValue(StateProperty, value);
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Media.RevealBrushState GetState( global::Windows.UI.Xaml.UIElement element)
+		public static global::Microsoft.UI.Xaml.Media.RevealBrushState GetState( global::Microsoft.UI.Xaml.UIElement element)
 		{
-			return (global::Windows.UI.Xaml.Media.RevealBrushState)element.GetValue(StateProperty);
+			return (global::Microsoft.UI.Xaml.Media.RevealBrushState)element.GetValue(StateProperty);
 		}
 		#endif
 	}

@@ -1,15 +1,15 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class InkToolbarToggleButton : global::Windows.UI.Xaml.Controls.CheckBox
+	public  partial class InkToolbarToggleButton : global::Microsoft.UI.Xaml.Controls.CheckBox
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.InkToolbarToggle ToggleKind
+		public  global::Microsoft.UI.Xaml.Controls.InkToolbarToggle ToggleKind
 		{
 			get
 			{
@@ -17,6 +17,6 @@ namespace Windows.UI.Xaml.Controls
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.InkToolbarToggleButton.ToggleKind.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.InkToolbarToggleButton.ToggleKind.get
 	}
 }

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Automation.Provider
+namespace Microsoft.UI.Xaml.Automation.Provider
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
@@ -20,7 +20,7 @@ namespace Windows.UI.Xaml.Automation.Provider
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		global::Windows.UI.Xaml.Automation.Provider.IRawElementProviderSimple ContainingGrid
+		global::Microsoft.UI.Xaml.Automation.Provider.IRawElementProviderSimple ContainingGrid
 		{
 			get;
 		}
@@ -37,10 +37,10 @@ namespace Windows.UI.Xaml.Automation.Provider
 			get;
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IGridItemProvider.Column.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IGridItemProvider.ColumnSpan.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IGridItemProvider.ContainingGrid.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IGridItemProvider.Row.get
-		// Forced skipping of method Windows.UI.Xaml.Automation.Provider.IGridItemProvider.RowSpan.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IGridItemProvider.Column.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IGridItemProvider.ColumnSpan.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IGridItemProvider.ContainingGrid.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IGridItemProvider.Row.get
+		// Forced skipping of method Microsoft.UI.Xaml.Automation.Provider.IGridItemProvider.RowSpan.get
 	}
 }

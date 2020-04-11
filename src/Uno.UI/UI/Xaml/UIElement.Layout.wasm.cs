@@ -1,7 +1,7 @@
 ﻿using Windows.Foundation;
 using System;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class UIElement : DependencyObject
 	{
@@ -20,7 +20,7 @@ namespace Windows.UI.Xaml
 		internal bool IsArrangeDirty => !_isArrangeValid;
 
 		/// <summary>
-		/// Backing property for <see cref="Windows.UI.Xaml.Controls.Primitives.LayoutInformation.GetAvailableSize(UIElement)"/>
+		/// Backing property for <see cref="Microsoft.UI.Xaml.Controls.Primitives.LayoutInformation.GetAvailableSize(UIElement)"/>
 		/// </summary>
 		internal Size LastAvailableSize => _previousAvailableSize;
 

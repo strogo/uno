@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using System.Text;
 using Uno.Extensions;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Media;
 using Microsoft.Extensions.Logging;
 using Uno.Logging;
 

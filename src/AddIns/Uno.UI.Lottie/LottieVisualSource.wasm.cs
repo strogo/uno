@@ -4,9 +4,9 @@ using System.Globalization;
 using System.Threading;
 using Uno.Foundation;
 using Windows.Foundation;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Media;
 using Uno.Extensions;
 
 namespace Microsoft.Toolkit.Uwp.UI.Lottie

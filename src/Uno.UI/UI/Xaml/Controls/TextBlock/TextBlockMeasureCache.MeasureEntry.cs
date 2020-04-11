@@ -4,7 +4,7 @@ using Windows.Foundation;
 using Uno;
 using CachedSize = Uno.CachedTuple<double, double>;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	internal partial class TextBlockMeasureCache
 	{

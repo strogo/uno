@@ -15,13 +15,13 @@ using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Core;
 using Windows.UI.Popups;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
-using Windows.UI.Xaml.Controls.Primitives;
-using Windows.UI.Xaml.Data;
-using Windows.UI.Xaml.Input;
-using Windows.UI.Xaml.Media;
-using Windows.UI.Xaml.Navigation;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Navigation;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Uno.Logging;
 
@@ -83,7 +83,7 @@ namespace SamplesApp
 			Xamarin.Calabash.Start();
 #endif
 			var sw = Stopwatch.StartNew();
-			var n = Windows.UI.Xaml.Window.Current.Dispatcher.RunIdleAsync(
+			var n = Microsoft.UI.Xaml.Window.Current.Dispatcher.RunIdleAsync(
 				_ =>
 				{
 					Console.WriteLine("Done loading " + sw.Elapsed);
@@ -95,7 +95,7 @@ namespace SamplesApp
 				// this.DebugSettings.EnableFrameRateCounter = true;
 			}
 #endif
-			Frame rootFrame = Windows.UI.Xaml.Window.Current.Content as Frame;
+			Frame rootFrame = Microsoft.UI.Xaml.Window.Current.Content as Frame;
 
 			// Do not repeat app initialization when the Window already has content,
 			// just ensure that the window is active
@@ -112,7 +112,7 @@ namespace SamplesApp
 				}
 
 				// Place the frame in the current Window
-				Windows.UI.Xaml.Window.Current.Content = rootFrame;
+				Microsoft.UI.Xaml.Window.Current.Content = rootFrame;
 				Console.WriteLine($"RootFrame: {rootFrame}");
 			}
 
@@ -126,7 +126,7 @@ namespace SamplesApp
 					rootFrame.Navigate(typeof(MainPage), e.Arguments);
 				}
 				// Ensure the current window is active
-				Windows.UI.Xaml.Window.Current.Activate();
+				Microsoft.UI.Xaml.Window.Current.Activate();
 			}
 
 			DisplayLaunchArguments(e);
@@ -177,46 +177,47 @@ namespace SamplesApp
 					{
 						{ "Uno", LogLevel.Warning },
 						{ "Windows", LogLevel.Warning },
+						{ "Microsoft", LogLevel.Warning },
 
 						// RemoteControl and HotReload related
 						{ "Uno.UI.RemoteControl", LogLevel.Information },
 
 						// { "Uno.Foundation.WebAssemblyRuntime", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Controls.PopupPanel", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls.PopupPanel", LogLevel.Debug },
 
 						// Generic Xaml events
-						// { "Windows.UI.Xaml", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Shapes", LogLevel.Debug },
-						// { "Windows.UI.Xaml.VisualStateGroup", LogLevel.Debug },
-						// { "Windows.UI.Xaml.StateTriggerBase", LogLevel.Debug },
-						// { "Windows.UI.Xaml.UIElement", LogLevel.Debug },
-						// { "Windows.UI.Xaml.FrameworkElement", LogLevel.Trace },
-						// { "Windows.UI.Xaml.Controls.TextBlock", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Shapes", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.VisualStateGroup", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.StateTriggerBase", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.UIElement", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.FrameworkElement", LogLevel.Trace },
+						// { "Microsoft.UI.Xaml.Controls.TextBlock", LogLevel.Debug },
 
 						// Layouter specific messages
-						// { "Windows.UI.Xaml.Controls", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Controls.Layouter", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Controls.Panel", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls.Layouter", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls.Panel", LogLevel.Debug },
 						// { "Windows.Storage", LogLevel.Debug },
 
 						// Binding related messages
-						// { "Windows.UI.Xaml.Data", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Data", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Data", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Data", LogLevel.Debug },
 
 						//  Binder memory references tracking
 						// { "ReferenceHolder", LogLevel.Debug },
 
 						// ListView-related messages
-						// { "Windows.UI.Xaml.Controls.ListViewBase", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Controls.ListView", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Controls.GridView", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Controls.VirtualizingPanelLayout", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Controls.NativeListViewBase", LogLevel.Debug },
-						// { "Windows.UI.Xaml.Controls.ListViewBaseSource", LogLevel.Debug }, //iOS
-						// { "Windows.UI.Xaml.Controls.ListViewBaseInternalContainer", LogLevel.Debug }, //iOS
-						// { "Windows.UI.Xaml.Controls.NativeListViewBaseAdapter", LogLevel.Debug }, //Android
-						// { "Windows.UI.Xaml.Controls.BufferViewCache", LogLevel.Debug }, //Android
-						// { "Windows.UI.Xaml.Controls.VirtualizingPanelGenerator", LogLevel.Debug }, //WASM
+						// { "Microsoft.UI.Xaml.Controls.ListViewBase", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls.ListView", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls.GridView", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls.VirtualizingPanelLayout", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls.NativeListViewBase", LogLevel.Debug },
+						// { "Microsoft.UI.Xaml.Controls.ListViewBaseSource", LogLevel.Debug }, //iOS
+						// { "Microsoft.UI.Xaml.Controls.ListViewBaseInternalContainer", LogLevel.Debug }, //iOS
+						// { "Microsoft.UI.Xaml.Controls.NativeListViewBaseAdapter", LogLevel.Debug }, //Android
+						// { "Microsoft.UI.Xaml.Controls.BufferViewCache", LogLevel.Debug }, //Android
+						// { "Microsoft.UI.Xaml.Controls.VirtualizingPanelGenerator", LogLevel.Debug }, //WASM
 					}
 				)
 #if DEBUG
@@ -244,7 +245,7 @@ namespace SamplesApp
 
 				var testId = Interlocked.Increment(ref _testIdCounter);
 
-				Windows.UI.Xaml.Window.Current.Dispatcher.RunAsync(
+				Microsoft.UI.Xaml.Window.Current.Dispatcher.RunAsync(
 					CoreDispatcherPriority.Normal,
 					async () =>
 					{
@@ -254,7 +255,7 @@ namespace SamplesApp
 							var statusBar = Windows.UI.ViewManagement.StatusBar.GetForCurrentView();
 							if (statusBar != null)
 							{
-								Windows.UI.Xaml.Window.Current.Dispatcher.RunAsync(
+								Microsoft.UI.Xaml.Window.Current.Dispatcher.RunAsync(
 									Windows.UI.Core.CoreDispatcherPriority.Normal,
 									async () => await statusBar.HideAsync()
 								);

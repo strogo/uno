@@ -14,15 +14,15 @@ using System.Globalization;
 using System.Reflection;
 using Uno.UI;
 using Uno.UI.Converters;
-using Windows.UI.Xaml;
-using Windows.UI.Xaml.Data;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Data;
 
 #if XAMARIN
 using System.Json;
 #else
 #endif
 
-namespace Windows.UI.Xaml.Data
+namespace Microsoft.UI.Xaml.Data
 {
 	public partial class BindingExpression : IDisposable, IValueChangedListener
 	{

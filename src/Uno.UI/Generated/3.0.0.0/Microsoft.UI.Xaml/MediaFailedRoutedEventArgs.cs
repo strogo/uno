@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class MediaFailedRoutedEventArgs : global::Windows.UI.Xaml.ExceptionRoutedEventArgs
+	public  partial class MediaFailedRoutedEventArgs : global::Microsoft.UI.Xaml.ExceptionRoutedEventArgs
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,6 +17,6 @@ namespace Windows.UI.Xaml
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.MediaFailedRoutedEventArgs.ErrorTrace.get
+		// Forced skipping of method Microsoft.UI.Xaml.MediaFailedRoutedEventArgs.ErrorTrace.get
 	}
 }

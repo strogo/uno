@@ -4,9 +4,11 @@ using Uno.Diagnostics.Eventing;
 using Windows.ApplicationModel.Activation;
 using Windows.Foundation;
 using Windows.Foundation.Metadata;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Windows.ApplicationModel.Core;
+using Windows.ApplicationModel;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	public partial class Application
 	{
@@ -63,7 +65,7 @@ namespace Windows.UI.Xaml
 		}
 #endif
 
-		public static void Start(global::Windows.UI.Xaml.ApplicationInitializationCallback callback)
+		public static void Start(global::Microsoft.UI.Xaml.ApplicationInitializationCallback callback)
 		{
 			StartPartial(callback);
 		}
@@ -96,7 +98,7 @@ namespace Windows.UI.Xaml
 
 		internal void OnResuming()
 		{
-			ApplicationModel.Core.CoreApplication.RaiseResuming();
+			CoreApplication.RaiseResuming();
 
 			OnResumingPartial();
 		}
@@ -105,14 +107,14 @@ namespace Windows.UI.Xaml
 
 		internal void OnSuspending()
 		{
-			ApplicationModel.Core.CoreApplication.RaiseSuspending(new ApplicationModel.SuspendingEventArgs(new ApplicationModel.SuspendingOperation(DateTime.Now.AddSeconds(30))));
+			CoreApplication.RaiseSuspending(new SuspendingEventArgs(new SuspendingOperation(DateTime.Now.AddSeconds(30))));
 
 			OnSuspendingPartial();
 		}
 
 		partial void OnSuspendingPartial();
 
-		protected virtual void OnWindowCreated(global::Windows.UI.Xaml.WindowCreatedEventArgs args)
+		protected virtual void OnWindowCreated(global::Microsoft.UI.Xaml.WindowCreatedEventArgs args)
 		{
 		}
 

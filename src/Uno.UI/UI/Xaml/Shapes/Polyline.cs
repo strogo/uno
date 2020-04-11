@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 
 
-namespace Windows.UI.Xaml.Shapes
+namespace Microsoft.UI.Xaml.Shapes
 {
 	public partial class Polyline : ArbitraryShapeBase
 	{
@@ -16,12 +16,12 @@ namespace Windows.UI.Xaml.Shapes
 			set { SetValue(PointsProperty, value); }
 		}
 
-		public static global::Windows.UI.Xaml.DependencyProperty PointsProperty { get; } =
+		public static global::Microsoft.UI.Xaml.DependencyProperty PointsProperty { get; } =
 			DependencyProperty.Register(
-				"Points", typeof(global::Windows.UI.Xaml.Media.PointCollection),
-				typeof(global::Windows.UI.Xaml.Shapes.Polyline),
+				"Points", typeof(global::Microsoft.UI.Xaml.Media.PointCollection),
+				typeof(global::Microsoft.UI.Xaml.Shapes.Polyline),
 				new FrameworkPropertyMetadata(
-					defaultValue: default(global::Windows.UI.Xaml.Media.PointCollection),
+					defaultValue: default(global::Microsoft.UI.Xaml.Media.PointCollection),
 				    options: FrameworkPropertyMetadataOptions.LogicalChild | FrameworkPropertyMetadataOptions.AffectsMeasure | FrameworkPropertyMetadataOptions.AffectsArrange,
 					propertyChangedCallback: (s, e) => ((Polyline)s).OnPointsChanged()
 				)

@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Media
+namespace Microsoft.UI.Xaml.Media
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -17,21 +17,21 @@ namespace Windows.UI.Xaml.Media
 			}
 		}
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Media.DoubleCollection.DoubleCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.DoubleCollection()
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.Size.get
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.GetView()
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.IndexOf(double, out uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.SetAt(uint, double)
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.InsertAt(uint, double)
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.Append(double)
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.Clear()
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.GetMany(uint, double[])
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.ReplaceAll(double[])
-		// Forced skipping of method Windows.UI.Xaml.Media.DoubleCollection.First()
+		// Skipping already declared method Microsoft.UI.Xaml.Media.DoubleCollection.DoubleCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.DoubleCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.IndexOf(double, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.SetAt(uint, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.InsertAt(uint, double)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.Append(double)
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.GetMany(uint, double[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.ReplaceAll(double[])
+		// Forced skipping of method Microsoft.UI.Xaml.Media.DoubleCollection.First()
 		// Processing: System.Collections.Generic.IList<double>
 		// Skipping already implement System.Collections.Generic.IList<double>.this[int]
 		// Processing: System.Collections.Generic.ICollection<double>

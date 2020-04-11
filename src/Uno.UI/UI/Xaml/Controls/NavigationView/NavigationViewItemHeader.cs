@@ -5,9 +5,9 @@
 // This file is a C# translation of the NavigationViewHeader.cpp file from WinUI controls.
 //
 
-using Windows.UI.Xaml.Hosting;
+using Microsoft.UI.Xaml.Hosting;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public  partial class NavigationViewItemHeader : NavigationViewItemBase
 	{

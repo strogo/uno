@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -9,10 +9,10 @@ namespace Windows.UI.Xaml.Controls
 	{
 		// Skipping already declared property Content
 		// Skipping already declared property ContentProperty
-		// Skipping already declared method Windows.UI.Xaml.Controls.UserControl.UserControl()
-		// Forced skipping of method Windows.UI.Xaml.Controls.UserControl.UserControl()
-		// Forced skipping of method Windows.UI.Xaml.Controls.UserControl.Content.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.UserControl.Content.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.UserControl.ContentProperty.get
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.UserControl.UserControl()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.UserControl.UserControl()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.UserControl.Content.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.UserControl.Content.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.UserControl.ContentProperty.get
 	}
 }

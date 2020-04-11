@@ -11,7 +11,7 @@
 	<SolidColorBrush x:Key="ToolTipBorderBrush" Color="#000000" />
 	<Thickness x:Key="ToolTipBorderThemePadding">8,5,8,7</Thickness>
 
-	<!-- Default style for Windows.UI.Xaml.Controls.ToolTip -->
+	<!-- Default style for Microsoft.UI.Xaml.Controls.ToolTip -->
 	<Style TargetType="ToolTip">
 		<Setter Property="Foreground" Value="{ThemeResource ToolTipForeground}" />
 		<Setter Property="Background" Value="{ThemeResource ToolTipBackground}" />

@@ -1,20 +1,20 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Controls.Primitives
+namespace Microsoft.UI.Xaml.Controls.Primitives
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class FlyoutBase : global::Windows.UI.Xaml.DependencyObject
+	public  partial class FlyoutBase : global::Microsoft.UI.Xaml.DependencyObject
 	{
 		// Skipping already declared property Placement
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.ElementSoundMode ElementSoundMode
+		public  global::Microsoft.UI.Xaml.ElementSoundMode ElementSoundMode
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.ElementSoundMode)this.GetValue(ElementSoundModeProperty);
+				return (global::Microsoft.UI.Xaml.ElementSoundMode)this.GetValue(ElementSoundModeProperty);
 			}
 			set
 			{
@@ -53,11 +53,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		// Skipping already declared property Target
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.DependencyObject OverlayInputPassThroughElement
+		public  global::Microsoft.UI.Xaml.DependencyObject OverlayInputPassThroughElement
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.DependencyObject)this.GetValue(OverlayInputPassThroughElementProperty);
+				return (global::Microsoft.UI.Xaml.DependencyObject)this.GetValue(OverlayInputPassThroughElementProperty);
 			}
 			set
 			{
@@ -67,11 +67,11 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.Controls.Primitives.FlyoutShowMode ShowMode
+		public  global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowMode ShowMode
 		{
 			get
 			{
-				return (global::Windows.UI.Xaml.Controls.Primitives.FlyoutShowMode)this.GetValue(ShowModeProperty);
+				return (global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowMode)this.GetValue(ShowModeProperty);
 			}
 			set
 			{
@@ -115,167 +115,167 @@ namespace Windows.UI.Xaml.Controls.Primitives
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty AttachedFlyoutProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.RegisterAttached(
-			"AttachedFlyout", typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty AttachedFlyoutProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.RegisterAttached(
+			"AttachedFlyout", typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase)));
 		#endif
 		// Skipping already declared property PlacementProperty
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty AllowFocusOnInteractionProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty AllowFocusOnInteractionProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AllowFocusOnInteraction", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty AllowFocusWhenDisabledProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty AllowFocusWhenDisabledProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AllowFocusWhenDisabled", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ElementSoundModeProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ElementSoundMode", typeof(global::Windows.UI.Xaml.ElementSoundMode), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.ElementSoundMode)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ElementSoundModeProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ElementSoundMode", typeof(global::Microsoft.UI.Xaml.ElementSoundMode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.ElementSoundMode)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty OverlayInputPassThroughElementProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"OverlayInputPassThroughElement", typeof(global::Windows.UI.Xaml.DependencyObject), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.DependencyObject)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty OverlayInputPassThroughElementProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"OverlayInputPassThroughElement", typeof(global::Microsoft.UI.Xaml.DependencyObject), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.DependencyObject)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty AreOpenCloseAnimationsEnabledProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty AreOpenCloseAnimationsEnabledProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"AreOpenCloseAnimationsEnabled", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty InputDevicePrefersPrimaryCommandsProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty InputDevicePrefersPrimaryCommandsProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"InputDevicePrefersPrimaryCommands", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty IsOpenProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
+		public static global::Microsoft.UI.Xaml.DependencyProperty IsOpenProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
 			"IsOpen", typeof(bool), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
 			new FrameworkPropertyMetadata(default(bool)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty ShowModeProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"ShowMode", typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutShowMode), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.Controls.Primitives.FlyoutShowMode)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty ShowModeProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"ShowMode", typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowMode), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutShowMode)));
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.DependencyProperty TargetProperty { get; } = 
-		Windows.UI.Xaml.DependencyProperty.Register(
-			"Target", typeof(global::Windows.UI.Xaml.FrameworkElement), 
-			typeof(global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase), 
-			new FrameworkPropertyMetadata(default(global::Windows.UI.Xaml.FrameworkElement)));
+		public static global::Microsoft.UI.Xaml.DependencyProperty TargetProperty { get; } = 
+		Microsoft.UI.Xaml.DependencyProperty.Register(
+			"Target", typeof(global::Microsoft.UI.Xaml.FrameworkElement), 
+			typeof(global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase), 
+			new FrameworkPropertyMetadata(default(global::Microsoft.UI.Xaml.FrameworkElement)));
 		#endif
-		// Skipping already declared method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.FlyoutBase()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.FlyoutBase()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Placement.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Placement.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Opened.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Opened.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Closed.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Closed.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Opening.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Opening.remove
-		// Skipping already declared method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ShowAt(Windows.UI.Xaml.FrameworkElement)
-		// Skipping already declared method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Hide()
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Target.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusOnInteraction.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusOnInteraction.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.LightDismissOverlayMode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.LightDismissOverlayMode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusWhenDisabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusWhenDisabled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ElementSoundMode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ElementSoundMode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Closing.add
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Closing.remove
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElement.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElement.set
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.FlyoutBase()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.FlyoutBase()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Placement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Placement.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Opened.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Opened.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Closed.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Closed.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Opening.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Opening.remove
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowAt(Microsoft.UI.Xaml.FrameworkElement)
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Hide()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Target.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusOnInteraction.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusOnInteraction.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.LightDismissOverlayMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.LightDismissOverlayMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusWhenDisabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusWhenDisabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ElementSoundMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ElementSoundMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Closing.add
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Closing.remove
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElement.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElement.set
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  void TryInvokeKeyboardAccelerator( global::Windows.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs args)
+		public  void TryInvokeKeyboardAccelerator( global::Microsoft.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.FlyoutBase", "void FlyoutBase.TryInvokeKeyboardAccelerator(ProcessKeyboardAcceleratorEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase", "void FlyoutBase.TryInvokeKeyboardAccelerator(ProcessKeyboardAcceleratorEventArgs args)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ShowMode.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ShowMode.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.InputDevicePrefersPrimaryCommands.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AreOpenCloseAnimationsEnabled.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AreOpenCloseAnimationsEnabled.set
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.IsOpen.get
-		// Skipping already declared method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.CreatePresenter()
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowMode.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowMode.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.InputDevicePrefersPrimaryCommands.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AreOpenCloseAnimationsEnabled.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AreOpenCloseAnimationsEnabled.set
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.IsOpen.get
+		// Skipping already declared method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.CreatePresenter()
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		protected virtual void OnProcessKeyboardAccelerators( global::Windows.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs args)
+		protected virtual void OnProcessKeyboardAccelerators( global::Microsoft.UI.Xaml.Input.ProcessKeyboardAcceleratorEventArgs args)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.FlyoutBase", "void FlyoutBase.OnProcessKeyboardAccelerators(ProcessKeyboardAcceleratorEventArgs args)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase", "void FlyoutBase.OnProcessKeyboardAccelerators(ProcessKeyboardAcceleratorEventArgs args)");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.TargetProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ShowModeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.InputDevicePrefersPrimaryCommandsProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AreOpenCloseAnimationsEnabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.IsOpenProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElementProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusOnInteractionProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.LightDismissOverlayModeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusWhenDisabledProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.ElementSoundModeProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.PlacementProperty.get
-		// Forced skipping of method Windows.UI.Xaml.Controls.Primitives.FlyoutBase.AttachedFlyoutProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.TargetProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ShowModeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.InputDevicePrefersPrimaryCommandsProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AreOpenCloseAnimationsEnabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.IsOpenProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.OverlayInputPassThroughElementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusOnInteractionProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.LightDismissOverlayModeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AllowFocusWhenDisabledProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.ElementSoundModeProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.PlacementProperty.get
+		// Forced skipping of method Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.AttachedFlyoutProperty.get
 		#if false || false || false || false || false
 		[global::Uno.NotImplemented]
-		public static global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase GetAttachedFlyout( global::Windows.UI.Xaml.FrameworkElement element)
+		public static global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase GetAttachedFlyout( global::Microsoft.UI.Xaml.FrameworkElement element)
 		{
-			return (global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase)element.GetValue(AttachedFlyoutProperty);
+			return (global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase)element.GetValue(AttachedFlyoutProperty);
 		}
 		#endif
 		#if false || false || false || false || false
 		[global::Uno.NotImplemented]
-		public static void SetAttachedFlyout( global::Windows.UI.Xaml.FrameworkElement element,  global::Windows.UI.Xaml.Controls.Primitives.FlyoutBase value)
+		public static void SetAttachedFlyout( global::Microsoft.UI.Xaml.FrameworkElement element,  global::Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase value)
 		{
 			element.SetValue(AttachedFlyoutProperty, value);
 		}
 #endif
 #if false || false || false || false || false
 		[global::Uno.NotImplemented]
-		public static void ShowAttachedFlyout( global::Windows.UI.Xaml.FrameworkElement flyoutOwner)
+		public static void ShowAttachedFlyout( global::Microsoft.UI.Xaml.FrameworkElement flyoutOwner)
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Controls.Primitives.FlyoutBase", "void FlyoutBase.ShowAttachedFlyout(FrameworkElement flyoutOwner)");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase", "void FlyoutBase.ShowAttachedFlyout(FrameworkElement flyoutOwner)");
 		}
 #endif
-		// Skipping already declared event Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Closed
-		// Skipping already declared event Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Opened
-		// Skipping already declared event Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Opening
-		// Skipping already declared event Windows.UI.Xaml.Controls.Primitives.FlyoutBase.Closing
+		// Skipping already declared event Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Closed
+		// Skipping already declared event Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Opened
+		// Skipping already declared event Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Opening
+		// Skipping already declared event Microsoft.UI.Xaml.Controls.Primitives.FlyoutBase.Closing
 	}
 }

@@ -1,15 +1,15 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class EventTrigger : global::Windows.UI.Xaml.TriggerBase
+	public  partial class EventTrigger : global::Microsoft.UI.Xaml.TriggerBase
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.RoutedEvent RoutedEvent
+		public  global::Microsoft.UI.Xaml.RoutedEvent RoutedEvent
 		{
 			get
 			{
@@ -17,13 +17,13 @@ namespace Windows.UI.Xaml
 			}
 			set
 			{
-				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.EventTrigger", "RoutedEvent EventTrigger.RoutedEvent");
+				global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.EventTrigger", "RoutedEvent EventTrigger.RoutedEvent");
 			}
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public  global::Windows.UI.Xaml.TriggerActionCollection Actions
+		public  global::Microsoft.UI.Xaml.TriggerActionCollection Actions
 		{
 			get
 			{
@@ -35,12 +35,12 @@ namespace Windows.UI.Xaml
 		[global::Uno.NotImplemented]
 		public EventTrigger() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.EventTrigger", "EventTrigger.EventTrigger()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.EventTrigger", "EventTrigger.EventTrigger()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.EventTrigger.EventTrigger()
-		// Forced skipping of method Windows.UI.Xaml.EventTrigger.RoutedEvent.get
-		// Forced skipping of method Windows.UI.Xaml.EventTrigger.RoutedEvent.set
-		// Forced skipping of method Windows.UI.Xaml.EventTrigger.Actions.get
+		// Forced skipping of method Microsoft.UI.Xaml.EventTrigger.EventTrigger()
+		// Forced skipping of method Microsoft.UI.Xaml.EventTrigger.RoutedEvent.get
+		// Forced skipping of method Microsoft.UI.Xaml.EventTrigger.RoutedEvent.set
+		// Forced skipping of method Microsoft.UI.Xaml.EventTrigger.Actions.get
 	}
 }

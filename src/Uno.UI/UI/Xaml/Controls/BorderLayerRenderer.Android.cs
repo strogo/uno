@@ -7,7 +7,7 @@ using Android.Views;
 using Uno.Extensions;
 using Uno.UI.Controls;
 using Windows.UI.Core;
-using Windows.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Media;
 using System;
 using System.Collections.Generic;
 using Uno.Disposables;
@@ -18,7 +18,7 @@ using Uno.UI;
 using Android.Support.V4.View;
 using System.Diagnostics;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	internal class BorderLayerRenderer
 	{

@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using Uno.UI;
 using System.Linq;
-using Windows.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Controls.Primitives;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	public partial class VirtualizingPanelLayout
 	{

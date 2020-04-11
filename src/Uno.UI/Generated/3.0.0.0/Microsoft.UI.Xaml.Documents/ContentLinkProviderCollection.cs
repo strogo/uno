@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml.Documents
+namespace Microsoft.UI.Xaml.Documents
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class ContentLinkProviderCollection : global::System.Collections.Generic.IList<global::Windows.UI.Xaml.Documents.ContentLinkProvider>,global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.Documents.ContentLinkProvider>
+	public  partial class ContentLinkProviderCollection : global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.Documents.ContentLinkProvider>,global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -21,42 +21,42 @@ namespace Windows.UI.Xaml.Documents
 		[global::Uno.NotImplemented]
 		public ContentLinkProviderCollection() 
 		{
-			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Windows.UI.Xaml.Documents.ContentLinkProviderCollection", "ContentLinkProviderCollection.ContentLinkProviderCollection()");
+			global::Windows.Foundation.Metadata.ApiInformation.TryRaiseNotImplemented("Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection", "ContentLinkProviderCollection.ContentLinkProviderCollection()");
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.ContentLinkProviderCollection()
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.Size.get
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.GetView()
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.IndexOf(Windows.UI.Xaml.Documents.ContentLinkProvider, out uint)
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.SetAt(uint, Windows.UI.Xaml.Documents.ContentLinkProvider)
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.InsertAt(uint, Windows.UI.Xaml.Documents.ContentLinkProvider)
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.Append(Windows.UI.Xaml.Documents.ContentLinkProvider)
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.Clear()
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.GetMany(uint, Windows.UI.Xaml.Documents.ContentLinkProvider[])
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.ReplaceAll(Windows.UI.Xaml.Documents.ContentLinkProvider[])
-		// Forced skipping of method Windows.UI.Xaml.Documents.ContentLinkProviderCollection.First()
-		// Processing: System.Collections.Generic.IList<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.ContentLinkProviderCollection()
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.IndexOf(Microsoft.UI.Xaml.Documents.ContentLinkProvider, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.SetAt(uint, Microsoft.UI.Xaml.Documents.ContentLinkProvider)
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.InsertAt(uint, Microsoft.UI.Xaml.Documents.ContentLinkProvider)
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.Append(Microsoft.UI.Xaml.Documents.ContentLinkProvider)
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.GetMany(uint, Microsoft.UI.Xaml.Documents.ContentLinkProvider[])
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.ReplaceAll(Microsoft.UI.Xaml.Documents.ContentLinkProvider[])
+		// Forced skipping of method Microsoft.UI.Xaml.Documents.ContentLinkProviderCollection.First()
+		// Processing: System.Collections.Generic.IList<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
-		public int IndexOf( global::Windows.UI.Xaml.Documents.ContentLinkProvider item)
+		public int IndexOf( global::Microsoft.UI.Xaml.Documents.ContentLinkProvider item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
-		public void Insert( int index,  global::Windows.UI.Xaml.Documents.ContentLinkProvider item)
+		public void Insert( int index,  global::Microsoft.UI.Xaml.Documents.ContentLinkProvider item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
 		public void RemoveAt( int index)
 		{
@@ -65,7 +65,7 @@ namespace Windows.UI.Xaml.Documents
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public global::Windows.UI.Xaml.Documents.ContentLinkProvider this[int index]
+		public global::Microsoft.UI.Xaml.Documents.ContentLinkProvider this[int index]
 		{
 			get
 			{
@@ -77,17 +77,17 @@ namespace Windows.UI.Xaml.Documents
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.ICollection<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// Processing: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
-		public void Add( global::Windows.UI.Xaml.Documents.ContentLinkProvider item)
+		public void Add( global::Microsoft.UI.Xaml.Documents.ContentLinkProvider item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
 		public void Clear()
 		{
@@ -95,25 +95,25 @@ namespace Windows.UI.Xaml.Documents
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
-		public bool Contains( global::Windows.UI.Xaml.Documents.ContentLinkProvider item)
+		public bool Contains( global::Microsoft.UI.Xaml.Documents.ContentLinkProvider item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
-		public void CopyTo( global::Windows.UI.Xaml.Documents.ContentLinkProvider[] array,  int arrayIndex)
+		public void CopyTo( global::Microsoft.UI.Xaml.Documents.ContentLinkProvider[] array,  int arrayIndex)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
-		public bool Remove( global::Windows.UI.Xaml.Documents.ContentLinkProvider item)
+		public bool Remove( global::Microsoft.UI.Xaml.Documents.ContentLinkProvider item)
 		{
 			throw new global::System.NotSupportedException();
 		}
@@ -146,11 +146,11 @@ namespace Windows.UI.Xaml.Documents
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.Documents.ContentLinkProvider>
+		// DeclaringType: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.Documents.ContentLinkProvider>
 		[global::Uno.NotImplemented]
-		public global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.Documents.ContentLinkProvider> GetEnumerator()
+		public global::System.Collections.Generic.IEnumerator<global::Microsoft.UI.Xaml.Documents.ContentLinkProvider> GetEnumerator()
 		{
 			throw new global::System.NotSupportedException();
 		}

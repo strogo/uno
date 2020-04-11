@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
     public class FontFamilyHelper
     {
 #if NETFX_CORE
-		public static Windows.UI.Xaml.Media.FontFamily Create(string familyName)
+		public static Microsoft.UI.Xaml.Media.FontFamily Create(string familyName)
 		{
-			return new Windows.UI.Xaml.Media.FontFamily(familyName);
+			return new Microsoft.UI.Xaml.Media.FontFamily(familyName);
 		}
 #elif XAMARIN
 		public static string Create(string familyName)

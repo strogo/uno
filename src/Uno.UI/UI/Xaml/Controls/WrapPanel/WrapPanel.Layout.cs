@@ -26,10 +26,10 @@ using Color = AppKit.NSColor;
 using Font = AppKit.NSFont;
 using ViewGroup = AppKit.NSView;
 #else
-using View = Windows.UI.Xaml.UIElement;
+using View = Microsoft.UI.Xaml.UIElement;
 #endif
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
     partial class WrapPanel
 	{
@@ -227,9 +227,9 @@ namespace Windows.UI.Xaml.Controls
 					elementSize.Direct;
 
 				// Arrange the element
-				Foundation.Rect bounds = isHorizontal ?
-					new Foundation.Rect(directOffset, indirectOffset, directGrowth, indirectGrowth) :
-					new Foundation.Rect(indirectOffset, directOffset, indirectGrowth, directGrowth);
+				Rect bounds = isHorizontal ?
+					new Rect(directOffset, indirectOffset, directGrowth, indirectGrowth) :
+					new Rect(indirectOffset, directOffset, indirectGrowth, directGrowth);
 
 				ArrangeElement(element, bounds);
 

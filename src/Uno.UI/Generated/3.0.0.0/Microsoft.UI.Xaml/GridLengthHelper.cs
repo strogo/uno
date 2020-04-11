@@ -1,6 +1,6 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if false || false || false || false || false
 	[global::Uno.NotImplemented]
@@ -8,12 +8,12 @@ namespace Windows.UI.Xaml
 	public  partial class GridLengthHelper 
 	{
 		// Skipping already declared property Auto
-		// Forced skipping of method Windows.UI.Xaml.GridLengthHelper.Auto.get
-		// Skipping already declared method Windows.UI.Xaml.GridLengthHelper.FromPixels(double)
-		// Skipping already declared method Windows.UI.Xaml.GridLengthHelper.FromValueAndType(double, Windows.UI.Xaml.GridUnitType)
-		// Skipping already declared method Windows.UI.Xaml.GridLengthHelper.GetIsAbsolute(Windows.UI.Xaml.GridLength)
-		// Skipping already declared method Windows.UI.Xaml.GridLengthHelper.GetIsAuto(Windows.UI.Xaml.GridLength)
-		// Skipping already declared method Windows.UI.Xaml.GridLengthHelper.GetIsStar(Windows.UI.Xaml.GridLength)
-		// Skipping already declared method Windows.UI.Xaml.GridLengthHelper.Equals(Windows.UI.Xaml.GridLength, Windows.UI.Xaml.GridLength)
+		// Forced skipping of method Microsoft.UI.Xaml.GridLengthHelper.Auto.get
+		// Skipping already declared method Microsoft.UI.Xaml.GridLengthHelper.FromPixels(double)
+		// Skipping already declared method Microsoft.UI.Xaml.GridLengthHelper.FromValueAndType(double, Microsoft.UI.Xaml.GridUnitType)
+		// Skipping already declared method Microsoft.UI.Xaml.GridLengthHelper.GetIsAbsolute(Microsoft.UI.Xaml.GridLength)
+		// Skipping already declared method Microsoft.UI.Xaml.GridLengthHelper.GetIsAuto(Microsoft.UI.Xaml.GridLength)
+		// Skipping already declared method Microsoft.UI.Xaml.GridLengthHelper.GetIsStar(Microsoft.UI.Xaml.GridLength)
+		// Skipping already declared method Microsoft.UI.Xaml.GridLengthHelper.Equals(Microsoft.UI.Xaml.GridLength, Microsoft.UI.Xaml.GridLength)
 	}
 }

@@ -8,7 +8,7 @@ using Uno;
 using Uno.Extensions;
 using Uno.UI;
 
-namespace Windows.UI.Xaml.Controls
+namespace Microsoft.UI.Xaml.Controls
 {
 	/// <summary>
 	/// A TextBlock measure cache for non-formatted text.

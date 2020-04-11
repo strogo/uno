@@ -1,11 +1,11 @@
 #pragma warning disable 108 // new keyword hiding
 #pragma warning disable 114 // new keyword hiding
-namespace Windows.UI.Xaml
+namespace Microsoft.UI.Xaml
 {
 	#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 	[global::Uno.NotImplemented]
 	#endif
-	public  partial class TriggerCollection : global::System.Collections.Generic.IList<global::Windows.UI.Xaml.TriggerBase>,global::System.Collections.Generic.IEnumerable<global::Windows.UI.Xaml.TriggerBase>
+	public  partial class TriggerCollection : global::System.Collections.Generic.IList<global::Microsoft.UI.Xaml.TriggerBase>,global::System.Collections.Generic.IEnumerable<global::Microsoft.UI.Xaml.TriggerBase>
 	{
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
@@ -17,38 +17,38 @@ namespace Windows.UI.Xaml
 			}
 		}
 		#endif
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.GetAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.Size.get
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.GetView()
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.IndexOf(Windows.UI.Xaml.TriggerBase, out uint)
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.SetAt(uint, Windows.UI.Xaml.TriggerBase)
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.InsertAt(uint, Windows.UI.Xaml.TriggerBase)
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.RemoveAt(uint)
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.Append(Windows.UI.Xaml.TriggerBase)
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.RemoveAtEnd()
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.Clear()
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.GetMany(uint, Windows.UI.Xaml.TriggerBase[])
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.ReplaceAll(Windows.UI.Xaml.TriggerBase[])
-		// Forced skipping of method Windows.UI.Xaml.TriggerCollection.First()
-		// Processing: System.Collections.Generic.IList<Windows.UI.Xaml.TriggerBase>
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.GetAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.Size.get
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.GetView()
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.IndexOf(Microsoft.UI.Xaml.TriggerBase, out uint)
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.SetAt(uint, Microsoft.UI.Xaml.TriggerBase)
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.InsertAt(uint, Microsoft.UI.Xaml.TriggerBase)
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.RemoveAt(uint)
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.Append(Microsoft.UI.Xaml.TriggerBase)
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.RemoveAtEnd()
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.Clear()
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.GetMany(uint, Microsoft.UI.Xaml.TriggerBase[])
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.ReplaceAll(Microsoft.UI.Xaml.TriggerBase[])
+		// Forced skipping of method Microsoft.UI.Xaml.TriggerCollection.First()
+		// Processing: System.Collections.Generic.IList<Microsoft.UI.Xaml.TriggerBase>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
-		public int IndexOf( global::Windows.UI.Xaml.TriggerBase item)
+		public int IndexOf( global::Microsoft.UI.Xaml.TriggerBase item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
-		public void Insert( int index,  global::Windows.UI.Xaml.TriggerBase item)
+		public void Insert( int index,  global::Microsoft.UI.Xaml.TriggerBase item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IList<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.IList<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
 		public void RemoveAt( int index)
 		{
@@ -57,7 +57,7 @@ namespace Windows.UI.Xaml
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
 		[global::Uno.NotImplemented]
-		public global::Windows.UI.Xaml.TriggerBase this[int index]
+		public global::Microsoft.UI.Xaml.TriggerBase this[int index]
 		{
 			get
 			{
@@ -69,17 +69,17 @@ namespace Windows.UI.Xaml
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.ICollection<Windows.UI.Xaml.TriggerBase>
+		// Processing: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.TriggerBase>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
-		public void Add( global::Windows.UI.Xaml.TriggerBase item)
+		public void Add( global::Microsoft.UI.Xaml.TriggerBase item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
 		public void Clear()
 		{
@@ -87,25 +87,25 @@ namespace Windows.UI.Xaml
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
-		public bool Contains( global::Windows.UI.Xaml.TriggerBase item)
+		public bool Contains( global::Microsoft.UI.Xaml.TriggerBase item)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
-		public void CopyTo( global::Windows.UI.Xaml.TriggerBase[] array,  int arrayIndex)
+		public void CopyTo( global::Microsoft.UI.Xaml.TriggerBase[] array,  int arrayIndex)
 		{
 			throw new global::System.NotSupportedException();
 		}
 		#endif
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.ICollection<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.ICollection<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
-		public bool Remove( global::Windows.UI.Xaml.TriggerBase item)
+		public bool Remove( global::Microsoft.UI.Xaml.TriggerBase item)
 		{
 			throw new global::System.NotSupportedException();
 		}
@@ -138,11 +138,11 @@ namespace Windows.UI.Xaml
 			}
 		}
 		#endif
-		// Processing: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.TriggerBase>
+		// Processing: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.TriggerBase>
 		#if __ANDROID__ || __IOS__ || NET461 || __WASM__ || __MACOS__
-		// DeclaringType: System.Collections.Generic.IEnumerable<Windows.UI.Xaml.TriggerBase>
+		// DeclaringType: System.Collections.Generic.IEnumerable<Microsoft.UI.Xaml.TriggerBase>
 		[global::Uno.NotImplemented]
-		public global::System.Collections.Generic.IEnumerator<global::Windows.UI.Xaml.TriggerBase> GetEnumerator()
+		public global::System.Collections.Generic.IEnumerator<global::Microsoft.UI.Xaml.TriggerBase> GetEnumerator()
 		{
 			throw new global::System.NotSupportedException();
 		}
