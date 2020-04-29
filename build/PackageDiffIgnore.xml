@@ -717,7 +717,7 @@
       </Properties>
     </IgnoreSet>
 
-    <IgnoreSet baseVersion="2.1.37">
+    <IgnoreSet baseVersion="2.2.0">
       <Methods>
         <Member
           fullName="System.Void Windows.UI.Xaml.Controls.DatePickerSelectedValueChangedEventArgs..ctor()"
