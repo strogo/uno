@@ -152,7 +152,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uno.UI.SourceGenerators.Tes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uno.UI.DualScreen", "Uno.UI.DualScreen\Uno.UI.DualScreen.csproj", "{C187CD35-E5B4-4054-99C2-5D85AD9D6C73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Uno.UI.Tests.ViewLibrary", "Uno.UI.Tests.ViewLibrary\Uno.UI.Tests.ViewLibrary.csproj", "{99D067E3-E70B-45F1-BC3C-931FBD89FD95}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Uno.UI.Tests.ViewLibrary", "Uno.UI.Tests.ViewLibrary\Uno.UI.Tests.ViewLibrary.csproj", "{99D067E3-E70B-45F1-BC3C-931FBD89FD95}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
