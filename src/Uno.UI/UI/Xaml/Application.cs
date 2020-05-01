@@ -167,7 +167,7 @@ namespace Windows.UI.Xaml
 
 		internal void SetRequestedTheme(ApplicationTheme requestedTheme)
 		{
-			if (requestedTheme != RequestedTheme)
+			if (requestedTheme != _requestedTheme)
 			{
 				_requestedTheme = requestedTheme;
 
