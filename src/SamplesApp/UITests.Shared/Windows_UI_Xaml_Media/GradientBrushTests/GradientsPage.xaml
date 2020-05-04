@@ -9,7 +9,7 @@
 	mc:Ignorable="d not_win"
 	Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
-	<ScrollViewer>
+	<not_win:ScrollViewer>
 		<StackPanel Spacing="10">
 			<TextBlock FontSize="15">Radial Gradient as background on a Rectangle / Rectangle / Border / Ellipse / Ellipse</TextBlock>
 			<StackPanel Orientation="Horizontal" Spacing="10">
@@ -258,5 +258,5 @@
 				</TextBlock>
 			</StackPanel>
 		</StackPanel>
-	</ScrollViewer>
+	</not_win:ScrollViewer>
 </Page>

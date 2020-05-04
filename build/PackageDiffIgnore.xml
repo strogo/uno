@@ -826,6 +826,15 @@
 					fullName="Windows.UI.Xaml.Media.GradientStopCollection Windows.UI.Xaml.Media.LinearGradientBrush.get_GradientStops()"
 					reason="GradientStops moved to base GradientBrush to follow UWP/WinUI hierarchy"/>
 				<Member
+					fullName="Windows.UI.Xaml.DependencyProperty Windows.UI.Xaml.Media.GradientBrush::GradientStopsProperty()"
+					reason="GradientStops moved to base GradientBrush to follow UWP/WinUI hierarchy"/>
+				<Member
+					fullName="Windows.UI.Xaml.Media.GradientStopCollection Windows.UI.Xaml.Media.LinearGradientBrush::GradientStops()"
+					reason="GradientStops moved to base GradientBrush to follow UWP/WinUI hierarchy"/>
+				<Member
+					fullName="Windows.UI.Xaml.DependencyProperty Windows.UI.Xaml.Media.LinearGradientBrush::GradientStopsProperty"
+					reason="GradientStops moved to base GradientBrush to follow UWP/WinUI hierarchy"/>
+				<Member
 					fullName="System.Void Windows.UI.Xaml.Media.LinearGradientBrush.set_GradientStops(Windows.UI.Xaml.Media.GradientStopCollection value)"
 					reason="GradientStops moved to base GradientBrush to follow UWP/WinUI hierarchy"/>
 			</Methods>
